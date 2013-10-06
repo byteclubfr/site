@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]> <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]> <html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	
+	<!-- Metas -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>LMTM - Contact</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/site.css" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+	
+	<!-- Standard favicons -->
+   	<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+
+	<!-- JS -->
+	<script type='text/javascript' src='js/modernizr.custom.22896.js'></script>
+	<script type='text/javascript' src='js/jquery-2.0.3.min.js'></script>
+	<script type='text/javascript' src='js/jquery.meanmenu.min.js'></script>
+	<script type='text/javascript' src='js/jquery.smooth-scroll.min.js'></script>
+	<script type='text/javascript' src='js/jquery.debouncedresize.js'></script>
+	<script type='text/javascript' src='js/leaflet.js'></script>
+	<script type='text/javascript' src='js/start.js'></script>
+
+	<!-- Typekit -->
+	<script type="text/javascript" src="//use.typekit.net/twp1ztg.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+</head>
+
+<body>
+
+	<header class="header" role="banner" id="top">
+		<div class="wrap cf">
+			<div class="logo">
+				<img src="img/logo-lmtm.png" alt="LMTM" />
+			</div>
+			<nav class="wrapper-nav-main">
+				<ul class="nav nav-main">
+					<li class="lnk-home"><a href="index.html"><span>Accueil</span></a></li>
+					<li>
+						<a href="services.html">Services</a>
+						<ul class="nav nav-sub">
+							<li><a href="#conseil">Conseil</a></li>
+							<li><a href="#developpement">Développement</a></li>
+							<li><a href="#formation-nodejs">Formation Node.js</a></li>
+							<li><a href="#formation-angularjs">Formation AngularJS</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="technologies.html">Technologies</a>
+						<ul class="nav nav-sub">
+							<li><a href="#nodejs">Node.js</a></li>
+							<li><a href="#angularjs">AngularJS</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="societe.html">Société</a>
+						<ul class="nav nav-sub">
+							<li><a href="#equipe">Équipe</a></li>
+							<li><a href="#philosophie">Philosophie</a></li>
+						</ul>
+					</li>
+					<li class="current"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="banner">
+		<div class="wrap cf">
+			<div class="inner">
+				<h1 class="page-title">Contactez-nous</h1>
+				<div class="banner-text">
+					<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section-alt">
+		<div class="wrap cf">
+			<div class="inner">
+				<div class="contact-form">
+					<p class="fields-required">Les champs marqués d’un astérisque (<span>*</span>) sont obligatoires.</p>
+					<form method="#" action="#">
+						<p class="form-notice form-notice-error">
+							Désolé, le formulaire comporte des erreurs.<br/> Veuillez corriger votre message et l'envoyer à nouveau.
+						</p>
+						<p class="form-notice form-notice-success">
+							Votre message a bien été envoyé.<br/> Nous vous contacterons dans les plus brefs délais.
+						</p>
+						<div class="field form-half">
+							<label for="name">Nom <span class="required">*</span></label>
+							<input type="text" class="input" id="name" />
+						</div>
+						<div class="field form-half last">
+							<label for="firstname">Prénom <span class="required">*</span></label>
+							<input type="text" class="input" id="firstname" />
+						</div>
+						<div class="field field-error">
+							<label for="email">Adresse email <span class="required">*</span></label>
+							<input type="email" class="input" id="email" />
+						</div>
+						<div class="field">
+							<label for="email">Société <span class="required">*</span></label>
+							<input type="text" class="input" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message <span class="required">*</span></label>
+							<textarea class="input" id="message"></textarea>
+						</div>
+						<div class="field field-submit">
+							<button type="submit" class="btn">Envoyer votre message</button>
+						</div>
+					</form>
+				</div>
+				<div id="contact-map"></div>
+				<div id="map-popup">
+					<p><img src="img/logo-lmtm-tiny.png" alt="LMTM" /><br/>
+					2, Quai André Rhuys<br/>
+					44200 Nantes</p>
+					<p class="tel-mail"><a href="mailto:contact@lmtm.fr">contact@lmtm.fr</a><br/>
+					<span class="tel">02 15 32 15 62</span></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer" role="contentinfo">
+		<a href="#top" class="lnk-top js-backToTop"><span>Retour en haut de page</span></a>
+		<div class="wrap">
+			<div class="inner">
+				<ul class="nav nav-footer">
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="technologies.html">Technologies</a></li>
+					<li><a href="societe.html">Société</a></li>
+					<li class="current"><a href="contact.html">Contact</a></li>
+				</ul>
+				<div class="footer-lmtm">
+					<ul class="lmtm-social">
+						<li class="lnk-twitter"><a href="#"><span>Twitter</span></a></li>
+						<li class="lnk-linkedin"><a href="#"><span>LinkedIn</span></a></li>
+					</ul>
+					<address class="lmtm-address" itemscope itemtype="http://schema.org/Corporation">
+						<span itemprop="name">LMTM</span>
+						<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+							<span itemprop="postOfficeBoxNumber">2</span>, 
+							<span itemprop="streetAddress">Quai André Rhuys</span>
+							<span itemprop="postalCode">44000</span>
+							<span itemprop="addressLocality">Nantes</span>
+						</span>
+						<div class="lmtm-contact">
+							<span class="lmtm-phone" itemprop="telephone">06 12 15 13 15</span> <a href="mailto:contact@lmtm.fr" class="lmtm-email" itemprop="email">contact@lmtm.fr</a>
+						</div>
+					</address>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="btm">
+		<div class="wrap">
+			<div class="inner">
+				<ul class="nav nav-btm">
+					<li><a href="#">Mentions légales</a></li>
+					<li><a href="#">Autre lien</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

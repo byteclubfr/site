@@ -1,0 +1,96 @@
+/*
+    SERVICES
+*/
+.service {
+	@extend %shadow;
+	margin-bottom: 50px;
+	padding: 30px;
+	background: #fff;
+}
+.services-col-left {
+	@include at-breakpoint(50em) {
+		@include span-columns(3,6);
+	}
+}
+.services-col-right {
+	@include at-breakpoint(50em) {
+		@include span-columns(3 omega,6);
+	}
+	> .service:first-child {
+		margin-top: 50px;
+	}
+}
+.service-title {
+	@extend %font-proxima;
+	display: block;
+	position: relative;
+	text-align: center;
+	font-weight: 600;
+	font-size: 28px;
+	color: $color-purple;
+	> span, > img {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	> img {
+		margin-left: 10px;
+	}
+	&:before {
+		content: "";
+		display: inline-block;
+		position: relative;
+		margin-right: 20px;
+	}
+}
+.service-title-conseil {
+	&:before {
+		@include sprites-sprite-dimensions(comments);
+		@include sprites-sprite(comments);
+		top: 5px;
+	}
+}
+.service-title-dvpt {
+	&:before {
+		@include sprites-sprite-dimensions(cloud);
+		@include sprites-sprite(cloud);
+		top: 2px;
+	}
+}
+.service-title-formation {
+	&:before {
+		@include sprites-sprite-dimensions(people);
+		@include sprites-sprite(people);
+		top: 2px;
+	}
+}
+.contact-us {
+	@extend %shadow;
+	padding: 0;
+	background: $color-purple;
+	color: #fff;
+	text-align: center;
+	@include at-breakpoint(0 50em) {
+		margin-bottom: 50px;
+	}
+	.contact-us-txt {
+		width: 200px;
+		margin: 15px;
+		display: inline-block;
+		vertical-align: middle;
+		font-family: 'Coming Soon', cursive;
+		opacity: 0.75;
+		font-size: 22px;
+	}
+	.contact-us-btn {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 15px;
+		a {
+			background: rgba(#000,0.5);
+			color: #fff;
+			&:hover, &:focus {
+				background: rgba(#000,0.6);
+			}
+		}
+	}
+}

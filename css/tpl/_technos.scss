@@ -1,0 +1,22 @@
+/*
+    TECHNOLOGIES
+*/
+.techno-col {
+	@include at-breakpoint(0 50em) {
+		margin-bottom: 30px;
+	}
+	@include at-breakpoint(50em) {
+		@include span-columns(3,6);
+		&.last {
+			@include span-columns(3 omega,6);
+		}
+	}
+}
+.techno-logo {
+	margin: 0;
+	padding: 30px 0;
+	background: #f3f3f4;
+	img {
+		max-width: 220px;
+	}
+}

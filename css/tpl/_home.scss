@@ -1,0 +1,128 @@
+/*
+    HOMEPAGE
+*/
+
+.lnk-more {
+	a {
+		@extend .btn;
+		display: inline-block;
+		position: relative;
+		text-decoration: none;
+		color: #fff;
+		&:before {
+			margin-top: -(sprites-sprite-height(plus)/2);
+			margin-left: -(sprites-sprite-width(plus)/2);
+			@include sprites-sprite-dimensions(plus);
+			@include sprites-sprite(plus);
+		}
+	}
+	@include at-breakpoint(0 70em) {
+		padding: 50px 0 0;
+		clear: both;
+		text-align: center;
+	}
+	@include at-breakpoint(70em) {
+		position: absolute;
+		top: 50%;
+		right: 0;
+		margin-top: -35px;
+		a {
+			padding: 0;
+			width: 70px;
+			height: 70px;
+			span {
+				display: none;
+			}
+			&:before {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				content: "";
+			}
+		}
+	}
+}
+
+/* Technologies */
+.home-techno {
+	@include at-breakpoint(0 50em) {
+		margin-bottom: 50px;
+		&.last {
+			margin-bottom: 0;
+		}
+	}
+	@include at-breakpoint(50em) {
+		@include span-columns(3,6);
+		&.last {
+			@include omega;
+		}
+	}
+}
+.home-techno-logo {
+	@include at-breakpoint(0 50em) {
+		img {
+			display: inline-block;
+			max-width: 180px;
+			margin-bottom: 20px;
+		}
+	}
+	@include at-breakpoint(50em) {
+		@include span-columns(2,6);
+	}
+}
+.home-techno-txt {
+	@include at-breakpoint(50em) {
+		@include span-columns(4 omega,6);
+	}
+}
+.lnk-technos-more {
+	a {
+		background: $color-sand;
+	}
+}
+
+/* Services */
+.home-services {
+	background: #616aa0;
+	.title-main {
+		color: #fff;
+	}
+}
+.home-service {
+	text-align: center;
+	@include at-breakpoint(0 50em) {
+		margin-bottom: 50px;
+		&.last {
+			margin-bottom: 0;
+		}
+	}
+	@include at-breakpoint(50em) {
+		@include span-columns(2,6);
+		&.last {
+			@include omega;
+		}
+	}
+}
+.home-service-picto {
+	display: inline-block;
+}
+.home-service-title {
+	@extend %font-proxima;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1em;
+	color: #fff;
+}
+.home-service-desc {
+	text-align: left;
+	color: #000;
+	font-weight: 400;
+}
+.lnk-services-more {
+	a {
+		background: rgba(#000,0.35);
+		&:hover, &:focus {
+			background: rgba(#000,0.5);
+		}
+	}
+}

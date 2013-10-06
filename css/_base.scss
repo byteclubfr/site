@@ -1,0 +1,499 @@
+/*
+	BASE
+	Reset browser default styles, 
+	fix common browser bugs and inconsistencies
+	and give useful tools for common needs
+
+	SUMMARY
+	Reset
+	Tools
+	Typography
+	Medias
+	Tables
+	Forms
+
+	SOURCES
+	http://html5boilerplate.com
+	http://www.knacss.com
+	http://rocssti.nicolas-hoffmann.net/
+	http://necolas.github.com/normalize.css
+*/
+
+
+/*-----------------------------------------------------------------------
+  == RESET
+----------------------------------------------------------------------- */
+
+/* Reset margin and padding */
+html, body, blockquote, ul, ol, p, form, figure, label {
+	margin: 0; 
+	padding: 0;
+}
+
+/* HTML5 tags */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+
+/* Adds support for the [hidden] attribute in legacy browsers */
+[hidden] {
+	display: none;
+}
+
+/* Corrects `inline-block` display not defined in IE 8/9 and Firefox 3 */
+audio, canvas, video {
+	display: inline-block;
+}
+
+/* Max values */
+img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+	max-width: 100%; 
+	height: auto;
+	width: auto; /* Fix a bug on IE8 */
+}
+
+/* 
+	(1) Corrects an IE6/7 bug where text is resized to much greater sizes than normal
+	(2) Prevents iOS text size adjust after orientation change without disabling user zoom 
+*/
+html {
+	font-size: 100%; /* (1) */
+	-webkit-text-size-adjust: 100%; /* (2) */
+	-ms-text-size-adjust: 100%; /* (2) */
+}
+
+// /* Switching box model for all elements */
+// * {
+// 	@include box-sizing(border-box);
+// }
+
+/*-----------------------------------------------------------------------
+  == TYPOGRAPHY
+----------------------------------------------------------------------- */
+
+/* Avoid collapsing margins */
+h1, h2, h3, h4, h5, h6, p {
+	&:first-child {
+		margin-top: 0;
+	}
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+/* Cross-browser kerning-pairs & ligatures (cf. http://www.aestheticallyloyal.com/public/optimize-legibility) */
+h1, h2, h3, h4, h5, h6 {
+	text-rendering: optimizeLegibility;
+}
+
+/* Avoid last element bottom margin */
+p, ul, ol, dl, blockquote, pre, table {
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+/* Cross browser hyphenation (cf. http://blog.kenneth.io/blog/2012/03/04/word-wrapping-hypernation-using-css/) */
+textarea, table, td, th, code, pre, samp {
+	-ms-word-break: break-all;
+     word-break: break-all;
+     /* Non standard for webkit */
+     word-break: break-word;
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto;
+}
+
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* Adresses styling not present in Safari 5 & Chrome */
+dfn {
+	font-style: italic;
+}
+
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+
+/* Addresses styling not present in IE */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* Add hyphenation (cf. http://blog.fontdeck.com/post/9037028497/hyphens) */
+p {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+
+/* Normalize monospace sizing (cf. http://en.wikipedia.org/wiki/User:Davidgothberg/Test59) */
+pre, code, kbd, samp {
+	font-family: monospace, serif;
+	font-size: 1em;
+}
+
+/* Improve readibility of quoted code */
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+/* Prevents sub and sup affecting line-height in all browsers (cf. http://gist.github.com/413930) */
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+} 
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+
+/* Remove active outline (cf. http://people.opera.com/patrickl/experiments/keyboard/test) */
+a:hover, a:active {
+	outline: 0;
+}
+
+/* Addresses `outline` inconsistency between Chrome and other browsers */
+a:focus {
+	outline: thin dotted;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+dfn {
+	font-style: italic;
+}
+
+
+/*-----------------------------------------------------------------------
+  == MEDIAS
+----------------------------------------------------------------------- */
+img, a img {
+	border: 0;
+}
+figure {
+	margin: 0;
+}
+
+
+/*-----------------------------------------------------------------------
+  == TABLES
+----------------------------------------------------------------------- */
+
+table {
+	table-layout: fixed;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	max-width : 100%;
+	vertical-align: top;
+}
+th {
+	font-weight: normal;
+	text-align: left;
+}
+td {
+	vertical-align: top
+}
+
+
+/*-----------------------------------------------------------------------
+  == LAYOUT
+----------------------------------------------------------------------- */
+.row {
+	display: table;
+	width: 100%;
+}
+.col {
+	display: table-cell;
+	vertical-align: top;
+}
+.inbl {
+	@include inline-block;
+	vertical-align: top;
+	margin-right: -.25em;
+}
+
+
+/*-----------------------------------------------------------------------
+  == FORMS
+----------------------------------------------------------------------- */
+form, fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Corrects color not being inherited in IE 8/9 */
+legend {
+	border: 0;
+	padding: 0;
+}
+
+/* 
+	(1) Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5 and Chrome
+	(2) Addresses `font-family` inconsistency between `textarea` and other form elements
+	(3) Corrects font size not being inherited in all browsers
+	(4) Improves appearance and consistency in all browsers
+*/
+input, button, select, textarea {
+	margin: 0; /* (1) */
+	font-family: sans-serif; /* (2) */
+	font-size: 100%; /* (3) */
+	vertical-align: baseline; /* (4) */
+}
+
+/* Addresses Firefox 3+ setting `line-height` on `input` using `!important` in the UA stylesheet */
+button, input {
+	line-height: normal;
+}
+
+/* Removes inner padding and border in Firefox 3+ */
+input::-moz-focus-inner, button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+/* Makes labels clickable */
+label {
+	cursor: pointer;
+}
+
+/* 
+	(1) Improves usability and consistency of cursor style
+	(2) Corrects inability to style clickable `input` types in iOS
+*/
+button, input[type=submit], input[type=reset], input[type=button] {
+	cursor: pointer; /* (1) */
+	-webkit-appearance: button; /* (2) */
+}
+
+/* Align inputs with their label (cf. http://tjkdesign.com/ez-css/css/base.css) */
+input[type="radio"] {
+	vertical-align: text-bottom;
+} 
+input[type="checkbox"] {
+	vertical-align: bottom;
+}
+
+/*
+	(1) Addresses box sizing set to content-box in IE 8/9.
+	(2) Removes excess padding in IE 8/9.
+*/
+input[type="checkbox"], input[type="radio"] {
+	box-sizing: border-box; /* (1) */
+	padding: 0; /* 2 */
+}
+
+/* Avoid dimensioning and a different display on IE */
+input[type="radio"], input[type="checkbox"], input[type="image"] {
+	background-color: none;
+	border: 0;
+	width: auto;
+}
+
+/* Re-set default cursor for disabled elements */
+button[disabled], input[disabled] {
+	cursor: default;
+}
+
+/* 
+	(1) Remove default scrollbars on IE
+	(2) Adjust alignement in all browsers
+	(3) Allow vertical resizing only 
+*/
+textarea {
+	overflow: auto; /* (1) */
+	vertical-align: top; /* (2) */
+	resize: vertical; /* (3) */
+	min-height: 5em;
+}
+
+/*
+	(1) Addresses `appearance` set to `searchfield` in Safari 5 and Chrome
+	(2) Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome (include `-moz` to future-proof).
+*/
+
+input[type="search"] {
+	-webkit-appearance: textfield; /* (1) */
+	@include box-sizing(content-box); /* (2) */
+}
+
+/* Removes inner padding and search cancel button in Safari 5 and Chrome on OS X */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+/* Removes inner padding and border in FF3+ */
+button::-moz-focus-inner, input[type='button']::-moz-focus-inner, input[type='reset']::-moz-focus-inner, input[type='submit']::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+
+/*-----------------------------------------------------------------------
+  == TOOLS
+----------------------------------------------------------------------- */
+
+/* Clearfix (cf. http://nicolasgallagher.com/micro-clearfix-hack) */
+.cf {
+	zoom: 1;
+}
+.cf:before, .cf:after {
+	content: "";
+	display: block;
+}
+.cf:after {
+	clear: both;
+}
+
+/* Reset margin/padding/border */
+.no-mg {
+	margin: 0;
+}
+.no-pd {
+	padding: 0;
+}
+.no-bd {
+	border: 0;
+}
+
+/* Float */
+.f-left {
+	float: left;
+}
+.f-right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+
+/* Alignement */
+.align-left {
+	text-align: left;
+}
+.align-center {
+	text-align: center;
+}
+.align-right {
+	text-align: right;
+}
+.align-top {
+	vertical-align: top;
+}
+.align-btm {
+	vertical-align: bottom;
+}
+
+/* Images */
+.img-left {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+.img-right {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+.img-center {
+	margin: 1em auto;
+	display: block;
+}
+
+/* Hide content */
+.is-hidden {
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	border: 0;
+}
+
+/* Image replacement */
+.ir {
+	border: 0;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	background-color: transparent;
+}
+
+/* Nav menu */
+.nav {
+	li {
+		display: inline-block;
+		list-style: none;
+	}
+	a {
+		display: inline-block;
+		text-decoration: none;
+	}
+}
+
+
+/*-----------------------------------------------------------------------
+  == RWD
+----------------------------------------------------------------------- */
+/* Viewport fixing for RWD  */
+@-webkit-viewport {
+	width: device-width;
+	zoom: 1.0;
+}
+@-moz-viewport {
+	width: device-width;
+	zoom: 1.0;
+}
+@-ms-viewport {
+	width: device-width;
+	zoom: 1.0;
+}
+@-o-viewport {
+	width: device-width;
+	zoom: 1.0;
+}
+@viewport {
+	width: device-width;
+	zoom: 1.0;
+}
+
+
+/*-----------------------------------------------------------------------
+  == PRINT
+----------------------------------------------------------------------- */
+@media print {
+	p, blockquote {
+		orphans: 2; 
+		widows: 2;
+	}
+	blockquote, ul, ol {
+		page-break-inside: avoid;
+	}
+	h1, h2, h3, caption { 
+		page-break-after: avoid;
+	}
+}

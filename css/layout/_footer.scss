@@ -1,0 +1,297 @@
+/*
+    FOOTER
+*/
+.footer {
+	position: relative;
+	background: #242522 url(../img/bg-footer.jpg) repeat 0 0;
+	@include at-breakpoint(70em) {
+		
+	}
+	color: #fff;
+	a {
+		color: #aaa;
+	}
+	@include at-breakpoint(70em) {
+		&:before {
+			content: "";
+			z-index: 1;
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			width: 553px;
+			background: url(../img/bg-footer-left.jpg) no-repeat left center;
+		}
+		&:after {
+			content: "";
+			z-index: 1;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			width: 553px;
+			background: url(../img/bg-footer-right.jpg) no-repeat right center;
+		}
+		> .wrap {
+			position: relative;
+			z-index: 2;
+		}
+	}
+}
+.footer-home {
+	padding: 60px 0 0;
+}
+.footer-title {
+	@extend %font-proxima;
+	display: inline-block;
+	margin-bottom: 60px;
+	padding: 20px 25px;
+	font-size: 44px;
+	font-weight: 300;
+	line-height: 1em;
+	color: #fff;
+	background: rgba(#000,0.4);
+	@include at-breakpoint(0 35em) {
+		font-size: 36px;
+	}
+}
+.footer-col {
+	@include at-breakpoint(60em) {
+		@include span-columns(3,6);
+	}
+}
+.footer-col-lmtm {
+	@include at-breakpoint(60em) {
+		padding-bottom: 100px;
+	}
+	position: relative;
+}
+.footer-col-ooz {
+	@include omega;
+}
+.footer-content {
+	@include at-breakpoint(40em) {
+		@include span-columns(4 omega,6);
+	}
+	p {
+		margin-bottom: 1.5em;
+	}
+}
+.footer-logo {
+	@include at-breakpoint(0 40em) {
+		margin-bottom: 30px;
+	}
+	@include at-breakpoint(40em) {
+		@include span-columns(2,6);
+	}
+	text-align: center;
+}
+.lnk-top {
+	@extend %transition;
+	position: absolute;
+	top: -70px;
+	right: 30px;
+	background: $color-sand;
+	width: 70px;
+	height: 70px;
+	span {
+		@extend .is-hidden;
+	}
+	&:before {
+		@include sprites-sprite-dimensions(arrow);
+		@include sprites-sprite(arrow);
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -(sprites-sprite-height(arrow)/2);
+		margin-left: -(sprites-sprite-width(arrow)/2);
+	}
+	&:hover, &:focus {
+		background: #d4a06f;
+	}
+}
+.nav-footer {
+	@extend %font-proxima;
+	@extend %transition;
+	padding: 50px 0;
+	font-size: 18px;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	a:hover, a:focus, .current a {
+		color: #fff;
+	}
+	@include at-breakpoint(0 50em) {
+		text-align: center;
+		li {
+			display: block;
+			a {
+				display: block;
+				padding: 10px 0;
+				border-bottom: 1px solid rgba(#fff,0.2);
+			}
+			&:first-child a {
+				border-top: 1px solid rgba(#fff,0.2);
+			}
+		}
+	}
+	@include at-breakpoint(50em) {
+		li + li {
+			margin-left: 30px;
+			&:before {
+				content: "|";
+				position: relative;
+				left: -15px;
+				color: #aaa;
+			}
+		}
+	}
+}
+.lmtm-contact {
+	display: inline-block;
+}
+.lmtm-phone {
+	position: relative;
+	padding-left: 21px;
+	margin-right: 20px;
+	font-weight: 600;
+	color: #aaa;
+	text-transform: uppercase;
+	&:before {
+		@include sprites-sprite-dimensions(phone);
+		@include sprites-sprite(phone);
+		position: absolute;
+		top: 4px;
+		left: 0;
+		content: "";
+	}
+}
+.lmtm-email {
+	position: relative;
+	padding-left: 24px;
+	font-weight: 600;
+	&:before {
+		@include sprites-sprite-dimensions(mail);
+		@include sprites-sprite(mail);
+		position: absolute;
+		top: 3px;
+		left: 0;
+		content: "";
+	}
+}
+
+/* Social icons */
+.lmtm-social {
+	.footer-home & {
+		@include at-breakpoint(0 60em) {
+			margin-bottom: 50px;
+		}
+		@include at-breakpoint(60em) {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+	}
+	display: block;
+	margin: 0;
+	li {
+		display: inline-block;
+		vertical-align: bottom;
+		margin: 0;
+		list-style: none;
+		+ li a {
+			margin-left: 30px;
+		}
+	}
+	a {
+		position: relative;
+		display: inline-block;
+		vertical-align: bottom;
+		width: 70px;
+		height: 70px;
+		background: rgba(#000,0.35);
+		span {
+			@extend .is-hidden;
+		}
+		&:before {
+			display: inline-block;
+			content: "";
+			position: absolute;
+			top: 50%;
+			left: 50%;
+		}
+	}
+}
+.lnk-twitter {
+	a:before {
+		@include sprites-sprite-dimensions(twitter);
+		@include sprites-sprite(twitter);
+		margin-top: -(sprites-sprite-height(twitter)/2);
+		margin-left: -(sprites-sprite-width(twitter)/2);
+	}
+}
+.lnk-linkedin {
+	a:before {
+		@include sprites-sprite-dimensions(linkedin);
+		@include sprites-sprite(linkedin);
+		margin-top: -(sprites-sprite-height(linkedin)/2);
+		margin-left: -(sprites-sprite-width(linkedin)/2);
+	}
+}
+.footer-lmtm {
+	.lmtm-social {
+		display: inline-block;
+		vertical-align: middle;
+		width: 200px;
+		margin-right: 20px;
+	}
+	.lmtm-address {
+		display: inline-block;
+		vertical-align: middle;
+		padding: 20px 0;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 1.8em;
+		@include at-breakpoint(0 50em) {
+			padding: 50px 0;
+		}
+	}
+	.lmtm-phone {
+		@include at-breakpoint(50em) {
+			margin-left: 30px;
+		}
+	}
+	@include at-breakpoint(0 50em) {
+		text-align: center;
+	}
+}
+.lmtm-contact {
+	@include at-breakpoint(0 50em) {
+		display: block;
+	}
+}
+
+/* Bottom bar */
+.btm {
+	padding: 12px 0 12px;
+	background: #000;
+	text-align: center;
+	@include at-breakpoint(70em) {
+		text-align: right;
+	}
+}
+.nav-btm {
+	display: block;
+	font-size: 14px;
+	line-height: 1em;
+	a {
+		color: #6d6f72;
+		text-decoration: underline;
+		&:hover, &:focus {
+			text-decoration: none;
+		}
+	}
+	li + li a {
+		margin-left: 20px;
+	}
+}

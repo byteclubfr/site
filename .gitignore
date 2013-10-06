@@ -1,0 +1,10 @@
+# Mac
+.DS_Store
+
+# SASS
+*.sass-cache
+
+# SublimeText
+/*.sublime-project
+*.sublime-workspace
+sftp-config*.json

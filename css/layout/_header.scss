@@ -1,0 +1,117 @@
+/*
+    HEADER
+*/
+.header {
+	@include box-shadow(rgba(#000,0.1) 0 5px 3px);
+	overflow: hidden;
+	background: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+	z-index: 1;
+	.logo {
+		margin-bottom: 0;
+		@include at-breakpoint(0 55em) {
+			text-align: center;
+		}
+		@include at-breakpoint(55em) {
+			@include span-columns(2,9);
+			img {
+				display: block;
+				float: left;
+			}
+		}
+		@include at-breakpoint(70em) {
+			img {
+				float: right;
+			}
+		}
+	}
+	@media (max-width: 680px) {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+.wrapper-nav-main {
+	@include at-breakpoint(0 55em) {
+		text-align: center;
+	}
+	@include at-breakpoint(55em) {
+		@include span-columns(7 omega,9);
+	}
+	@extend %font-proxima;
+	padding-top: 30px;
+}
+.nav-main {
+	> li {
+		position: relative;
+		> a {	
+			@include transition(color 0.1s ease);
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 1em;
+			text-transform: uppercase;
+			color: #000;
+			&:hover, &:focus {
+				color: #dcb189;
+			}
+		}
+	}
+	.header & > li + li {
+		margin-left: 40px;
+	}
+	> .current > a {
+		color: #dcb189;
+	}
+}
+.nav-sub {
+	display: none;
+	@include at-breakpoint(55em) {
+		.current & {
+			display: block;
+		}
+	}
+	position: absolute;
+	top: calc(100% + 13px);
+	left: calc(50% + 37px);
+	width: 600px;
+	font-size: 15px;
+	li + li {
+		margin-left: 20px;
+		&:before {
+			content: "|";
+			position: relative;
+			top: 1px;
+			left: -11px;
+			color: #000;
+		}
+	}
+	a {
+		@include transition(color 0.1s ease);
+		color: #888;
+		font-weight: 400;
+		line-height: 1em;
+		border-bottom: 1px solid #d3d3d3;
+		&:hover, &:focus {
+			color: #dcb189;
+			border-color: #dcb189;
+		}
+	}
+	&:before {
+		position: absolute;
+		bottom: 10px;
+		left: -37px;
+		content: "";
+		width: 23px;
+		height: 23px;
+		border-bottom: 1px solid #d3d3d3;
+		border-left: 1px solid #d3d3d3;
+	}
+}
+.wrapper-nav-main .lnk-home a {
+	@include sprites-sprite-dimensions(home);
+	@include sprites-sprite(home);
+	span {
+		@extend .is-hidden;
+	}
+}

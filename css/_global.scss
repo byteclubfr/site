@@ -1,0 +1,155 @@
+/*
+	GLOBAL
+	Styles for the whole project
+
+	SUMMARY
+	Typography
+	Forms
+	Tables
+	Layout
+*/
+
+/*-----------------------------------------------------------------------
+  == TYPOGRAPHY
+----------------------------------------------------------------------- */
+
+body { 
+	font-family: "adelle", serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #333;
+}
+
+/* Titles
+------------------------- */
+.title-main {
+	@extend %font-proxima;
+	@extend %transition;
+	position: relative;
+	margin-bottom: 60px;
+	color: #000;
+	font-size: 40px;
+	line-height: 1em;
+	font-weight: 400;
+	@include at-breakpoint(70em) {
+		&:before {
+			display: inline-block;
+			position: absolute;
+			content: "";
+			top: 50%;
+			margin-top: -4px;
+			left: calc(-4em + 47px);
+			width: 47px;
+			height: 7px;
+			background: $color-sand;
+		}
+	}
+}
+.title-second {
+	@extend %font-proxima;
+	margin: 30px 0;
+	color: #000;
+	font-weight: 400;
+	font-size: 26px;
+}
+
+/* Links
+------------------------- */
+a { 
+	text-decoration:underline;
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+}
+
+/* Buttons
+------------------------- */
+.btn {
+	@extend %font-proxima;
+	display: inline-block;
+	padding: 10px 20px;
+	background: $color-sand;
+	color: #fff;
+	border: none;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 1em;
+	font-weight: 500;
+	&:hover, &:focus {
+		background: #d4a06f;
+	}
+	.content & {
+		color: #fff;
+	}
+}
+
+
+/*-----------------------------------------------------------------------
+  == LAYOUT
+----------------------------------------------------------------------- */
+
+.wrap {
+	@include container;
+	// @include susy-grid-background;
+}
+.section {
+	position: relative;
+	> .wrap {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+}
+.section-alt {
+	position: relative;
+	background: #f1f1f1;
+}
+.inner {
+	@include at-breakpoint(70em) {
+		@include span-columns(6,9);
+		@include prefix(2,9);  
+  		@include suffix(1,9);
+	}
+}
+
+/*-----------------------------------------------------------------------
+  == CONTENT
+----------------------------------------------------------------------- */
+.content {
+	p, ul {
+		margin-bottom: 1.5em;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	ul li {
+		position: relative;
+		margin-bottom: 5px;
+		margin-left: 20px;
+		padding: 0;
+		list-style: disc;
+		list-style-position: outside;
+	}
+	a {
+		color: $color-purple;
+	}
+	strong {
+		color: #000;
+	}
+}
+
+
+/*-----------------------------------------------------------------------
+  == SHARED
+----------------------------------------------------------------------- */
+
+%font-proxima {
+	font-family: 'proxima-nova', sans-serif;
+}
+%shadow {
+	@include box-shadow(rgba(#000,0.05) 10px 10px 0);
+}
+%transition {
+	@include transition(background 0.1s ease);
+	@include transition(color 0.1s ease);
+}

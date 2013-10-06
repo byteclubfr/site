@@ -1,0 +1,145 @@
+/*
+    COMPANY
+*/
+/* Team */
+.member {
+	margin-bottom: 45px;
+	list-style: none;
+	@include at-breakpoint(55em) {
+		@include span-columns(3,6);
+		&:nth-child(2n) {
+			@include omega;
+		}
+	}
+	&.last {
+		margin-bottom: 0;
+	}
+}
+.member-inside {
+	position: relative;
+	@include at-breakpoint(35em) {
+		padding-left: 140px;
+	}
+}
+.member-pic {
+	@include at-breakpoint(0 35em) {
+		display: block;
+		margin-bottom: 20px;
+	}
+	@include at-breakpoint(35em) {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+.member-name {
+	margin-bottom: 8px;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1em;
+	color: #000;
+}
+.member-job {
+	margin-bottom: 25px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1em;
+	color: #888;
+}
+.member-bio {
+	margin-bottom: 25px;
+}
+.member-social {
+	li {
+		margin-right: 10px;
+		a span {
+			@extend .is-hidden;
+		}
+	}
+	.twitter a {
+		@include sprites-sprite-dimensions(twitter-circle);
+		@include sprites-sprite(twitter-circle);
+	}
+	.linkedin a {
+		@include sprites-sprite-dimensions(linkedin-circle);
+		@include sprites-sprite(linkedin-circle);
+	}
+	.github a {
+		@include sprites-sprite-dimensions(github-circle);
+		@include sprites-sprite(github-circle);
+	}
+	.viadeo a {
+		@include sprites-sprite-dimensions(viadeo-circle);
+		@include sprites-sprite(viadeo-circle);
+	}
+}
+
+/* Philosophy */
+.idea {
+	margin-bottom: 50px;
+	@include at-breakpoint(80em) {
+		@include span-columns(2,6);
+		&.last {
+			@include omega;
+		}
+	}
+	@include at-breakpoint(60em 70em) {
+		@include span-columns(2,6);
+		&.last {
+			@include omega;
+		}
+	}
+}
+.idea-title {
+	@extend %font-proxima;
+	color: #000;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.idea-card {
+	@extend %shadow;
+	position: relative;
+	@include at-breakpoint(80em) {
+		min-height: 350px;
+	}
+	padding: 40px 25px 25px;
+	background: $color-purple;
+	color: #fff;
+}
+.idea-front {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding: 40px;
+	background: #fff;
+	opacity: 1;
+}
+.idea-open {
+	@include transition(opacity 0.1s ease);
+	@include sprites-sprite-dimensions(plus-circle);
+	@include sprites-sprite(plus-circle);
+	content: "";
+	position: absolute;
+	bottom: 25px;
+	right: 25px;
+	cursor: pointer;
+	&:hover {
+		opacity: .8;
+	}
+}
+.idea-close {
+	@include transition(opacity 0.1s ease);
+	@include sprites-sprite-dimensions(close-circle);
+	@include sprites-sprite(close-circle);
+	content: "";
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	cursor: pointer;
+	&:hover {
+		opacity: .8;
+	}
+}

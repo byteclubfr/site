@@ -1,0 +1,132 @@
+/*
+    CONTACT
+*/
+/* Map */
+#contact-map {
+	@include at-breakpoint(0 70em) {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		height: 350px;
+	}
+	@include at-breakpoint(70em) {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		width: 35%;
+	}
+}
+.leaflet-popup-content-wrapper {
+	@include border-radius(0);
+}
+.leaflet-container {
+	font-family: "adelle", serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+	.tel-mail {
+		color: #000;
+		font-size: 16px;
+		font-weight: 600;
+		a {
+			color: $color-purple;
+		}
+	}
+	.tel {
+		text-transform: uppercase;
+	}
+}
+.leaflet-control-attribution {
+	display: none;
+}
+
+/* Contact form */
+.contact-form {
+	padding-top: 70px;
+	position: relative;
+	z-index: 2;
+	background: #f1f1f1;
+	@include at-breakpoint(0 70em) {
+		margin-bottom: 400px;
+	}
+	@include at-breakpoint(70em) {
+		@include span-columns(4,6);
+		padding-bottom: 70px;
+		padding-right: 4em;
+	}
+}
+.fields-required {
+	margin-bottom: 30px;
+	color: #888;
+	font-style: italic;
+	span {
+		color: $color-purple;
+	}
+}
+.required {
+	color: $color-purple;
+}
+.form-half {
+	@include span-columns(3,6);
+	&.last {
+		@include omega;
+	}
+}
+.field {
+	margin-bottom: 50px;
+	.input {
+		@include box-sizing(border-box);
+		@include transition(all 0.3s ease);
+		@extend %shadow;
+		@extend %font-proxima;
+		display: block;
+		width: 100%;
+		padding: 15px;
+		background: #fff;
+		border: none;
+		color: #888;
+		font-size: 18px;
+		&:focus {
+			@include box-shadow(rgba(#000,0.2) 10px 10px 0);
+			outline: none;
+		}
+	}
+	textarea {
+		height: 200px;
+	}
+	label {
+		display: inline-block;
+		margin-bottom: 10px;
+		font-size: 20px;
+		font-weight: 400;
+	}
+}
+.field-error {
+	label {
+		color: #C94331;
+	}
+	.input {
+		@include box-shadow(rgba(#C94331,0.15) 10px 10px 0);
+		&:focus {
+			@include box-shadow(rgba(#C94331,0.25) 10px 10px 0);
+		}
+	}
+}
+.field-submit {
+	margin-bottom: 0;
+}
+.form-notice {
+	@extend %shadow;
+	margin: 30px 0;
+	padding: 15px;
+	color: #fff;
+	font-weight: 400;
+}
+.form-notice-error {
+	background: #C94331;
+}
+.form-notice-success {
+	background: #1f894e;
+}

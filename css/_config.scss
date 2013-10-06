@@ -1,0 +1,21 @@
+/*
+    CONFIGURATION
+    Variables and global parameters
+*/
+
+$experimental-support-for-svg: true;
+
+/* Grid */
+$total-columns      : 9;	// a 9-column grid
+$column-width       : 8em;	// each column is 8em wide
+$gutter-width       : 4em;	// 4em gutters between columns
+$grid-padding       : 1em;	// grid-padding equal to 2em
+
+/* Colors */
+$color-sand : #dcb189;
+$color-purple: #616aa0;
+
+/* Sprites */
+$mysprite-layout: smart;
+@import "compass/utilities/sprites/base";
+@import "sprites/*.png";
