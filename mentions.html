@@ -34,42 +34,22 @@
 
 <body>
 
-	<header class="header" role="banner" id="top">
-		<div class="wrap cf">
-			<div class="logo">
-				<img src="img/logo-lmtm.png" alt="LMTM" />
+	<div class="js-sticky">
+		<header class="header" role="banner" id="top">
+			<div class="wrap cf">
+				<h1 class="logo"><img src="img/logo-lmtm.png" alt="LMTM"/></h1>
+				<nav class="wrapper-nav-main">
+					<ul class="nav nav-main">
+						<li class="lnk-home current"><a href="index.html"><span>Accueil</span></a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="technologies.html">Technologies</a></li>
+						<li><a href="societe.html">Société</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
 			</div>
-			<nav class="wrapper-nav-main">
-				<ul class="nav nav-main">
-					<li class="lnk-home"><a href="index.html"><span>Accueil</span></a></li>
-					<li class="current">
-						<a href="services.html">Services</a>
-						<ul class="nav nav-sub">
-							<li><a href="#conseil">Conseil</a></li>
-							<li><a href="#developpement">Développement</a></li>
-							<li><a href="#formation-nodejs">Formation Node.js</a></li>
-							<li><a href="#formation-angularjs">Formation AngularJS</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="technologies.html">Technologies</a>
-						<ul class="nav nav-sub">
-							<li><a href="#nodejs">Node.js</a></li>
-							<li><a href="#angularjs">AngularJS</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="societe.html">Société</a>
-						<ul class="nav nav-sub">
-							<li><a href="#equipe">Équipe</a></li>
-							<li><a href="#philosophie">Philosophie</a></li>
-						</ul>
-					</li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+		</header>
+	</div>
 
 	<section class="banner">
 		<div class="wrap cf">
@@ -106,7 +86,7 @@
 						</div>
 					</article>
 
-					<article data-order="2" class="service service-even">
+					<article data-order="2" class="service service-odd">
 						<h2 id="developpement" class="service-title service-title-dvpt">Hébergeur</h2>
 						<div class="content">
 							<p><strong>Amazon Web Services, Inc.</strong></p>
