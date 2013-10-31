@@ -7,7 +7,7 @@
 	<!-- Metas -->
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>LMTM - Contact</title>
+	<title>LMTM - Mentions légales</title>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/site.css" type="text/css" media="all" />
@@ -42,7 +42,7 @@
 			<nav class="wrapper-nav-main">
 				<ul class="nav nav-main">
 					<li class="lnk-home"><a href="index.html"><span>Accueil</span></a></li>
-					<li>
+					<li class="current">
 						<a href="services.html">Services</a>
 						<ul class="nav nav-sub">
 							<li><a href="#conseil">Conseil</a></li>
@@ -65,7 +65,7 @@
 							<li><a href="#philosophie">Philosophie</a></li>
 						</ul>
 					</li>
-					<li class="current"><a href="contact.html">Contact</a></li>
+					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -74,59 +74,55 @@
 	<section class="banner">
 		<div class="wrap cf">
 			<div class="inner">
-				<h1 class="page-title">Contactez-nous</h1>
+				<h1 class="page-title">Mentions légales</h1>
 				<div class="banner-text">
-					<p>Sommes-nous obligés de faire apparaître un texte à cet endroit ? Je ne suis pas sûr que celà ait une utilité...</p>
+					<p></p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="section-alt">
+	<section class="section section-alt">
 		<div class="wrap cf">
 			<div class="inner">
-				<div class="contact-form">
-					<p class="fields-required">Les champs marqués d’un astérisque (<span>*</span>) sont obligatoires.</p>
-					<form method="#" action="#">
-						<p class="form-notice form-notice-error">
-							Désolé, le formulaire comporte des erreurs.<br/> Veuillez corriger votre message et l'envoyer à nouveau.
-						</p>
-						<p class="form-notice form-notice-success">
-							Votre message a bien été envoyé.<br/> Nous vous contacterons dans les plus brefs délais.
-						</p>
-						<div class="field form-half">
-							<label for="name">Nom <span class="required">*</span></label>
-							<input type="text" class="input" id="name" />
+
+				<div class="services-col-left"></div>
+				<div class="services-col-right"></div>
+
+				<div class="services cf">
+
+					<article data-order="1" class="service service-odd">
+						<h2 id="conseil" class="service-title service-title-conseil">Éditeur</h2>
+						<div class="content">
+							<p><strong>LMTM</strong></P>
+								2, Quai André Rhuys<br>
+								44200 Nantes<br>
+								SARL au capital de 5000€<br>
+								RCS Nantes B 791 143 258</p>
+							<p>Responsable de la rédaction :<br>
+								Lilian Martineau<br>
+								tel 06 14 66 76 41<br>
+								e-mail <a href="mailto:contact@lmtm.fr">contact@lmtm.fr</a></p>
 						</div>
-						<div class="field form-half last">
-							<label for="firstname">Prénom <span class="required">*</span></label>
-							<input type="text" class="input" id="firstname" />
+					</article>
+
+					<article data-order="2" class="service service-even">
+						<h2 id="developpement" class="service-title service-title-dvpt">Hébergeur</h2>
+						<div class="content">
+							<p><strong>Amazon Web Services, Inc.</strong></p>
+							<p>P.O. Box 81226<br>
+								Seattle, WA 98108-1226<br>
+								USA</p>
+							<p>e-mail <a href="mailto:copyright@amazon.com">copyright@amazon.com</a><br>
+								tel (206) 266-4064<br>
+								fax (206) 266-7010<br>
+								liens <a href="http://aws.amazon.com/fr/web-hosting/">hébergement amazon</a> <a href="http://aws.amazon.com/fr/terms/">conditions amazon</a></p>
+
 						</div>
-						<div class="field field-error">
-							<label for="email">Adresse email <span class="required">*</span></label>
-							<input type="email" class="input" id="email" />
-						</div>
-						<div class="field">
-							<label for="email">Société <span class="required">*</span></label>
-							<input type="text" class="input" id="email" />
-						</div>
-						<div class="field">
-							<label for="message">Message <span class="required">*</span></label>
-							<textarea class="input" id="message"></textarea>
-						</div>
-						<div class="field field-submit">
-							<button type="submit" class="btn">Envoyer votre message</button>
-						</div>
-					</form>
+					</article>
+
 				</div>
-				<div id="contact-map"></div>
-				<div id="map-popup">
-					<p><img src="img/logo-lmtm-tiny.png" alt="LMTM" /><br/>
-					2, Quai André Rhuys<br/>
-					44200 Nantes</p>
-					<p class="tel-mail"><a href="mailto:contact@lmtm.fr">contact@lmtm.fr</a><br/>
-					<span class="tel">02 15 32 15 62</span></p>
-				</div>
+
 			</div>
 		</div>
 	</section>
@@ -137,10 +133,10 @@
 			<div class="inner">
 				<ul class="nav nav-footer">
 					<li><a href="index.html">Accueil</a></li>
-					<li><a href="services.html">Services</a></li>
+					<li class="current"><a href="services.html">Services</a></li>
 					<li><a href="technologies.html">Technologies</a></li>
 					<li><a href="societe.html">Société</a></li>
-					<li class="current"><a href="contact.html">Contact</a></li>
+					<li><a href="contact.html">Contact</a></li>
 				</ul>
 				<div class="footer-lmtm">
 					<ul class="lmtm-social">
