@@ -23,7 +23,7 @@
 	<script type='text/javascript' src='js/jquery.meanmenu.min.js'></script>
 	<script type='text/javascript' src='js/jquery.smooth-scroll.min.js'></script>
 	<script type='text/javascript' src='js/jquery.debouncedresize.js'></script>
-	<script type='text/javascript' src='js/leaflet.js'></script>
+	<script type='text/javascript' src='js/jquery.sticky.min.js'></script>
 	<script type='text/javascript' src='js/start.js'></script>
 
 	<!-- Typekit -->
@@ -32,8 +32,9 @@
 
 </head>
 
-<body>
+<body id="top">
 
+	<div class="js-sticky">
 	<header class="header" role="banner" id="top">
 		<div class="wrap cf">
 			<div class="logo">
@@ -70,6 +71,7 @@
 			</nav>
 		</div>
 	</header>
+	</div>
 
 	<section class="banner">
 		<div class="wrap cf">
@@ -89,9 +91,24 @@
 				<ul>
 					<li class="member">
 						<div class="member-inside">
+							<img src="img/tmp/avatarLilian.png" alt="" class="member-pic" />
+							<h3 class="member-name">Lilian Martineau</h3>
+							<p class="member-job">Gérant, commercial</p>
+							<div class="member-bio content">
+								<p>" Mon goût pour les relations humaines, ma curiosité intellectuelle, et mon expérience B2B, sont à l'écoute de vos besoins."</p>
+							</div>
+							<ul class="nav member-social">
+								<li class="twitter"><a href="https://twitter.com/lilianmartineau"><span>Twitter</span></a></li>
+								<li class="linkedin"><a href="http://www.linkedin.com/pub/lilian-martineau/35/170/638"><span>LinkedIn</span></a></li>
+								<li class="viadeo"><a href="http://fr.viadeo.com/fr/profile/lilian.martineau1"><span>Viadeo</span></a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="member">
+						<div class="member-inside">
 							<img src="img/tmp/avatarThomas.png" alt="" class="member-pic" />
 							<h3 class="member-name">Thomas Moyse</h3>
-							<p class="member-job">Co-gérant, chef de projet</p>
+							<p class="member-job">Chef de projet, développeur AngularJS</p>
 							<div class="member-bio content">
 								<p>" Développeur web dans l'âme, j'aime amener ma passion pour les technologies web dans les équipes et projets que je manage."</p>
 							</div>
@@ -103,18 +120,17 @@
 							</ul>
 						</div>
 					</li>
-					<li class="member">
+					<li class="member last">
 						<div class="member-inside">
-							<img src="img/tmp/avatarLilian.png" alt="" class="member-pic" />
-							<h3 class="member-name">Lilian Martineau</h3>
-							<p class="member-job">Co-gérant, commercial</p>
+							<img src="img/tmp/avatarNicolas.png" alt="" class="member-pic" />
+							<h3 class="member-name">Nicolas Chambrier</h3>
+							<p class="member-job">Expert technique, développeur NodeJS</p>
 							<div class="member-bio content">
-								<p>" Mon goût pour les relations humaines, ma curiosité intellectuelle, et mon expérience B2B, sont à l'écoute de vos besoins."</p>
+								<p>" Partisan de la mouvance « DevOp » qui veut que le développeur ne soit pas simplement un cracheur de code, mais aussi un élément actif de l’opérationnel. J’ai jeté mon dévolu sur Node.JS, technologie serveur qui permet de pousser mon langage favori (JavaScript) plus loin que le simple champ du navigateur."</p>
 							</div>
 							<ul class="nav member-social">
-								<li class="twitter"><a href="https://twitter.com/lilianmartineau"><span>Twitter</span></a></li>
-								<li class="linkedin"><a href="http://www.linkedin.com/pub/lilian-martineau/35/170/638"><span>LinkedIn</span></a></li>
-								<li class="viadeo"><a href="http://fr.viadeo.com/fr/profile/lilian.martineau1"><span>Viadeo</span></a></li>
+								<li class="twitter"><a href="https://twitter.com/naholyr"><span>Twitter</span></a></li>
+								<li class="github"><a href="https://github.com/naholyr"><span>GitHub</span></a></li>
 							</ul>
 						</div>
 					</li>
@@ -148,18 +164,7 @@
 						<div class="idea-front">
 							<h3 class="idea-title">Livrer des projets de qualité</h3>
 						</div>
-						<p>
-
-							Nous avons choisi les meilleures technologies du domaine.<br>
-							Applications structurées<br>
-							Frontfirst<br>
-							refactoring<br>
-							maintenance<br>
-							expérience clients<br>
-							tests<br>
-							besoins clients<br>
-						</p>
-						<p>WTF. <br>Et caetera.</p>
+						<p>@todo</p>
 					</div>
 				</div>
 
