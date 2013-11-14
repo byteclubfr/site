@@ -23,7 +23,7 @@
 	<script type='text/javascript' src='js/jquery.meanmenu.min.js'></script>
 	<script type='text/javascript' src='js/jquery.smooth-scroll.min.js'></script>
 	<script type='text/javascript' src='js/jquery.debouncedresize.js'></script>
-	<script type='text/javascript' src='js/leaflet.js'></script>
+	<script type='text/javascript' src='js/jquery.sticky.min.js'></script>
 	<script type='text/javascript' src='js/start.js'></script>
 
 	<!-- Typekit -->
@@ -32,8 +32,9 @@
 
 </head>
 
-<body>
+<body id="top">
 
+	<div class="js-sticky">
 	<header class="header" role="banner" id="top">
 		<div class="wrap cf">
 			<div class="logo">
@@ -71,11 +72,12 @@
 			</nav>
 		</div>
 	</header>
+	</div>
 
 	<section class="banner">
 		<div class="wrap cf">
 			<div class="inner">
-				<h1 class="page-title">Formation <img src="img/logo-angularjs.png" alt="AngularJS"> </h1>
+				<h1 class="page-title">Formation AngularJS</h1>
 				<div class="banner-text">
 					<p>3 jours pour découvrir et comprendre le framework AngularJS.<br>
 						Stage pratique, magistral et didactique, pour devenir autonome.</p>
@@ -87,7 +89,10 @@
 	<div class="techno-logo">
 		<div class="wrap cf">
 			<div class="inner">
-				<h1>Présentation</h1>
+				<h3 style="font-size:2em;">
+					<img src="img/logo-angularjs.png" alt="Node.js" style="width:100px;float:right;">
+					Présentation
+				</h3>
 			</div>
 		</div>
 	</div>
@@ -138,7 +143,10 @@
 	<div class="techno-logo">
 		<div class="wrap cf">
 			<div class="inner">
-				<h1>Programme de la 1<sup>ère</sup> journée :</h1>
+				<h3 style="font-size:2em;">
+					<img src="img/logo-angularjs.png" alt="Node.js" style="width:100px;float:right;">
+					Programme de la 1<sup>ère</sup> journée :
+				</h3>
 			</div>
 		</div>
 	</div>
@@ -186,7 +194,10 @@
 	<div class="techno-logo">
 		<div class="wrap cf">
 			<div class="inner">
-				<h1>Programme de la 2<sup>ème</sup> journée :</h1>
+				<h3 style="font-size:2em;">
+					<img src="img/logo-angularjs.png" alt="Node.js" style="width:100px;float:right;">
+					Programme de la 2<sup>ème</sup> journée :
+				</h3>
 			</div>
 		</div>
 	</div>
@@ -226,7 +237,10 @@
 	<div class="techno-logo">
 		<div class="wrap cf">
 			<div class="inner">
-				<h1>Programme de la 3<sup>ème</sup> journée :</h1>
+				<h3 style="font-size:2em;">
+					<img src="img/logo-angularjs.png" alt="Node.js" style="width:100px;float:right;">
+					Programme de la 3<sup>ème</sup> journée :
+				</h3>
 			</div>
 		</div>
 	</div>
@@ -267,8 +281,8 @@
 			<div class="inner">
 				<ul class="nav nav-footer">
 					<li><a href="index.html">Accueil</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li class="current"><a href="technologies.html">Technologies</a></li>
+					<li class="current"><a href="services.html">Services</a></li>
+					<li><a href="technologies.html">Technologies</a></li>
 					<li><a href="societe.html">Société</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>

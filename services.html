@@ -23,7 +23,7 @@
 	<script type='text/javascript' src='js/jquery.meanmenu.min.js'></script>
 	<script type='text/javascript' src='js/jquery.smooth-scroll.min.js'></script>
 	<script type='text/javascript' src='js/jquery.debouncedresize.js'></script>
-	<script type='text/javascript' src='js/leaflet.js'></script>
+	<script type='text/javascript' src='js/jquery.sticky.min.js'></script>
 	<script type='text/javascript' src='js/start.js'></script>
 
 	<!-- Typekit -->
@@ -32,8 +32,9 @@
 
 </head>
 
-<body>
+<body id="top">
 
+	<div class="js-sticky">
 	<header class="header" role="banner" id="top">
 		<div class="wrap cf">
 			<div class="logo">
@@ -71,6 +72,7 @@
 			</nav>
 		</div>
 	</header>
+</div>
 
 	<section class="banner">
 		<div class="wrap cf">
@@ -91,16 +93,17 @@
 				<div class="services-col-right"></div>
 
 				<div class="services cf">
-					<article data-order="1" class="service service-odd">
-						<h2 id="conseil" class="service-title service-title-conseil">Conseil</h2>
+					<article id="conseil" data-order="1" class="service service-odd">
+						<h2 class="service-title service-title-conseil">Conseil</h2>
 						<div class="content">
-							<p>Praesent commodo cursus magna, <strong>texte en gras</strong>, nous faisons de notre mieux et c'est pas facile. Nullam quis risus eget urna mollis ornare vel eu leo. J'vous jure. Pellentesque ornare sem lacinia, on est au taquet.</p>
-							<p>Ça va bien se passer <a href="#">exemple de lien</a> risus varius blandit sit amet non magna. Tout est sous contrôle, a pharetra augue. Duis mollis, est non commodo luctus, baisse ta culotte, c'est moi qui pilote.</p>
+							<p>Nous mettons à votre disposition notre expertise des technologies <strong>Node.js</strong> et <strong>AngularJS</strong>.</p>
+							<p>Que vous souhaitiez expertiser ou auditer une application, être accompagnés pour l'adoption de ces technologies ou juste valider vos choix, <strong>nous sommes là pour vous aider !</strong></p>
+							<p>Appelez-nous, nous serions ravis d'échanger avec vous et même venir vous présenter ces technologies.</p>
 						</div>
 					</article>
 
-					<article data-order="2" class="service service-even">
-						<h2 id="bootcamp" class="service-title service-title-dvpt">BootCamp</h2>
+					<article id="bootcamp" data-order="2" class="service service-even">
+						<h2 class="service-title service-title-dvpt">BootCamp</h2>
 						<div class="content">
 							<p>Avec le <strong>BootCamp</strong>, développez vos applications ET vos compétences !</p>
 							<p>Vous avez un projet et une équipe technique ?<br>
@@ -111,18 +114,18 @@
 						</div>
 					</article>
 
-					<article data-order="3" class="service service-odd">
-						<h2 id="developpement" class="service-title service-title-dvpt">Développement</h2>
+					<article id="developpement" data-order="3" class="service service-odd">
+						<h2 class="service-title service-title-dvpt">Développement</h2>
 						<div class="content">
 							<p>Vous souhaitez augmenter votre valeur ajoutée ? Votre différenciation ? Créer ou capter un nouveau marché ?</p>
 							<p>Prolongements de vos produits ou nouveaux services, nous produisons les <strong>applications web</strong> issues de vos réflexions innovantes.</p>
-							<p>L'association <strong>AngularJS/Node.js</strong> (front/back) garantit un développement efficace et une expérience client intense. Passionnés et attachés au code de qualité, nous mettons toute notre expérience et notre savoir faire à votre disposition.</p>
+							<p>L'association <strong>AngularJS / Node.js</strong> (front/back) garantit un développement efficace et une expérience client intense. Passionnés et attachés au code de qualité, nous mettons toute notre expérience et notre savoir faire à votre disposition.</p>
 							<p class="align-center"><a href="technologies.html" class="btn">Découvrez nos technologies</a></p>
 						</div>
 					</article>
 
-					<article data-order="4" class="service service-even">
-						<h2 id="formation-nodejs" class="service-title service-title-formation"><span>Formation</span> <img src="img/logo-nodejs-grey.png" alt="Node.js" class="logo-formation" /></h2>
+					<article id="formation-nodejs" data-order="4" class="service service-even">
+						<h2 class="service-title service-title-formation"><span>Formation</span> <img src="img/logo-nodejs-grey.png" alt="Node.js" class="logo-formation" /></h2>
 						<div class="content">
 							<p>Alternant <strong>approches magistrales et didactiques (live coding)</strong>, notre formation <strong>Node.js</strong> vous permettra de maîtriser :</p>
 							<ul>
@@ -136,10 +139,10 @@
 						</div>
 					</article>
 
-					<article data-order="5" class="service service-odd">
-						<h2 id="formation-angularjs" class="service-title service-title-formation"><span>Formation</span> <img src="img/logo-angularjs-grey.png" alt="AngularJS" class="logo-formation" /></h2>
+					<article id="formation-angularjs" data-order="5" class="service service-odd">
+						<h2 class="service-title service-title-formation"><span>Formation</span> <img src="img/logo-angularjs-grey.png" alt="AngularJS" class="logo-formation" /></h2>
 						<div class="content">
-							<p>Cette formation Angular JS vous permettra de comprendre et maîtriser ce framework au travers d'exercices pratiques et de nombreuses illustrations.</p>
+							<p>Cette formation <strong>AngularJS</strong> vous permettra de comprendre et maîtriser ce framework au travers d'exercices pratiques et de nombreuses illustrations.</p>
 							<p>Alternant <strong>approches magistrales et didactiques (live coding)</strong>, notre formation <strong>AngularJS</strong> vous permettra de&nbsp;:</p>
 							<ul>
 								<li>Appréhender la philosophie et le fonctionnement du framework AngularJS,</li>

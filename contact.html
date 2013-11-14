@@ -14,7 +14,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
 
 	<!-- Standard favicons -->
-   	<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
 	<link rel="icon" type="image/png" href="img/favicon.png" />
 
 	<!-- JS -->
@@ -23,8 +23,12 @@
 	<script type='text/javascript' src='js/jquery.meanmenu.min.js'></script>
 	<script type='text/javascript' src='js/jquery.smooth-scroll.min.js'></script>
 	<script type='text/javascript' src='js/jquery.debouncedresize.js'></script>
+	<script type='text/javascript' src='js/jquery.sticky.min.js'></script>
 	<script type='text/javascript' src='js/leaflet.js'></script>
 	<script type='text/javascript' src='js/start.js'></script>
+
+	<script type='text/javascript' src='js/parsley.min.js'></script>
+	<script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
 
 	<!-- Typekit -->
 	<script type="text/javascript" src="//use.typekit.net/twp1ztg.js"></script>
@@ -32,8 +36,9 @@
 
 </head>
 
-<body>
+<body id="top">
 
+	<div class="js-sticky">
 	<header class="header" role="banner" id="top">
 		<div class="wrap cf">
 			<div class="logo">
@@ -70,6 +75,7 @@
 			</nav>
 		</div>
 	</header>
+	</div>
 
 	<section class="banner">
 		<div class="wrap cf">
@@ -87,32 +93,35 @@
 			<div class="inner">
 				<div class="contact-form">
 					<p class="fields-required">Les champs marqués d’un astérisque (<span>*</span>) sont obligatoires.</p>
-					<form method="#" action="#">
+					<form id="contact" data-validate="parsley" data-show-errors="false">
+
 						<p class="form-notice form-notice-error">
 							Désolé, le formulaire comporte des erreurs.<br/> Veuillez corriger votre message et l'envoyer à nouveau.
 						</p>
+
 						<p class="form-notice form-notice-success">
 							Votre message a bien été envoyé.<br/> Nous vous contacterons dans les plus brefs délais.
 						</p>
+
 						<div class="field form-half">
-							<label for="name">Nom <span class="required">*</span></label>
-							<input type="text" class="input" id="name" />
+							<label for="name">Nom</label>
+							<input type="text" class="input" id="lastname" />
 						</div>
 						<div class="field form-half last">
-							<label for="firstname">Prénom <span class="required">*</span></label>
+							<label for="firstname">Prénom</label>
 							<input type="text" class="input" id="firstname" />
 						</div>
-						<div class="field field-error">
+						<div class="field">
 							<label for="email">Adresse email <span class="required">*</span></label>
-							<input type="email" class="input" id="email" />
+							<input type="text" class="input" id="email" data-required="true" data-type="email" />
 						</div>
 						<div class="field">
-							<label for="email">Société <span class="required">*</span></label>
-							<input type="text" class="input" id="email" />
+							<label for="email">Société</label>
+							<input type="text" class="input" id="company" />
 						</div>
 						<div class="field">
 							<label for="message">Message <span class="required">*</span></label>
-							<textarea class="input" id="message"></textarea>
+							<textarea class="input" id="message" data-required="true"></textarea>
 						</div>
 						<div class="field field-submit">
 							<button type="submit" class="btn">Envoyer votre message</button>
@@ -173,6 +182,42 @@
 			</div>
 		</div>
 	</div>
+
+<script>
+
+$('#contact').submit(function(e) {
+
+	e.preventDefault();
+
+	if ($(this).parsley('isValid')) {
+		$('.form-notice-error').hide();
+
+		var ref = new Firebase('https://lmtm.firebaseio.com/lmtm');
+		ref.push({
+			'email': $('#email').val(),
+			'lastname': $('#lastname').val(),
+			'firstname': $('#firstname').val(),
+			'company': $('#company').val(),
+			'message': $('#message').val()
+		}, function(err) {
+			if (err) alert("Une erreur est survenue, nous sommes désolé, nous n'avons pas pu enregistrer votre message.");
+			else $('.form-notice-success').show();
+		});
+
+	} else {
+		$(this).find('.input.parsley-validated').each(function(i, input) {
+			if (!$(input).parsley('validate')) {
+				$(input).parent('.field').addClass('field-error');
+			} else {
+				$(input).parent('.field').removeClass('field-error');
+			}
+		});
+		$('.form-notice-error').show();
+	}
+
+});
+
+</script>
 
 </body>
 </html>

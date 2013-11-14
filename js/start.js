@@ -9,7 +9,7 @@ lmtm = {};
 // Starting functions
 $(document).ready(function(){
 	lmtm.scrollToAnchor('.js-backToTop');
-	lmtm.scrollToAnchor('.nav-sub a');
+	lmtm.scrollToAnchor('.nav-sub a', -100);
 	lmtm.mobileMenu('.wrapper-nav-main');
 	lmtm.map('#contact-map');
 	lmtm.dispatchServices('.service');
@@ -18,12 +18,14 @@ $(document).ready(function(){
 	$(window).bind("debouncedresize", function() {
 		lmtm.dispatchServices('.service');
 	});
+  lmtm.stickyNav('.js-sticky');
 });
 
 // Scroll to top
-lmtm.scrollToAnchor = function(selector){
+lmtm.scrollToAnchor = function(selector, offset){
 	if(!$(selector).length) return;
 	$(selector).smoothScroll({
+    offset: offset || 0,
 		speed: 1000
 	});
 }
@@ -42,7 +44,10 @@ lmtm.mobileMenu = function(selector){
 lmtm.stickyNav = function(selector){
 	if(!$(selector).length) return;
 	$(selector).sticky({
-		'offset' : 0
+		'offset' : 0,
+    'onStart' : function(){
+      $('.jquery-sticky-placeholder').height($(selector).height());
+    }
 	});
 }
 
@@ -74,7 +79,7 @@ lmtm.map = function(selector){
 	var contact_details = $('#map-popup');
 	contact_details.hide();
 	var map = L.map(
-        'contact-map', 
+        'contact-map',
         {
             scrollWheelZoom : false,
             closePopupOnClick: false,
