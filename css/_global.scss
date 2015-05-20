@@ -42,7 +42,7 @@ body {
 			left: calc(-4em + 47px);
 			width: 47px;
 			height: 7px;
-			background: $color-sand;
+			background: $color-orange;
 		}
 	}
 }
@@ -107,7 +107,7 @@ a {
 .inner {
 	@include at-breakpoint(70em) {
 		@include span-columns(6,9);
-		@include prefix(2,9);  
+		@include prefix(2,9);
   		@include suffix(1,9);
 	}
 }

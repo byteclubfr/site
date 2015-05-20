@@ -3,39 +3,10 @@
 */
 .footer {
 	position: relative;
-	background: #242522 url(../img/bg-footer.jpg) repeat 0 0;
-	@include at-breakpoint(70em) {
-		
-	}
+	background: #4c2923;
 	color: #fff;
 	a {
-		color: #aaa;
-	}
-	@include at-breakpoint(70em) {
-		&:before {
-			content: "";
-			z-index: 1;
-			position: absolute;
-			top: 0;
-			left: 0;
-			bottom: 0;
-			width: 553px;
-			background: url(../img/bg-footer-left.jpg) no-repeat left center;
-		}
-		&:after {
-			content: "";
-			z-index: 1;
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			width: 553px;
-			background: url(../img/bg-footer-right.jpg) no-repeat right center;
-		}
-		> .wrap {
-			position: relative;
-			z-index: 2;
-		}
+		color: #955d4d;
 	}
 }
 .footer-home {
@@ -155,7 +126,7 @@
 	padding-left: 21px;
 	margin-right: 20px;
 	font-weight: 600;
-	color: #aaa;
+	color: #955d4d;
 	text-transform: uppercase;
 	&:before {
 		@include sprites-sprite-dimensions(phone);

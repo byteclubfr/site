@@ -2,44 +2,60 @@
     BANNER
 */
 .banner {
-	position: relative;
-	padding: 50px 0;
-	background: #c94331;
-	@include at-breakpoint(70em) {
-		background: #c94331 url(../img/bg-banner.jpg) no-repeat left center;
-	}
-	@media (max-width: 680px) {
-		padding-top: 0; // Allow mobile menu to be positioned correctly 
-	}
-	@include at-breakpoint(55em) {
-		&:after {
-			content: "";
-			z-index: 1;
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			width: 500px;
-			background: url(../img/bg-banner-right.png) no-repeat right center;
-		}
-		> .wrap {
-			position: relative;
-			z-index: 2;
-		}
-	}
-}
-.banner-text-wrapper {
-	@include at-breakpoint(0 80em) {
-		margin-bottom: 40px;
+	background: #f8911b url(../img/bg-banner.png) repeat-y -300px 0;
+	@include at-breakpoint(40em) {
+		background-position: -200px 0;
 	}
 	@include at-breakpoint(80em) {
-		@include span-columns(4,6);
+		background-position: 0 0;
+	}
+	@media (max-width: 680px) {
+		padding-top: 0; // Allow mobile menu to be positioned correctly
+	}
+	> .wrap {
+		padding-top: 50px;
+		@include at-breakpoint(40em) {
+			padding-bottom: 50px;
+		}
 	}
 }
-.banner-text {
-	font-size: 22px;
-	line-height: 1.5em;
-	color: #fff;
+.banner-home {
+	position: relative;
+	@include at-breakpoint(40em 80em) {
+		@include span-columns(7,9);
+		@include prefix(2,9);
+	}
+	@include at-breakpoint(80em) {
+		@include span-columns(5,9);
+		@include prefix(2,9);
+  		@include suffix(2,9);
+	}
+	p {
+		margin-bottom: 30px;
+		@include at-breakpoint(40em) {
+			padding-left: 100px;
+		}
+		font-size: 22px;
+		line-height: 1.5em;
+		color: #fff;
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+}
+.banner-home-wrap {
+	position: relative;
+}
+.mascot {
+	@include at-breakpoint(0 40em) {
+		display: block;
+		margin: 30px auto 0;
+	}
+	@include at-breakpoint(40em) {
+		position: absolute;
+		bottom: -50px;
+		left: -380px;
+	}
 }
 .page-title {
 	@extend %font-titles;
@@ -53,7 +69,7 @@
 	background: rgba(#000,0.4);
 	em {
 		font-style: normal;
-		color: #dcb189;
+		color: $color_orange;
 	}
 	@include at-breakpoint(0 35em) {
 		font-size: 36px;

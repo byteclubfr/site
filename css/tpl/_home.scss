@@ -77,37 +77,57 @@
 }
 .lnk-technos-more {
 	a {
-		background: $color-sand;
+		background: $color-orange;
 	}
 }
 
 /* Services */
 .home-services {
-	background: #616aa0;
+	background: #955d4d;
 	.title-main {
 		color: #fff;
 	}
 }
 .home-service {
-	text-align: center;
+	text-align: left;
+	&:first-of-type, &:nth-child(2) {
+		margin-bottom: 50px;
+	}
 	@include at-breakpoint(0 50em) {
 		margin-bottom: 50px;
-		&.last {
-			margin-bottom: 0;
-		}
 	}
 	@include at-breakpoint(50em) {
-		@include span-columns(2,6);
+		@include span-columns(3,6);
 		&.last {
 			@include omega;
 		}
 	}
 }
+.home-service-row {
+	display: table;
+}
+.home-service-cell {
+	display: table-cell;
+	vertical-align: top;
+}
 .home-service-picto {
 	display: inline-block;
+	float: left;
+	margin-right: 30px;
+	width: 110px;
+	height: 110px;
+	line-height: 110px;
+	border-radius: 110px;
+	background: rgba(#fff,.2);
+	text-align: center;
+	img {
+		display: inline-block;
+		vertical-align: middle;
+	}
 }
 .home-service-title {
 	@extend %font-titles;
+	margin: 5px 0 10px;
 	font-size: 26px;
 	font-weight: 700;
 	line-height: 1em;
@@ -115,14 +135,19 @@
 }
 .home-service-desc {
 	text-align: left;
-	color: #000;
-	font-weight: 400;
+	color: #dbcac6;
+	a {
+		color: #fff;
+		+ span {
+			color: #fff;
+		}
+	}
 }
 .lnk-services-more {
 	a {
-		background: rgba(#000,0.35);
+		background: rgba(#000,0.2);
 		&:hover, &:focus {
-			background: rgba(#000,0.5);
+			background: rgba(#000,0.3);
 		}
 	}
 }
