@@ -21,11 +21,11 @@
 	}
 }
 .service-title {
-	@extend %font-proxima;
+	@extend %font-titles;
 	display: block;
 	position: relative;
 	text-align: center;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 28px;
 	color: $color-purple;
 	> span, > img {

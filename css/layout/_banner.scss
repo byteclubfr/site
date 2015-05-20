@@ -42,13 +42,13 @@
 	color: #fff;
 }
 .page-title {
-	@extend %font-proxima;
+	@extend %font-titles;
 	display: inline-block;
 	margin-bottom: 40px;
 	padding: 20px 25px;
 	font-size: 44px;
 	line-height: 1em;
-	font-weight: 300;
+	font-weight: 700;
 	color: #fff;
 	background: rgba(#000,0.4);
 	em {
@@ -65,7 +65,7 @@
 	}
 }
 .btn-contact {
-	@extend %font-proxima;
+	@extend %font-titles;
 	@include box-shadow(rgba(#000,0.2) 5px 5px 8px);
 	display: inline-block;
 	padding: 20px 25px;
@@ -90,7 +90,7 @@
 	.mean-nav {
 		background: #f1f1f1;
 		ul li a {
-			@extend %font-proxima;
+			@extend %font-titles;
 			font-weight: 400;
 			color: #000;
 			border-bottom-color: rgba(#fff,1);

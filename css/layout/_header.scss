@@ -39,18 +39,17 @@
 	@include at-breakpoint(55em) {
 		@include span-columns(7 omega,9);
 	}
-	@extend %font-proxima;
+	@extend %font-titles;
 	padding-top: 30px;
 }
 .nav-main {
 	> li {
 		position: relative;
-		> a {	
+		> a {
 			@include transition(color 0.1s ease);
 			font-size: 20px;
 			font-weight: 400;
 			line-height: 1em;
-			text-transform: uppercase;
 			color: #000;
 			&:hover, &:focus {
 				color: #dcb189;

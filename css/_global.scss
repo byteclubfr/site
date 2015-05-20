@@ -13,9 +13,9 @@
   == TYPOGRAPHY
 ----------------------------------------------------------------------- */
 
-body { 
-	font-family: "adelle", serif;
-	font-weight: 300;
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #333;
@@ -24,14 +24,14 @@ body {
 /* Titles
 ------------------------- */
 .title-main {
-	@extend %font-proxima;
+	@extend %font-titles;
 	@extend %transition;
 	position: relative;
 	margin-bottom: 60px;
 	color: #000;
 	font-size: 40px;
 	line-height: 1em;
-	font-weight: 400;
+	font-weight: 700;
 	@include at-breakpoint(70em) {
 		&:before {
 			display: inline-block;
@@ -47,7 +47,7 @@ body {
 	}
 }
 .title-second {
-	@extend %font-proxima;
+	@extend %font-titles;
 	margin: 30px 0;
 	color: #000;
 	font-weight: 400;
@@ -66,7 +66,7 @@ a {
 /* Buttons
 ------------------------- */
 .btn {
-	@extend %font-proxima;
+	@extend %font-titles;
 	display: inline-block;
 	padding: 10px 20px;
 	background: $color-sand;
@@ -143,8 +143,8 @@ a {
   == SHARED
 ----------------------------------------------------------------------- */
 
-%font-proxima {
-	font-family: 'proxima-nova', sans-serif;
+%font-titles {
+	font-family: 'Cabin', sans-serif;
 }
 %shadow {
 	@include box-shadow(rgba(#000,0.05) 10px 10px 0);

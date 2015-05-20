@@ -42,12 +42,12 @@
 	padding: 60px 0 0;
 }
 .footer-title {
-	@extend %font-proxima;
+	@extend %font-titles;
 	display: inline-block;
 	margin-bottom: 60px;
 	padding: 20px 25px;
 	font-size: 44px;
-	font-weight: 300;
+	font-weight: 700;
 	line-height: 1em;
 	color: #fff;
 	background: rgba(#000,0.4);
@@ -112,7 +112,7 @@
 	}
 }
 .nav-footer {
-	@extend %font-proxima;
+	@extend %font-titles;
 	@extend %transition;
 	padding: 50px 0;
 	font-size: 18px;

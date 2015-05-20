@@ -80,7 +80,7 @@
 		@include box-sizing(border-box);
 		@include transition(all 0.3s ease);
 		@extend %shadow;
-		@extend %font-proxima;
+		@extend %font-titles;
 		display: block;
 		width: 100%;
 		padding: 15px;
