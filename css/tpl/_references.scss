@@ -31,7 +31,24 @@
 	background: $color-orange;
 	color: #fff;
 	text-align: center;
+	font-weight: 300;
+	font-size: 18px;
+	&:hover, &:focus {
+		background: lighten($color-orange,5);
+	}
 	.is-open & {
 		background: #955d4d;
+		&:hover, &:focus {
+			background: lighten(#955d4d,5);
+		}
+	}
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 5px;
+		background: rgba(#000,0.05);
 	}
 }

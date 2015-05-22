@@ -522,7 +522,7 @@ a {
   line-height: 1em;
   font-weight: 500; }
   .btn:hover, .lnk-more a:hover, .btn:focus, .lnk-more a:focus {
-    background: #f8911b; }
+    background: #774a3d; }
   .content .btn, .content .lnk-more a, .lnk-more .content a {
     color: #fff; }
 
@@ -605,9 +605,9 @@ a {
   font-family: 'Cabin', sans-serif; }
 
 .block, .service, .contact-us, .idea-card, .field .input, .form-notice {
-  -moz-box-shadow: rgba(0, 0, 0, 0.05) 10px 10px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 10px 10px 0;
-  box-shadow: rgba(0, 0, 0, 0.05) 10px 10px 0; }
+  -moz-box-shadow: rgba(0, 0, 0, 0.05) 5px 5px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 5px 5px 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 5px 5px 0; }
 
 .title-main, .lnk-top, .nav-footer {
   -moz-transition: background 0.1s ease;
@@ -1512,7 +1512,7 @@ a.meanmenu-reveal {
     margin-top: -7px;
     margin-left: -12.5px; }
   .lnk-top:hover, .lnk-top:focus {
-    background: #d4a06f; }
+    background: #774a3d; }
 
 .nav-footer {
   padding: 50px 0;
@@ -2223,6 +2223,20 @@ a.meanmenu-reveal {
   line-height: 1em;
   background: #f8911b;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px; }
+  .reference-btn:hover, .reference-btn:focus {
+    background: #f99d34; }
   .is-open .reference-btn {
     background: #955d4d; }
+    .is-open .reference-btn:hover, .is-open .reference-btn:focus {
+      background: #a66756; }
+  .reference-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: rgba(0, 0, 0, 0.05); }

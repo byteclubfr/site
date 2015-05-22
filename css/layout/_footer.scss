@@ -82,7 +82,7 @@
 		margin-left: -(sprites-sprite-width(arrow)/2);
 	}
 	&:hover, &:focus {
-		background: #d4a06f;
+		background: shade(#955D4D,20);
 	}
 }
 .nav-footer {
