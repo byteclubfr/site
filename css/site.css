@@ -514,7 +514,7 @@ a {
 .btn, .lnk-more a {
   display: inline-block;
   padding: 10px 20px;
-  background: #dcb189;
+  background: #955d4d;
   color: #fff;
   border: none;
   text-decoration: none;
@@ -522,7 +522,7 @@ a {
   line-height: 1em;
   font-weight: 500; }
   .btn:hover, .lnk-more a:hover, .btn:focus, .lnk-more a:focus {
-    background: #d4a06f; }
+    background: #f8911b; }
   .content .btn, .content .lnk-more a, .lnk-more .content a {
     color: #fff; }
 
@@ -550,7 +550,7 @@ a {
 
 .section-alt {
   position: relative;
-  background: #f1f1f1; }
+  background: #f3ede6; }
 
 @media (min-width: 70em) {
   .inner {
@@ -575,7 +575,7 @@ a {
   list-style: disc;
   list-style-position: outside; }
 .content a {
-  color: #616aa0; }
+  color: #f8911b; }
 .content strong {
   color: #000; }
 
@@ -1334,6 +1334,14 @@ a.meanmenu-reveal {
 .banner-home-wrap {
   position: relative; }
 
+.banner-text p {
+  margin-bottom: 30px;
+  font-size: 22px;
+  line-height: 1.5em;
+  color: #fff; }
+  .banner-text p:last-of-type {
+    margin-bottom: 0; }
+
 @media (max-width: 40em) {
   .mascot {
     display: block;
@@ -1793,7 +1801,7 @@ a.meanmenu-reveal {
 .techno-logo {
   margin: 0;
   padding: 30px 0;
-  background: #f3f3f4; }
+  background: #f3ede6; }
   .techno-logo img {
     max-width: 220px; }
 
@@ -1825,7 +1833,7 @@ a.meanmenu-reveal {
   text-align: center;
   font-weight: 700;
   font-size: 28px;
-  color: #616aa0; }
+  color: #A97D70; }
   .service-title > span, .service-title > img {
     display: inline-block;
     vertical-align: middle; }
@@ -2074,7 +2082,7 @@ a.meanmenu-reveal {
   padding-top: 70px;
   position: relative;
   z-index: 2;
-  background: #f1f1f1; }
+  background: #f3ede6; }
   @media (max-width: 70em) {
     .contact-form {
       margin-bottom: 400px; } }

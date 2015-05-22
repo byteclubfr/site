@@ -46,6 +46,17 @@
 .banner-home-wrap {
 	position: relative;
 }
+.banner-text {
+	p {
+		margin-bottom: 30px;
+		font-size: 22px;
+		line-height: 1.5em;
+		color: #fff;
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+}
 .mascot {
 	@include at-breakpoint(0 40em) {
 		display: block;
