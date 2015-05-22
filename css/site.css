@@ -674,8 +674,7 @@ a.meanmenu-reveal {
   color: #fff;
   border-bottom: 1px solid #383838;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  text-decoration: none;
-  text-transform: uppercase; }
+  text-decoration: none; }
 
 .mean-container .mean-nav ul li li a {
   width: 80%;
@@ -1198,7 +1197,7 @@ a.meanmenu-reveal {
         text-align: center; } }
     @media (min-width: 55em) {
       .header .logo {
-        width: 30.76923%;
+        width: 19.23077%;
         float: left;
         margin-right: 3.84615%; }
         .header .logo img {
@@ -1213,13 +1212,13 @@ a.meanmenu-reveal {
       padding-bottom: 15px; } }
 
 .wrapper-nav-main {
-  padding-top: 30px; }
+  padding-top: 18px; }
   @media (max-width: 55em) {
     .wrapper-nav-main {
       text-align: center; } }
   @media (min-width: 55em) {
     .wrapper-nav-main {
-      width: 65.38462%;
+      width: 76.92308%;
       float: right;
       margin-right: 0; } }
 
@@ -1235,11 +1234,11 @@ a.meanmenu-reveal {
     line-height: 1em;
     color: #000; }
     .nav-main > li > a:hover, .nav-main > li > a:focus {
-      color: #aa7d71; }
+      color: #f8911b; }
 .header .nav-main > li + li {
   margin-left: 40px; }
 .nav-main > .current > a {
-  color: #aa7d71; }
+  color: #f8911b; }
 
 .nav-sub {
   display: none;
@@ -1269,8 +1268,8 @@ a.meanmenu-reveal {
     line-height: 1em;
     border-bottom: 1px solid #d3d3d3; }
     .nav-sub a:hover, .nav-sub a:focus {
-      color: #dcb189;
-      border-color: #dcb189; }
+      color: #f8911b;
+      border-color: #f8911b; }
   .nav-sub:before {
     position: absolute;
     bottom: 10px;
@@ -1386,18 +1385,18 @@ a.meanmenu-reveal {
 /* Mobile menu */
 .mean-container .mean-bar {
   margin-bottom: 45px;
-  background: #f1f1f1;
+  background: #f3ede6;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 5px 3px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 5px 3px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 5px 3px; }
 .mean-container .mean-nav {
-  background: #f1f1f1; }
+  background: #f3ede6; }
   .mean-container .mean-nav ul li a {
     font-weight: 400;
     color: #000;
     border-bottom-color: white; }
   .mean-container .mean-nav ul .current a {
-    color: #aaa; }
+    color: #f8911b; }
 .mean-container a.meanmenu-reveal {
   color: #000; }
   .mean-container a.meanmenu-reveal span {

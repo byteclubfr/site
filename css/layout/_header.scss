@@ -15,7 +15,7 @@
 			text-align: center;
 		}
 		@include at-breakpoint(55em) {
-			@include span-columns(3,9);
+			@include span-columns(2,9);
 			img {
 				display: block;
 				margin: 0 auto;
@@ -37,10 +37,10 @@
 		text-align: center;
 	}
 	@include at-breakpoint(55em) {
-		@include span-columns(6 omega,9);
+		@include span-columns(7 omega,9);
 	}
 	@extend %font-titles;
-	padding-top: 30px;
+	padding-top: 18px;
 }
 .nav-main {
 	> li {
@@ -52,7 +52,7 @@
 			line-height: 1em;
 			color: #000;
 			&:hover, &:focus {
-				color: #aa7d71;
+				color: #f8911b;
 			}
 		}
 	}
@@ -60,7 +60,7 @@
 		margin-left: 40px;
 	}
 	> .current > a {
-		color: #aa7d71;
+		color: #f8911b;
 	}
 }
 .nav-sub {
@@ -92,8 +92,8 @@
 		line-height: 1em;
 		border-bottom: 1px solid #d3d3d3;
 		&:hover, &:focus {
-			color: #dcb189;
-			border-color: #dcb189;
+			color: #f8911b;
+			border-color: #f8911b;
 		}
 	}
 	&:before {
