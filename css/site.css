@@ -1321,10 +1321,11 @@ a.meanmenu-reveal {
     .banner {
       padding-top: 0; } }
   .banner > .wrap {
-    padding-top: 50px; }
-    @media (min-width: 40em) {
-      .banner > .wrap {
-        padding-bottom: 50px; } }
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    @media (max-width: 40em) {
+      .banner > .wrap .home {
+        padding-bottom: 0; } }
   @media (min-width: 40em) {
     .banner:after {
       content: '';

@@ -16,8 +16,11 @@
 	}
 	> .wrap {
 		padding-top: 50px;
-		@include at-breakpoint(40em) {
-			padding-bottom: 50px;
+		padding-bottom: 50px;
+		.home {
+			@include at-breakpoint(0 40em) {
+				padding-bottom: 0;
+			}
 		}
 	}
 	@include at-breakpoint(40em) {
