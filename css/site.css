@@ -560,6 +560,25 @@ a {
     padding-left: 23.07692%;
     padding-right: 11.53846%; } }
 
+.block {
+  margin-bottom: 50px;
+  padding: 30px;
+  background: #fff; }
+
+@media (min-width: 50em) {
+  .blocks-col-left {
+    width: 47.05882%;
+    float: left;
+    margin-right: 5.88235%; } }
+
+@media (min-width: 50em) {
+  .blocks-col-right {
+    width: 47.05882%;
+    float: right;
+    margin-right: 0; } }
+.blocks-col-right > .block:first-child {
+  margin-top: 50px; }
+
 /*-----------------------------------------------------------------------
   == CONTENT
 ----------------------------------------------------------------------- */
@@ -585,7 +604,7 @@ a {
 .title-main, .title-second, .btn, .lnk-more a, .wrapper-nav-main, .page-title, .btn-contact, .mean-container .mean-nav ul li a, .footer-title, .nav-footer, .home-service-title, .service-title, .idea-title, .field .input {
   font-family: 'Cabin', sans-serif; }
 
-.service, .contact-us, .idea-card, .field .input, .form-notice {
+.block, .service, .contact-us, .idea-card, .field .input, .form-notice {
   -moz-box-shadow: rgba(0, 0, 0, 0.05) 10px 10px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.05) 10px 10px 0;
   box-shadow: rgba(0, 0, 0, 0.05) 10px 10px 0; }
@@ -2171,3 +2190,39 @@ a.meanmenu-reveal {
 
 .form-notice-success {
   background: #1f894e; }
+
+/*
+    REFERENCES
+*/
+.reference {
+  position: relative; }
+
+.reference-title {
+  margin: 25px 0 0;
+  text-align: center;
+  font-size: 18px; }
+
+.reference-logo {
+  display: block;
+  margin: 0 auto; }
+
+.reference-content {
+  display: none;
+  padding-top: 20px;
+  color: #888;
+  font-size: 14px; }
+
+.reference-btn {
+  position: absolute;
+  bottom: -25px;
+  right: 30px;
+  height: 25px;
+  line-height: 25px;
+  width: 40px;
+  border: 0;
+  line-height: 1em;
+  background: #f8911b;
+  color: #fff;
+  text-align: center; }
+  .is-open .reference-btn {
+    background: #955d4d; }

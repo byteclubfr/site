@@ -111,6 +111,25 @@ a {
   		@include suffix(1,9);
 	}
 }
+.block {
+	@extend %shadow;
+	margin-bottom: 50px;
+	padding: 30px;
+	background: #fff;
+}
+.blocks-col-left {
+	@include at-breakpoint(50em) {
+		@include span-columns(3,6);
+	}
+}
+.blocks-col-right {
+	@include at-breakpoint(50em) {
+		@include span-columns(3 omega,6);
+	}
+	> .block:first-child {
+		margin-top: 50px;
+	}
+}
 
 /*-----------------------------------------------------------------------
   == CONTENT

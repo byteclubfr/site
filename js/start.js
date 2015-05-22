@@ -4,25 +4,26 @@
 */
 
 // Initialize
-lmtm = {};
+bc = {};
 
 // Starting functions
 $(document).ready(function(){
-	lmtm.scrollToAnchor('.js-backToTop');
-	lmtm.scrollToAnchor('.nav-sub a', -100);
-	lmtm.mobileMenu('.wrapper-nav-main');
-	lmtm.map('#contact-map');
-	lmtm.dispatchServices('.service');
-	lmtm.hoverCard('.idea');
+	bc.scrollToAnchor('.js-backToTop');
+	bc.scrollToAnchor('.nav-sub a', -100);
+	bc.mobileMenu('.wrapper-nav-main');
+	bc.map('#contact-map');
+	bc.dispatchBlocks('.js-dispatch');
+	bc.hoverCard('.idea');
+	bc.toggleReference('.reference-btn');
 	// On resize events
 	$(window).bind("debouncedresize", function() {
-		lmtm.dispatchServices('.service');
+		bc.dispatchBlocks('.js-dispatch');
 	});
-  lmtm.stickyNav('.js-sticky');
+	bc.stickyNav('.js-sticky');
 });
 
 // Scroll to top
-lmtm.scrollToAnchor = function(selector, offset){
+bc.scrollToAnchor = function(selector, offset){
 	if(!$(selector).length) return;
 	$(selector).smoothScroll({
     offset: offset || 0,
@@ -31,7 +32,7 @@ lmtm.scrollToAnchor = function(selector, offset){
 }
 
 // Mobile nav menu
-lmtm.mobileMenu = function(selector){
+bc.mobileMenu = function(selector){
 	if(!$(selector).length) return;
 	$(selector).meanmenu({
 		meanScreenWidth: '680',
@@ -41,7 +42,7 @@ lmtm.mobileMenu = function(selector){
 }
 
 // Sticky nav
-lmtm.stickyNav = function(selector){
+bc.stickyNav = function(selector){
 	if(!$(selector).length) return;
 	$(selector).sticky({
 		'offset' : 0,
@@ -52,29 +53,29 @@ lmtm.stickyNav = function(selector){
 }
 
 // Dispatch services blocks on two columns
-lmtm.dispatchServices = function(selector){
+bc.dispatchBlocks = function(selector){
 	if(!$(selector).length) return;
-	var container = $('.services');
+	var container = $('.blocks');
 	// On large screens, we dispatch blocks on two columns
 	if(Modernizr.mq('(min-width: 80em)') && container.not('.is-dispatched') ){
-		$(".service-odd").each(function() {
-	  		$(this).appendTo('.services-col-left');
+		$(".block-odd").each(function() {
+	  		$(this).appendTo('.blocks-col-left');
 		});
-		$(".service-even").each(function() {
-	  		$(this).appendTo('.services-col-right');
+		$(".block-even").each(function() {
+	  		$(this).appendTo('.blocks-col-right');
 		});
 		container.addClass('is-dispatched');
 	}
 	// On smal screens, we reorder blocks and display them on one column
 	if(Modernizr.mq('(max-width: 80em)') && container.hasClass('is-dispatched') ){
-		$('.service').sort(function(a,b){
+		$('.block').sort(function(a,b){
    			return a.dataset.order > b.dataset.order
 		}).appendTo(container);
 	}
 }
 
 // Map on contact page
-lmtm.map = function(selector){
+bc.map = function(selector){
 	if(!$(selector).length) return;
 	var contact_details = $('#map-popup');
 	contact_details.hide();
@@ -106,7 +107,7 @@ lmtm.map = function(selector){
 }
 
 // Hover effect on philosophy cards
-lmtm.hoverCard = function(selector){
+bc.hoverCard = function(selector){
 	if(!$(selector).length) return;
 	$('.idea-card').append('<span class="idea-close"></span>');
 	$('.idea-front').append('<span class="idea-open"></span>');
@@ -116,4 +117,21 @@ lmtm.hoverCard = function(selector){
     $('.idea-close').click(function(){
         $(this).prevAll('.idea-front').fadeTo( 'fast', 1 );
     });
+}
+
+// Toggle reference content display
+bc.toggleReference = function(selector){
+	if(!$(selector).length) return;
+	$(selector).click(function(){
+		var that = $(this);
+		var parent = that.parent();
+		parent.find('.reference-content').slideToggle(400, function(){
+			parent.toggleClass('is-open');
+			if ( parent.hasClass('is-open') ) {
+				that.text('-');
+			} else {
+				that.text('+');
+			}
+		});
+	});
 }
