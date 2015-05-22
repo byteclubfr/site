@@ -80,7 +80,7 @@
 	background: rgba(#000,0.4);
 	em {
 		font-style: normal;
-		color: $color_orange;
+		color: $color-yellow;
 	}
 	@include at-breakpoint(0 35em) {
 		font-size: 36px;

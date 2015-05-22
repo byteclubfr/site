@@ -12,7 +12,7 @@
 /* Colors */
 /* Sprites */
 .sprites-sprite, .wrapper-nav-main .lnk-home a, .lnk-top:before, .lmtm-phone:before, .lmtm-email:before, .lnk-twitter a:before, .lnk-linkedin a:before, .lnk-more a:before, .service-title-conseil:before, .service-title-dvpt:before, .service-title-formation:before, .member-social .twitter a, .member-social .linkedin a, .member-social .github a, .member-social .viadeo a, .idea-open, .idea-close {
-  background-image: url('../img/sprites-s123b8dec7c.png');
+  background-image: url('../img/sprites-s9ba45d63b6.png');
   background-repeat: no-repeat; }
 
 /*
@@ -514,7 +514,7 @@ a {
 .btn, .lnk-more a {
   display: inline-block;
   padding: 10px 20px;
-  background: #955d4d;
+  background: #955D4D;
   color: #fff;
   border: none;
   text-decoration: none;
@@ -575,7 +575,7 @@ a {
   list-style: disc;
   list-style-position: outside; }
 .content a {
-  color: #f8911b; }
+  color: #aa6c5a; }
 .content strong {
   color: #000; }
 
@@ -1234,11 +1234,11 @@ a.meanmenu-reveal {
     line-height: 1em;
     color: #000; }
     .nav-main > li > a:hover, .nav-main > li > a:focus {
-      color: #f8911b; }
+      color: #aa6c5a; }
 .header .nav-main > li + li {
   margin-left: 40px; }
 .nav-main > .current > a {
-  color: #f8911b; }
+  color: #aa6c5a; }
 
 .nav-sub {
   display: none;
@@ -1268,8 +1268,8 @@ a.meanmenu-reveal {
     line-height: 1em;
     border-bottom: 1px solid #d3d3d3; }
     .nav-sub a:hover, .nav-sub a:focus {
-      color: #f8911b;
-      border-color: #f8911b; }
+      color: #955D4D;
+      border-color: #955D4D; }
   .nav-sub:before {
     position: absolute;
     bottom: 10px;
@@ -1363,7 +1363,7 @@ a.meanmenu-reveal {
   background: rgba(0, 0, 0, 0.4); }
   .page-title em {
     font-style: normal;
-    color: #f8911b; }
+    color: #feb313; }
   @media (max-width: 35em) {
     .page-title {
       font-size: 36px; } }
@@ -1479,7 +1479,7 @@ a.meanmenu-reveal {
   position: absolute;
   top: -70px;
   right: 30px;
-  background: #dcb189;
+  background: #955D4D;
   width: 70px;
   height: 70px; }
   .lnk-top:before {
@@ -1834,7 +1834,7 @@ a.meanmenu-reveal {
   text-align: center;
   font-weight: 700;
   font-size: 28px;
-  color: #A97D70; }
+  color: #000; }
   .service-title > span, .service-title > img {
     display: inline-block;
     vertical-align: middle; }
@@ -1866,7 +1866,7 @@ a.meanmenu-reveal {
 
 .contact-us {
   padding: 0;
-  background: #616aa0;
+  background: #f8911b;
   color: #fff;
   text-align: center; }
   @media (max-width: 50em) {
@@ -1885,10 +1885,10 @@ a.meanmenu-reveal {
     vertical-align: middle;
     margin: 15px; }
     .contact-us .contact-us-btn a {
-      background: rgba(0, 0, 0, 0.5);
+      background: #FFB430;
       color: #fff; }
       .contact-us .contact-us-btn a:hover, .contact-us .contact-us-btn a:focus {
-        background: rgba(0, 0, 0, 0.6); }
+        background: #ffbb44; }
 
 /*
     COMPANY

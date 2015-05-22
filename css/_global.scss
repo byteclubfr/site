@@ -56,7 +56,7 @@ body {
 
 /* Links
 ------------------------- */
-a { 
+a {
 	text-decoration:underline;
 	&:hover, &:focus {
 		text-decoration: none;
@@ -69,7 +69,7 @@ a {
 	@extend %font-titles;
 	display: inline-block;
 	padding: 10px 20px;
-	background: #955d4d;
+	background: #955D4D;
 	color: #fff;
 	border: none;
 	text-decoration: none;
@@ -131,7 +131,7 @@ a {
 		list-style-position: outside;
 	}
 	a {
-		color: $color-orange;
+		color: #aa6c5a;
 	}
 	strong {
 		color: #000;

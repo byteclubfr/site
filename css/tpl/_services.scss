@@ -27,7 +27,7 @@
 	text-align: center;
 	font-weight: 700;
 	font-size: 28px;
-	color: #A97D70;
+	color: #000;
 	> span, > img {
 		display: inline-block;
 		vertical-align: middle;
@@ -66,7 +66,7 @@
 .contact-us {
 	@extend %shadow;
 	padding: 0;
-	background: $color-purple;
+	background: $color-orange;
 	color: #fff;
 	text-align: center;
 	@include at-breakpoint(0 50em) {
@@ -86,10 +86,10 @@
 		vertical-align: middle;
 		margin: 15px;
 		a {
-			background: rgba(#000,0.5);
+			background: #FFB430;
 			color: #fff;
 			&:hover, &:focus {
-				background: rgba(#000,0.6);
+				background: tint(#FFB430,10);
 			}
 		}
 	}
