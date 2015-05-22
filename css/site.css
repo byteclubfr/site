@@ -1304,6 +1304,31 @@ a.meanmenu-reveal {
   width: 20px;
   background-position: 0 -140px; }
 
+/* jQuery Sticky */
+.jquery-sticky-sticky .header {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.jquery-sticky-sticky .wrapper-nav-main {
+  padding-top: 5px; }
+
+.jquery-sticky-sticky .logo img {
+  height: 45px; }
+
+.jquery-sticky-sticky .nav-sub {
+  top: calc(100% - 6px);
+  left: 20px;
+  font-size: 12px; }
+
+.jquery-sticky-sticky .nav-sub:before {
+  border: none; }
+
+.jquery-sticky-sticky .nav-sub li + li {
+  margin-left: 7px; }
+
+.jquery-sticky-sticky .nav-sub li + li:before {
+  left: -5px; }
+
 /*
     BANNER
 */
