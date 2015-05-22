@@ -1308,6 +1308,8 @@ a.meanmenu-reveal {
     BANNER
 */
 .banner {
+  position: relative;
+  overflow: hidden;
   background: #f8911b url(../img/bg-banner.png) repeat-y -300px 0; }
   @media (min-width: 40em) {
     .banner {
@@ -1323,6 +1325,16 @@ a.meanmenu-reveal {
     @media (min-width: 40em) {
       .banner > .wrap {
         padding-bottom: 50px; } }
+  @media (min-width: 40em) {
+    .banner:after {
+      content: '';
+      position: absolute;
+      right: -90px;
+      top: 50%;
+      margin-top: -190px;
+      background: url(../img/cogs.png) no-repeat 0 0;
+      width: 395px;
+      height: 456px; } }
 
 .banner-home {
   position: relative; }

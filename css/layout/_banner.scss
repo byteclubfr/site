@@ -2,6 +2,8 @@
     BANNER
 */
 .banner {
+	position: relative;
+	overflow: hidden;
 	background: #f8911b url(../img/bg-banner.png) repeat-y -300px 0;
 	@include at-breakpoint(40em) {
 		background-position: -200px 0;
@@ -16,6 +18,18 @@
 		padding-top: 50px;
 		@include at-breakpoint(40em) {
 			padding-bottom: 50px;
+		}
+	}
+	@include at-breakpoint(40em) {
+		&:after {
+			content: '';
+			position: absolute;
+			right: -90px;
+			top: 50%;
+			margin-top: -190px;
+			background: url(../img/cogs.png) no-repeat 0 0;
+			width: 395px;
+			height: 456px;
 		}
 	}
 }
