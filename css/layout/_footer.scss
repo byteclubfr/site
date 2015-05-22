@@ -25,6 +25,9 @@
 	@include at-breakpoint(0 35em) {
 		font-size: 36px;
 	}
+	strong {
+		color: #955d4d;
+	}
 }
 .footer-col {
 	@include at-breakpoint(60em) {
@@ -88,7 +91,6 @@
 	padding: 50px 0;
 	font-size: 18px;
 	line-height: 1.5em;
-	text-transform: uppercase;
 	a:hover, a:focus, .current a {
 		color: #fff;
 	}
@@ -113,7 +115,7 @@
 				content: "|";
 				position: relative;
 				left: -15px;
-				color: #aaa;
+				color: rgba(#fff,0.2);
 			}
 		}
 	}

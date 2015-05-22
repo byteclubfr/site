@@ -1435,6 +1435,8 @@ a.meanmenu-reveal {
   @media (max-width: 35em) {
     .footer-title {
       font-size: 36px; } }
+  .footer-title strong {
+    color: #955d4d; }
 
 @media (min-width: 60em) {
   .footer-col {
@@ -1496,8 +1498,7 @@ a.meanmenu-reveal {
 .nav-footer {
   padding: 50px 0;
   font-size: 18px;
-  line-height: 1.5em;
-  text-transform: uppercase; }
+  line-height: 1.5em; }
   .nav-footer a:hover, .nav-footer a:focus, .nav-footer .current a {
     color: #fff; }
   @media (max-width: 50em) {
@@ -1518,7 +1519,7 @@ a.meanmenu-reveal {
         content: "|";
         position: relative;
         left: -15px;
-        color: #aaa; } }
+        color: rgba(255, 255, 255, 0.2); } }
 
 .lmtm-contact {
   display: inline-block; }
