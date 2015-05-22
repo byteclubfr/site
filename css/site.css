@@ -2191,9 +2191,9 @@ a.meanmenu-reveal {
     color: #888;
     font-size: 18px; }
     .field .input:focus {
-      -moz-box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 0;
-      -webkit-box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 0;
-      box-shadow: rgba(0, 0, 0, 0.2) 10px 10px 0;
+      -moz-box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 0;
+      -webkit-box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 0;
+      box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 0;
       outline: none; }
   .field textarea {
     height: 200px; }
@@ -2206,13 +2206,13 @@ a.meanmenu-reveal {
 .field-error label {
   color: #C94331; }
 .field-error .input {
-  -moz-box-shadow: rgba(201, 67, 49, 0.15) 10px 10px 0;
-  -webkit-box-shadow: rgba(201, 67, 49, 0.15) 10px 10px 0;
-  box-shadow: rgba(201, 67, 49, 0.15) 10px 10px 0; }
+  -moz-box-shadow: rgba(201, 67, 49, 0.15) 5px 5px 0;
+  -webkit-box-shadow: rgba(201, 67, 49, 0.15) 5px 5px 0;
+  box-shadow: rgba(201, 67, 49, 0.15) 5px 5px 0; }
   .field-error .input:focus {
-    -moz-box-shadow: rgba(201, 67, 49, 0.25) 10px 10px 0;
-    -webkit-box-shadow: rgba(201, 67, 49, 0.25) 10px 10px 0;
-    box-shadow: rgba(201, 67, 49, 0.25) 10px 10px 0; }
+    -moz-box-shadow: rgba(201, 67, 49, 0.25) 5px 5px 0;
+    -webkit-box-shadow: rgba(201, 67, 49, 0.25) 5px 5px 0;
+    box-shadow: rgba(201, 67, 49, 0.25) 5px 5px 0; }
 
 .field-submit {
   margin-bottom: 0; }
