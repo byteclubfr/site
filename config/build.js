@@ -1,6 +1,6 @@
 module.exports = {
   "metadata": {
-    "site":   "Byte Club",
+    "site":   "ByteClub",
     "url":    "http://lmtm.fr",
     "mailto": "contact@lmtm.fr",
     "tel":    "06 14 66 76 41"

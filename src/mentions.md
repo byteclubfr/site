@@ -6,7 +6,7 @@ template: index.html
 <div class="js-sticky">
 	<header class="header" role="banner" id="top">
 		<div class="wrap cf">
-			<div class="logo"><img src="img/logo.png" alt="ByteClub"/></div>
+			<div class="logo"><img src="img/logo.png" alt="{{ site }}"/></div>
 			<nav class="wrapper-nav-main">
 				<ul class="nav nav-main">
 					<li class="lnk-home current"><a href="index.html"><span>Accueil</span></a></li>
@@ -51,8 +51,8 @@ template: index.html
 							RCS Nantes B 791 143 258</p>
 						<p>Responsable de la rédaction :<br>
 							Lilian Martineau<br>
-							tel 06 14 66 76 41<br>
-							e-mail <a href="mailto:contact@lmtm.fr">contact@lmtm.fr</a></p>
+							tel {{ tel }}<br>
+							e-mail <a href="mailto:{{ mailto }}">{{ mailto }}</a></p>
 					</div>
 				</article>
 

@@ -7,7 +7,7 @@ home: true
 <div class="js-sticky">
   <header class="header" role="banner" id="top">
     <div class="wrap cf">
-      <h1 class="logo"><img src="img/logo.png" alt="ByteClub"/></h1>
+      <h1 class="logo"><img src="img/logo.png" alt="{{ site }}"/></h1>
       <nav class="wrapper-nav-main">
         <ul class="nav nav-main">
           <li class="lnk-home current"><a href="index.html"><span>Accueil</span></a></li>
@@ -27,7 +27,7 @@ home: true
     <div class="banner-home">
       <div class="banner-home-wrap">
         <h2 class="page-title">Nous mettons <em>vos idées</em> en applications&nbsp;!</h2>
-        <p>LMTM est une Société de Services et Développement d'applications web sous Node.js et AngularJS.</p>
+        <p>{{ site }} est une Société de Services et Développement d'applications web sous Node.js et AngularJS.</p>
         <p>Nous produisons des applications connectées, frontend et backend, favorisant une expérience client toujours plus intense.</p>
         <img src="img/mascot.png" alt="" class="mascot" />
       </div>
@@ -140,15 +140,15 @@ home: true
 <footer class="footer footer-home" role="contentinfo">
   <div class="wrap">
     <div class="inner">
-      <h2 class="footer-title">À propos de <strong>ByteClub</strong></h2>
+      <h2 class="footer-title">À propos de <strong>{{ site }}</strong></h2>
       <div class="cf">
         <div class="footer-col footer-col-lmtm">
           <div class="footer-logo">
-            <img src="img/logo-white.png" alt="ByteClub" />
+            <img src="img/logo-white.png" alt="{{ site }}" />
           </div>
           <div class="footer-content" itemscope itemtype="http://schema.org/Corporation">
-            <p><span itemprop="name">ByteClub</span> est présent à Nantes et Lyon. Prenez rendez-vous, nous vous offrirons un café.</p>
-            <p><span class="lmtm-phone" itemprop="telephone">06 14 66 76 41</span> <a href="mailto:contact@lmtm.fr" class="lmtm-email" itemprop="email">contact@lmtm.fr</a></p>
+            <p><span itemprop="name">{{ site }}</span> est présent à Nantes et Lyon. Prenez rendez-vous, nous vous offrirons un café.</p>
+            <p><span class="lmtm-phone" itemprop="telephone">{{ tel }}</span> <a href="mailto:{{ mailto }}" class="lmtm-email" itemprop="email">{{ mailto }}</a></p>
             <ul class="lmtm-social">
               <li class="lnk-twitter"><a href="https://twitter.com/lmtmeditions"><span>Twitter</span></a></li>
               <li class="lnk-linkedin"><a href="http://www.linkedin.com/company/lmtm-sarl"><span>LinkedIn</span></a></li>

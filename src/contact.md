@@ -10,7 +10,7 @@ scripts:
 	<header class="header" role="banner" id="top">
 		<div class="wrap cf">
 			<div class="logo">
-				<img src="img/logo.png" alt="ByteClub" />
+				<img src="img/logo.png" alt="{{ site }}" />
 			</div>
 			<nav class="wrapper-nav-main">
 				<ul class="nav nav-main">
@@ -99,11 +99,11 @@ scripts:
 			</div>
 			<div id="contact-map"></div>
 			<div id="map-popup">
-				<p><img src="img/logo-lmtm-tiny.png" alt="LMTM" /><br/>
+				<p><img src="img/logo-lmtm-tiny.png" alt="{{ site }}" /><br/>
 				5, Boulevard Vincent Gache<br/>
 				44200 Nantes</p>
-				<p class="tel-mail"><a href="mailto:contact@lmtm.fr">contact@lmtm.fr</a><br/>
-				<span class="tel">06 14 66 76 41</span></p>
+				<p class="tel-mail"><a href="mailto:{{ mailto }}">{{ mailto }}</a><br/>
+				<span class="tel">{{ tel }}</span></p>
 			</div>
 		</div>
 	</div>

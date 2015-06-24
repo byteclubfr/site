@@ -7,7 +7,7 @@ template: index.html
 	<header class="header" role="banner" id="top">
 		<div class="wrap cf">
 			<div class="logo">
-				<img src="img/logo.png" alt="ByteClub" />
+				<img src="img/logo.png" alt="{{ site }}" />
 			</div>
 			<nav class="wrapper-nav-main">
 				<ul class="nav nav-main">
@@ -75,7 +75,7 @@ template: index.html
 			</div>
 			<div class="techno-col content last cf">
 				<h3 class="title-second">Nos services autour de Node.js</h3>
-				<p>Fort du statut d'expert Node.js, LMTM vous accompagne à chaque étape de vos projets :</p>
+				<p>Fort du statut d'expert Node.js, {{ site }} vous accompagne à chaque étape de vos projets :</p>
 				<ul>
 					<li><a href="services.html#conseil">Conseil</a></li>
 					<li><a href="formationNodeJS.html">Formation</a></li>
@@ -111,7 +111,7 @@ template: index.html
 			</div>
 			<div class="techno-col content last cf">
 				<h3 class="title-second">Nos services autour d'AngularJS</h3>
-				<p>Fort du statut d'expert AngularJS, LMTM vous accompagne à chaque étape de vos projets:</p>
+				<p>Fort du statut d'expert AngularJS, {{ site }} vous accompagne à chaque étape de vos projets:</p>
 				<ul>
 					<li><a href="services.html#conseil">Conseil</a></li>
 					<li><a href="formationAngularJS.html">Formation</a></li>

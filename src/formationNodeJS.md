@@ -7,7 +7,7 @@ template: index.html
 	<header class="header" role="banner" id="top">
 		<div class="wrap cf">
 			<div class="logo">
-				<img src="img/logo.png" alt="ByteClub" />
+				<img src="img/logo.png" alt="{{ site }}" />
 			</div>
 			<nav class="wrapper-nav-main">
 				<ul class="nav nav-main">

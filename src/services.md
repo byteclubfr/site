@@ -7,7 +7,7 @@ template: index.html
 	<header class="header" role="banner" id="top">
 		<div class="wrap cf">
 			<div class="logo">
-				<img src="img/logo.png" alt="ByteClub" />
+				<img src="img/logo.png" alt="{{ site }}" />
 			</div>
 			<nav class="wrapper-nav-main">
 				<ul class="nav nav-main">
@@ -49,7 +49,7 @@ template: index.html
 		<div class="inner">
 			<h1 class="page-title">Nos services</h1>
 			<div class="banner-text">
-				<p>LMTM développe vos projets, votre activité et vos compétences.</p>
+				<p>{{ site }} développe vos projets, votre activité et vos compétences.</p>
 			</div>
 		</div>
 	</div>
