@@ -1,12 +1,8 @@
-{
+module.exports = require("lodash/object/merge")({
   "metadata": {
+    "livereload": "http://localhost:35729/livereload.js"
   },
   "plugins": {
-    "metalsmith-markdown": {
-    },
-    "metalsmith-templates": {
-      "engine": "swig"
-    },
     "metalsmith-watch": {
       "paths": {
         "${source}/**/*": true,
@@ -19,4 +15,4 @@
       "verbose": true
     }
   }
-}
+}, require("./build.js"));

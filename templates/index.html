@@ -7,7 +7,7 @@
 	<!-- Metas -->
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>ByteClub{% if title %} - {{ title }}{% endif %}</title>
+	<title>{{ site }}{% if title %} - {{ title }}{% endif %}</title>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/site.css" type="text/css" media="all" />
@@ -26,7 +26,9 @@
 	<script type='text/javascript' src='js/jquery.sticky.min.js'></script>
 	<script type='text/javascript' src='js/start.js'></script>
 
-	<script src="http://localhost:35729/livereload.js"></script>
+	{% if livereload -%}
+	<script src="{{ livereload }}"></script>
+	{%- endif %}
 
 	<!-- Page-specific JS -->
 	{% for script in scripts -%}
@@ -70,7 +72,7 @@
 							<span itemprop="addressLocality">Nantes</span>
 						</span>
 						<div class="lmtm-contact">
-							<span class="lmtm-phone" itemprop="telephone">06 14 66 76 41</span> <a href="mailto:contact@lmtm.fr" class="lmtm-email" itemprop="email">contact@lmtm.fr</a>
+							<span class="lmtm-phone" itemprop="telephone">{{ tel }}</span> <a href="mailto:{{ mailto }}" class="lmtm-email" itemprop="email">{{ mailto }}</a>
 						</div>
 					</address>
 				</div>

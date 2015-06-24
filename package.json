@@ -2,11 +2,12 @@
   "name": "byte-club",
   "version": "1.0.0",
   "description": "Byte Club (formerly LMTM) website",
-  "main": "",
+  "main": "build.js",
   "scripts": {
     "test": "",
-    "build": "metalsmith",
-    "watch": "metalsmith -c metalsmith-watch.json"
+    "build": "metalsmith -c config/build.js",
+    "deploy": "metalsmith -c config/deploy.js",
+    "watch": "metalsmith -c config/watch.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/lmtm/site#readme",
   "devDependencies": {
+    "lodash": "^3.9.3",
     "metalsmith": "^1.7.0",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-serve": "0.0.3",
