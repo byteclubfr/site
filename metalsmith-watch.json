@@ -1,0 +1,22 @@
+{
+  "metadata": {
+  },
+  "plugins": {
+    "metalsmith-markdown": {
+    },
+    "metalsmith-templates": {
+      "engine": "swig"
+    },
+    "metalsmith-watch": {
+      "paths": {
+        "${source}/**/*": true,
+        "templates/**/*": "**/*.md"
+      },
+      "livereload": true
+    },
+    "metalsmith-serve": {
+      "port": 8000,
+      "verbose": true
+    }
+  }
+}
