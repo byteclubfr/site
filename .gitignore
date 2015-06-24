@@ -8,4 +8,8 @@
 # SublimeText
 /*.sublime-project
 *.sublime-workspace
-sftp-config*.json
+sftp-config*.jsonbuild
+
+build/
+npm-debug.log
+node_modules
