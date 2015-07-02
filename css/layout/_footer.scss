@@ -34,7 +34,7 @@
 		@include span-columns(3,6);
 	}
 }
-.footer-col-lmtm {
+.footer-col-byteclub {
 	@include at-breakpoint(60em) {
 		padding-bottom: 100px;
 	}
@@ -120,10 +120,10 @@
 		}
 	}
 }
-.lmtm-contact {
+.◊-contact {
 	display: inline-block;
 }
-.lmtm-phone {
+.◊-phone {
 	position: relative;
 	padding-left: 21px;
 	margin-right: 20px;
@@ -139,7 +139,7 @@
 		content: "";
 	}
 }
-.lmtm-email {
+.◊-email {
 	position: relative;
 	padding-left: 24px;
 	font-weight: 600;
@@ -154,7 +154,7 @@
 }
 
 /* Social icons */
-.lmtm-social {
+.◊-social {
 	.footer-home & {
 		@include at-breakpoint(0 60em) {
 			margin-bottom: 50px;
@@ -211,14 +211,14 @@
 		margin-left: -(sprites-sprite-width(linkedin)/2);
 	}
 }
-.footer-lmtm {
-	.lmtm-social {
+.footer-◊ {
+	.◊-social {
 		display: inline-block;
 		vertical-align: middle;
 		width: 200px;
 		margin-right: 20px;
 	}
-	.lmtm-address {
+	.◊-address {
 		display: inline-block;
 		vertical-align: middle;
 		padding: 20px 0;
@@ -229,7 +229,7 @@
 			padding: 50px 0;
 		}
 	}
-	.lmtm-phone {
+	.◊-phone {
 		@include at-breakpoint(50em) {
 			margin-left: 30px;
 		}
@@ -238,7 +238,7 @@
 		text-align: center;
 	}
 }
-.lmtm-contact {
+.◊-contact {
 	@include at-breakpoint(0 50em) {
 		display: block;
 	}

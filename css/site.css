@@ -11,7 +11,7 @@
 /* Grid */
 /* Colors */
 /* Sprites */
-.sprites-sprite, .wrapper-nav-main .lnk-home a, .lnk-top:before, .lmtm-phone:before, .lmtm-email:before, .lnk-twitter a:before, .lnk-linkedin a:before, .lnk-more a:before, .service-title-conseil:before, .service-title-dvpt:before, .service-title-formation:before, .member-social .twitter a, .member-social .linkedin a, .member-social .github a, .member-social .viadeo a, .idea-open, .idea-close {
+.sprites-sprite, .wrapper-nav-main .lnk-home a, .lnk-top:before, .byteclub-phone:before, .byteclub-email:before, .lnk-twitter a:before, .lnk-linkedin a:before, .lnk-more a:before, .service-title-conseil:before, .service-title-dvpt:before, .service-title-formation:before, .member-social .twitter a, .member-social .linkedin a, .member-social .github a, .member-social .viadeo a, .idea-open, .idea-close {
   background-image: url('../img/sprites-s9ba45d63b6.png');
   background-repeat: no-repeat; }
 
@@ -397,7 +397,7 @@ button::-moz-focus-inner, input[type='button']::-moz-focus-inner, input[type='re
   display: block; }
 
 /* Hide content */
-.is-hidden, .wrapper-nav-main .lnk-home a span, .lnk-top span, .lmtm-social a span, .member-social li a span {
+.is-hidden, .wrapper-nav-main .lnk-home a span, .lnk-top span, .byteclub-social a span, .member-social li a span {
   clip: rect(0 0 0 0);
   height: 1px;
   margin: -1px;
@@ -1501,10 +1501,10 @@ a.meanmenu-reveal {
     float: left;
     margin-right: 5.88235%; } }
 
-.footer-col-lmtm {
+.footer-col-byteclub {
   position: relative; }
   @media (min-width: 60em) {
-    .footer-col-lmtm {
+    .footer-col-byteclub {
       padding-bottom: 100px; } }
 
 .footer-col-ooz {
@@ -1578,17 +1578,17 @@ a.meanmenu-reveal {
         left: -15px;
         color: rgba(255, 255, 255, 0.2); } }
 
-.lmtm-contact {
+.byteclub-contact {
   display: inline-block; }
 
-.lmtm-phone {
+.byteclub-phone {
   position: relative;
   padding-left: 21px;
   margin-right: 20px;
   font-weight: 600;
   color: #955d4d;
   text-transform: uppercase; }
-  .lmtm-phone:before {
+  .byteclub-phone:before {
     height: 16px;
     width: 16px;
     background-position: 0 -277px;
@@ -1597,11 +1597,11 @@ a.meanmenu-reveal {
     left: 0;
     content: ""; }
 
-.lmtm-email {
+.byteclub-email {
   position: relative;
   padding-left: 24px;
   font-weight: 600; }
-  .lmtm-email:before {
+  .byteclub-email:before {
     height: 16px;
     width: 16px;
     background-position: 0 -239px;
@@ -1611,32 +1611,32 @@ a.meanmenu-reveal {
     content: ""; }
 
 /* Social icons */
-.lmtm-social {
+.byteclub-social {
   display: block;
   margin: 0; }
   @media (max-width: 60em) {
-    .footer-home .lmtm-social {
+    .footer-home .byteclub-social {
       margin-bottom: 50px; } }
   @media (min-width: 60em) {
-    .footer-home .lmtm-social {
+    .footer-home .byteclub-social {
       position: absolute;
       bottom: 0;
       left: 0; } }
-  .lmtm-social li {
+  .byteclub-social li {
     display: inline-block;
     vertical-align: bottom;
     margin: 0;
     list-style: none; }
-    .lmtm-social li + li a {
+    .byteclub-social li + li a {
       margin-left: 30px; }
-  .lmtm-social a {
+  .byteclub-social a {
     position: relative;
     display: inline-block;
     vertical-align: bottom;
     width: 70px;
     height: 70px;
     background: rgba(0, 0, 0, 0.35); }
-    .lmtm-social a:before {
+    .byteclub-social a:before {
       display: inline-block;
       content: "";
       position: absolute;
@@ -1657,12 +1657,12 @@ a.meanmenu-reveal {
   margin-top: -21px;
   margin-left: -21px; }
 
-.footer-lmtm .lmtm-social {
+.footer-byteclub .byteclub-social {
   display: inline-block;
   vertical-align: middle;
   width: 200px;
   margin-right: 20px; }
-.footer-lmtm .lmtm-address {
+.footer-byteclub .byteclub-address {
   display: inline-block;
   vertical-align: middle;
   padding: 20px 0;
@@ -1670,17 +1670,17 @@ a.meanmenu-reveal {
   font-weight: 600;
   line-height: 1.8em; }
   @media (max-width: 50em) {
-    .footer-lmtm .lmtm-address {
+    .footer-byteclub .byteclub-address {
       padding: 50px 0; } }
 @media (min-width: 50em) {
-  .footer-lmtm .lmtm-phone {
+  .footer-byteclub .byteclub-phone {
     margin-left: 30px; } }
 @media (max-width: 50em) {
-  .footer-lmtm {
+  .footer-byteclub {
     text-align: center; } }
 
 @media (max-width: 50em) {
-  .lmtm-contact {
+  .byteclub-contact {
     display: block; } }
 
 /* Bottom bar */
