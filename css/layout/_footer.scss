@@ -120,10 +120,10 @@
 		}
 	}
 }
-.◊-contact {
+.byteclub-contact {
 	display: inline-block;
 }
-.◊-phone {
+.byteclub-phone {
 	position: relative;
 	padding-left: 21px;
 	margin-right: 20px;
@@ -139,7 +139,7 @@
 		content: "";
 	}
 }
-.◊-email {
+.byteclub-email {
 	position: relative;
 	padding-left: 24px;
 	font-weight: 600;
@@ -154,7 +154,7 @@
 }
 
 /* Social icons */
-.◊-social {
+.byteclub-social {
 	.footer-home & {
 		@include at-breakpoint(0 60em) {
 			margin-bottom: 50px;
@@ -211,14 +211,14 @@
 		margin-left: -(sprites-sprite-width(linkedin)/2);
 	}
 }
-.footer-◊ {
-	.◊-social {
+.footer-byteclub {
+	.byteclub-social {
 		display: inline-block;
 		vertical-align: middle;
 		width: 200px;
 		margin-right: 20px;
 	}
-	.◊-address {
+	.byteclub-address {
 		display: inline-block;
 		vertical-align: middle;
 		padding: 20px 0;
@@ -229,7 +229,7 @@
 			padding: 50px 0;
 		}
 	}
-	.◊-phone {
+	.byteclub-phone {
 		@include at-breakpoint(50em) {
 			margin-left: 30px;
 		}
@@ -238,7 +238,7 @@
 		text-align: center;
 	}
 }
-.◊-contact {
+.byteclub-contact {
 	@include at-breakpoint(0 50em) {
 		display: block;
 	}
