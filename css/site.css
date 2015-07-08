@@ -1705,9 +1705,8 @@ a.meanmenu-reveal {
     margin-left: 20px; }
 
 /* Templates */
-/*
-    HOMEPAGE
-*/
+
+/*HOMEPAGE*/
 .lnk-more a {
   display: inline-block;
   position: relative;
@@ -1776,6 +1775,7 @@ a.meanmenu-reveal {
 
 .lnk-technos-more a {
   background: #f8911b; }
+
 
 /* Services */
 .home-services {

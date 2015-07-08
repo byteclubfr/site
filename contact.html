@@ -38,43 +38,21 @@
 <body id="top">
 
 	<div class="js-sticky">
-	<header class="header" role="banner" id="top">
-		<div class="wrap cf">
-			<div class="logo">
-				<img src="img/logo.png" alt="ByteClub" />
+		<header class="header" role="banner" id="top">
+			<div class="wrap cf">
+				<div class="logo"><img src="img/logo.png" alt="ByteClub"/></div>
+				<nav class="wrapper-nav-main">
+					<ul class="nav nav-main">
+						<li class="lnk-home"><a href="index.html"><span>Accueil</span></a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="technologies.html">Technologies</a></li>
+						<li><a href="references.html">Références</a></li>
+						<li><a href="societe.html">Société</a></li>
+						<li class="current"><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
 			</div>
-			<nav class="wrapper-nav-main">
-				<ul class="nav nav-main">
-					<li class="lnk-home"><a href="index.html"><span>Accueil</span></a></li>
-					<li>
-						<a href="services.html">Services</a>
-						<ul class="nav nav-sub">
-							<li><a href="#conseil">Conseil</a></li>
-							<li><a href="#developpement">Développement</a></li>
-							<li><a href="#formation-nodejs">Formation Node.js</a></li>
-							<li><a href="#formation-angularjs">Formation AngularJS</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="technologies.html">Technologies</a>
-						<ul class="nav nav-sub">
-							<li><a href="#nodejs">Node.js</a></li>
-							<li><a href="#angularjs">AngularJS</a></li>
-						</ul>
-					</li>
-					<li><a href="references.html">Références</a></li>
-					<li>
-						<a href="societe.html">Société</a>
-						<ul class="nav nav-sub">
-							<li><a href="#equipe">Équipe</a></li>
-							<li><a href="#philosophie">Philosophie</a></li>
-						</ul>
-					</li>
-					<li class="current"><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+		</header>
 	</div>
 
 	<section class="banner">
@@ -130,10 +108,10 @@
 				</div>
 				<div id="contact-map"></div>
 				<div id="map-popup">
-					<p><img src="img/logo-lmtm-tiny.png" alt="LMTM" /><br/>
+					<p><img src="img/logo-byteclub-tiny.png" alt="byteclub" /><br/>
 					5, Boulevard Vincent Gache<br/>
 					44200 Nantes</p>
-					<p class="tel-mail"><a href="mailto:contact@lmtm.fr">contact@lmtm.fr</a><br/>
+					<p class="tel-mail"><a href="mailto:contact@byteclub.fr">contact@byteclub.fr</a><br/>
 					<span class="tel">06 14 66 76 41</span></p>
 				</div>
 			</div>
@@ -152,21 +130,21 @@
 					<li><a href="societe.html">Société</a></li>
 					<li class="current"><a href="contact.html">Contact</a></li>
 				</ul>
-				<div class="footer-lmtm">
-					<ul class="lmtm-social">
-						<li class="lnk-twitter"><a href="https://twitter.com/lmtmeditions"><span>Twitter</span></a></li>
-						<li class="lnk-linkedin"><a href="http://www.linkedin.com/company/lmtm-sarl"><span>LinkedIn</span></a></li>
+				<div class="footer-byteclub">
+					<ul class="byteclub-social">
+						<li class="lnk-twitter"><a href="https://twitter.com/byteclub.fr"><span>Twitter</span></a></li>
+						<li class="lnk-linkedin"><a href="http://www.linkedin.com/company/byteclub-sarl"><span>LinkedIn</span></a></li>
 					</ul>
-					<address class="lmtm-address" itemscope itemtype="http://schema.org/Corporation">
-						<span itemprop="name">LMTM</span>
+					<address class="byteclub-address" itemscope itemtype="http://schema.org/Corporation">
+						<span itemprop="name">byteclub</span>
 						<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 							<span itemprop="postOfficeBoxNumber">5</span>,
 							<span itemprop="streetAddress">Boulevard Vincent Gache</span>
 							<span itemprop="postalCode">44200</span>
 							<span itemprop="addressLocality">Nantes</span>
 						</span>
-						<div class="lmtm-contact">
-							<span class="lmtm-phone" itemprop="telephone">06 14 66 76 41</span> <a href="mailto:contact@lmtm.fr" class="lmtm-email" itemprop="email">contact@lmtm.fr</a>
+						<div class="byteclub-contact">
+							<span class="byteclub-phone" itemprop="telephone">06 14 66 76 41</span> <a href="mailto:contact@byteclub.fr" class="byteclub-email" itemprop="email">contact@byteclub.fr</a>
 						</div>
 					</address>
 				</div>
@@ -193,7 +171,7 @@ $('#contact').submit(function(e) {
 	if ($(this).parsley('isValid')) {
 		$('.form-notice-error').hide();
 
-		var ref = new Firebase('https://lmtm.firebaseio.com/lmtm');
+		var ref = new Firebase('https://byteclub.firebaseio.com/byteclub');
 		ref.push({
 			'email': $('#email').val(),
 			'lastname': $('#lastname').val(),
