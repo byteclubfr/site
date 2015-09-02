@@ -1313,7 +1313,8 @@ a.meanmenu-reveal {
   padding-top: 5px; }
 
 .jquery-sticky-sticky .logo img {
-  height: 45px; }
+  /* initial height: 45px*/
+  height: 65px; }
 
 .jquery-sticky-sticky .nav-sub {
   top: calc(100% - 6px);
