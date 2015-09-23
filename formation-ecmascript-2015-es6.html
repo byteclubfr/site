@@ -7,8 +7,8 @@
 	<!-- Metas -->
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>Contact ByteClub</title>
-	<meta name="description" content="Contactez ByteClub.">
+	<title>Formation ECMAScript 2015 (ES6) ByteClub</title>
+	<meta name="description" content="Formation JavaScript ECMAScript 2015 (ES6) ByteClub.">
 	<meta name="language" content="fr">
 	<meta name="author" content="ByteClub">
 
@@ -17,7 +17,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Cabin:400,700,400italic,700italic|Coming+Soon' rel='stylesheet' type='text/css'>
 
 	<!-- Standard favicons -->
-	<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+   	<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
 	<link rel="icon" type="image/png" href="img/favicon.png" />
 
 	<!-- JS -->
@@ -27,11 +27,7 @@
 	<script type='text/javascript' src='js/jquery.smooth-scroll.min.js'></script>
 	<script type='text/javascript' src='js/jquery.debouncedresize.js'></script>
 	<script type='text/javascript' src='js/jquery.sticky.min.js'></script>
-	<script type='text/javascript' src='js/leaflet.js'></script>
 	<script type='text/javascript' src='js/start.js'></script>
-
-	<script type='text/javascript' src='js/parsley.min.js'></script>
-	<script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
 
 </head>
 
@@ -44,7 +40,7 @@
 				<nav class="wrapper-nav-main">
 					<ul class="nav nav-main">
 						<li class="lnk-home"><a href="index.html"><span>Accueil</span></a></li>
-						<li><a href="services.html">Services</a>
+						<li class="current"><a href="services.html">Services</a>
 							<ul class="nav nav-sub">
 								<li><a href="services.html#conseil">Conseil</a></li>
 								<li><a href="services.html#developpement">Développement</a></li>
@@ -66,7 +62,7 @@
 						<li><a href="technologies.html">Technologies</a></li>
 						<li><a href="references.html">Références</a></li>
 						<li><a href="societe.html">Société</a></li>
-						<li class="current"><a href="contact.html">Contact</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -76,65 +72,28 @@
 	<section class="banner">
 		<div class="wrap cf">
 			<div class="inner">
-				<h1 class="page-title">Contactez-nous.</h1>
+				<h1 class="page-title">Formation ECMAScript 2015 (ES6)</h1>
 			</div>
 		</div>
 	</section>
 
-	<section class="section-alt">
+	<div class="techno-logo">
 		<div class="wrap cf">
 			<div class="inner">
-				<div class="contact-form">
-					<p class="fields-required">Les champs marqués d’un astérisque (<span>*</span>) sont obligatoires.</p>
-					<form id="contact" data-validate="parsley" data-show-errors="false">
-
-						<p class="form-notice form-notice-error">
-							Désolé, le formulaire comporte des erreurs.<br/> Veuillez corriger votre message et l'envoyer à nouveau.
-						</p>
-
-						<p class="form-notice form-notice-success">
-							Votre message a bien été envoyé.<br/> Nous vous contacterons dans les plus brefs délais.
-						</p>
-
-						<div class="field form-half">
-							<label for="name">Nom</label>
-							<input type="text" class="input" id="lastname" />
-						</div>
-						<div class="field form-half last">
-							<label for="firstname">Prénom</label>
-							<input type="text" class="input" id="firstname" />
-						</div>
-						<div class="field">
-							<label for="email">Adresse email <span class="required">*</span></label>
-							<input type="text" class="input" id="email" data-required="true" data-type="email" />
-						</div>
-						<div class="field">
-							<label for="email">Société</label>
-							<input type="text" class="input" id="company" />
-						</div>
-						<div class="field">
-							<label for="message">Message <span class="required">*</span></label>
-							<textarea class="input" id="message" data-required="true"></textarea>
-						</div>
-						<div class="field field-submit">
-							<button type="submit" class="btn">Envoyer votre message</button>
-						</div>
-					</form>
-				</div>
-
-<!-- animated map -->
-
-				<div id="contact-map"></div>
-				<div id="map-popup">
-					<p><img src="img/logo-byteclub-tiny.png" alt="ByteClub" />
-						<img src="img/mascot-byteclub-medaillon-tiny.png" alt="MascotByteClub" /><br/>
-					5, Boulevard Vincent Gache<br/>
-					44200 Nantes</p>
-					<p class="tel-mail"><a href="mailto:contact@byteclub.fr">contact@byteclub.fr</a><br/>
-					<span class="tel">06 14 66 76 41</span></p>
-				</div>
+				<h3 style="font-size:2em;">
+					<img src="img/logo-javascript.svg" alt="JavaScript" style="width:60px;float:right;">
+					Présentation
+				</h3>
 			</div>
+		</div>
+	</div>
 
+	<section class="section">
+		<div class="wrap cf">
+			<div class="inner">
+				<h3 class="title-second">2 jours pour découvrir ECMAScript 2015.<br>Stage pratique, magistral et didactique, pour se mettre à niveau.</h3>
+				<p>Mise à jour du contenu en cours...</p>
+			</div>
 		</div>
 	</section>
 
@@ -144,11 +103,11 @@
 			<div class="inner">
 				<ul class="nav nav-footer">
 					<li><a href="index.html">Accueil</a></li>
-					<li><a href="services.html">Services</a></li>
+					<li class="current"><a href="services.html">Services</a></li>
 					<li><a href="technologies.html">Technologies</a></li>
 					<li><a href="references.html">Références</a></li>
 					<li><a href="societe.html">Société</a></li>
-					<li class="current"><a href="contact.html">Contact</a></li>
+					<li><a href="contact.html">Contact</a></li>
 				</ul>
 				<div class="footer-byteclub">
 					<ul class="byteclub-social">
@@ -181,42 +140,6 @@
 			</div>
 		</div>
 	</div>
-
-<script>
-
-$('#contact').submit(function(e) {
-
-	e.preventDefault();
-
-	if ($(this).parsley('isValid')) {
-		$('.form-notice-error').hide();
-
-		var ref = new Firebase('https://byteclub.firebaseio.com/byteclub');
-		ref.push({
-			'email': $('#email').val(),
-			'lastname': $('#lastname').val(),
-			'firstname': $('#firstname').val(),
-			'company': $('#company').val(),
-			'message': $('#message').val()
-		}, function(err) {
-			if (err) alert("Une erreur est survenue, nous sommes désolé, nous n'avons pas pu enregistrer votre message.");
-			else $('.form-notice-success').show();
-		});
-
-	} else {
-		$(this).find('.input.parsley-validated').each(function(i, input) {
-			if (!$(input).parsley('validate')) {
-				$(input).parent('.field').addClass('field-error');
-			} else {
-				$(input).parent('.field').removeClass('field-error');
-			}
-		});
-		$('.form-notice-error').show();
-	}
-
-});
-
-</script>
-
 </body>
+
 </html>
