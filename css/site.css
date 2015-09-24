@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 	SITE
 	This is the main stylesheet, which imports everything
@@ -522,7 +523,7 @@ a {
   line-height: 1em;
   font-weight: 500; }
   .btn:hover, .lnk-more a:hover, .btn:focus, .lnk-more a:focus {
-    background: #774a3d; }
+    background: #774a3e; }
   .content .btn, .content .lnk-more a, .lnk-more .content a {
     color: #fff; }
 
@@ -1313,8 +1314,7 @@ a.meanmenu-reveal {
   padding-top: 5px; }
 
 .jquery-sticky-sticky .logo img {
-  /* initial height: 45px*/
-  height: 65px; }
+  height: 45px; }
 
 .jquery-sticky-sticky .nav-sub {
   top: calc(100% - 6px);
@@ -1551,7 +1551,7 @@ a.meanmenu-reveal {
     margin-top: -7px;
     margin-left: -12.5px; }
   .lnk-top:hover, .lnk-top:focus {
-    background: #774a3d; }
+    background: #774a3e; }
 
 .nav-footer {
   padding: 50px 0;
@@ -1673,6 +1673,8 @@ a.meanmenu-reveal {
   @media (max-width: 50em) {
     .footer-byteclub .byteclub-address {
       padding: 50px 0; } }
+  .footer-byteclub .byteclub-address span[itemprop="name"]::after {
+    content: " – "; }
 @media (min-width: 50em) {
   .footer-byteclub .byteclub-phone {
     margin-left: 30px; } }
@@ -1706,8 +1708,9 @@ a.meanmenu-reveal {
     margin-left: 20px; }
 
 /* Templates */
-
-/*HOMEPAGE*/
+/*
+    HOMEPAGE
+*/
 .lnk-more a {
   display: inline-block;
   position: relative;
@@ -1776,7 +1779,6 @@ a.meanmenu-reveal {
 
 .lnk-technos-more a {
   background: #f8911b; }
-
 
 /* Services */
 .home-services {
@@ -1946,7 +1948,7 @@ a.meanmenu-reveal {
       background: #FFB430;
       color: #fff; }
       .contact-us .contact-us-btn a:hover, .contact-us .contact-us-btn a:focus {
-        background: #ffbb44; }
+        background: #ffbc45; }
 
 /*
     COMPANY

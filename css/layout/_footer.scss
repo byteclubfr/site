@@ -155,6 +155,8 @@
 
 /* Social icons */
 .byteclub-social {
+	display: block;
+	margin: 0;
 	.footer-home & {
 		@include at-breakpoint(0 60em) {
 			margin-bottom: 50px;
@@ -165,8 +167,6 @@
 			left: 0;
 		}
 	}
-	display: block;
-	margin: 0;
 	li {
 		display: inline-block;
 		vertical-align: bottom;
@@ -227,6 +227,9 @@
 		line-height: 1.8em;
 		@include at-breakpoint(0 50em) {
 			padding: 50px 0;
+		}
+		span[itemprop="name"]::after {
+			content: " – ";
 		}
 	}
 	.byteclub-phone {
