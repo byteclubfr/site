@@ -606,8 +606,6 @@ a {
   font-family: 'Cabin', sans-serif; }
 
 .block, .service, .contact-us, .idea-card, .field .input, .form-notice {
-  -moz-box-shadow: rgba(0, 0, 0, 0.05) 5px 5px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 5px 5px 0;
   box-shadow: rgba(0, 0, 0, 0.05) 5px 5px 0; }
 
 .title-main, .lnk-top, .nav-footer {
@@ -1201,13 +1199,11 @@ a.meanmenu-reveal {
     HEADER
 */
 .header {
-  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 5px 3px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 5px 3px;
+  background: #fff;
   box-shadow: rgba(0, 0, 0, 0.1) 0 5px 3px;
   overflow: hidden;
-  background: #fff;
-  padding-top: 30px;
   padding-bottom: 30px;
+  padding-top: 30px;
   position: relative;
   z-index: 1; }
   .header .logo {
@@ -2194,8 +2190,6 @@ a.meanmenu-reveal {
     color: #888;
     font-size: 18px; }
     .field .input:focus {
-      -moz-box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 0;
-      -webkit-box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 0;
       box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 0;
       outline: none; }
   .field textarea {
@@ -2209,12 +2203,8 @@ a.meanmenu-reveal {
 .field-error label {
   color: #C94331; }
 .field-error .input {
-  -moz-box-shadow: rgba(201, 67, 49, 0.15) 5px 5px 0;
-  -webkit-box-shadow: rgba(201, 67, 49, 0.15) 5px 5px 0;
   box-shadow: rgba(201, 67, 49, 0.15) 5px 5px 0; }
   .field-error .input:focus {
-    -moz-box-shadow: rgba(201, 67, 49, 0.25) 5px 5px 0;
-    -webkit-box-shadow: rgba(201, 67, 49, 0.25) 5px 5px 0;
     box-shadow: rgba(201, 67, 49, 0.25) 5px 5px 0; }
 
 .field-submit {

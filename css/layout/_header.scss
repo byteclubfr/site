@@ -2,11 +2,11 @@
     HEADER
 */
 .header {
-	@include box-shadow(rgba(#000,0.1) 0 5px 3px);
-	overflow: hidden;
 	background: #fff;
-	padding-top: 30px;
+	box-shadow: rgba(#000,0.1) 0 5px 3px;
+	overflow: hidden;
 	padding-bottom: 30px;
+	padding-top: 30px;
 	position: relative;
 	z-index: 1;
 	.logo {

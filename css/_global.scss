@@ -166,7 +166,7 @@ a {
 	font-family: 'Cabin', sans-serif;
 }
 %shadow {
-	@include box-shadow(rgba(#000,0.05) 5px 5px 0);
+	box-shadow: rgba(#000,0.05) 5px 5px 0;
 }
 %transition {
 	@include transition(background 0.1s ease);

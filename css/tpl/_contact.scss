@@ -89,7 +89,7 @@
 		color: #888;
 		font-size: 18px;
 		&:focus {
-			@include box-shadow(rgba(#000,0.2) 5px 5px 0);
+			box-shadow: rgba(#000,0.2) 5px 5px 0;
 			outline: none;
 		}
 	}
@@ -108,9 +108,9 @@
 		color: #C94331;
 	}
 	.input {
-		@include box-shadow(rgba(#C94331,0.15) 5px 5px 0);
+		box-shadow: rgba(#C94331,0.15) 5px 5px 0;
 		&:focus {
-			@include box-shadow(rgba(#C94331,0.25) 5px 5px 0);
+			box-shadow: rgba(#C94331,0.25) 5px 5px 0;
 		}
 	}
 }
