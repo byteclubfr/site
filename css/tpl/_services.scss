@@ -63,6 +63,13 @@
 		top: 2px;
 	}
 }
+.service-title-bootcamp {
+	&:before {
+		@include sprites-sprite-dimensions(bootcamp);
+		@include sprites-sprite(bootcamp);
+		top: 2px;
+	}
+}
 .contact-us {
 	@extend %shadow;
 	padding: 0;
