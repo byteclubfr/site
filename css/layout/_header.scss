@@ -65,8 +65,10 @@
 	.header & > li + li {
 		margin-left: 40px;
 	}
-	> .current > a {
+	.current > a {
+		border-bottom-color: #aa6c5a;
 		color: #aa6c5a;
+		font-weight: bold;
 	}
 }
 .nav-sub {
