@@ -104,3 +104,28 @@
 .bootcamp-main-title {
 	vertical-align: middle;
 }
+.custom-made {
+	@extend %shadow;
+	background: $color-orange;
+	border: 1em solid $color-orange;
+	color: #fff;
+	margin: 1em auto;
+	width: 50%;
+	a {
+		background: #FFB430;
+		color: #fff;
+		&:hover, &:focus {
+			background: tint(#FFB430,10);
+		}
+	}
+	h3, strong {
+		color: #fff;
+	}
+}
+
+.custom-made-angular {
+	background-image: url(../img/logo-angular-transparent.svg);
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: bottom;
+}
