@@ -1,6 +1,18 @@
 /*
     TECHNOLOGIES
 */
+.angular {
+	color: $color-angular;
+}
+.node {
+	color: $color-node;
+}
+.react {
+	color: $color-react;
+}
+.js {
+	color: $color-js;
+}
 .techno-col {
 	@include at-breakpoint(0 50em) {
 		margin-bottom: 30px;
