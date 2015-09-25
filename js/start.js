@@ -116,7 +116,8 @@ bc.hoverCard = function (selector) {
 	$('.idea-card').append('<span class="idea-close"></span>');
 	$('.idea-front').append('<span class="idea-open"></span>');
 	$('.idea-open').click(function () {
-		$(this).parent('.idea-front').fadeTo('fast', 0);
+		var parent = $(this).parent('.idea-front');
+		parent.fadeTo('fast', 0, function () { parent.hide(); });
 	});
 	$('.idea-close').click(function () {
 		$(this).prevAll('.idea-front').fadeTo('fast', 1);
