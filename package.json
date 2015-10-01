@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "http-server"
+    "start": "http-server",
+    "css": "compass watch"
   },
   "repository": {
     "type": "git",
