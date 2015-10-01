@@ -26,7 +26,7 @@
 
 /* Reset margin and padding */
 html, body, blockquote, ul, ol, p, form, figure, label {
-	margin: 0; 
+	margin: 0;
 	padding: 0;
 }
 
@@ -47,14 +47,14 @@ audio, canvas, video {
 
 /* Max values */
 img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
-	max-width: 100%; 
+	max-width: 100%;
 	height: auto;
 	width: auto; /* Fix a bug on IE8 */
 }
 
-/* 
+/*
 	(1) Corrects an IE6/7 bug where text is resized to much greater sizes than normal
-	(2) Prevents iOS text size adjust after orientation change without disabling user zoom 
+	(2) Prevents iOS text size adjust after orientation change without disabling user zoom
 */
 html {
 	font-size: 100%; /* (1) */
@@ -160,7 +160,7 @@ sub, sup {
 	line-height: 0;
 	position: relative;
 	vertical-align: baseline;
-} 
+}
 sup {
 	top: -0.5em;
 }
@@ -184,6 +184,9 @@ abbr[title] {
 }
 dfn {
 	font-style: italic;
+}
+q {
+	quotes: "“" "”" "‘" "’";
 }
 
 
@@ -252,7 +255,7 @@ legend {
 	padding: 0;
 }
 
-/* 
+/*
 	(1) Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5 and Chrome
 	(2) Addresses `font-family` inconsistency between `textarea` and other form elements
 	(3) Corrects font size not being inherited in all browsers
@@ -281,7 +284,7 @@ label {
 	cursor: pointer;
 }
 
-/* 
+/*
 	(1) Improves usability and consistency of cursor style
 	(2) Corrects inability to style clickable `input` types in iOS
 */
@@ -293,7 +296,7 @@ button, input[type=submit], input[type=reset], input[type=button] {
 /* Align inputs with their label (cf. http://tjkdesign.com/ez-css/css/base.css) */
 input[type="radio"] {
 	vertical-align: text-bottom;
-} 
+}
 input[type="checkbox"] {
 	vertical-align: bottom;
 }
@@ -319,10 +322,10 @@ button[disabled], input[disabled] {
 	cursor: default;
 }
 
-/* 
+/*
 	(1) Remove default scrollbars on IE
 	(2) Adjust alignement in all browsers
-	(3) Allow vertical resizing only 
+	(3) Allow vertical resizing only
 */
 textarea {
 	overflow: auto; /* (1) */
@@ -487,13 +490,13 @@ button::-moz-focus-inner, input[type='button']::-moz-focus-inner, input[type='re
 ----------------------------------------------------------------------- */
 @media print {
 	p, blockquote {
-		orphans: 2; 
+		orphans: 2;
 		widows: 2;
 	}
 	blockquote, ul, ol {
 		page-break-inside: avoid;
 	}
-	h1, h2, h3, caption { 
+	h1, h2, h3, caption {
 		page-break-after: avoid;
 	}
 }
