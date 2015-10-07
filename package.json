@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "npm run dirs && npm run css && npm run html && npm run img && npm run js",
+    "clean": "rm -rf build",
     "css": "cp src/css/site.css build/css",
     "dirs": "mkdir -p build/js && mkdir -p build/css",
     "deploy": "s3-upload",
@@ -11,6 +12,7 @@
     "img": "cp -r src/img build",
     "jquery": "cat src/js/jquery.* | uglifyjs -o build/js/jquery-plugins.js",
     "js": "npm run jquery && cp src/js/leaflet.js build/js && cp src/js/modernizr.custom.22896.js build/js && cp src/js/parsley.min.js build/js && uglifyjs src/js/start.js -o build/js/start.min.js",
+    "prebuild": "npm run clean",
     "prestart": "npm run build",
     "scss": "compass watch",
     "start": "http-server build"
