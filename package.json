@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "http-server",
-    "css": "compass watch"
+    "css": "compass watch",
+    "deploy": "s3-upload"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "homepage": "https://github.com/lmtm/site#readme",
   "dependencies": {
     "http-server": "^0.8.5"
+  },
+  "devDependencies": {
+    "s3-upload": "0.0.3"
   }
 }
