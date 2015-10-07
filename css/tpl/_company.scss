@@ -72,6 +72,10 @@
 		@include sprites-sprite-dimensions(viadeo-circle);
 		@include sprites-sprite(viadeo-circle);
 	}
+	.lair a {
+		@include sprites-sprite-dimensions(lair-circle);
+		@include sprites-sprite(lair-circle);
+	}
 }
 
 /* Philosophy */
