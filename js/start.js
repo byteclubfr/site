@@ -48,11 +48,9 @@ bc.stickyNav = function (selector) {
 	$(selector).sticky({
 		offset: 0,
 		onStart: function () {
-			console.log('start')
 			$('.jquery-sticky-placeholder').height(120);
 		},
 		onStick: function () {
-			console.log('sticky')
 			$('.jquery-sticky-placeholder').height(55);
 		}
 	});
