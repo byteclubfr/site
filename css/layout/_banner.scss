@@ -110,7 +110,7 @@
 }
 .btn-contact {
 	@extend %font-titles;
-	@include box-shadow(rgba(#000,0.2) 5px 5px 8px);
+	box-shadow: rgba(#000,0.2) 5px 5px 8px;
 	display: inline-block;
 	padding: 20px 25px;
 	font-weight: 400;
@@ -129,7 +129,7 @@
 	.mean-bar {
 		margin-bottom: 45px;
 		background: #f3ede6;
-		@include box-shadow(rgba(#000,0.1) 0 5px 3px);
+		box-shadow: rgba(#000,0.1) 0 5px 3px;
 	}
 	.mean-nav {
 		background: #f3ede6;

@@ -125,7 +125,7 @@
 	opacity: 1;
 }
 .idea-open {
-	@include transition(opacity 0.1s ease);
+	transition: opacity 0.1s ease;
 	@include sprites-sprite-dimensions(plus-circle);
 	@include sprites-sprite(plus-circle);
 	content: "";
@@ -138,7 +138,7 @@
 	}
 }
 .idea-close {
-	@include transition(opacity 0.1s ease);
+	transition: opacity 0.1s ease;
 	@include sprites-sprite-dimensions(close-circle);
 	@include sprites-sprite(close-circle);
 	content: "";

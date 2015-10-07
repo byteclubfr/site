@@ -170,6 +170,6 @@ a {
 	box-shadow: rgba(#000,0.05) 5px 5px 0;
 }
 %transition {
-	@include transition(background 0.1s ease);
-	@include transition(color 0.1s ease);
+	transition: background 0.1s ease;
+	transition: color 0.1s ease;
 }

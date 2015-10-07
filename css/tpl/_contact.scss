@@ -19,7 +19,7 @@
 	}
 }
 .leaflet-popup-content-wrapper {
-	@include border-radius(0);
+	border-radius: 0;
 }
 .leaflet-container {
 	font-family: "adelle", serif;
@@ -77,8 +77,8 @@
 .field {
 	margin-bottom: 50px;
 	.input {
-		@include box-sizing(border-box);
-		@include transition(all 0.3s ease);
+		box-sizing: border-box;
+		transition: all 0.3s ease;
 		@extend %shadow;
 		@extend %font-titles;
 		display: block;

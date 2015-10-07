@@ -52,7 +52,7 @@
 	> li {
 		position: relative;
 		> a {
-			@include transition(color 0.1s ease);
+			transition: color 0.1s ease;
 			font-size: 20px;
 			font-weight: 400;
 			line-height: 1em;
@@ -94,7 +94,7 @@
 		}
 	}
 	a {
-		@include transition(color 0.1s ease);
+		transition: color 0.1s ease;
 		color: #888;
 		font-weight: 400;
 		line-height: 1em;
