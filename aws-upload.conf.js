@@ -6,7 +6,7 @@ module.exports = {
     "js/*.js",
     "img/*.*",
     "img/tmp/*.*",
-    "img/logo clients/*.*",
+    "img/logos-clients/*.*",
     "*.html"
   ]
 }
