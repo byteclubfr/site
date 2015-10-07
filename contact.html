@@ -160,42 +160,5 @@
 			</div>
 		</div>
 	</div>
-
-<script>
-
-$('#contact').submit(function(e) {
-
-	e.preventDefault();
-
-	if ($(this).parsley('isValid')) {
-		$('.form-notice-error').hide();
-
-		var ref = new Firebase('https://byteclub.firebaseio.com/byteclub');
-		ref.push({
-			'email': $('#email').val(),
-			'lastname': $('#lastname').val(),
-			'firstname': $('#firstname').val(),
-			'company': $('#company').val(),
-			'message': $('#message').val()
-		}, function(err) {
-			if (err) alert("Une erreur est survenue, nous sommes désolé, nous n'avons pas pu enregistrer votre message.");
-			else $('.form-notice-success').show();
-		});
-
-	} else {
-		$(this).find('.input.parsley-validated').each(function(i, input) {
-			if (!$(input).parsley('validate')) {
-				$(input).parent('.field').addClass('field-error');
-			} else {
-				$(input).parent('.field').removeClass('field-error');
-			}
-		});
-		$('.form-notice-error').show();
-	}
-
-});
-
-</script>
-
 </body>
 </html>

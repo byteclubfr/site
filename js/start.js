@@ -21,6 +21,7 @@ $(document).ready(function () {
 		bc.dispatchBlocks('.js-dispatch');
 	});
 	bc.stickyNav('.js-sticky');
+	bc.initContactForm('#contact');
 });
 
 // Scroll to top
@@ -35,6 +36,7 @@ bc.scrollToAnchor = function (selector, offset) {
 // Mobile nav menu
 bc.mobileMenu = function (selector) {
 	if (!$(selector).length) return;
+
 	$(selector).meanmenu({
 		meanScreenWidth: '680',
 		meanMenuContainer: '.banner',
@@ -45,6 +47,7 @@ bc.mobileMenu = function (selector) {
 // Sticky nav
 bc.stickyNav = function (selector) {
 	if (!$(selector).length) return;
+
 	$(selector).sticky({
 		offset: 0,
 		onStart: function () {
@@ -59,6 +62,7 @@ bc.stickyNav = function (selector) {
 // Dispatch services blocks on two columns
 bc.dispatchBlocks = function (selector) {
 	if (!$(selector).length) return;
+
 	var container = $('.blocks');
 	// On large screens, we dispatch blocks on two columns
 	if (Modernizr.mq('(min-width: 80em)') && container.not('.is-dispatched')) {
@@ -81,6 +85,7 @@ bc.dispatchBlocks = function (selector) {
 // Map on contact page
 bc.map = function (selector) {
 	if (!$(selector).length) return;
+
 	var contact_details = $('#map-popup');
 	contact_details.hide();
 	var map = L.map(
@@ -111,6 +116,7 @@ bc.map = function (selector) {
 // Hover effect on philosophy cards
 bc.hoverCard = function (selector) {
 	if (!$(selector).length) return;
+
 	$('.idea-card').append('<span class="idea-close"></span>');
 	$('.idea-front').append('<span class="idea-open"></span>');
 	$('.idea-open').click(function () {
@@ -125,6 +131,7 @@ bc.hoverCard = function (selector) {
 // Toggle reference content display
 bc.toggleReference = function (selector) {
 	if (!$(selector).length) return;
+
 	$(selector).click(function () {
 		var that = $(this);
 		var parent = that.parent();
@@ -138,3 +145,44 @@ bc.toggleReference = function (selector) {
 		});
 	});
 }
+
+bc.initContactForm = function (selector) {
+	if (!$(selector).length) return;
+
+	$(selector).submit(function(e) {
+
+		e.preventDefault();
+
+		if ($(this).parsley('isValid')) {
+			$('.form-notice-error').hide();
+
+			var ref = new Firebase('https://byteclub.firebaseio.com/contacts');
+			ref.push({
+				'email': $('#email').val(),
+				'lastname': $('#lastname').val(),
+				'firstname': $('#firstname').val(),
+				'company': $('#company').val(),
+				'message': $('#message').val(),
+				'date': (new Date).toString()
+			}, function(err) {
+				if (err) alert("Une erreur est survenue, nous sommes désolé, nous n'avons pas pu enregistrer votre message.");
+				else {
+					$('.form-notice-success').show();
+					$('.field-submit button').prop('disabled', true);
+				}
+			});
+
+		} else {
+			$(this).find('.input.parsley-validated').each(function(i, input) {
+				if (!$(input).parsley('validate')) {
+					$(input).parent('.field').addClass('field-error');
+				} else {
+					$(input).parent('.field').removeClass('field-error');
+				}
+			});
+			$('.form-notice-error').show();
+		}
+
+	});
+}
+
