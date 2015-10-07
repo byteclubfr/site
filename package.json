@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "http-server",
-    "css": "compass watch",
-    "jquery": "cat js/jquery.* | uglifyjs -o js/jquery-plugins.js",
-    "js": "npm run jquery && uglifyjs js/start.js -o js/start.min.js",
-    "deploy": "s3-upload"
+    "build": "npm run dirs && npm run css && npm run html && npm run img && npm run js",
+    "css": "cp src/css/site.css build/css",
+    "dirs": "mkdir -p build/js && mkdir -p build/css",
+    "deploy": "s3-upload",
+    "html": "cp src/*.html build",
+    "img": "cp -r src/img build",
+    "jquery": "cat src/js/jquery.* | uglifyjs -o build/js/jquery-plugins.js",
+    "js": "npm run jquery && cp src/js/leaflet.js build/js && cp src/js/modernizr.custom.22896.js build/js && cp src/js/parsley.min.js build/js && uglifyjs src/js/start.js -o build/js/start.min.js",
+    "prestart": "npm run build",
+    "scss": "compass watch",
+    "start": "http-server build"
   },
   "repository": {
     "type": "git",

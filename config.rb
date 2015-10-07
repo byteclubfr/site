@@ -3,10 +3,10 @@ require 'susy'
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "css"
-sass_dir = "css"
-images_dir = "img"
-javascripts_dir = "js"
+css_dir = "src/css"
+sass_dir = "src/css"
+images_dir = "src/img"
+javascripts_dir = "src/js"
 output_style = :compressed
 environment = :production
 

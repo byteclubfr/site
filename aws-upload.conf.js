@@ -2,11 +2,11 @@ module.exports = {
   credentials: "aws-credentials.json",
   bucketName: "byteclub.fr",
   patterns:[
-    "css/*.css",
-    "js/*.js",
-    "img/*.*",
-    "img/avatars/*.*",
-    "img/logos-clients/*.*",
-    "*.html"
+    "build/css/*.css",
+    "build/js/*.js",
+    "build/img/*.*",
+    "build/img/avatars/*.*",
+    "build/img/logos-clients/*.*",
+    "build/*.html"
   ]
 }

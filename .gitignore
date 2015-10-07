@@ -14,3 +14,4 @@ npm-debug.log
 
 # deploy
 aws-credentials.json
+build
