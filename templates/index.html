@@ -11,12 +11,12 @@
 	<meta name="author" content="ByteClub">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="css/site.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="/css/site.css" type="text/css" media="all" />
 	<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Cabin:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
 	<!-- Standard favicons -->
-	<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+	<link rel="icon" type="image/png" href="/img/favicon.png" />
 
 </head>
 
@@ -26,21 +26,21 @@
 	<div class="js-sticky">
 		<header class="header" role="banner" id="top">
 			<div class="wrap cf">
-				<div class="logo"><a href="index.html" title="Retour à l'accueil"><img src="img/logo-byteclub.png" alt="ByteClub"/></a></div>
+				<div class="logo"><a href="/index.html" title="Retour à l'accueil"><img src="/img/logo-byteclub.png" alt="ByteClub"/></a></div>
 				<nav class="wrapper-nav-main">
 					<ul class="nav nav-main">
-						<li class="lnk-home {% if menu == 'home' %}current{% endif%}"><a href="index.html"><span>Accueil</span></a></li>
-						<li class="{% if menu == 'services' %}current{% endif%}"><a href="services.html">Services</a>
+						<li class="lnk-home {% if menu == 'home' %}current{% endif%}"><a href="/index.html"><span>Accueil</span></a></li>
+						<li class="{% if menu == 'services' %}current{% endif%}"><a href="/services.html">Services</a>
 							{% if menu == 'services' %}
 							<ul class="nav nav-sub">
-								<li><a href="services.html#conseil">Conseil</a></li>
-								<li><a href="services.html#developpement">Développement</a></li>
-								<li class="{% if submenu == 'bootcamp' %}current{% endif%}" class="current"><a href="services.html#bootcamp">BootCamp</a></li>
-								<li class="{% if submenu == 'formation' %}current{% endif%}"><a href="services.html#formation">Formation</a></li>
+								<li><a href="/services.html#conseil">Conseil</a></li>
+								<li><a href="/services.html#developpement">Développement</a></li>
+								<li class="{% if submenu == 'bootcamp' %}current{% endif%}" class="current"><a href="/services.html#bootcamp">BootCamp</a></li>
+								<li class="{% if submenu == 'formation' %}current{% endif%}"><a href="/services.html#formation">Formation</a></li>
 							</ul>
 							{% endif %}
 						</li>
-						<li class="{% if menu == 'technologies' %}current{% endif%}"><a href="technologies.html">Technologies</a>
+						<li class="{% if menu == 'technologies' %}current{% endif%}"><a href="/technologies.html">Technologies</a>
 							{% if menu == 'technologies' %}
 							<ul class="nav nav-sub">
 								<li><a href="#angularjs">AngularJS</a></li>
@@ -50,8 +50,8 @@
 							</ul>
 							{% endif %}
 						</li>
-						<li class="{% if menu == 'references' %}current{% endif%}"><a href="references.html">Références</a></li>
-						<li class="{% if menu == 'societe' %}current{% endif%}"><a href="societe.html">Société</a>
+						<li class="{% if menu == 'references' %}current{% endif%}"><a href="/references.html">Références</a></li>
+						<li class="{% if menu == 'societe' %}current{% endif%}"><a href="/societe.html">Société</a>
 							{% if menu == 'societe' %}
 							<ul class="nav nav-sub">
 								<li><a href="#equipe">Équipe</a></li>
@@ -59,7 +59,8 @@
 							</ul>
 							{% endif %}
 						</li>
-						<li class="{% if menu == 'contact' %}current{% endif%}"><a href="contact.html">Contact</a></li>
+						<li class="{% if menu == 'contact' %}current{% endif%}"><a href="/contact.html">Contact</a></li>
+						<li class="{% if menu == 'blog' %}current{% endif%}"><a href="/blog/index.html">Blog</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -77,9 +78,39 @@
 	</section>
 	{% endif %}
 
+
+	{% if blogIndex %}
+	<section class="section">
+		<div class="wrap cf">
+			<div class="inner">
+				<h2>Derniers articles :</h2>
+				<ul class="posts-list">
+				{% for post in collections.posts %}
+					{% if post.title !='Blog' %}
+					<li><a href="/blog/{{ post.paths.name }}.html">{{ post.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+	{% endif %}
+
+	{% if !blogIndex && menu=='blog' %}
+	<section class="section">
+		<div class="wrap cf">
+			<div class="inner">
+	{% endif %}
+
 	{% autoescape false -%}
 	{{ contents }}
 	{%- endautoescape %}
+
+	{% if !blogIndex && menu=='blog' %}
+			</div>
+		</div>
+	</div>
+	{% endif %}
 
 	{% if !home -%}
 	<footer class="footer" role="contentinfo">
@@ -128,14 +159,14 @@
 	</div>
 
 	<!-- JS -->
-	<script src="js/modernizr.custom.22896.js"></script>
+	<script src="/js/modernizr.custom.22896.js"></script>
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="js/jquery-plugins.js"></script>
+	<script src="/js/jquery-plugins.js"></script>
 	<!-- Page-specific JS -->
 	{% for script in scripts -%}
-	<script type='text/javascript' src='{{ script }}'></script>
+	<script src="{{ script }}"></script>
 	{% endfor %}
-	<script src="js/start.min.js"></script>
+	<script src="/js/start.min.js"></script>
 
 </body>
 </html>

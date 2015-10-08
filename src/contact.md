@@ -5,8 +5,8 @@ menu: contact
 banner: "Contactez nous !"
 template: index.html
 scripts:
-  - "js/leaflet.js"
-  - "js/parsley.min.js"
+  - "/js/leaflet.js"
+  - "/js/parsley.min.js"
   - "https://cdn.firebase.com/v0/firebase.js"
 ---
 <section class="section-alt">
