@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "npm run dirs && && npm run metalsmith && npm run css && npm run js",
+    "build": "npm run dirs && npm run metalsmith && npm run css && npm run js",
     "clean": "rm -rf build && compass clean",
     "css": "compass compile",
     "dirs": "mkdir -p build/{css,img,js}",
