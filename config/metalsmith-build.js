@@ -6,6 +6,12 @@ module.exports = {
     "tel":    "06 14 66 76 41"
   },
   "plugins": {
+    "metalsmith-ignore": [
+      // another npm task handle scss
+      "css/**",
+      // another npm task handle js concat and minify
+      "js/**"
+    ],
     "metalsmith-markdown": {
     },
     "metalsmith-templates": {
