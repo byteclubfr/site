@@ -22,6 +22,51 @@
 
 <body class="{% if home %}home{% endif %}">
 
+	{% if menu %}
+	<div class="js-sticky">
+		<header class="header" role="banner" id="top">
+			<div class="wrap cf">
+				<div class="logo"><a href="index.html" title="Retour à l'accueil"><img src="img/logo-byteclub.png" alt="ByteClub"/></a></div>
+				<nav class="wrapper-nav-main">
+					<ul class="nav nav-main">
+						<li class="lnk-home {% if menu == 'home' %}current{% endif%}"><a href="index.html"><span>Accueil</span></a></li>
+						<li class="{% if menu == 'service' %}current{% endif%}"><a href="services.html">Services</a>
+							{% if menu == 'service' %}
+							<ul class="nav nav-sub">
+								<li><a href="services.html#conseil">Conseil</a></li>
+								<li><a href="services.html#developpement">Développement</a></li>
+								<li class="{% if submenu == 'bootcamp' %}current{% endif%}" class="current"><a href="services.html#bootcamp">BootCamp</a></li>
+								<li class="{% if submenu == 'formation' %}current{% endif%}"><a href="services.html#formation">Formation</a></li>
+							</ul>
+							{% endif %}
+						</li>
+						<li class="{% if menu == 'technologies' %}current{% endif%}"><a href="technologies.html">Technologies</a>
+							{% if menu == 'technologies' %}
+							<ul class="nav nav-sub">
+								<li><a href="#angularjs">AngularJS</a></li>
+								<li><a href="#nodejs">Node.js</a></li>
+								<li><a href="#react">React</a></li>
+								<li><a href="#javascript">JavaScript</a></li>
+							</ul>
+							{% endif %}
+						</li>
+						<li class="{% if menu == 'references' %}current{% endif%}"><a href="references.html">Références</a></li>
+						<li class="{% if menu == 'societe' %}current{% endif%}"><a href="societe.html">Société</a>
+							{% if menu == 'societe' %}
+							<ul class="nav nav-sub">
+								<li><a href="#equipe">Équipe</a></li>
+								<li><a href="#philosophie">Philosophie</a></li>
+							</ul>
+							{% endif %}
+						</li>
+						<li class="{% if menu == 'contact' %}current{% endif%}"><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	</div>
+	{% endif %}
+
 	{% autoescape false -%}
 	{{ contents }}
 	{%- endautoescape %}

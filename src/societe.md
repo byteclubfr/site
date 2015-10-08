@@ -1,31 +1,9 @@
 ---
 title: "Société  ByteClub"
 description: "Découvrez ByteClub."
+menu: societe
 template: index.html
 ---
-<div class="js-sticky">
-	<header class="header" role="banner" id="top">
-		<div class="wrap cf">
-			<div class="logo"><a href="index.html" title="Retour à l'accueil"><img src="img/logo-byteclub.png" alt="ByteClub"/></a></div>
-			<nav class="wrapper-nav-main">
-				<ul class="nav nav-main">
-					<li class="lnk-home"><a href="index.html"><span>Accueil</span></a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="technologies.html">Technologies</a></li>
-					<li><a href="references.html">Références</a></li>
-					<li class="current"><a href="societe.html">Société</a>
-						<ul class="nav nav-sub">
-							<li><a href="#equipe">Équipe</a></li>
-							<li><a href="#philosophie">Philosophie</a></li>
-						</ul>
-					</li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-</div>
-
 <section class="banner">
 	<div class="wrap cf">
 		<div class="inner">
