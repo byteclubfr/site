@@ -2,20 +2,13 @@
 title: Contact
 description: "Contactez ByteClub."
 menu: contact
+banner: "Contactez nous !"
 template: index.html
 scripts:
   - "js/leaflet.js"
   - "js/parsley.min.js"
   - "https://cdn.firebase.com/v0/firebase.js"
 ---
-<section class="banner">
-	<div class="wrap cf">
-		<div class="inner">
-			<h1 class="page-title">Contactez-nous</h1>
-		</div>
-	</div>
-</section>
-
 <section class="section-alt">
 	<div class="wrap cf">
 		<div class="inner">
@@ -68,6 +61,5 @@ scripts:
 				<span class="tel">06 14 66 76 41</span></p>
 			</div>
 		</div>
-
 	</div>
 </section>

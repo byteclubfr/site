@@ -1,41 +1,10 @@
 ---
 title: "Services : conseil, formation et développement sous JavaScript, AngularJS, Node.js, React"
 description: "Services : conseil, formation et développement sous JavaScript, AngularJS, Node.js, React"
+menu: services
+banner: "Nos services"
 template: index.html
 ---
-<div class="js-sticky">
-	<header class="header" role="banner" id="top">
-		<div class="wrap cf">
-			<div class="logo"><a href="index.html" title="Retour à l'accueil"><img src="img/logo-byteclub.png" alt="ByteClub"/></a></div>
-			<nav class="wrapper-nav-main">
-				<ul class="nav nav-main">
-					<li class="lnk-home"><a href="index.html"><span>Accueil</span></a></li>
-					<li class="current"><a href="services.html">Services</a>
-						<ul class="nav nav-sub">
-							<li><a href="services.html#conseil">Conseil</a></li>
-							<li><a href="services.html#developpement">Développement</a></li>
-							<li><a href="services.html#bootcamp">BootCamp</a></li>
-							<li><a href="services.html#formation">Formation</a></li>
-						</ul>
-					</li>
-					<li><a href="technologies.html">Technologies</a></li>
-					<li><a href="references.html">Références</a></li>
-					<li><a href="societe.html">Société</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-</div>
-
-<section class="banner">
-	<div class="wrap cf">
-		<div class="inner">
-			<h1 class="page-title">Nos services</h1>
-		</div>
-	</div>
-</section>
-
 <section class="section section-alt">
 	<div class="wrap cf">
 		<div class="inner">

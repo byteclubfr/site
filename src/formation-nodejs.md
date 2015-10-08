@@ -1,18 +1,11 @@
 ---
 title: "Formation Node.js"
 description: "Formation Node.js"
-menu: service
+menu: services
 submenu: formation
+banner: "Formation Node.js"
 template: index.html
 ---
-<section class="banner">
-	<div class="wrap cf">
-		<div class="inner">
-			<h1 class="page-title">Formation Node.js</h1>
-		</div>
-	</div>
-</section>
-
 <div class="techno-logo">
 	<div class="wrap cf">
 		<div class="inner">

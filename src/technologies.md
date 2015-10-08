@@ -2,16 +2,9 @@
 title: "Technologies : JavaScript, AngularJS, Node.js, React."
 description: "Technologies : JavaScript, AngularJS, Node.js, React."
 menu: technologies
+banner: "Nos technologies"
 template: index.html
 ---
-<section class="banner">
-	<div class="wrap cf">
-		<div class="inner">
-			<h1 class="page-title">Nos technologies</h1>
-		</div>
-	</div>
-</section>
-
 <div class="techno-logo">
 	<div class="wrap cf">
 		<div class="inner">

@@ -2,16 +2,9 @@
 title: Mentions légales
 description: "Mentions légales."
 menu: true
+banner: "Mentions légales"
 template: index.html
 ---
-<section class="banner">
-	<div class="wrap cf">
-		<div class="inner">
-			<h1 class="page-title">Mentions légales</h1>
-		</div>
-	</div>
-</section>
-
 <section class="section section-alt">
 	<div class="wrap cf">
 		<div class="inner">

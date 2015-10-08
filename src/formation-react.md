@@ -1,18 +1,11 @@
 ---
 title: "Formation React"
 description: "Formation React"
-menu: service
+menu: services
 submenu: formation
+banner: "Formation React"
 template: index.html
 ---
-<section class="banner">
-	<div class="wrap cf">
-		<div class="inner">
-			<h1 class="page-title">Formation React</h1>
-		</div>
-	</div>
-</section>
-
 <div class="techno-logo">
 	<div class="wrap cf">
 		<div class="inner">

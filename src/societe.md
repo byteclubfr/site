@@ -2,16 +2,9 @@
 title: "Société  ByteClub"
 description: "Découvrez ByteClub."
 menu: societe
+banner: "Qui sommes nous ?"
 template: index.html
 ---
-<section class="banner">
-	<div class="wrap cf">
-		<div class="inner">
-			<h1 class="page-title">Qui sommes-nous ?</h1>
-		</div>
-	</div>
-</section>
-
 <section class="section">
 	<div class="wrap cf">
 		<div class="inner">

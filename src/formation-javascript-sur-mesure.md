@@ -1,18 +1,11 @@
 ---
 title: "Formation JavaScript sur mesure"
 description: "Formation JavaScript sur mesure"
-menu: service
+menu: services
 submenu: formation
+banner: "Formation JavaScript sur mesure"
 template: index.html
 ---
-<section class="banner">
-	<div class="wrap cf">
-		<div class="inner">
-			<h1 class="page-title">Formation JavaScript <em>sur mesure</em></h1>
-		</div>
-	</div>
-</section>
-
 <div class="techno-logo">
 	<div class="wrap cf">
 		<div class="inner">

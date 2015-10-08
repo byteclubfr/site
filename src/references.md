@@ -2,16 +2,9 @@
 title: "Références"
 description: "Références"
 menu: references
+banner: "Nos références"
 template: index.html
 ---
-<section class="banner">
-	<div class="wrap cf">
-		<div class="inner">
-			<h1 class="page-title">Nos références</h1>
-		</div>
-	</div>
-</section>
-
 <section class="section section-alt">
 	<div class="wrap cf">
 		<div class="inner">

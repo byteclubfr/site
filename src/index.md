@@ -1,7 +1,7 @@
 ---
 title: "ByteClub : conseil, formation et développement sous JavaScript, AngularJS, Node.js, React"
 description: "ByteClub : conseil, formation et développement sous JavaScript, AngularJS, Node.js, React"
-menu: "home"
+menu: home
 template: index.html
 home: true
 ---

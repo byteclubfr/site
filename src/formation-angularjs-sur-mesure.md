@@ -1,18 +1,11 @@
 ---
 title: "Formation AngularJS sur mesure"
 description: "Formation AngularJS sur mesure"
-menu: service
+menu: services
 submenu: formation
+banner: "Formation AngularJS sur mesure"
 template: index.html
 ---
-<section class="banner">
-	<div class="wrap cf">
-		<div class="inner">
-			<h1 class="page-title">Formation AngularJS <em>sur mesure</em></h1>
-		</div>
-	</div>
-</section>
-
 <div class="techno-logo">
 	<div class="wrap cf">
 		<div class="inner">

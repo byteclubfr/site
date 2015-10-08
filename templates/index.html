@@ -30,8 +30,8 @@
 				<nav class="wrapper-nav-main">
 					<ul class="nav nav-main">
 						<li class="lnk-home {% if menu == 'home' %}current{% endif%}"><a href="index.html"><span>Accueil</span></a></li>
-						<li class="{% if menu == 'service' %}current{% endif%}"><a href="services.html">Services</a>
-							{% if menu == 'service' %}
+						<li class="{% if menu == 'services' %}current{% endif%}"><a href="services.html">Services</a>
+							{% if menu == 'services' %}
 							<ul class="nav nav-sub">
 								<li><a href="services.html#conseil">Conseil</a></li>
 								<li><a href="services.html#developpement">Développement</a></li>
@@ -65,6 +65,16 @@
 			</div>
 		</header>
 	</div>
+	{% endif %}
+
+	{% if banner %}
+	<section class="banner">
+		<div class="wrap cf">
+			<div class="inner">
+				<h1 class="page-title">{{ banner }}</h1>
+			</div>
+		</div>
+	</section>
 	{% endif %}
 
 	{% autoescape false -%}

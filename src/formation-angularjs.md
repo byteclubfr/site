@@ -1,18 +1,11 @@
 ---
 title: "Formation AngularJS"
 description: "Formation AngularJS"
-menu: service
+menu: services
 submenu: formation
+banner: "Formation AngularJS"
 template: index.html
 ---
-<section class="banner">
-	<div class="wrap cf">
-		<div class="inner">
-			<h1 class="page-title">Formation AngularJS</h1>
-		</div>
-	</div>
-</section>
-
 <div class="techno-logo">
 	<div class="wrap cf">
 		<div class="inner">

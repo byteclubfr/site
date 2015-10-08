@@ -1,18 +1,11 @@
 ---
 title: "Formation ECMAScript 2015 (ES6)"
 description: "Formation ECMAScript 2015 (ES6)"
-menu: service
+menu: services
 submenu: formation
+banner: "Formation ECMAScript 2015 (ES6)"
 template: index.html
 ---
-<section class="banner">
-	<div class="wrap cf">
-		<div class="inner">
-			<h1 class="page-title">Formation ECMAScript 2015 (ES6)</h1>
-		</div>
-	</div>
-</section>
-
 <div class="techno-logo">
 	<div class="wrap cf">
 		<div class="inner">
