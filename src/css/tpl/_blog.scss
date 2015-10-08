@@ -4,3 +4,24 @@
     color: $color-brown;
   }
 }
+
+.blog {
+  font-size: 1.2em;
+  h1 {
+    font-size: 2em;
+  }
+  a {
+    color: $color-brown;
+  }
+  p {
+    margin: 1em 0;
+  }
+  blockquote {
+    background: #f3ede6;
+    font-style: italic;
+    padding: 0.2em;
+  }
+  .inner {
+    width: 50%;
+  }
+}

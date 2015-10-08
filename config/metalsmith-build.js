@@ -26,6 +26,7 @@ module.exports = {
       // another npm task handle js concat and minify
       "js/**"
     ],
+    "metalsmith-metallic": true,
     "metalsmith-markdown": {
     },
     "metalsmith-templates": {
