@@ -43,6 +43,8 @@ template: index.html
 					<li>L'event-loop ;</li>
 					<li>Le DOM ;</li>
 					<li>Les événements ;</li>
+					<li>Les prototypes ;</li>
+					<li>L'approche fonctionnelle ;</li>
 					<li>La gestion du code asynchrone ;</li>
 					<li>L'environnement de développement JavaScript : shims, minificateurs, npm, browserify ou webpack…</li>
 				</ul>
