@@ -7,7 +7,7 @@
     "clean": "rm -rf build && compass clean",
     "css": "compass compile",
     "dirs": "mkdir -p build/{css,img,js}",
-    "deploy": "s3-upload",
+    "deploy": "cd build && cp ../aws-* ./ && s3-upload",
     "html": "cp src/*.html build",
     "img": "cp -r src/img build",
     "jquery": "cat src/js/jquery.* | uglifyjs -o build/js/jquery-plugins.js",
