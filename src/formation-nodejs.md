@@ -19,14 +19,14 @@ template: index.html
 		<div class="inner">
 			<h3 class="title-second">3 jours pour découvrir et comprendre le framework Node.js.<br>Stage pratique, magistral et didactique, pour devenir autonome.</h3>
 			<div class="techno-col content cf">
-				<h3 class="title-second">Objectifs :</h3>
+				<h3 class="title-second">Objectifs :</h3>
 				<ul>À l'issue de cette formation Node.js, les participants seront en mesure de :
 					<li><strong>Savoir dans quel cas choisir Node.js</strong>,</li>
 					<li><strong>Ecrire des applications</strong> pour Node.js,</li>
 					<li><strong>Appréhender l'écosystème</strong> Node.js,</li>
 					<li><strong>Mettre en oeuvre les bonnes pratiques</strong> de développement avec Node.js.</li>
 				</ul>
-				<h3 class="title-second">Méthode pédagogique :</h3>
+				<h3 class="title-second">Méthode pédagogique :</h3>
 				<p>Alternance (50-50%) de <strong>cours magistraux et de travaux pratiques</strong> (live coding) sur machine individuelle. Le stage se déroule autour de la réalisation d'une application simple et fonctionnelle, permettant la mise en application concrète des concepts abordés. Un support de cours est remis à chaque participant au format électronique.</p>
 				<h3 class="title-second">Public :</h3>
 				<ul><strong>
@@ -39,7 +39,7 @@ template: index.html
 			</div>
 
 			<div class="techno-col content last cf">
-				<h3 class="title-second"> Au sommaire :</h3>
+				<h3 class="title-second"> Au sommaire :</h3>
 				<ul>
 					<li><strong>1<sup>er</sup> jour</strong> : Présentation du framework - Premiers pas avec Node.js.</li>
 					<li><strong>2<sup>ème</sup> jour</strong> : Bases de données - Tests - Communication temps réel.</li>
@@ -93,6 +93,7 @@ template: index.html
 				<ul><strong>Programmation asynchrone :</strong>
 					<li>Les avantages. Les pièges à éviter.</li>
 					<li>Gérer la soupe de callbacks avec Async.</li>
+					<li>Dompter les promesses.</li>
 				</ul>
 				<ul><strong>Les modules Node.js :</strong>
 					<li>Description.</li>
@@ -111,7 +112,7 @@ template: index.html
 				</ul>
 				<ul><strong>Se simplifier la vie avec Express :</strong>
 					<li>Le routage.</li>
-					<li>La vue: choisir le bon moteur de template.</li>
+					<li>La vue : choisir le bon moteur de template.</li>
 					<li>Gérer les fichiers statiques.</li>
 				</ul>
 				<ul><strong>Travaux pratiques :</strong>
@@ -146,7 +147,7 @@ template: index.html
 				</ul>
 				<ul><strong>Tests unitaires et fonctionnels :</strong>
 					<li>Tests unitaires avec Mocha (atelier).</li>
-					<li>Tests fonctionnels avec les headless browsers.</li>
+					<li>Tests fonctionnels avec les headless browsers (PhantomJS).</li>
 					<li>Intégration avec npm.</li>
 				</ul>
 			</div>
