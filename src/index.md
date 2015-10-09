@@ -9,7 +9,7 @@ home: true
 	<div class="wrap cf">
 		<div class="banner-home">
 			<div class="banner-home-wrap">
-				<h1 class="page-title">ByteClub met <em>vos idées</em> en applications!</h1>
+				<h1 class="page-title">ByteClub met <em>vos idées</em> en applications !</h1>
 				<p>ByteClub conseille, forme et développe sous AngularJS, Node.js et React.</p>
 				<img src="img/mascot.png" alt="" class="mascot" />
 			</div>
