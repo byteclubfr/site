@@ -9,6 +9,7 @@ module.exports = {
     "img/logos-clients/*.*",
     "img/blog/**/*.*",
     "*.html",
-    "blog/*.html"
+    "blog/*.html",
+    "planner/*.*"
   ]
 }
