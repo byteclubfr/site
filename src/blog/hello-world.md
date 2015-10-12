@@ -3,6 +3,7 @@ title: Hello world
 description: Hello world
 menu: blog
 banner: Blog
+date: 2015-10-09
 template: index.html
 ---
 # Hello world

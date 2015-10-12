@@ -14,7 +14,11 @@
     color: $color-brown;
   }
   p {
+    line-height: 1.4em;
     margin: 1em 0;
+    code {
+      background: #f3ede6;
+    }
   }
   blockquote {
     background: #f3ede6;
