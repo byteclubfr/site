@@ -58,7 +58,8 @@ module.exports = {
     },
     "metalsmith-layouts": {
       "engine": "swig",
-      "default": "index.html"
+      "default": "index.html",
+      "pattern": "**/*.html"
     },
     "metalsmith-excerpts": true,
     "metalsmith-feed": {
