@@ -6,13 +6,16 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 	<title>
-		{{ site }}
+		{{ site.title }}
 		{% if title %} - {{ title }}{% endif %}
 		{% if tag %} #{{ tag }}{% endif %}
 	</title>
 	<meta name="description" content="{{ description }}">
 	<meta name="language" content="fr">
 	<meta name="author" content="ByteClub">
+
+	<!-- Blog feed -->
+	<link rel="alternate" type="application/rss+xml" title="byteclub.fr - Blog" href="/rss.xml" />
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="/css/site.css" type="text/css" media="all" />

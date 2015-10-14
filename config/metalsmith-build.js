@@ -1,9 +1,11 @@
 module.exports = {
   "metadata": {
-    "site":   "ByteClub",
-    "url":    "http://byteclub.fr",
-    "mailto": "contact@byteclub.fr",
-    "tel":    "06 14 66 76 41"
+    "site": {
+      "title":  "ByteClub",
+      "url":    "http://byteclub.fr",
+    },
+    "mailto":   "contact@byteclub.fr",
+    "tel":      "06 14 66 76 41"
   },
   "plugins": {
     "metalsmith-paths": {
@@ -32,6 +34,7 @@ module.exports = {
         "pattern": "blog/tags/*.html"
       }
     },
+    // TODO use metalsmith-collection's "metadata" option (but it did not what I expected)
     "./lib/metalsmith-collections-metadata": {
       "tags": {
         "menu": "blog",
@@ -56,6 +59,10 @@ module.exports = {
     "metalsmith-layouts": {
       "engine": "swig",
       "default": "index.html"
+    },
+    "metalsmith-excerpts": true,
+    "metalsmith-feed": {
+      "collection": "posts"
     }
   }
 }

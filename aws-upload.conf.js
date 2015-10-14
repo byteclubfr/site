@@ -4,12 +4,9 @@ module.exports = {
   patterns:[
     "css/*.css",
     "js/*.js",
-    "img/*.*",
-    "img/avatars/*.*",
-    "img/logos-clients/*.*",
-    "img/blog/**/*.*",
-    "*.html",
-    "blog/*.html",
-    "planner/*.*"
+    "img/**/*.*",
+    "**/*.html",
+    "planner/*.*",
+    "rss.xml"
   ]
 }
