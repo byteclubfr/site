@@ -2,7 +2,6 @@
 title: "ByteClub : conseil, formation et développement sous JavaScript, AngularJS, Node.js, React"
 description: "ByteClub : conseil, formation et développement sous JavaScript, AngularJS, Node.js, React"
 menu: home
-template: index.html
 home: true
 ---
 <section class="banner">

@@ -3,7 +3,6 @@ title: "Services : conseil, formation et développement sous JavaScript, Angular
 description: "Services : conseil, formation et développement sous JavaScript, AngularJS, Node.js, React"
 menu: services
 banner: "Nos services"
-template: index.html
 ---
 <section class="section section-alt">
 	<div class="wrap cf">

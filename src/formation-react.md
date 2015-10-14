@@ -4,7 +4,6 @@ description: "Formation React"
 menu: services
 submenu: formation
 banner: "Formation React"
-template: index.html
 ---
 <div class="techno-logo">
 	<div class="wrap cf">

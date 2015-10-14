@@ -3,7 +3,6 @@ title: "Technologies : JavaScript, AngularJS, Node.js, React."
 description: "Technologies : JavaScript, AngularJS, Node.js, React."
 menu: technologies
 banner: "Nos technologies"
-template: index.html
 ---
 <div class="techno-logo">
 	<div class="wrap cf">

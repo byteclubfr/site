@@ -4,7 +4,6 @@ description: Gérer les versions instables d'Angular
 menu: blog
 banner: Blog
 date: 2015-10-12
-template: index.html
 ---
 # Angular snapshot
 

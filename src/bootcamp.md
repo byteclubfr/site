@@ -3,7 +3,6 @@ title: Bootcamp
 description: "BootCamp AngularJS, Node.js et React."
 menu: service
 submenu: bootcamp
-template: index.html
 ---
 <section class="banner">
 	<div class="wrap cf">

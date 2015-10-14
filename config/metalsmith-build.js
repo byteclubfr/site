@@ -29,8 +29,9 @@ module.exports = {
     "metalsmith-metallic": true,
     "metalsmith-markdown": {
     },
-    "metalsmith-templates": {
-      "engine": "swig"
-    },
+    "metalsmith-layouts": {
+      "engine": "swig",
+      "default": "index.html"
+    }
   }
 }

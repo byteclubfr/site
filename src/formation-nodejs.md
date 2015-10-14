@@ -4,7 +4,6 @@ description: "Formation Node.js"
 menu: services
 submenu: formation
 banner: "Formation Node.js"
-template: index.html
 ---
 <div class="techno-logo">
 	<div class="wrap cf">

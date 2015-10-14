@@ -4,7 +4,6 @@ description: "Formation ECMAScript 2015 (ES6)"
 menu: services
 submenu: formation
 banner: "Formation ECMAScript 2015 (ES6)"
-template: index.html
 ---
 <div class="techno-logo">
 	<div class="wrap cf">

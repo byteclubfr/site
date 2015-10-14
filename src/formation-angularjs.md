@@ -4,7 +4,6 @@ description: "Formation AngularJS"
 menu: services
 submenu: formation
 banner: "Formation AngularJS"
-template: index.html
 ---
 <div class="techno-logo">
 	<div class="wrap cf">

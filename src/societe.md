@@ -3,7 +3,6 @@ title: "Société  ByteClub"
 description: "Découvrez ByteClub."
 menu: societe
 banner: "Qui sommes nous ?"
-template: index.html
 ---
 <section class="section">
 	<div class="wrap cf">

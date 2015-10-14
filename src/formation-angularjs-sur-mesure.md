@@ -4,7 +4,6 @@ description: "Formation AngularJS sur mesure"
 menu: services
 submenu: formation
 banner: "Formation AngularJS sur mesure"
-template: index.html
 ---
 <div class="techno-logo">
 	<div class="wrap cf">

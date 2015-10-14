@@ -4,7 +4,6 @@ description: "Formation Node.js sur mesure"
 menu: services
 submenu: formation
 banner: "Formation Node.js sur mesure"
-template: index.html
 ---
 <div class="techno-logo">
 	<div class="wrap cf">

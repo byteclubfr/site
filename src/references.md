@@ -3,7 +3,6 @@ title: "Références"
 description: "Références"
 menu: references
 banner: "Nos références"
-template: index.html
 ---
 <section class="section section-alt">
 	<div class="wrap cf">

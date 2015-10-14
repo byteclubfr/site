@@ -3,7 +3,6 @@ title: Contact
 description: "Contactez ByteClub."
 menu: contact
 banner: "Contactez nous !"
-template: index.html
 scripts:
   - "/js/leaflet.js"
   - "/js/parsley.min.js"

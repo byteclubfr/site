@@ -4,7 +4,6 @@ description: "Formation JavaScript sur mesure"
 menu: services
 submenu: formation
 banner: "Formation JavaScript sur mesure"
-template: index.html
 ---
 <div class="techno-logo">
 	<div class="wrap cf">

@@ -3,7 +3,6 @@ title: Mentions légales
 description: "Mentions légales."
 menu: true
 banner: "Mentions légales"
-template: index.html
 ---
 <section class="section section-alt">
 	<div class="wrap cf">
