@@ -23,7 +23,7 @@ module.exports = {
     "metalsmith-collections": {
       // blog
       "posts": {
-        "pattern": "blog/*.md",
+        "pattern": "blog/!(index).md",
         "sortBy": "date",
         "reverse": true,
         "limit": 15,
