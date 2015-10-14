@@ -1,12 +1,9 @@
 ---
 title: Hello world
 description: Hello world
-menu: blog
-banner: Blog
 date: 2015-10-09
+author: Bruno
 ---
-# Hello world
-
 Bienvenue sur le **ByteBlog**, le journal collaboratif en français des [membres du ByteClub](/societe.html).
 
 Dans ses colonnes, nous faisons la part belle à nos [technos quotidiennes](/technologies.html) sans toutefois perdre de vue ce qui se passe plus généralement autour du développement web.

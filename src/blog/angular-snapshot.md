@@ -1,12 +1,10 @@
 ---
 title: Angular snapshot
 description: Gérer les versions instables d'Angular
-menu: blog
-banner: Blog
 date: 2015-10-12
+tags: angularjs
+author: Bruno
 ---
-# Angular snapshot
-
 Lorsqu'une application bascule en phase de production il est essentiel de figer les versions de ses dépendances afin d'éviter les mauvaises surprises.
 C'est d'autant plus critique dans le monde d'Angular car ce dernier ne respecte hélas pas [semver](http://semver.org).
 Heureusement son [changelog](https://github.com/angular/angular.js/blob/master/CHANGELOG.md) est bien documenté pour accompagner les développeurs dans leur montée de versions.

@@ -1,0 +1,47 @@
+{% extends 'index.html' %}
+
+{% block contents %}
+
+{% if blogIndex %}
+
+<section class="section">
+	<div class="wrap cf">
+		<div class="inner">
+			<h2>Derniers articles :</h2>
+			<ul class="posts-list">
+			{% for post in collections.posts %}
+				{% if post.title !='Blog' %}
+				<li>{{ post.date | date('d/m/Y') }} - <a href="/blog/{{ post.paths.name }}.html">{{ post.title }}</a></li>
+				{% endif %}
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
+
+{% else %}
+
+<section class="section blog">
+	<div class="wrap cf">
+		<div class="inner">
+			<h2>{{ postTitle || title }}</h2>
+			{% parent %}
+			<div class="metadata">
+				Par <span class="post-author">{{ author }}</span>
+				le <span class="post-date">{{ date | date('d/m/Y') }}</span>
+				dans
+				{% if tags.length > 1 %}les catégories{% endif %}
+				{% if tags.length == 1 %}la catégorie{% endif %}
+				{% if tags.length > 0 -%}
+					{% for tag in tagsUrlSafe -%}
+					<a class="post-tag" href="/blog/tags/{{ tag }}.html">#{{ tag }}</a>{% if !loop.last %}, {% endif %}
+					{% endfor -%}
+				{% endif -%}.
+			</div>
+		</div>
+	</div>
+</section>
+
+{% endif %}
+
+{% endblock %}

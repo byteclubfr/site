@@ -1,0 +1,18 @@
+{% extends 'index.html' %}
+
+{% block contents %}
+
+<section class="section blog">
+	<div class="wrap cf">
+		<div class="inner">
+			<h2>Articles taggés #{{ tag }} :</h2>
+			<ul class="posts-list">
+				{% for post in tagged[tag] %}
+				<li>{{ post.date | date('d/m/Y') }} - <a href="/blog/{{ post.paths.name }}.html">{{ post.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+{% endblock %}

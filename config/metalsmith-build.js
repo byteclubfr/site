@@ -9,6 +9,15 @@ module.exports = {
     "metalsmith-paths": {
       "property": "paths"
     },
+    "metalsmith-tags": {
+      "handle": "tags",
+      "path": "blog/tags/:tag.html",
+      "layout": "tags.html",
+      "sortBy": "date",
+      "reverse": true,
+      "metadataKey": "tagged",
+      "skipMetadata": false
+    },
     "metalsmith-collections": {
       // blog
       "posts": {
@@ -18,6 +27,21 @@ module.exports = {
         "limit": 15,
         // skip next prev links
         "refer": false
+      },
+      "tags": {
+        "pattern": "blog/tags/*.html"
+      }
+    },
+    "./lib/metalsmith-collections-metadata": {
+      "tags": {
+        "menu": "blog",
+        "banner": "Blog",
+        "title": "Tag"
+      },
+      "posts": {
+        "layout": "blog.html",
+        "menu": "blog",
+        "banner": "Blog"
       }
     },
     "metalsmith-ignore": [

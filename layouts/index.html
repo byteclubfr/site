@@ -5,7 +5,11 @@
 	<!-- Metas -->
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>{{ site }}{% if title %} - {{ title }}{% endif %}</title>
+	<title>
+		{{ site }}
+		{% if title %} - {{ title }}{% endif %}
+		{% if tag %} #{{ tag }}{% endif %}
+	</title>
 	<meta name="description" content="{{ description }}">
 	<meta name="language" content="fr">
 	<meta name="author" content="ByteClub">
@@ -78,39 +82,11 @@
 	</section>
 	{% endif %}
 
-
-	{% if blogIndex %}
-	<section class="section">
-		<div class="wrap cf">
-			<div class="inner">
-				<h2>Derniers articles :</h2>
-				<ul class="posts-list">
-				{% for post in collections.posts %}
-					{% if post.title !='Blog' %}
-					<li><a href="/blog/{{ post.paths.name }}.html">{{ post.title }}</a></li>
-					{% endif %}
-				{% endfor %}
-				</ul>
-			</div>
-		</div>
-	</div>
-	{% endif %}
-
-	{% if !blogIndex && menu=='blog' %}
-	<section class="section blog">
-		<div class="wrap cf">
-			<div class="inner">
-	{% endif %}
-
+	{% block contents %}
 	{% autoescape false -%}
 	{{ contents }}
 	{%- endautoescape %}
-
-	{% if !blogIndex && menu=='blog' %}
-			</div>
-		</div>
-	</section>
-	{% endif %}
+	{% endblock %}
 
 	{% if !home -%}
 	<footer class="footer" role="contentinfo">

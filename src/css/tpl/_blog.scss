@@ -28,4 +28,17 @@
   .inner {
     width: 50%;
   }
+  .metadata {
+    background: lighten($color-sand, 25);
+    padding: 1em;
+    color: lighten($color-brown, 25);
+    .post-author, .post-date {
+      font-weight: bold;
+    }
+    .post-tag {
+      color: $color-brown;
+      text-decoration: none;
+      font-weight: bolder;
+    }
+  }
 }
