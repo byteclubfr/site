@@ -53,6 +53,10 @@ module.exports = {
         "banner": "Blog"
       }
     },
+    "./lib/metalsmith-external-posts": {
+      "prefix": "[externe 🔗 {{ host }}] ",
+      "suffix": ""
+    },
     "metalsmith-ignore": [
       // another npm task handle scss
       "css/**",

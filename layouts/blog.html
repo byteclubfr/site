@@ -11,7 +11,12 @@
 			<ul class="posts-list">
 			{% for post in collections.posts %}
 				{% if post.title !='Blog' %}
-				<li>{{ post.date | date }} - <a href="/blog/{{ post.paths.name }}.html">{{ post.title }}</a></li>
+				<li>
+					<a
+						{% if post.external && post.url %}class="external" href="{{ post.url }}"
+						{% else %}href="/blog/{{ post.paths.name }}.html"{% endif %}>{{ post.title }}</a>
+					<span class="post-date">(le {{ post.date | date }})</span>
+				</li>
 				{% endif %}
 			{% endfor %}
 			</ul>

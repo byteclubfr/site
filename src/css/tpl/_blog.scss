@@ -1,7 +1,15 @@
 .posts-list {
   list-style: none;
   a {
+    font-size: 18px;
     color: $color-brown;
+    text-decoration: none;
+  }
+  a.external:before {
+    content: '🔗 ';
+  }
+  span.post-date {
+    color: #ccc;
   }
 }
 
