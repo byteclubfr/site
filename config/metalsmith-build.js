@@ -8,6 +8,12 @@ module.exports = {
     "tel":      "06 14 66 76 41"
   },
   "plugins": {
+    "./lib/metalsmith-swig-config": {
+      "date": {
+        "lang": "fr",
+        "format": "DD MMMM YYYY"
+      }
+    },
     "metalsmith-paths": {
       "property": "paths"
     },
