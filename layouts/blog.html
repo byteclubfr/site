@@ -34,10 +34,9 @@
 			<div class="metadata">
 				Par <span class="post-author">{{ author }}</span>
 				le <span class="post-date">{{ date | date }}</span>
-				dans
-				{% if tags.length > 1 %}les catégories{% endif %}
-				{% if tags.length == 1 %}la catégorie{% endif %}
-				{% if tags.length > 0 -%}
+				{% if tagsUrlSafe.length > 1 %}dans les catégories{% endif %}
+				{% if tagsUrlSafe.length == 1 %}dans la catégorie{% endif %}
+				{% if tagsUrlSafe.length > 0 -%}
 					{% for tag in tagsUrlSafe -%}
 					<a class="post-tag" href="/blog/tags/{{ tag }}.html">#{{ tag }}</a>{% if !loop.last %}, {% endif %}
 					{% endfor -%}
