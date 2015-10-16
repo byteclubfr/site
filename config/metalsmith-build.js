@@ -38,6 +38,9 @@ module.exports = {
       },
       "tags": {
         "pattern": "blog/tags/*.html"
+      },
+      "planner": {
+        "pattern": "planner/**"
       }
     },
     // TODO use metalsmith-collection's "metadata" option (but it did not what I expected)
@@ -51,6 +54,9 @@ module.exports = {
         "layout": "blog.html",
         "menu": "blog",
         "banner": "Blog"
+      },
+      "planner": {
+        "layout": "void.html"
       }
     },
     "./lib/metalsmith-external-posts": {
