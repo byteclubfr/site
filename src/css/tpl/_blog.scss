@@ -5,11 +5,14 @@
     color: $color-brown;
     text-decoration: none;
   }
-  a.external:before {
+  a.external h2:before {
     content: '🔗 ';
   }
   span.post-date {
-    color: #ccc;
+    color: #888;
+  }
+  p {
+    margin: 0 0 1em 2em;
   }
 }
 

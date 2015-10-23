@@ -7,15 +7,17 @@
 <section class="section">
 	<div class="wrap cf">
 		<div class="inner">
-			<h2>Derniers articles :</h2>
 			<ul class="posts-list">
 			{% for post in collections.posts %}
 				{% if post.title !='Blog' %}
 				<li>
+					<span class="post-date">Le {{ post.date | date }}</span>
 					<a
-						{% if post.external && post.url %}class="external" href="{{ post.url }}"
-						{% else %}href="/blog/{{ post.paths.name }}.html"{% endif %}>{{ post.title }}</a>
-					<span class="post-date">(le {{ post.date | date }})</span>
+						{% if post.external && post.url %} class="external" href="{{ post.url }}"
+						{% else %}href="/blog/{{ post.paths.name }}.html"{% endif %}><h2>{{ post.title }}</h2></a>
+					<p>
+						{{ post.description }}
+					</p>
 				</li>
 				{% endif %}
 			{% endfor %}
