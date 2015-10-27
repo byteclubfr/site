@@ -14,7 +14,7 @@
 					<span class="post-date">Le {{ post.date | date }}</span>
 					<a
 						{% if post.external && post.url %} class="external" href="{{ post.url }}"
-						{% else %}href="/blog/{{ post.paths.name }}.html"{% endif %}><h2>{{ post.title }}</h2></a>
+						{% else %}href="/{{ post.url }}"{% endif %}><h2>{{ post.title }}</h2></a>
 					<p>
 						{{ post.description }}
 					</p>

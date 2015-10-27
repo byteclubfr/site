@@ -1,9 +1,11 @@
+var site = {
+  "title":  "ByteClub",
+  "url":    "http://byteclub.fr",
+};
+
 module.exports = {
   "metadata": {
-    "site": {
-      "title":  "ByteClub",
-      "url":    "http://byteclub.fr",
-    },
+    "site": site,
     "mailto":   "contact@byteclub.fr",
     "tel":      "06 14 66 76 41"
   },
@@ -14,9 +16,9 @@ module.exports = {
         "format": "DD MMMM YYYY"
       }
     },
-    "metalsmith-paths": {
-      "property": "paths"
-    },
+    "metalsmith-url": [
+      [/\.md$/, ".html"]
+    ],
     "metalsmith-tags": {
       "handle": "tags",
       "path": "blog/tags/:tag.html",
@@ -78,8 +80,12 @@ module.exports = {
       "pattern": "**/*.html"
     },
     "metalsmith-excerpts": true,
-    "metalsmith-feed": {
-      "collection": "posts"
+    "metalsmith-rss": {
+      "feedOptions": {
+        "title": site.title,
+        "site_url": site.url
+      },
+      "collections": "posts"
     }
   }
 }
