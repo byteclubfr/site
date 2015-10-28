@@ -2,7 +2,7 @@
 title: Slides du lightning talk @NantesJS 13 sur Webpack
 description: Présentation rapide des fonctionnalités de Webpack
 date: 2015-10-23
-tags: webpack
+tags: webpack, conf
 author: Thomas
 ---
 
