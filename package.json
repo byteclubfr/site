@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "build": "npm run dirs && npm run metalsmith && npm run css && npm run js",
-    "clean": "rm -rf build && compass clean",
+    "clean": "rm -rf build && && rm -rf build-gzip && compass clean",
     "css": "compass compile",
     "dirs": "mkdir -p build/css build/img build/js",
     "deploy": "npm run build && npm run redeploy",
     "redeploy": "cd build && cp ../aws-* ./ && s3-upload",
+    "gzip": "rm -rf build-gzip && cp -rf build build-gzip && cd build-gzip && find . -regex \".*\\.\\(css\\|html\\|js\\|svg\\)\" -exec gzip --force \"{}\" \\; -exec mv \"{}.gz\" \"{}\" \\;",
     "jquery": "cat src/js/jquery.* | uglifyjs -o build/js/jquery-plugins.js",
     "js": "npm run jquery && cp src/js/leaflet.js build/js && cp src/js/modernizr.custom.22896.js build/js && cp src/js/parsley.min.js build/js && uglifyjs src/js/start.js -o build/js/start.min.js",
     "metalsmith": "metalsmith -c config/metalsmith-build.js",

@@ -12,6 +12,8 @@ sftp-config*.json
 node_modules
 npm-debug.log
 
-# deploy
-aws-credentials.json
+# served by local http server
 build
+# deploy on S3
+aws-credentials.json
+build-gzip
