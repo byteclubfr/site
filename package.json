@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "npm run dirs && npm run metalsmith && npm run css && npm run js",
-    "clean": "rm -rf build && && rm -rf build-gzip && compass clean",
+    "clean": "rm -rf build && rm -rf build-gzip && compass clean",
     "css": "compass compile",
     "dirs": "mkdir -p build/css build/img build/js",
     "deploy": "npm run build && npm run redeploy",
