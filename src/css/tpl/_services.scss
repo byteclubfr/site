@@ -22,21 +22,10 @@
 }
 .service-title {
 	@extend %font-titles;
-	display: block;
-	position: relative;
 	text-align: center;
-	font-weight: 700;
-	font-size: 28px;
-	color: #000;
 	i {
 		color: $color-orange;
 		margin-right: .5em;
-	}
-	&:before {
-		content: "";
-		display: inline-block;
-		position: relative;
-		margin-right: 20px;
 	}
 }
 .contact-us {
