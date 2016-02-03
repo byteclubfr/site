@@ -52,29 +52,32 @@
 .member-social {
 	li {
 		margin-right: 10px;
-		a span {
-			@extend .is-hidden;
+		a {
+			border-radius: 23px;
+			height: 46px;
+			line-height: 46px;
+			text-align: center;
+			width: 46px;
+			span {
+				@extend .is-hidden;
+			}
+		}
+		i {
+			color: #fff;
+			vertical-align: middle;
 		}
 	}
 	.twitter a {
-		@include sprites-sprite-dimensions(twitter-circle);
-		@include sprites-sprite(twitter-circle);
+		background: #55acee;
 	}
 	.linkedin a {
-		@include sprites-sprite-dimensions(linkedin-circle);
-		@include sprites-sprite(linkedin-circle);
+		background: #1b86bc;
 	}
 	.github a {
-		@include sprites-sprite-dimensions(github-circle);
-		@include sprites-sprite(github-circle);
-	}
-	.viadeo a {
-		@include sprites-sprite-dimensions(viadeo-circle);
-		@include sprites-sprite(viadeo-circle);
+		background: #333;
 	}
 	.lair a {
-		@include sprites-sprite-dimensions(lair-circle);
-		@include sprites-sprite(lair-circle);
+		background: $color-brown-text;
 	}
 }
 

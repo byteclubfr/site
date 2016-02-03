@@ -19,10 +19,9 @@ banner: "Qui sommes nous ?"
 							<q>Développeur web dans l'âme, j'aime amener ma passion pour les technologies web dans les équipes et projets que je manage.</q>
 						</div>
 						<ul class="nav member-social">
-							<li class="twitter"><a href="https://twitter.com/t8g"><span>Twitter</span></a></li>
-							<li class="linkedin"><a href="http://www.linkedin.com/pub/thomas-moyse/11/882/b83"><span>LinkedIn</span></a></li>
-							<li class="github"><a href="https://github.com/t8g"><span>GitHub</span></a></li>
-							<li class="viadeo"><a href="http://fr.viadeo.com/fr/profile/thomas.moyse"><span>Viadeo</span></a></li>
+							<li class="twitter"><a href="https://twitter.com/t8g"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></a></li>
+							<li class="linkedin"><a href="http://www.linkedin.com/pub/thomas-moyse/11/882/b83"><i class="fa fa-linkedin fa-2x"></i><span>LinkedIn</span></a></li>
+							<li class="github"><a href="https://github.com/t8g"><i class="fa fa-github fa-2x"></i><span>GitHub</span></a></li>
 						</ul>
 					</div>
 				</li>
@@ -36,9 +35,9 @@ banner: "Qui sommes nous ?"
 							<q>Partisan de la mouvance « DevOp » qui veut que le développeur ne soit pas simplement un cracheur de code, mais aussi un élément actif de l’opérationnel. J’ai jeté mon dévolu sur Node.JS, technologie serveur qui permet de pousser mon langage favori (JavaScript) plus loin que le simple champ du navigateur.</q>
 						</div>
 						<ul class="nav member-social">
-							<li class="lair"><a href="http://naholyr.fr"><span>Home</span></a></li>
-							<li class="twitter"><a href="https://twitter.com/naholyr"><span>Twitter</span></a></li>
-							<li class="github"><a href="https://github.com/naholyr"><span>GitHub</span></a></li>
+							<li class="lair"><a href="http://naholyr.fr"><i class="fa fa-link fa-2x"></i><span>Home</span></a></li>
+							<li class="twitter"><a href="https://twitter.com/naholyr"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></a></li>
+							<li class="github"><a href="https://github.com/naholyr"><i class="fa fa-github fa-2x"></i><span>GitHub</span></a></li>
 						</ul>
 					</div>
 				</li>
@@ -52,9 +51,9 @@ banner: "Qui sommes nous ?"
 							<q>Je ne suis pas Chabal !</q>
 						</div>
 						<ul class="nav member-social">
-							<li class="lair"><a href="http://delapouite.com"><span>Home</span></a></li>
-							<li class="twitter"><a href="https://twitter.com/delapouite"><span>Twitter</span></a></li>
-							<li class="github"><a href="https://github.com/delapouite"><span>GitHub</span></a></li>
+							<li class="lair"><a href="http://delapouite.com"><i class="fa fa-link fa-2x"></i><span>Home</span></a></li>
+							<li class="twitter"><a href="https://twitter.com/delapouite"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></a></li>
+							<li class="github"><a href="https://github.com/delapouite"><i class="fa fa-github fa-2x"></i><span>GitHub</span></a></li>
 						</ul>
 					</div>
 				</li>
@@ -68,9 +67,8 @@ banner: "Qui sommes nous ?"
 							<q>Mon goût pour les relations humaines, ma curiosité intellectuelle, et mon expérience B2B, sont à l'écoute de vos besoins.</q>
 						</div>
 						<ul class="nav member-social">
-							<li class="twitter"><a href="https://twitter.com/lilianmartineau"><span>Twitter</span></a></li>
-							<li class="linkedin"><a href="http://www.linkedin.com/pub/lilian-martineau/35/170/638"><span>LinkedIn</span></a></li>
-							<li class="viadeo"><a href="http://fr.viadeo.com/fr/profile/lilian.martineau1"><span>Viadeo</span></a></li>
+							<li class="twitter"><a href="https://twitter.com/lilianmartineau"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></a></li>
+							<li class="linkedin"><a href="http://www.linkedin.com/pub/lilian-martineau/35/170/638"><i class="fa fa-linkedin fa-2x"></i><span>LinkedIn</span></a></li>
 						</ul>
 					</div>
 				</li>
@@ -84,9 +82,9 @@ banner: "Qui sommes nous ?"
 							<p>Vous pensez avoir le profil que nous cherchons ? <br><a href="contact.html">Tentez votre chance !</a></p>
 						</div>
 						<ul class="nav member-social">
-							<li class="twitter"><a href="#"><span>Twitter</span></a></li>
-							<li class="linkedin"><a href="#"><span>LinkedIn</span></a></li>
-							<li class="github"><a href="#"><span>GitHub</span></a></li>
+							<li class="twitter"><a href="#"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></a></li>
+							<li class="linkedin"><a href="#"><i class="fa fa-linkedin fa-2x"></i><span>LinkedIn</span></a></li>
+							<li class="github"><a href="#"><i class="fa fa-github fa-2x"></i><span>GitHub</span></a></li>
 						</ul>
 					</div>
 				</li>
