@@ -116,8 +116,7 @@
 	}
 }
 .wrapper-nav-main .lnk-home a {
-	@include sprites-sprite-dimensions(home);
-	@include sprites-sprite(home);
+	color: #000;
 	span {
 		@extend .is-hidden;
 	}
