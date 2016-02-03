@@ -74,7 +74,7 @@ home: true
 				<div class="home-service-row">
 					<div class="home-service-cell">
 						<div class="home-service-picto">
-							<img src="img/picto-conseil.png" alt="conseil" />
+							<i class="fa fa-comments fa-3x"></i>
 						</div>
 					</div>
 					<div class="home-service-cell">
@@ -90,7 +90,7 @@ home: true
 				<div class="home-service-row">
 					<div class="home-service-cell">
 						<div class="home-service-picto">
-							<img src="img/picto-dev.png" alt="dev" />
+							<i class="fa fa-code fa-3x"></i>
 						</div>
 					</div>
 					<div class="home-service-cell">
@@ -106,7 +106,7 @@ home: true
 				<div class="home-service-row">
 					<div class="home-service-cell">
 						<div class="home-service-picto">
-							<img src="img/picto-formation.png" alt="formation" />
+							<i class="fa fa-graduation-cap fa-3x"></i>
 						</div>
 					</div>
 					<div class="home-service-cell">
@@ -122,7 +122,7 @@ home: true
 				<div class="home-service-row">
 					<div class="home-service-cell">
 						<div class="home-service-picto">
-							<img src="img/picto-bootcamp.png" alt="bootcamp" />
+							<i class="fa fa-rocket fa-3x"></i>
 						</div>
 					</div>
 					<div class="home-service-cell">

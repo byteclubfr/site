@@ -28,46 +28,15 @@
 	font-weight: 700;
 	font-size: 28px;
 	color: #000;
-	> span, > img {
-		display: inline-block;
-		vertical-align: middle;
-	}
-	> img {
-		margin-left: 10px;
+	i {
+		color: $color-orange;
+		margin-right: .5em;
 	}
 	&:before {
 		content: "";
 		display: inline-block;
 		position: relative;
 		margin-right: 20px;
-	}
-}
-.service-title-conseil {
-	&:before {
-		@include sprites-sprite-dimensions(comments);
-		@include sprites-sprite(comments);
-		top: 5px;
-	}
-}
-.service-title-dvpt {
-	&:before {
-		@include sprites-sprite-dimensions(cloud);
-		@include sprites-sprite(cloud);
-		top: 2px;
-	}
-}
-.service-title-formation {
-	&:before {
-		@include sprites-sprite-dimensions(people);
-		@include sprites-sprite(people);
-		top: 2px;
-	}
-}
-.service-title-bootcamp {
-	&:before {
-		@include sprites-sprite-dimensions(bootcamp);
-		@include sprites-sprite(bootcamp);
-		top: 2px;
 	}
 }
 .contact-us {

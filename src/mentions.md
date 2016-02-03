@@ -14,7 +14,7 @@ banner: "Mentions légales"
 			<div class="blocks js-dispatch cf">
 
 				<article data-order="1" class="block block-odd">
-					<h2 id="conseil" class="service-title service-title-conseil">Éditeur</h2>
+					<h2 id="editeur" class="service-title"><i class="fa fa-pencil"></i>Éditeur</h2>
 					<div class="content">
 						<p><strong>ByteClub</strong></p>
 						</p>5, Boulevard Vincent Gache<br>
@@ -32,7 +32,7 @@ banner: "Mentions légales"
 				</article>
 
 				<article data-order="2" class="block block-even">
-					<h2 id="developpement" class="service-title service-title-dvpt">Hébergeur du site web</h2>
+					<h2 id="hebergement" class="service-title"><i class="fa fa-server"></i>Hébergeur du site web</h2>
 					<div class="content">
 						<p><strong>Amazon Web Services, Inc.</strong></p>
 						<p>P.O. Box 81226<br>

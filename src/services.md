@@ -13,7 +13,7 @@ banner: "Nos services"
 
 			<div class="blocks js-dispatch cf">
 				<article id="conseil" data-order="1" class="block block-odd">
-					<h2 class="service-title service-title-conseil">Conseil</h2>
+					<h2 class="service-title"><i class="fa fa-comments"></i>Conseil</h2>
 					<div class="content">
 						<p>ByteClub met à votre disposition son <strong>expertise</strong> des technologies <strong>AngularJS</strong>, <strong>Node.js</strong> et <strong>React</strong>.</p>
 						<p>Que vous souhaitiez expertiser ou <strong>auditer</strong> une application, être accompagnés pour l'adoption d'une architecture ou simplement <strong>valider vos choix</strong>, ByteClub peut vous aider.</p>
@@ -23,7 +23,7 @@ banner: "Nos services"
 				</article>
 
 				<article id="developpement" data-order="2" class="block block-even">
-					<h2 class="service-title service-title-dvpt">Développement</h2>
+					<h2 class="service-title"><i class="fa fa-code"></i>Développement</h2>
 					<div class="content">
 						<p>Vous souhaitez innover ? Augmenter votre valeur ajoutée, votre différenciation ? Créer ou capter un nouveau marché ?</p>
 						<p><strong>ByteClub développe les applications web issues de vos réflexions innovantes.</strong></p>
@@ -33,7 +33,7 @@ banner: "Nos services"
 				</article>
 
 				<article id="formation" data-order="3" class="block block-odd">
-					<h2 class="service-title service-title-formation"><span>Formation</span></h2>
+					<h2 class="service-title"><i class="fa fa-graduation-cap"></i><span>Formation</span></h2>
 					<div class="content">
 						<p>Nos formations permettent de comprendre et maîtriser chaque framework au travers d'exercices pratiques et de nombreuses illustrations.</p>
 
@@ -56,7 +56,7 @@ banner: "Nos services"
 				</article>
 
 				<article id="bootcamp" data-order="4" class="block block-even">
-					<h2 class="service-title service-title-bootcamp">BootCamp</h2>
+					<h2 class="service-title"><i class="fa fa-rocket"></i>BootCamp</h2>
 					<div class="content">
 						<p><strong>Développez vos applications ET vos compétences !</strong></p>
 						<p>Vous avez un projet et une équipe technique ?<br>
