@@ -45,7 +45,7 @@
 	@include at-breakpoint(80em) {
 		@include span-columns(5,9);
 		@include prefix(2,9);
-  		@include suffix(2,9);
+		@include suffix(2,9);
 	}
 	p {
 		margin-bottom: 30px;

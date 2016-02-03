@@ -37,14 +37,13 @@
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 1em;
-	color: #000;
 }
 .member-job {
 	margin-bottom: 25px;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 1em;
-	color: #888;
+	color: $color-light-black;
 }
 .member-bio {
 	margin-bottom: 25px;
@@ -63,7 +62,7 @@
 			}
 		}
 		i {
-			color: #fff;
+			color: $color-white;
 			vertical-align: middle;
 		}
 	}
@@ -99,7 +98,7 @@
 }
 .idea-title {
 	@extend %font-titles;
-	color: #000;
+	color: $color-brown;
 	font-size: 28px;
 	font-weight: 400;
 	line-height: 34px;
@@ -112,9 +111,9 @@
 	}
 	padding: 40px 25px 25px;
 	background: $color-purple;
-	color: #fff;
+	color: $color-white;
 	a {
-		color: #fff;
+		color: $color-white;
 	}
 }
 .idea-front {
@@ -124,7 +123,7 @@
 	left: 0;
 	bottom: 0;
 	padding: 40px;
-	background: #fff;
+	background: $color-white;
 	opacity: 1;
 }
 .idea-open {

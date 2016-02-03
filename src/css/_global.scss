@@ -109,7 +109,7 @@ a {
 	@include at-breakpoint(70em) {
 		@include span-columns(6,9);
 		@include prefix(2,9);
-  		@include suffix(1,9);
+		@include suffix(1,9);
 	}
 }
 .block {
