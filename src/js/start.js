@@ -117,8 +117,8 @@ bc.map = function (selector) {
 bc.hoverCard = function (selector) {
 	if (!$(selector).length) return;
 
-	$('.idea-card').append('<span class="idea-close"></span>');
-	$('.idea-front').append('<span class="idea-open"></span>');
+	$('.idea-card').append('<span class="idea-close">×</span>');
+	$('.idea-front').append('<span class="idea-open">…</span>');
 	$('.idea-open').click(function () {
 		var parent = $(this).parent('.idea-front');
 		parent.fadeTo('fast', 0, function () { parent.hide(); });

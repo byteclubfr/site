@@ -5,8 +5,6 @@ require 'susy'
 http_path = "/"
 css_dir = "build/css"
 sass_dir = "src/css"
-# sprites
-generated_images_dir = "build/img"
 images_dir = "src/img"
 javascripts_dir = "src/js"
 output_style = :compressed

@@ -128,27 +128,25 @@
 	opacity: 1;
 }
 .idea-open {
-	transition: opacity 0.1s ease;
-	@include sprites-sprite-dimensions(plus-circle);
-	@include sprites-sprite(plus-circle);
-	content: "";
-	position: absolute;
 	bottom: 25px;
-	right: 25px;
+	color: $color-orange;
 	cursor: pointer;
+	font-size: 3em;
+	position: absolute;
+	right: 25px;
+	transition: opacity 0.1s ease;
 	&:hover {
 		opacity: .8;
 	}
 }
 .idea-close {
-	transition: opacity 0.1s ease;
-	@include sprites-sprite-dimensions(close-circle);
-	@include sprites-sprite(close-circle);
-	content: "";
-	position: absolute;
-	top: 15px;
-	right: 15px;
 	cursor: pointer;
+	font-size: 2em;
+	position: absolute;
+	right: 15px;
+	text-align: center;
+	top: 15px;
+	transition: opacity 0.1s ease;
 	&:hover {
 		opacity: .8;
 	}

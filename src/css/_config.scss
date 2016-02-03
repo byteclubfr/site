@@ -23,8 +23,3 @@ $color-angular: #dd1b16;
 $color-node: #8bcc54;
 $color-react: #30dcfc;
 $color-js: #f5e248;
-
-/* Sprites */
-$mysprite-layout: smart;
-@import "compass/utilities/sprites/base";
-@import "sprites/*.png";

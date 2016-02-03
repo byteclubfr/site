@@ -68,18 +68,19 @@
 	background: $color-brown-text;
 	width: 70px;
 	height: 70px;
+	text-decoration: none;
 	span {
 		@extend .is-hidden;
 	}
 	&:before {
-		@include sprites-sprite-dimensions(arrow);
-		@include sprites-sprite(arrow);
-		content: "";
-		position: absolute;
+		content: '^';
+		display: block;
+		font-size: 6em;
+		height: 70px;
+		position: relative;
+		text-align: center;
 		top: 50%;
-		left: 50%;
-		margin-top: -(sprites-sprite-height(arrow)/2);
-		margin-left: -(sprites-sprite-width(arrow)/2);
+		width: 70px;
 	}
 	&:hover, &:focus {
 		background: shade($color-brown-text,20);
