@@ -6,7 +6,7 @@
 	background: $color-brown;
 	color: #fff;
 	a {
-		color: #955d4d;
+		color: $color-brown-text;
 	}
 }
 .footer-home {
@@ -26,7 +26,7 @@
 		font-size: 36px;
 	}
 	strong {
-		color: #955d4d;
+		color: $color-brown-text;
 	}
 }
 .footer-col {
@@ -65,7 +65,7 @@
 	position: absolute;
 	top: -70px;
 	right: 30px;
-	background: #955D4D;
+	background: $color-brown-text;
 	width: 70px;
 	height: 70px;
 	span {
@@ -82,7 +82,7 @@
 		margin-left: -(sprites-sprite-width(arrow)/2);
 	}
 	&:hover, &:focus {
-		background: shade(#955D4D,20);
+		background: shade($color-brown-text,20);
 	}
 }
 .nav-footer {
@@ -128,7 +128,7 @@
 	padding-left: 21px;
 	margin-right: 20px;
 	font-weight: 600;
-	color: #955d4d;
+	color: $color-brown-text;
 	text-transform: uppercase;
 	&:before {
 		@include sprites-sprite-dimensions(phone);

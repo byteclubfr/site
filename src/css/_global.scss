@@ -70,7 +70,7 @@ a {
 	@extend %font-titles;
 	display: inline-block;
 	padding: 10px 20px;
-	background: #955D4D;
+	background: $color-brown-text;
 	color: #fff;
 	border: none;
 	text-decoration: none;
@@ -78,7 +78,7 @@ a {
 	line-height: 1em;
 	font-weight: 500;
 	&:hover, &:focus {
-		background: shade(#955D4D,20);
+		background: shade($color-brown-text,20);
 	}
 	.content & {
 		color: #fff;

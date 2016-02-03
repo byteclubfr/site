@@ -37,9 +37,9 @@
 		background: lighten($color-orange,5);
 	}
 	.is-open & {
-		background: #955d4d;
+		background: $color-brown-text;
 		&:hover, &:focus {
-			background: lighten(#955d4d,5);
+			background: lighten($color-brown-text,5);
 		}
 	}
 	&:before {

@@ -100,8 +100,8 @@
 		line-height: 1em;
 		border-bottom: 1px solid #d3d3d3;
 		&:hover, &:focus {
-			color: #955D4D;
-			border-color: #955D4D;
+			color: $color-brown-text;
+			border-color: $color-brown-text;
 		}
 	}
 	&:before {
