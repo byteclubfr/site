@@ -6,7 +6,7 @@
 	background: $color-brown;
 	color: #fff;
 	a {
-		color: $color-brown-text;
+		color: #fff;
 	}
 }
 .footer-home {
@@ -91,6 +91,9 @@
 	padding: 50px 0;
 	font-size: 18px;
 	line-height: 1.5em;
+	a {
+		color: $color-brown-text;
+	}
 	a:hover, a:focus, .current a {
 		color: #fff;
 	}
@@ -125,31 +128,18 @@
 }
 .byteclub-phone {
 	position: relative;
-	padding-left: 21px;
 	margin-right: 20px;
-	font-weight: 600;
-	color: $color-brown-text;
 	text-transform: uppercase;
-	&:before {
-		@include sprites-sprite-dimensions(phone);
-		@include sprites-sprite(phone);
-		position: absolute;
-		top: 4px;
-		left: 0;
-		content: "";
+	i {
+		color: #fff;
+		margin-right: .5em;
 	}
 }
 .byteclub-email {
 	position: relative;
-	padding-left: 24px;
-	font-weight: 600;
-	&:before {
-		@include sprites-sprite-dimensions(mail);
-		@include sprites-sprite(mail);
-		position: absolute;
-		top: 3px;
-		left: 0;
-		content: "";
+	i {
+		color: #fff;
+		margin-right: .5em;
 	}
 }
 
