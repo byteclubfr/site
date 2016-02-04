@@ -22,7 +22,7 @@
 	line-height: 1em;
 	color: $color-white;
 	background: rgba(#000,0.4);
-	@include at-breakpoint(0 35em) {
+	@media (max-width: 35em) {
 		font-size: 36px;
 	}
 	strong {
@@ -30,12 +30,12 @@
 	}
 }
 .footer-col {
-	@include at-breakpoint(60em) {
+	@media (min-width: 60em) {
 		@include span-columns(3,6);
 	}
 }
 .footer-col-byteclub {
-	@include at-breakpoint(60em) {
+	@media (min-width: 60em) {
 		padding-bottom: 100px;
 	}
 	position: relative;
@@ -44,7 +44,7 @@
 	@include omega;
 }
 .footer-content {
-	@include at-breakpoint(40em) {
+	@media (min-width: 40em) {
 		@include span-columns(4 omega,6);
 	}
 	p {
@@ -52,10 +52,10 @@
 	}
 }
 .footer-logo {
-	@include at-breakpoint(0 40em) {
+	@media (max-width: 40em) {
 		margin-bottom: 30px;
 	}
-	@include at-breakpoint(40em) {
+	@media (min-width: 40em) {
 		@include span-columns(2,6);
 	}
 	text-align: center;
@@ -98,7 +98,7 @@
 	a:hover, a:focus, .current a {
 		color: $color-white;
 	}
-	@include at-breakpoint(0 50em) {
+	@media (max-width: 50em) {
 		text-align: center;
 		li {
 			display: block;
@@ -112,7 +112,7 @@
 			}
 		}
 	}
-	@include at-breakpoint(50em) {
+	@media (min-width: 50em) {
 		li + li {
 			margin-left: 30px;
 			&:before {
@@ -149,10 +149,10 @@
 	display: block;
 	margin: 0;
 	.footer-home & {
-		@include at-breakpoint(0 60em) {
+		@media (max-width: 60em) {
 			margin-bottom: 50px;
 		}
-		@include at-breakpoint(60em) {
+		@media (min-width: 60em) {
 			position: absolute;
 			bottom: 0;
 			left: 0;
@@ -192,7 +192,7 @@
 		font-style: normal;
 		font-weight: 600;
 		line-height: 1.8em;
-		@include at-breakpoint(0 50em) {
+		@media (max-width: 50em) {
 			padding: 50px 0;
 		}
 		span[itemprop="name"]::after {
@@ -200,16 +200,16 @@
 		}
 	}
 	.byteclub-phone {
-		@include at-breakpoint(50em) {
+		@media (min-width: 50em) {
 			margin-left: 30px;
 		}
 	}
-	@include at-breakpoint(0 50em) {
+	@media (max-width: 50em) {
 		text-align: center;
 	}
 }
 .byteclub-contact {
-	@include at-breakpoint(0 50em) {
+	@media (max-width: 50em) {
 		display: block;
 	}
 }
@@ -219,7 +219,7 @@
 	padding: 12px 0 12px;
 	background: #000;
 	text-align: center;
-	@include at-breakpoint(70em) {
+	@media (min-width: 70em) {
 		text-align: right;
 	}
 }
