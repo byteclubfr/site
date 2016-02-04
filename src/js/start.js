@@ -15,7 +15,6 @@ $(document).ready(function () {
 	bc.map('#contact-map');
 	bc.dispatchBlocks('.js-dispatch');
 	bc.hoverCard('.idea');
-	bc.toggleReference('.reference-btn');
 	// On resize events
 	$(window).bind("debouncedresize", function () {
 		bc.dispatchBlocks('.js-dispatch');
@@ -125,24 +124,6 @@ bc.hoverCard = function (selector) {
 	});
 	$('.idea-close').click(function () {
 		$(this).prevAll('.idea-front').fadeTo('fast', 1);
-	});
-}
-
-// Toggle reference content display
-bc.toggleReference = function (selector) {
-	if (!$(selector).length) return;
-
-	$(selector).click(function () {
-		var that = $(this);
-		var parent = that.parent();
-		parent.find('.reference-content').slideToggle(400, function () {
-			parent.toggleClass('is-open');
-			if (parent.hasClass('is-open')) {
-				that.text('-');
-			} else {
-				that.text('+');
-			}
-		});
 	});
 }
 

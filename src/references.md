@@ -42,7 +42,6 @@ banner: "Nos références"
 					<h2 class="reference-title">Clever Institut</br>
 						Formations AngularJS, Node.js, React, JavaScript en intra et inter-entreprises, niveau standard ou avancé.</h2>
 					</div>
-					<button class="reference-btn">+</button>
 				</article>
 
 				<article data-order="6" class="reference block block-even">
