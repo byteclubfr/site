@@ -3,17 +3,15 @@
 */
 /* Map */
 #contact-map {
-	@include at-breakpoint(0 70em) {
-		position: absolute;
+	position: absolute;
+	bottom: 0;
+	@media (max-width: 70em) {
 		left: 0;
-		bottom: 0;
 		right: 0;
 		height: 350px;
 	}
-	@include at-breakpoint(70em) {
-		position: absolute;
+	@media (min-width: 70em) {
 		top: 0;
-		bottom: 0;
 		right: 0;
 		width: 35%;
 	}
@@ -48,10 +46,10 @@
 	position: relative;
 	z-index: 2;
 	background: #f3ede6;
-	@include at-breakpoint(0 70em) {
+	@media (max-width: 70em) {
 		margin-bottom: 400px;
 	}
-	@include at-breakpoint(70em) {
+	@media (min-width: 70em) {
 		@include span-columns(4,6);
 		padding-bottom: 70px;
 		padding-right: 4em;

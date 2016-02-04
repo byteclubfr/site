@@ -20,12 +20,12 @@
 			width: 70px;
 		}
 	}
-	@include at-breakpoint(0 70em) {
+	@media (max-width: 70em) {
 		padding: 50px 0 0;
 		clear: both;
 		text-align: center;
 	}
-	@include at-breakpoint(70em) {
+	@media (min-width: 70em) {
 		position: absolute;
 		top: 50%;
 		right: 0;
@@ -43,13 +43,13 @@
 
 /* Technologies */
 .home-techno {
-	@include at-breakpoint(0 50em) {
+	@media (max-width: 50em) {
 		margin-bottom: 50px;
 		&.last {
 			margin-bottom: 0;
 		}
 	}
-	@include at-breakpoint(50em) {
+	@media (min-width: 50em) {
 		@include span-columns(3,6);
 		&.last {
 			@include omega;
@@ -57,19 +57,19 @@
 	}
 }
 .home-techno-logo {
-	@include at-breakpoint(0 50em) {
+	@media (max-width: 50em) {
 		img {
 			display: inline-block;
 			max-width: 180px;
 			margin-bottom: 20px;
 		}
 	}
-	@include at-breakpoint(50em) {
+	@media (min-width: 50em) {
 		@include span-columns(2,6);
 	}
 }
 .home-techno-txt {
-	@include at-breakpoint(50em) {
+	@media (min-width: 50em) {
 		@include span-columns(4 omega,6);
 	}
 }
@@ -91,10 +91,10 @@
 	&:first-of-type, &:nth-child(2) {
 		margin-bottom: 50px;
 	}
-	@include at-breakpoint(0 50em) {
+	@media (max-width: 50em) {
 		margin-bottom: 50px;
 	}
-	@include at-breakpoint(50em) {
+	@media (min-width: 50em) {
 		@include span-columns(3,6);
 		&.last {
 			@include omega;

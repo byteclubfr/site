@@ -8,12 +8,12 @@
 	background: #fff;
 }
 .services-col-left {
-	@include at-breakpoint(50em) {
+	@media (min-width: 50em) {
 		@include span-columns(3,6);
 	}
 }
 .services-col-right {
-	@include at-breakpoint(50em) {
+	@media (min-width: 50em) {
 		@include span-columns(3 omega,6);
 	}
 	> .service:first-child {
@@ -34,7 +34,7 @@
 	background: $color-orange;
 	color: #fff;
 	text-align: center;
-	@include at-breakpoint(0 50em) {
+	@media (max-width: 50em) {
 		margin-bottom: 50px;
 	}
 	.contact-us-txt {

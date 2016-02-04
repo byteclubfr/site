@@ -5,7 +5,7 @@
 .member {
 	margin-bottom: 45px;
 	list-style: none;
-	@include at-breakpoint(55em) {
+	@media (min-width: 55em) {
 		@include span-columns(3,6);
 		&:nth-child(2n) {
 			@include omega;
@@ -17,16 +17,16 @@
 }
 .member-inside {
 	position: relative;
-	@include at-breakpoint(35em) {
+	@media (min-width: 35em) {
 		padding-left: 140px;
 	}
 }
 .member-pic {
-	@include at-breakpoint(0 35em) {
+	@media (max-width: 35em) {
 		display: block;
 		margin-bottom: 20px;
 	}
-	@include at-breakpoint(35em) {
+	@media (min-width: 35em) {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -78,13 +78,13 @@
 /* Philosophy */
 .idea {
 	margin-bottom: 50px;
-	@include at-breakpoint(80em) {
+	@media (min-width: 80em) {
 		@include span-columns(2,6);
 		&.last {
 			@include omega;
 		}
 	}
-	@include at-breakpoint(60em 70em) {
+	@media (min-width: 60em) and (max-width: 70em) {
 		@include span-columns(2,6);
 		&.last {
 			@include omega;
@@ -101,7 +101,7 @@
 .idea-card {
 	@extend %shadow;
 	position: relative;
-	@include at-breakpoint(80em) {
+	@media (min-width: 80em) {
 		min-height: 350px;
 	}
 	padding: 40px 25px 25px;

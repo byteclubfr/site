@@ -14,10 +14,10 @@
 	color: $color-js;
 }
 .techno-col {
-	@include at-breakpoint(0 50em) {
+	@media (max-width: 50em) {
 		margin-bottom: 30px;
 	}
-	@include at-breakpoint(50em) {
+	@media (min-width: 50em) {
 		@include span-columns(3,6);
 		&.last {
 			@include span-columns(3 omega,6);
