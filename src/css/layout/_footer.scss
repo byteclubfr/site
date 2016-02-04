@@ -5,24 +5,23 @@
 	position: relative;
 	background: $color-brown;
 	color: $color-white;
+	padding: 50px 0 0;
 	a {
 		color: $color-white;
 	}
 }
-.footer-home {
-	padding: 60px 0 0;
-}
 .footer-title {
 	@extend %font-titles;
 	display: inline-block;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 	padding: 20px 25px;
 	font-size: 44px;
-	font-weight: 700;
 	line-height: 1em;
 	color: $color-white;
 	background: rgba(#000,0.4);
+	text-align: center;
 	@media (max-width: 35em) {
+		display: block;
 		font-size: 36px;
 	}
 	strong {
@@ -58,7 +57,6 @@
 	@media (min-width: 40em) {
 		@include span-columns(2,6);
 	}
-	text-align: center;
 }
 .lnk-top {
 	@extend %transition;
@@ -89,7 +87,7 @@
 .nav-footer {
 	@extend %font-titles;
 	@extend %transition;
-	padding: 50px 0;
+	padding: 0 0 50px 0;
 	font-size: 18px;
 	line-height: 1.5em;
 	a {
@@ -163,12 +161,11 @@
 		vertical-align: bottom;
 		margin: 0;
 		list-style: none;
-		+ li a {
+		+ li {
 			margin-left: 30px;
 		}
 	}
 	a {
-		position: relative;
 		display: inline-block;
 		vertical-align: bottom;
 		background: rgba(#000,0.4);
@@ -216,19 +213,15 @@
 
 /* Bottom bar */
 .btm {
-	padding: 12px 0 12px;
-	background: #000;
-	text-align: center;
-	@media (min-width: 70em) {
-		text-align: right;
-	}
+	padding: 12px;
+	background: $color-black;
+	text-align: right;
 }
 .nav-btm {
-	display: block;
 	font-size: 14px;
 	line-height: 1em;
 	a {
-		color: #6d6f72;
+		color: $color-light-black;
 		text-decoration: underline;
 		&:hover, &:focus {
 			text-decoration: none;
