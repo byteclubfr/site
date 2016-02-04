@@ -5,7 +5,7 @@
   "scripts": {
     "prebuild": "npm run clean",
     "build": "npm run dirs && npm run metalsmith && npm run css && npm run js",
-    "clean": "rm -rf build && rm -rf build-gzip && compass clean",
+    "clean": "rm -rf build build-gzip && compass clean",
     "precss": "npm run dirs",
     "css": "compass compile",
     "dirs": "mkdir -p build/css build/img build/js",
@@ -18,8 +18,10 @@
     "serve": "http-server build",
     "prestart": "npm run build",
     "start": "npm run serve",
-    "prew-scss": "npm run dirs",
-    "w-css": "compass watch"
+    "prewatch": "npm run dirs",
+    "watch": "npm-run-all -p watch:*",
+    "watch:css": "compass watch",
+    "watch:md": "watch-run -p 'src/**/*.md' npm run metalsmith"
   },
   "repository": {
     "type": "git",
@@ -45,8 +47,10 @@
     "metalsmith-tags": "^1.0.0",
     "metalsmith-url": "^1.0.0",
     "moment": "^2.10.6",
+    "npm-run-all": "^1.5.1",
     "s3-upload": "lmtm/s3-static-site-uploader#gzip",
     "swig": "^1.4.2",
-    "uglify-js": "^2.4.24"
+    "uglify-js": "^2.4.24",
+    "watch-run": "^1.2.4"
   }
 }

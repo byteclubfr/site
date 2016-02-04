@@ -4,6 +4,9 @@ var site = {
 };
 
 module.exports = {
+  // cleaning is explicitely handled by npm run clean
+  // if clean == true, it erases js and css on watch
+  "clean": false,
   "metadata": {
     "site": site,
     "mailto":   "contact@byteclub.fr",
