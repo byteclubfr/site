@@ -78,13 +78,7 @@
 /* Philosophy */
 .idea {
 	margin-bottom: 50px;
-	@media (min-width: 80em) {
-		@include span-columns(2,6);
-		&.last {
-			@include omega;
-		}
-	}
-	@media (min-width: 60em) and (max-width: 70em) {
+	@media (min-width: 80em), (min-width: 60em) and (max-width: 70em) {
 		@include span-columns(2,6);
 		&.last {
 			@include omega;
