@@ -17,17 +17,17 @@
 			height: 60px;
 			transition: all 0.1s;
 		}
-		@include at-breakpoint(0 55em) {
+		@media (max-width: 55em) {
 			text-align: center;
 		}
-		@include at-breakpoint(55em) {
+		@media (min-width: 55em) {
 			@include span-columns(2,9);
 			img {
 				display: block;
 				margin: 0 auto;
 			}
 		}
-		@include at-breakpoint(70em) {
+		@media (min-width: 70em) {
 			img {
 				float: right;
 			}
@@ -39,10 +39,10 @@
 	}
 }
 .wrapper-nav-main {
-	@include at-breakpoint(0 55em) {
+	@media (max-width: 55em) {
 		text-align: center;
 	}
-	@include at-breakpoint(55em) {
+	@media (min-width: 55em) {
 		@include span-columns(7 omega,9);
 	}
 	@extend %font-titles;
@@ -73,7 +73,7 @@
 }
 .nav-sub {
 	display: none;
-	@include at-breakpoint(55em) {
+	@media (min-width: 55em) {
 		.current & {
 			display: block;
 		}

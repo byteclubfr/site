@@ -33,7 +33,7 @@ body {
 	font-size: 40px;
 	line-height: 1em;
 	font-weight: 700;
-	@include at-breakpoint(70em) {
+	@media (min-width: 70em) {
 		&:before {
 			display: inline-block;
 			position: absolute;
@@ -106,7 +106,7 @@ a {
 	background: #f3ede6;
 }
 .inner {
-	@include at-breakpoint(70em) {
+	@media (min-width: 70em) {
 		@include span-columns(6,9);
 		@include prefix(2,9);
 		@include suffix(1,9);
@@ -119,12 +119,12 @@ a {
 	background: #fff;
 }
 .blocks-col-left {
-	@include at-breakpoint(50em) {
+	@media (min-width: 50em) {
 		@include span-columns(3,6);
 	}
 }
 .blocks-col-right {
-	@include at-breakpoint(50em) {
+	@media (min-width: 50em) {
 		@include span-columns(3 omega,6);
 	}
 	> .block:first-child {
