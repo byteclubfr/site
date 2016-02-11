@@ -24,13 +24,15 @@ scripts:
 						Votre message a bien été envoyé.<br/> Nous vous contacterons dans les plus brefs délais.
 					</p>
 
-					<div class="field form-half">
-						<label for="name">Nom</label>
-						<input type="text" class="input" id="lastname" />
-					</div>
-					<div class="field form-half last">
-						<label for="firstname">Prénom</label>
-						<input type="text" class="input" id="firstname" />
+					<div class="field-fullname">
+						<div class="field form-half">
+							<label for="name">Nom</label>
+							<input type="text" class="input" id="lastname" />
+						</div>
+						<div class="field form-half">
+							<label for="firstname">Prénom</label>
+							<input type="text" class="input" id="firstname" />
+						</div>
 					</div>
 					<div class="field">
 						<label for="email">Adresse email <span class="required">&#42;</span></label>

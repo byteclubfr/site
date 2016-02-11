@@ -42,17 +42,17 @@
 
 /* Contact form */
 .contact-form {
+	background: #f3ede6;
 	padding-top: 70px;
 	position: relative;
 	z-index: 2;
-	background: #f3ede6;
 	@media (max-width: 70em) {
 		margin-bottom: 400px;
 	}
 	@media (min-width: 70em) {
-		@include span-columns(4,6);
 		padding-bottom: 70px;
 		padding-right: 4em;
+		width: 64%;
 	}
 }
 .fields-required {
@@ -66,11 +66,12 @@
 .required {
 	color: $color-purple;
 }
+.field-fullname {
+	display: flex;
+	justify-content: space-between;
+}
 .form-half {
-	@include span-columns(3,6);
-	&.last {
-		@include omega;
-	}
+	width: 47%;
 }
 .field {
 	margin-bottom: 50px;
