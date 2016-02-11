@@ -145,7 +145,7 @@ home: true
 	<div class="wrap">
 		<div class="inner">
 			<h2 class="footer-title">À propos de <strong>ByteClub</strong></h2>
-			<div class="cf">
+			<div class="footer-cols">
 				<div class="footer-col footer-col-byteclub">
 					<div class="footer-logo">
 						<img src="img/logo-white.png" alt="ByteClub" />
