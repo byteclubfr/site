@@ -28,11 +28,11 @@
     line-height: 1.4em;
     margin: 1em 0;
     code {
-      background: #f3ede6;
+      background: $color-sand;
     }
   }
   blockquote {
-    background: #f3ede6;
+    background: $color-sand;
     font-style: italic;
     padding: 0.2em;
   }
@@ -42,7 +42,7 @@
     }
   }
   .metadata {
-    background: lighten($color-sand, 25);
+    background: $color-sand;
     padding: 1em;
     color: lighten($color-brown, 25);
     .post-author, .post-date {

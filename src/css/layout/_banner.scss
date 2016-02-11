@@ -4,7 +4,7 @@
 .banner {
 	position: relative;
 	overflow: hidden;
-	background: #f8911b url(../img/bg-banner.png) repeat-y -300px 0;
+	background: $color-orange url(../img/bg-banner.png) repeat-y -300px 0;
 	@media (min-width: 40em) {
 		background-position: -200px 0;
 	}
@@ -128,11 +128,11 @@
 .mean-container {
 	.mean-bar {
 		margin-bottom: 45px;
-		background: #f3ede6;
+		background: $color-sand;
 		box-shadow: rgba(#000,0.1) 0 5px 3px;
 	}
 	.mean-nav {
-		background: #f3ede6;
+		background: $color-sand;
 		ul li a {
 			@extend %font-titles;
 			font-weight: 400;
@@ -140,7 +140,7 @@
 			border-bottom-color: rgba(#fff,1);
 		}
 		ul .current a {
-			color: #f8911b;
+			color: $color-orange;
 		}
 	}
 	a.meanmenu-reveal {

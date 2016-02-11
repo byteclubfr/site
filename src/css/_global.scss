@@ -58,7 +58,7 @@ body {
 /* Links
 ------------------------- */
 a {
-	text-decoration:underline;
+	text-decoration: underline;
 	&:hover, &:focus {
 		text-decoration: none;
 	}
@@ -70,7 +70,7 @@ a {
 	@extend %font-titles;
 	display: inline-block;
 	padding: 10px 20px;
-	background: $color-brown-text;
+	background: $color-light-brown;
 	color: #fff;
 	border: none;
 	text-decoration: none;
@@ -78,7 +78,7 @@ a {
 	line-height: 1em;
 	font-weight: 500;
 	&:hover, &:focus {
-		background: shade($color-brown-text,20);
+		background: shade($color-light-brown,20);
 	}
 	.content & {
 		color: #fff;
@@ -102,7 +102,7 @@ a {
 }
 .section-alt {
 	position: relative;
-	background: #f3ede6;
+	background: $color-sand;
 }
 .inner {
 	@media (min-width: 70em) {
@@ -115,7 +115,7 @@ a {
 	@extend %shadow;
 	margin-bottom: 50px;
 	padding: 30px;
-	background: #fff;
+	background: $color-white;
 }
 .blocks-col-left {
 	@media (min-width: 50em) {

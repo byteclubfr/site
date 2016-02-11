@@ -8,7 +8,7 @@
 		display: inline-block;
 		position: relative;
 		text-decoration: none;
-		color: #fff;
+		color: $color-white;
 		&:before {
 			content: '+';
 			display: block;
@@ -84,9 +84,9 @@
 
 /* Services */
 .home-services {
-	background: $color-brown-text;
+	background: $color-light-brown;
 	.title-main {
-		color: #fff;
+		color: $color-white;
 	}
 }
 .home-services-list {
