@@ -7,19 +7,6 @@
 	padding: 30px;
 	background: #fff;
 }
-.services-col-left {
-	@media (min-width: 50em) {
-		@include span-columns(3,6);
-	}
-}
-.services-col-right {
-	@media (min-width: 50em) {
-		@include span-columns(3 omega,6);
-	}
-	> .service:first-child {
-		margin-top: 50px;
-	}
-}
 .service-title {
 	@extend %font-titles;
 	text-align: center;
