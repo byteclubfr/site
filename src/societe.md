@@ -8,7 +8,7 @@ banner: "Qui sommes nous ?"
 	<div class="wrap cf">
 		<div class="inner">
 			<h2 id="equipe" class="title-main">L'équipe</h2>
-			<ul>
+			<ul class="members">
 
 				<li class="member">
 					<div class="member-inside">
@@ -98,6 +98,8 @@ banner: "Qui sommes nous ?"
 		<div class="inner">
 			<h2 id="philosophie" class="title-main">Notre philosophie</h2>
 
+			<div class="ideas">
+
 			<div class="idea">
 				<div class="idea-card content">
 					<div class="idea-front">
@@ -130,6 +132,8 @@ banner: "Qui sommes nous ?"
 					<p>Nos technologies innovantes permettent de bâtir des applications riches et rapides, de maintenance et évolution aisées.</p>
 					<p>Vous hésitez encore ?<br>Passez prendre un café.</p>
 				</div>
+			</div>
+
 			</div>
 
 		</div>
