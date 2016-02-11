@@ -13,7 +13,7 @@ scripts:
 		<div class="inner">
 			<div class="contact-form">
 				<p>N'hésitez pas à venir nous rencontrer si vous êtes sur Nantes ou Lyon !</p>
-				<p class="fields-required">Les champs marqués d’un astérisque (<span>*</span>) sont obligatoires.</p>
+				<p class="fields-required">Les champs marqués d’un astérisque (<span>&#42;</span>) sont obligatoires.</p>
 				<form id="contact" data-validate="parsley" data-show-errors="false">
 
 					<p class="form-notice form-notice-error">
@@ -33,15 +33,15 @@ scripts:
 						<input type="text" class="input" id="firstname" />
 					</div>
 					<div class="field">
-						<label for="email">Adresse email <span class="required">*</span></label>
-						<input type="text" class="input" id="email" data-required="true" data-type="email" />
+						<label for="email">Adresse email <span class="required">&#42;</span></label>
+						<input type="email" class="input" id="email" data-required="true" data-type="email" />
 					</div>
 					<div class="field">
 						<label for="email">Société</label>
 						<input type="text" class="input" id="company" />
 					</div>
 					<div class="field">
-						<label for="message">Message <span class="required">*</span></label>
+						<label for="message">Message <span class="required">&#42;</span></label>
 						<textarea class="input" id="message" data-required="true"></textarea>
 					</div>
 					<div class="field field-submit">
