@@ -21,41 +21,41 @@ home: true
 		<div class="inner">
 			<h2 class="title-main">Nos technologies</h2>
 
-			<div class="home-techno cf">
-				<div class="home-techno-logo">
-					<a href="technologies.html#angular"><img src="img/logo-angularjs.svg" alt="AngularJS" /></a>
+			<div class="home-technos-list">
+				<div class="home-techno">
+					<div class="home-techno-logo">
+						<a href="technologies.html#angular"><img src="img/logo-angularjs.svg" alt="AngularJS" /></a>
+					</div>
+					<div class="home-techno-txt">
+						<p>AngularJS décuple les possibilités offertes par HTML5. Ce framework modulaire facilite la conception d'applications web riches.</p>
+					</div>
 				</div>
-				<div class="home-techno-txt">
-					<p>AngularJS décuple les possibilités offertes par HTML5. Ce framework modulaire facilite la conception d'applications web riches.</p>
-				</div>
-			</div>
 
-			<div class="home-techno last cf">
-				<div class="home-techno-logo">
-					<a href="technologies.html#nodejs"><img src="img/logo-nodejs.svg" alt="Node.js" /></a>
+				<div class="home-techno">
+					<div class="home-techno-logo">
+						<a href="technologies.html#nodejs"><img src="img/logo-nodejs.svg" alt="Node.js" /></a>
+					</div>
+					<div class="home-techno-txt">
+						<p>L'API non-bloquante de Node.js permet d'exécuter côté serveur, des services JavaScript avec d’excellents temps de réponse.</p>
+					</div>
 				</div>
-				<div class="home-techno-txt last">
-					<p>L'API non-bloquante de Node.js permet d'exécuter côté serveur, des services JavaScript avec d’excellents temps de réponse.</p>
-				</div>
-			</div>
 
-			<div class="home-techno cf">
-				<br>
-				<div class="home-techno-logo">
-					<a href="technologies.html#react"><img src="img/logo-react.png" alt="React" /></a>
+				<div class="home-techno">
+					<div class="home-techno-logo">
+						<a href="technologies.html#react"><img src="img/logo-react.png" alt="React" /></a>
+					</div>
+					<div class="home-techno-txt">
+						<p>React se focalise sur la construction d'interfaces graphiques multi-supports (web et natif) référençables et aisément maintenables.</p>
+					</div>
 				</div>
-				<div class="home-techno-txt">
-					<p>React se focalise sur la construction d'interfaces graphiques multi-supports (web et natif) référençables et aisément maintenables.</p>
-				</div>
-			</div>
 
-			<div class="home-techno last cf">
-				<br>
-				<div class="home-techno-logo">
-					<a href="technologies.html#javascript"><img src="img/logo-javascript.svg" alt="JavaScript" style="width:60px"/></a>
-				</div>
-				<div class="home-techno-txt last">
-					<p>Si l'omniprésence de JavaScript l'a rendu incontournable, c'est avant tout la souplesse de son écosystème qui a conquis les éditeurs.</p>
+				<div class="home-techno">
+					<div class="home-techno-logo">
+						<a href="technologies.html#javascript"><img src="img/logo-javascript.svg" alt="JavaScript" style="width:60px"/></a>
+					</div>
+					<div class="home-techno-txt">
+						<p>Si l'omniprésence de JavaScript l'a rendu incontournable, c'est avant tout la souplesse de son écosystème qui a conquis les éditeurs.</p>
+					</div>
 				</div>
 			</div>
 
@@ -70,66 +70,69 @@ home: true
 	<div class="wrap">
 		<div class="inner">
 			<h2 class="title-main">Nos services</h2>
-			<div class="home-service cf">
-				<div class="home-service-row">
-					<div class="home-service-cell">
-						<div class="home-service-picto">
-							<i class="fa fa-comments fa-3x"></i>
+
+			<div class="home-services-list">
+				<div class="home-service">
+					<div class="home-service-row">
+						<div class="home-service-cell">
+							<div class="home-service-picto">
+								<i class="fa fa-comments fa-3x"></i>
+							</div>
 						</div>
-					</div>
-					<div class="home-service-cell">
-						<h3 class="home-service-title">Conseil</h3>
-						<div class="home-service-desc">
-							<p>Faites les bons choix grâce à nos experts.<br/>
-							<a href="services.html#conseil">En savoir plus</a> <span>›</span></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="home-service cf last">
-				<div class="home-service-row">
-					<div class="home-service-cell">
-						<div class="home-service-picto">
-							<i class="fa fa-code fa-3x"></i>
-						</div>
-					</div>
-					<div class="home-service-cell">
-						<h3 class="home-service-title">Développement</h3>
-						<div class="home-service-desc">
-							<p>Mettez vos idées en applications.<br/>
-							<a href="services.html#developpement">En savoir plus</a> <span>›</span></p>
+						<div class="home-service-cell">
+							<h3 class="home-service-title">Conseil</h3>
+							<div class="home-service-desc">
+								<p>Faites les bons choix grâce à nos experts.<br/>
+								<a href="services.html#conseil">En savoir plus</a> <span>›</span></p>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="home-service cf">
-				<div class="home-service-row">
-					<div class="home-service-cell">
-						<div class="home-service-picto">
-							<i class="fa fa-graduation-cap fa-3x"></i>
+				<div class="home-service">
+					<div class="home-service-row">
+						<div class="home-service-cell">
+							<div class="home-service-picto">
+								<i class="fa fa-code fa-3x"></i>
+							</div>
 						</div>
-					</div>
-					<div class="home-service-cell">
-						<h3 class="home-service-title">Formation</h3>
-						<div class="home-service-desc">
-							<p>Enrichissez vos compétences, devenez autonome.<br/>
-							<a href="services.html#formation">En savoir plus</a> <span>›</span></p>
+						<div class="home-service-cell">
+							<h3 class="home-service-title">Développement</h3>
+							<div class="home-service-desc">
+								<p>Mettez vos idées en applications.<br/>
+								<a href="services.html#developpement">En savoir plus</a> <span>›</span></p>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="home-service cf last">
-				<div class="home-service-row">
-					<div class="home-service-cell">
-						<div class="home-service-picto">
-							<i class="fa fa-rocket fa-3x"></i>
+				<div class="home-service">
+					<div class="home-service-row">
+						<div class="home-service-cell">
+							<div class="home-service-picto">
+								<i class="fa fa-graduation-cap fa-3x"></i>
+							</div>
+						</div>
+						<div class="home-service-cell">
+							<h3 class="home-service-title">Formation</h3>
+							<div class="home-service-desc">
+								<p>Enrichissez vos compétences, devenez autonome.<br/>
+								<a href="services.html#formation">En savoir plus</a> <span>›</span></p>
+							</div>
 						</div>
 					</div>
-					<div class="home-service-cell">
-						<h3 class="home-service-title">Bootcamp</h3>
-						<div class="home-service-desc">
-							<p>Développez votre savoir-faire et votre application.<br/>
-							<a href="services.html#bootcamp">En savoir plus</a> <span>›</span></p>
+				</div>
+				<div class="home-service">
+					<div class="home-service-row">
+						<div class="home-service-cell">
+							<div class="home-service-picto">
+								<i class="fa fa-rocket fa-3x"></i>
+							</div>
+						</div>
+						<div class="home-service-cell">
+							<h3 class="home-service-title">Bootcamp</h3>
+							<div class="home-service-desc">
+								<p>Développez votre savoir-faire et votre application.<br/>
+								<a href="services.html#bootcamp">En savoir plus</a> <span>›</span></p>
+							</div>
 						</div>
 					</div>
 				</div>
