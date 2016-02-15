@@ -39,13 +39,10 @@
 .banner-home {
 	position: relative;
 	@media (min-width: 40em) and (max-width: 80em) {
-		@include span-columns(7,9);
-		@include prefix(2,9);
+		padding: 0 0 0 22%;
 	}
 	@media (min-width: 80em) {
-		@include span-columns(5,9);
-		@include prefix(2,9);
-		@include suffix(2,9);
+		padding: 0 22%;
 	}
 	p {
 		margin-bottom: 30px;
@@ -101,26 +98,6 @@
 	}
 	@media (max-width: 35em) {
 		font-size: 36px;
-	}
-}
-.banner-contact {
-	@media (min-width: 80em) {
-		@include span-columns(2 omega,6);
-	}
-}
-.btn-contact {
-	@extend %font-titles;
-	box-shadow: rgba(#000,0.2) 5px 5px 8px;
-	display: inline-block;
-	padding: 20px 25px;
-	font-weight: 400;
-	font-size: 28px;
-	line-height: 1em;
-	text-decoration: none;
-	background: rgba(#fff,0.85);
-	color: #9f4133;
-	@media (min-width: 80em) {
-		margin-top: 30px;
 	}
 }
 
