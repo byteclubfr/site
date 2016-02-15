@@ -158,7 +158,7 @@ home: true
 						<p><span class="byteclub-phone" itemprop="telephone"><i class="fa fa-phone"></i>06 14 66 76 41</span> <a href="mailto:contact@byteclub.fr" class="byteclub-email" itemprop="email"><i class="fa fa-envelope"></i>contact@byteclub.fr</a></p>
 						<ul class="byteclub-social">
 							<li><a href="https://twitter.com/byteclubfr"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></a></li>
-							<li><a href="https://github.com/lmtm"><i class="fa fa-github fa-2x"></i><span>GitHub</span></a></li>
+							<li><a href="https://github.com/byteclubfr"><i class="fa fa-github fa-2x"></i><span>GitHub</span></a></li>
 						</ul>
 					</div>
 				</div>
