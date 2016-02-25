@@ -4,7 +4,7 @@ description: "Technologies : JavaScript, AngularJS, Node.js, React."
 menu: technologies
 banner: "Nos technologies"
 ---
-<div class="techno-logo">
+<div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
 			<h2 id="angularjs"><img src="img/logo-angularjs.svg" alt="AngularJS" /></h2>
@@ -52,7 +52,7 @@ banner: "Nos technologies"
 	</div>
 </section>
 
-<div class="techno-logo">
+<div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
 			<h2 id="nodejs"><img src="img/logo-nodejs.svg" alt="Node.js" /></h2>
@@ -94,7 +94,7 @@ banner: "Nos technologies"
 	</div>
 </section>
 
-<div class="techno-logo">
+<div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
 			<h2 id="react"><img src="img/logo-react.png" alt="React" /></h2>
@@ -140,7 +140,7 @@ banner: "Nos technologies"
 	</div>
 </section>
 
-<div class="techno-logo">
+<div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
 			<h2 id="javascript">

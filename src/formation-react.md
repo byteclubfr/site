@@ -5,13 +5,13 @@ menu: services
 submenu: formation
 banner: "Formation React"
 ---
-<div class="techno-logo">
+<div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h3 style="font-size:2em;">
+			<h2>
 				<img src="img/logo-react.png" alt="React" style="width:100px;float:right;">
 				Présentation
-			</h3>
+			</h2>
 		</div>
 	</div>
 </div>
@@ -61,13 +61,13 @@ banner: "Formation React"
 	</div>
 </section>
 
-<div class="techno-logo">
+<div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h3 style="font-size:2em;">
+			<h2>
 				<img src="img/logo-react.png" alt="React" style="width:100px;float:right;">
 				Programme de la 1<sup>ère</sup> journée :
-			</h3>
+			</h2>
 		</div>
 	</div>
 </div>
@@ -104,13 +104,13 @@ banner: "Formation React"
 	</div>
 </section>
 
-<div class="techno-logo">
+<div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h3 style="font-size:2em;">
+			<h2>
 				<img src="img/logo-react.png" alt="React" style="width:100px;float:right;">
 				Programme de la 2<sup>ème</sup> journée :
-			</h3>
+			</h2>
 		</div>
 	</div>
 </div>

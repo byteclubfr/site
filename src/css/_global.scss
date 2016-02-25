@@ -24,6 +24,18 @@ body {
 
 /* Titles
 ------------------------- */
+.angular {
+	color: $color-angular;
+}
+.node {
+	color: $color-node;
+}
+.react {
+	color: $color-react;
+}
+.js {
+	color: $color-js;
+}
 .title-main {
 	@extend %font-titles;
 	@extend %transition;
@@ -103,6 +115,16 @@ a {
 .section-alt {
 	position: relative;
 	background: $color-sand;
+}
+.section-title {
+	padding: 30px 0;
+	background: $color-sand;
+	h2 {
+		font-weight: 2em;
+	}
+	img {
+		max-width: 220px;
+	}
 }
 .inner {
 	@media (min-width: 70em) {

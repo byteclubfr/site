@@ -5,13 +5,13 @@ menu: services
 submenu: formation
 banner: "Formation JavaScript"
 ---
-<div class="techno-logo">
+<div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h3 style="font-size:2em;">
+			<h2>
 				<img src="img/logo-javascript.svg" alt="JavaScript" style="width:60px;float:right;">
 				Présentation
-			</h3>
+			</h2>
 		</div>
 	</div>
 </div>

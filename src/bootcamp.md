@@ -16,10 +16,10 @@ submenu: bootcamp
 	</div>
 </section>
 
-<div class="techno-logo">
+<div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h3 style="font-size:2em;">Présentation</h3>
+			<h2>Présentation</h2>
 		</div>
 	</div>
 </div>

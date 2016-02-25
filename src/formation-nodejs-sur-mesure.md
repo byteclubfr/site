@@ -5,10 +5,13 @@ menu: services
 submenu: formation
 banner: "Formation Node.js sur mesure"
 ---
-<div class="techno-logo">
+<div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h2 style="font-size:2em;"><img src="img/logo-nodejs.svg" alt="Node.js" style="width:100px;float:right;">Présentation</h2>
+			<h2>
+				<img src="img/logo-nodejs.svg" alt="Node.js" style="width:100px;float:right;">
+				Présentation
+			</h2>
 		</div>
 	</div>
 </div>
@@ -61,13 +64,13 @@ banner: "Formation Node.js sur mesure"
 	</div>
 </section>
 
-<div class="techno-logo">
+<div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h3 style="font-size:2em;">
+			<h2>
 				<img src="img/logo-nodejs.svg" alt="Node.js" style="width:100px;float:right;">
 				Programme de la 1<sup>ère</sup> journée :
-			</h3>
+			</h2>
 		</div>
 	</div>
 </div>
@@ -105,13 +108,13 @@ banner: "Formation Node.js sur mesure"
 	</div>
 </section>
 
-<div class="techno-logo">
+<div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h3 style="font-size:2em;">
+			<h2>
 				<img src="img/logo-nodejs.svg" alt="Node.js" style="width:100px;float:right;">
 				Programme de la 2<sup>ème</sup> journée :
-			</h3>
+			</h2>
 		</div>
 	</div>
 </div>
@@ -152,13 +155,13 @@ banner: "Formation Node.js sur mesure"
 	</div>
 </section>
 
-<div class="techno-logo">
+<div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h3 style="font-size:2em;">
+			<h2>
 				<img src="img/logo-nodejs.svg" alt="Node.js" style="width:100px;float:right;">
 				Programme de la 3<sup>ème</sup> journée :
-			</h3>
+			</h2>
 		</div>
 	</div>
 </div>
