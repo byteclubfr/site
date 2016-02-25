@@ -128,9 +128,8 @@ a {
 }
 .inner {
 	@media (min-width: 70em) {
-		@include span-columns(6,9);
-		@include prefix(2,9);
-		@include suffix(1,9);
+		padding-left: 15%;
+		padding-right: 15%;
 	}
 }
 .block {
