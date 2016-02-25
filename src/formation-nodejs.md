@@ -15,9 +15,10 @@ banner: "Formation Node.js"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
+		<div class="inner half-cols">
 			<h3 class="title-second">3 jours pour découvrir et comprendre le framework Node.js.<br>Stage pratique, magistral et didactique, pour devenir autonome.</h3>
-			<div class="techno-col content cf">
+
+			<div class="half-col">
 				<h3 class="title-second">Objectifs :</h3>
 				<ul>À l'issue de cette formation Node.js, les participants seront en mesure de :
 					<li><strong>Savoir dans quel cas choisir Node.js</strong>,</li>
@@ -37,7 +38,7 @@ banner: "Formation Node.js"
 				<p><strong>Pré-requis</strong> : Maîtrise de JavaScript et connaissance du terminal de développement web backend (type PHP ou Java web).</p>
 			</div>
 
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<h3 class="title-second"> Au sommaire :</h3>
 				<ul>
 					<li><strong>1<sup>er</sup> jour</strong> : Présentation du framework - Premiers pas avec Node.js.</li>
@@ -80,8 +81,8 @@ banner: "Formation Node.js"
 </div>
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<ul><strong>Introduction :</strong>
 					<li>Présentation et concepts Node.js.</li>
 					<li>Installation et utilisation du REPL : présentation nvm & co.</li>
@@ -100,7 +101,7 @@ banner: "Formation Node.js"
 					<li>Structure.</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Travaux Pratiques :</strong>
 					<li>Rechercher et installer avec NPM.</li>
 				</ul>
@@ -134,8 +135,8 @@ banner: "Formation Node.js"
 </div>
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<ul><strong>Bases de données SQL et NoSQL :</strong>
 					<li>Les librairies d'accès aux bases de données.</li>
 					<li>Présentation.</li>
@@ -150,7 +151,7 @@ banner: "Formation Node.js"
 					<li>Intégration avec npm.</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Communication en temps réel :</strong>
 					<li>Définition et problématiques.</li>
 					<li>Les technologies à disposition.</li>
@@ -177,8 +178,8 @@ banner: "Formation Node.js"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<ul><strong>Aller plus loin avec Socket.IO :</strong>
 					<li>Manipuler la session utilisateur.</li>
 					<li>Description.</li>
@@ -200,7 +201,7 @@ banner: "Formation Node.js"
 					<li>Travaux pratiques.</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Hautes performances avec Node.js :</strong>
 					<li>Cluster.</li>
 					<li>Utiliser tous les processeurs de sa machine.</li>

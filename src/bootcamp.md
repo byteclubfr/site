@@ -26,8 +26,8 @@ submenu: bootcamp
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<h3 class="title-second">Principe :</h3>
 				<p>Le BootCamp est un stage immersif de 2 semaines pour lancer votre projet.</p>
 				<p>Nous vous proposons d'intégrer la brillante équipe du ByteClub et de profiter du savoir-faire des meilleurs développeurs AngularJS et Node.js. Un environnement de travail sur mesure pour repartir plus forts et avec un projet mis sur orbite !</p>
@@ -45,7 +45,7 @@ submenu: bootcamp
 				<p>Des experts JavaScript / AngularJS / Node.js / Git dédiés à 100% à votre projet et une war room entièrement dédiée à votre projet.</p>
 			</div>
 
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<h3 class="title-second"> Au sommaire :</h3>
 				<ul><li>Vous initier ou approfondir vos compétences en AngularJS et Node.js.</li>
 					<li>Pratiquer le pair programming avec la crème des développeurs AngularJS et Node.js.</li>

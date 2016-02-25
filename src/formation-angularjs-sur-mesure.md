@@ -18,9 +18,10 @@ banner: "Formation AngularJS sur mesure"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
+		<div class="inner half-cols">
 			<h3 class="title-second">2 jours pour maîtriser le framework AngularJS.<br>Stage pratique, magistral et didactique, pour aller plus loin.</h3>
-			<div class="techno-col content cf">
+
+			<div class="half-col content">
 				<h3 class="title-second">Principe :</h3>
 					<p><strong>Nous adaptons le contenu et de cette formation à vos besoins spécifiques.</strong> La présentation suivante est une base de travail.</p>
 				<h3 class="title-second">Objectifs :</h3>
@@ -39,7 +40,7 @@ banner: "Formation AngularJS sur mesure"
 				<p><strong>Pré-requis</strong> : Bon niveau JavaScript et 1ères expériences réussies avec AngularJS ou avoir suivi la formation AngularJS initiale.</p>
 			</div>
 
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<h3 class="title-second"> Au sommaire :</h3>
 				<ul>
 					<li>1<sup>er</sup> jour : Best practices & rappels - Outils du développeur AngularJS - Modularisation - Optimisations et évolutions syntaxiques.</li>
@@ -73,8 +74,8 @@ banner: "Formation AngularJS sur mesure"
 </div>
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<ul><strong>Best practices & rappels :</strong>
 					<li>Rappels : MVVM, controllers, expressions, services, filtres, directives.</li>
 					<li>Code styleguide.</li>
@@ -85,7 +86,7 @@ banner: "Formation AngularJS sur mesure"
 					<li>Automatisation et modularisation : Grunt, Gulp, npm, browserify, webpack, ....</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Modularisation :</strong>
 					<li>Webpack ...</li>
 					<li>ou Browserify.</li>
@@ -111,8 +112,8 @@ banner: "Formation AngularJS sur mesure"
 </div>
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<ul><strong>Développement modulaire et routing :</strong>
 					<li>Nouveau système de Routing : un pas vers Angular2.</li>
 					<li>Angular uiRouter.</li>
@@ -127,7 +128,7 @@ banner: "Formation AngularJS sur mesure"
 					<li>Syntaxe bindToController.</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Plus loin avec les formulaires :</strong>
 					<li>Spécialisation du fonctionnement des formulaires : ngModelOptions.</li>
 					<li>Affichage performant des messages d'erreurs : ngMessages.</li>

@@ -18,9 +18,10 @@ banner: "Formation JavaScript sur mesure"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
+		<div class="inner half-cols">
 			<h3 class="title-second">2 jours pour approfondir JavaScript.<br>Stage pratique, magistral et didactique, pour aller plus loin.</h3>
-			<div class="techno-col content cf">
+
+			<div class="half-col content">
 				<h3 class="title-second">Principe :</h3>
 					<p><strong>Nous adaptons le contenu et de cette formation à vos besoins spécifiques.</strong> La présentation suivante est une base de travail.</p>
 				<h3 class="title-second">Objectifs :</h3>
@@ -39,7 +40,7 @@ banner: "Formation JavaScript sur mesure"
 				<p><strong>Pré-requis</strong> : Bonne connaissance de JavaScript classique. Les méthodes addEventListener et querySelector doivent être familières.</p>
 			</div>
 
-			<div class="techno-col content last cf">
+			<div class="half-col content last">
 				<h3 class="title-second"> Au sommaire :</h3>
 				<ul>
 					<li>1<sup>er</sup> jour : Mise en place de JavaScript - Données et comparaisons - Tableaux et objets - Travaux pratiques.</li>
@@ -73,8 +74,8 @@ banner: "Formation JavaScript sur mesure"
 </div>
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<ul><strong>Mise en place de JavaScript :</strong>
 					<li>Mise en place de JavaScript.</li>
 					<li>JavaScript : optionnel et non sécurisé.</li>
@@ -100,7 +101,7 @@ banner: "Formation JavaScript sur mesure"
 					<li>Travaux pratiques.</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Tableaux et objets :</strong>
 					<li>Tableaux : notions de pile et file.</li>
 					<li>Objets littéraux.</li>
@@ -140,8 +141,8 @@ banner: "Formation JavaScript sur mesure"
 </div>
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<ul><strong>Fonctions :</strong>
 					<li>Portée.</li>
 					<li>Paramètres : obligatoires / optionnels, typés, indéfinis.</li>
@@ -163,7 +164,7 @@ banner: "Formation JavaScript sur mesure"
 					<li>Travaux pratiques.</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Modules :</strong>
 					<li>Module pattern.</li>
 					<li>Inclusions et dépendances. (AMD)</li>

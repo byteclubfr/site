@@ -18,9 +18,10 @@ banner: "Formation ECMAScript 2015 (ES6)"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
+		<div class="inner half-cols">
 			<h3 class="title-second">2 jours pour découvrir le JavaScript moderne : ECMAScript 2015.<br>Stage pratique, magistral et didactique, pour devenir autonome.</h3>
-			<div class="techno-col content cf">
+
+			<div class="half-col content">
 				<h3 class="title-second">Objectifs :</h3>
 				<ul>À l'issue de cette formation, les participants seront en mesure de :
 					<li>Comprendre quand et comment tirer parti des nouvelles fonctionnalités du langage, notamment pour les traitements asynchrones</li>
@@ -38,7 +39,7 @@ banner: "Formation ECMAScript 2015 (ES6)"
 				<p><strong>Pré-requis</strong> : Bonne connaissance de JavaScript, Connaissance HTML, pratique du développement web.</p>
 			</div>
 
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<h3 class="title-second"> Au sommaire :</h3>
 				<ul>
 					<li>Les nouvelles syntaxes (destructuring, raccourcis, valeurs par défaut, paramètres restant, etc.) ;</li>

@@ -18,9 +18,10 @@ banner: "Formation React"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
+		<div class="inner half-cols">
 			<h3 class="title-second">2 jours pour découvrir et comprendre la librairie React.<br>Stage pratique, magistral et didactique, pour devenir autonome.</h3>
-			<div class="techno-col content cf">
+
+			<div class="half-col content">
 				<h3 class="title-second">Objectifs :</h3>
 				<ul>À l'issue de cette formation, les participants seront en mesure de :
 					<li>Appréhender la philosophie et le fonctionnement de la bibliothèque React,</li>
@@ -38,7 +39,7 @@ banner: "Formation React"
 				<p><strong>Pré-requis</strong> : Bonne connaissance de JavaScript, Connaissance HTML, pratique du développement web.</p>
 			</div>
 
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<h3 class="title-second"> Au sommaire :</h3>
 				<ul>
 					<li>1<sup>er</sup> jour : Introduction à React - Les choix de React - Virtual DOM - Créer un composant React (TP) - Syntaxe : JSX, ES6 (TP).</li>
@@ -72,8 +73,8 @@ banner: "Formation React"
 </div>
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<ul><strong>Introduction à React :</strong>
 					<li>Retour sur l’environnement front end actuel et son futur proche.</li>
 					<li>Concepts de base (data-binding, immutabilité…)</li>
@@ -89,7 +90,7 @@ banner: "Formation React"
 					<li>Pourquoi et comment ?</li>
 					</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Travaux pratiques : Créer un composant React</strong>
 					<li>Installation de son environnement de travail.</li>
 					<li>Création d’un composant simple qu’on va dynamiser ensemble.</li>
@@ -115,8 +116,8 @@ banner: "Formation React"
 </div>
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<ul><strong>Travaux pratiques : Propriétés d'un composant</strong>
 					<li>State vs. Properties.</li>
 					<li>Cas d’utilisation.</li>
@@ -126,7 +127,7 @@ banner: "Formation React"
 					<li>Flux et Reflux.</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Travaux pratiques : Vers une application complète</strong>
 					<li>Routage.</li>
 					<li>Données.</li>

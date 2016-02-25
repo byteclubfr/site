@@ -15,9 +15,10 @@ banner: "Formation Node.js sur mesure"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
+		<div class="inner half-cols">
 			<h3 class="title-second">3 jours pour maîtriser le framework Node.js.<br>Stage pratique, magistral et didactique, pour aller plus loin.</h3>
-			<div class="techno-col content cf">
+
+			<div class="half-col content">
 				<h3 class="title-second">Principe :</h3>
 				<p><strong>Nous adpatons le contenu et de cette formation à vos besoins spécifiques.</strong> La présentation suivante est une base de travail.</p>
 				<h3 class="title-second">Objectifs :</h3>
@@ -37,7 +38,7 @@ banner: "Formation Node.js sur mesure"
 				<p><strong>Pré-requis</strong> : Maîtrise de JavaScript et 1ères expériences avec Node.JS.</p>
 			</div>
 
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<h3 class="title-second"> Au sommaire :</h3>
 				<ul>
 					<li>1<sup>er</sup> jour : Rappels sur Node.js - La programmation asynchrone - Les modules Node.js - Écrire un serveur avec Node.js.</li>
@@ -72,8 +73,8 @@ banner: "Formation Node.js sur mesure"
 </div>
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<ul><strong>Rappels sur Node.js :</strong>
 					<li>Installation et utilisation du REPL : présentation nvm&co</li>
 					<li>JavaScript côté serveur : démonstrations et premiers travaux pratiques</li>
@@ -89,7 +90,7 @@ banner: "Formation Node.js sur mesure"
 					<li>Gérer la soupe de callbacks avec Async</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Les modules Node.js :</strong>
 					<li>Description</li>
 					<li>Fonctionnement</li>
@@ -116,8 +117,8 @@ banner: "Formation Node.js sur mesure"
 </div>
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col">
 				<ul><strong>Les librairies d'accès aux bases de données :</strong>
 					<li>Présentation</li>
 					<li>NoSQL: MongoDB et Redis</li>
@@ -131,7 +132,7 @@ banner: "Formation Node.js sur mesure"
 					<li>Intégration des WebSockets HTML5 avec Socket.IO</li>
 					</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Communication inter-process en temps réel :</strong>
 					<li>Le pub/sub avec Redis</li>
 					<li>AMQP dans Node JS</li>
@@ -164,8 +165,8 @@ banner: "Formation Node.js sur mesure"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<ul><strong>Gestion de la performance avec JavaScript et Node.js :</strong>
 					<li>Écrire du JavaScript performant pour V8 : les bonnes pratiques</li>
 					<li>Gestion de la mémoire : la pile et la mémoire totale, comment les gérer</li>
@@ -186,7 +187,7 @@ banner: "Formation Node.js sur mesure"
 					<li>Discussion libre</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Conclusion et conseils :</strong>
 					<li>Synthèse des bonnes pratiques de développement NodeJS</li>
 					<li>Veille : comment faire le tri dans les milliers de modules disponibles ?</li>

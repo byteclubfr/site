@@ -130,6 +130,19 @@ a {
 		margin-top: 50px;
 	}
 }
+.half-cols {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.half-col {
+	@media (max-width: 50em) {
+		margin-bottom: 30px;
+	}
+	@media (min-width: 50em) {
+		width: 48%;
+	}
+}
 
 /*-----------------------------------------------------------------------
   == CONTENT

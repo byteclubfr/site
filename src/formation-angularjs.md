@@ -18,9 +18,10 @@ banner: "Formation AngularJS"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
+		<div class="inner half-cols">
 			<h3 class="title-second">3 jours pour découvrir et comprendre le framework AngularJS.<br>Stage pratique, magistral et didactique, pour devenir autonome.</h3>
-			<div class="techno-col content cf">
+
+			<div class="half-col content">
 				<h3 class="title-second">Objectifs :</h3>
 				<ul>À l'issue de cette formation AngularJS, les participants seront en mesure de :
 					<li><strong>Appréhender la philosophie</strong> et le fonctionnement du framework AngularJS,</li>
@@ -39,7 +40,7 @@ banner: "Formation AngularJS"
 				<p><strong>Pré-requis</strong> : Connaissance de <strong>HTML</strong>, <strong>CSS</strong> et <strong>bon niveau JavaScript</strong>. Les notions fondamentales seront abordées en rappels.</p>
 			</div>
 
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<h3 class="title-second"> Au sommaire :</h3>
 				<ul>
 					<li><strong>1<sup>er</sup> jour</strong> : Rappels & mise en route - Une application web sans manipuler le DOM - Travaux Pratiques - Tests et debug.</li>
@@ -88,8 +89,8 @@ banner: "Formation AngularJS"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<ul><strong>Rappels & mise en route :</strong>
 					<li>Rappels sur JavaScript : prototype, portée des variables, fonctions, contextes.</li>
 					<li>Rappels HTML5 : balises sémantiques, forms.</li>
@@ -111,7 +112,7 @@ banner: "Formation AngularJS"
 					<li>Écriture d'un filtre.</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Travaux Pratiques :</strong>
 					<li>Présentation de l'application fil rouge : ngDoodle.</li>
 					<li>Création d'un évènement.</li>
@@ -140,8 +141,8 @@ banner: "Formation AngularJS"
 </div>
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<ul><strong>Design Patterns appliqués à une application web :</strong>
 					<li>Notion de routing.</li>
 					<li>Configuration avec $routeProvider.</li>
@@ -155,7 +156,7 @@ banner: "Formation AngularJS"
 					<li>Créer ses propres services : plusieurs façon d'y arriver.</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul><strong>Travaux Pratiques :</strong>
 					<li>Re-Organisation de notre application (Refactoring time).</li>
 					<li>Création, utilisation et affichage.</li>
@@ -184,22 +185,22 @@ banner: "Formation AngularJS"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
-				<ul><strong>Étendre et augmenter HTML pour qu'il réponde à vos besoins :</strong>
-					<li>Plongée dans le coeur de AngularJS : fonctionnement interne.</li>
-					<li>AngularJS pour les pros : les directives.</li>
+		<div class="inner half-cols">
+			<div class="half-col content">
+				<ul><strong>Étendre et augmenter HTML pour qu'il réponde à vos besoins :</strong>
+					<li>Plongée dans le cœur de AngularJS : fonctionnement interne.</li>
+					<li>AngularJS pour les pros : les directives.</li>
 					<li>Fonctionnement des directives.</li>
 					<li>Directive et événements utilisateurs.</li>
 					<li>Intégration d'un contrôleur dans une directive.</li>
 				</ul>
-				<ul><strong>Travaux Pratiques :</strong>
+				<ul><strong>Travaux Pratiques :</strong>
 					<li>Création d'un fiche récapitulative.</li>
 					<li>Affichage calendaire.</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
-				<ul><strong>Communication inter-process en temps réel :</strong>
+			<div class="half-col content">
+				<ul><strong>Communication inter-process en temps réel :</strong>
 					<li>Les Perspectives, trucs & astuces.</li>
 					<li>Organisation du code selon la taille de votre application.</li>
 					<li>Bonnes pratiques.</li>

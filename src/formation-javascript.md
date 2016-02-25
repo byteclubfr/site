@@ -18,9 +18,10 @@ banner: "Formation JavaScript"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
+		<div class="inner half-cols">
 			<h3 class="title-second">2 jours pour (re)découvrir JavaScript.<br>Stage pratique, magistral et didactique, pour se remettre à niveau.</h3>
-			<div class="techno-col content cf">
+
+			<div class="half-col content">
 				<h3 class="title-second">Objectifs :</h3>
 				<ul>À l'issue de cette formation, les participants seront en mesure de :
 					<li>Comprendre les arcanes complexes de JavaScript,</li>
@@ -35,7 +36,7 @@ banner: "Formation JavaScript"
 				<p><strong>Pré-requis</strong> : développeur confirmé (on ne revient pas sur les principes de base comme les boucles et variables), débutant en JavaScript.</p>
 			</div>
 
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<h3 class="title-second">Au sommaire :</h3>
 				<ul>
 					<li>Rappel des bases ;</li>

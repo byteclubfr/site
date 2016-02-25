@@ -14,8 +14,8 @@ banner: "Nos technologies"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<h3 class="title-second">AngularJS, c’est quoi ?</h3>
 				<p>AngularJS est un framework JavaScript destiné à développer des applications web front-end monopages, principalement des interfaces utilisateur et des composants logiciels.</p>
 				<p>Il est actuellement LA référence dans son domaine.</p>
@@ -30,7 +30,7 @@ banner: "Nos technologies"
 				<p>Framework MVC, AngularJS est fondé sur une approche déclarative du développement. Il enrichit le langage HTML et interprète les extensions créées pour donner vie aux pages HTML, rendant dynamique et interactif leur contenu, traditionnellement statique.</p>
 				<p>AngularJS découple client et serveur. Le serveur est soulagé d'un grande nombre de tâches. Il est confiné au traitement des données envoyées aux clients.</p>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<p><strong>Dependency Injection, promises, data binding, unit testing</strong></p>
 				<ul>AngularJS tire sa singularité de la combinaison de plusieurs fonctionnalités essentielles :
 					<li>L'injection de dépendances : Les services traditionnellement apportés côté serveur sont gérés en live côté client.</li>
@@ -62,8 +62,8 @@ banner: "Nos technologies"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<h3 class="title-second">Node.js, c’est quoi ?</h3>
 				<p>Framework open-source basé sur le moteur JavaScript V8 de Chrome, Node.js permet d'exécuter du JavaScript côté serveur, jusque là réservé côté client.</p>
 				<p>Node.js est un interpréteur JavaScript exécutable, enrichissant le langage avec sa propre API. Sa conception asynchrone évite les attentes (wait) et maximise le traitement rapide et concurrent.</p>
@@ -77,7 +77,7 @@ banner: "Nos technologies"
 					<li>Compatibilté : Node.js est multi-plateformes. (mobile, desktop, tv)</li>
 				</ul>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<p><strong>Node.js rend les services web en temps réel redoutables d'efficacité.</strong></p>
 				<p>Ce framework est tout à fait adapté aux applications où l’expérience utilisateur exige une forte réactivité de réponse et une forte volumétrie à traiter.</p>
 				<a href="https://nodejs.org/">Lien vers le site officiel de Node.js</a>
@@ -104,8 +104,8 @@ banner: "Nos technologies"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<h3 class="title-second">React, c’est quoi ?</h3>
 				<p>React est une librairie JavaScript libre et open-source, développée et maintenue par Facebook depuis 2013.</p>
 				<p><strong>Pour les interfaces graphiques</strong></p>
@@ -116,7 +116,7 @@ banner: "Nos technologies"
 				<p>À chaque modification, React crée un DOM virtuel servant à mettre à jour la vue. Les DOM virtuel et réel sont comparés. Seules les données impactées sont mises à jour dans ce dernier.</p>
 				<p>React est une librairie et non un framework. Il se limite à la création de composants JavaScript. Facebook lui a donc associé son propre pattern nommé Flux. L'architecture React+Flux résultante exploite une circulation unidirectionnelle des données.</p>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<p><strong>Performances graphiques temps réel, isomorphisme, réferencement SEO</strong></p>
 				<ul>En s’écartant volontairement du schéma classique des autres frameworks MVC, React se pose comme une alternative plus qu'attrayante.
 					<li>La rapidité d'affichage de composants graphiques est imbattable grâce au DOM virtuel exécuté en front.</li>
@@ -153,8 +153,8 @@ banner: "Nos technologies"
 
 <section class="section">
 	<div class="wrap cf">
-		<div class="inner">
-			<div class="techno-col content cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
 				<h3 class="title-second">JavaScript, c’est quoi ?</h3>
 				<p>JavaScript est un langage de programmation de scripts. Créé il y a 20 ans sous le nom de LiveScript, ce langage n'a cessé d'évoluer. Il est aujourd'hui au cœur de millions d'applications connectées.</p>
 				<p><strong>Client et serveur</strong></p>
@@ -165,7 +165,7 @@ banner: "Nos technologies"
 				<p>JavaScript est dit orienté objet. La programmation orientée objet (OOP), comme son nom l'indique, repose sur des objet qui interagissent entre eux. Ce paradigme apporte de la flexibilité au code et favorise sa maintenabilité, deux atouts non négligeables pour des applications imposantes.</p>
 				<p>JavaScript exploite aussi la notion de prototype. Un prototype est un objet qui permet de créer d'autres objets par clonage. Les objets clonés, instances fils, héritent des propriétés et méthodes de leur prototype parent.</p>
 			</div>
-			<div class="techno-col content last cf">
+			<div class="half-col content">
 				<ul>JavaScript est très versatile. Voici quelques exemples d'emplois actuels de JS :
 					<li>dynamiser les pages web statiques pour améliorer l'expérience utilisateur,</li>
 					<li>collecter des informations statistiques sur le comportement des utilisateurs,</li>
