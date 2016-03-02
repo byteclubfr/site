@@ -21,7 +21,10 @@
 			text-align: center;
 		}
 		@media (min-width: 55em) {
-			@include span-columns(2,9);
+			display: inline;
+			float: left;
+			margin-right: 1%;
+			width: 19%;
 			img {
 				display: block;
 				margin: 0 auto;
@@ -43,7 +46,9 @@
 		text-align: center;
 	}
 	@media (min-width: 55em) {
-		@include span-columns(7 omega,9);
+		display: inline;
+		float: right;
+		width: 80%;
 	}
 	@extend %font-titles;
 	padding-top: 18px;
