@@ -157,6 +157,7 @@ a {
 	justify-content: space-between;
 }
 .half-col {
+	box-sizing: border-box;
 	@media (max-width: 50em) {
 		margin-bottom: 30px;
 	}
