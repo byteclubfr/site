@@ -160,6 +160,7 @@ a {
 	box-sizing: border-box;
 	@media (max-width: 50em) {
 		margin-bottom: 30px;
+		width: 100%;
 	}
 	@media (min-width: 50em) {
 		width: 48%;
