@@ -6,7 +6,7 @@ banner: "Nos références"
 ---
 <section class="section section-alt">
 	<div class="wrap cf">
-		<div class="inner">
+		<div class="inner half-cols">
 
 			<div class="blocks-col-left"></div>
 			<div class="blocks-col-right"></div>

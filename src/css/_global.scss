@@ -132,25 +132,32 @@ a {
 		padding-right: 15%;
 	}
 }
+
+/* Those blocks (even and odd) are dispatched in JS */
+
 .block {
 	@extend %shadow;
 	margin-bottom: 50px;
 	padding: 30px;
 	background: $color-white;
+	box-sizing: border-box;
 }
-.blocks-col-left {
+.blocks-col-left,
+.blocks-col-right {
+	@media (max-width: 50em) {
+		margin-bottom: 30px;
+		width: 100%;
+	}
 	@media (min-width: 50em) {
-		@include span-columns(3,6);
+		width: 48%;
 	}
 }
 .blocks-col-right {
-	@media (min-width: 50em) {
-		@include span-columns(3 omega,6);
-	}
 	> .block:first-child {
 		margin-top: 50px;
 	}
 }
+
 .half-cols {
 	display: flex;
 	flex-wrap: wrap;

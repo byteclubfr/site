@@ -71,7 +71,8 @@ bc.dispatchBlocks = function (selector) {
 		$(".block-even").each(function () {
 			$(this).appendTo('.blocks-col-right');
 		});
-		container.addClass('is-dispatched');
+		// needs to be removed for space-between to work correctly in flexbox
+		container.remove();
 	}
 	// On smal screens, we reorder blocks and display them on one column
 	if (Modernizr.mq('(max-width: 80em)') && container.hasClass('is-dispatched')) {
