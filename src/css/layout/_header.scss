@@ -56,9 +56,9 @@
 			font-size: 20px;
 			font-weight: 400;
 			line-height: 1em;
-			color: #000;
+			color: $color-black;
 			&:hover, &:focus {
-				color: #aa6c5a;
+				color: $color-light-brown;
 			}
 		}
 	}
@@ -66,8 +66,8 @@
 		margin-left: 40px;
 	}
 	.current > a {
-		border-bottom-color: #aa6c5a;
-		color: #aa6c5a;
+		border-bottom-color: $color-light-brown;
+		color: $color-light-brown;
 		font-weight: bold;
 	}
 }
