@@ -103,7 +103,12 @@ a {
 ----------------------------------------------------------------------- */
 
 .wrap {
-	@include container;
+	margin-left: auto;
+	margin-right: auto;
+	/* TODO: remove this hardcoded value */
+	max-width: 104em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 .section {
 	position: relative;
