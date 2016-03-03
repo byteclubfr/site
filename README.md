@@ -1,22 +1,3 @@
-# CSS
-
-Les feuilles de styles sont codées avec le préprocesseur [SASS](http://sass-lang.com/), accompagné des librairies [Compass](http://compass-style.org/) et [Susy](http://susy.oddbird.net/).
-Pour installer ces outils:
-
-```sh
-$ gem install sass
-$ gem install compass
-$ gem install susy
-```
-
-Pour lancer la génération automatique de la feuille de style, il suffit de se placer à la racine du projet et lancer la commande:
-
-```sh
-compass watch
-```
-
-Ainsi, à chaque modification d'un fichier SASS, la feuille de style sera regénérée automatiquement (en l'occurrence, _site.css_).
-
 # Fonts
 
 Les polices embarquées sur le site utilisent le service [Typekit](https://typekit.com). Pour le moment, c'est mon compte qui est utilisé. Il est configuré pour être utilisé sur les domaines suivants:
