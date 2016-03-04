@@ -62,44 +62,44 @@ banner: "Nos références"
 					<p>Consulting et Développement sous Node.js d'un service de Web Scraping de données d'un intranet.</p>
 				</article>
 
-				<article data-order="9" class="reference block block-even">
+				<article data-order="9" class="reference block block-odd">
 					<img src="img/logos-clients/logo-eni-service.gif" alt="ENI Service" class="reference-logo" />
 					<h2 class="reference-title">ENI Service</h2>
 					<p>Formations AngularJS, Node.js, JavaScript en intra et inter-entreprises.</p>
 				</article>
 
-				<article data-order="10" class="reference block block-odd">
+				<article data-order="10" class="reference block block-even">
 					<img src="img/logos-clients/logo-evolution-multimedia.png" alt="Évolution Multimedia" class="reference-logo" />
 					<h2 class="reference-title">Évolution Multimedia</h2>
 					<p>Formation AngularJS avancé.</p>
 				</article>
 
-				<article data-order="11" class="reference block block-even">
+				<article data-order="11" class="reference block block-odd">
 					<img src="img/logos-clients/logo-expandium.jpeg" alt="Expandium" class="reference-logo" />
 					<h2 class="reference-title">Expandium</h2>
 					<p>CallTrace RT : Application Web de monitoring et cartographie temps réel de télétransmissions ferroviaires. Consulting , BootCamp et Développement AngularJS.</p>
 				</article>
 
-				<article data-order="12" class="reference block block-odd">
+				<article data-order="12" class="reference block block-even">
 					<img src="img/logos-clients/logo-figaro-classifieds.jpeg" alt="Figaro Classifieds" class="reference-logo" />
 					<h2 class="reference-title">Figaro Classifieds</h2>
 					<p>Immobox : Application Web de gestion d'annonces immobilières. Consulting , Formation et Développement AngularJS.</br>
 						Immovision Full Web : Application Web de gestion d'agences immobilières. Consulting et Développement AngularJS.</p>
 				</article>
 
-				<article data-order="13" class="reference block block-even">
+				<article data-order="13" class="reference block block-odd">
 					<img src="img/logos-clients/logo-i-novatic.png" alt="I-novatic" class="reference-logo" />
 					<h2 class="reference-title">I-novatic</h2>
 					<p>Optimiz.me : Application web de gestion SEO autonome pour TPE. Développement AngularJS.</p>
 				</article>
 
-				<article data-order="14" class="reference block block-odd">
+				<article data-order="14" class="reference block block-even">
 					<img src="img/logos-clients/logo-insee.jpeg" alt="Insee" class="reference-logo" />
 					<h2 class="reference-title">Insee</h2>
 					<p>Rorcal : Application Web de saisie de données statistiques. Formation et BootCamp AngularJS.</p>
 				</article>
 
-				<article data-order="15" class="reference block block-even">
+				<article data-order="15" class="reference block block-odd">
 					<img src="img/logos-clients/logo-jack-in-the-box.png" alt="Jack In The Box" class="reference-logo" />
 					<h2 class="reference-title">Jack In The Box</h2>
 					<p>BootCamp AngularJS.</p>
@@ -124,18 +124,30 @@ banner: "Nos références"
 				</article>
 
 				<article data-order="19" class="reference block block-odd">
+					<img src="img/logos-clients/logo-sciences-po.png" alt="Sciences Po" class="reference-logo" />
+					<h2 class="reference-title">Sciences Po - Médialab</h2>
+					<p>Client desktop pour la qualification de résultats de crawls en Electron / React</p>
+				</article>
+
+				<article data-order="20" class="reference block block-even">
 					<img src="img/logos-clients/logo-ufip.jpeg" alt="Ufip" class="reference-logo" />
 					<h2 class="reference-title">UFIP</h2>
 					<p>Formation et Consulting à distance AngularJS.</p>
 				</article>
 
-				<article data-order="20" class="reference block block-even">
+				<article data-order="21" class="reference block block-odd">
+					<img src="img/logos-clients/logo-universite-de-lorraine.png" alt="Univ Lorraine" class="reference-logo" />
+					<h2 class="reference-title">Université de Lorraine</h2>
+					<p>Accompagnement pour la création d'un jeu sérieux dans le domaine pharmaceutique en AngularJS.</p>
+				</article>
+
+				<article data-order="22" class="reference block block-even">
 					<img src="img/logos-clients/logo-vecteur-plus.jpg" alt="Vecteur Plus" class="reference-logo" />
 					<h2 class="reference-title">Vecteur Plus</h2>
 					<p>Formation Node.js.</p>
 				</article>
 
-				<article data-order="21" class="reference block block-odd">
+				<article data-order="23" class="reference block block-even">
 					<img src="img/logos-clients/logo-voxeet.jpeg" alt="Voxeet" class="reference-logo" />
 					<h2 class="reference-title">Voxeet</h2>
 					<p>Voxeet Web : Application Web de group conferencing 3D-HD. Développement AngularJS.</p>
