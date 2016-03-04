@@ -153,6 +153,12 @@ banner: "Nos références"
 					<p>Voxeet Web : Application Web de group conferencing 3D-HD. Développement AngularJS.</p>
 				</article>
 
+				<article data-order="24" class="reference block block-odd">
+					<img src="img/logos-clients/logo-iad.jpg" alt="I@D" class="reference-logo" />
+					<h2 class="reference-title">I@D</h2>
+					<p>I@D : Application Web de gestion d'un réseau d'agents immobiliers. Formation et BootCamp AngularJS.</p>
+				</article>
+
 			</div>
 
 		</div>
