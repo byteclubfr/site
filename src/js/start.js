@@ -64,21 +64,21 @@ bc.dispatchBlocks = function (selector) {
 
 	var container = $('.blocks');
 	// On large screens, we dispatch blocks on two columns
-	if (Modernizr.mq('(min-width: 80em)') && container.not('.is-dispatched')) {
+	if (matchMedia('(min-width: 80em)').matches && container.not('.is-dispatched')) {
 		$(".block-odd").each(function () {
 			$(this).appendTo('.blocks-col-left');
 		});
 		$(".block-even").each(function () {
 			$(this).appendTo('.blocks-col-right');
 		});
-		// needs to be removed for space-between to work correctly in flexbox
-		container.remove();
+		container.addClass('is-dispatched').hide();
 	}
 	// On smal screens, we reorder blocks and display them on one column
-	if (Modernizr.mq('(max-width: 80em)') && container.hasClass('is-dispatched')) {
+	if (matchMedia('(max-width: 80em)').matches && container.hasClass('is-dispatched')) {
 		$('.block').sort(function (a, b) {
 			return a.dataset.order > b.dataset.order
 		}).appendTo(container);
+		container.show();
 	}
 }
 
