@@ -7,6 +7,7 @@ module.exports = {
     "img/**/*.*",
     "**/*.html",
     "planner/*.*",
-    "rss.xml"
+    "rss.xml",
+    "favicon.ico"
   ]
 }
