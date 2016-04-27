@@ -17,3 +17,6 @@ build
 # deploy on S3
 aws-credentials.json
 build-gzip
+
+# node-version
+.node-version
