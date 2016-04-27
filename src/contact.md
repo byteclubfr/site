@@ -26,7 +26,7 @@ scripts:
 
 					<div class="field-fullname">
 						<div class="field form-half">
-							<label for="name">Nom</label>
+							<label for="lastname">Nom</label>
 							<input type="text" class="input" id="lastname" />
 						</div>
 						<div class="field form-half">
