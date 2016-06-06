@@ -19,7 +19,7 @@
     "prestart": "npm run build",
     "start": "npm run serve",
     "prewatch": "npm run dirs",
-    "watch": "npm-run-all -p watch:*",
+    "watch": "npm-run-all -p watch:* serve",
     "watch:css": "stylus --watch src/css/site.styl -o build/css",
     "watch:md": "watch-run -p 'src/**/*.md' npm run metalsmith"
   },
