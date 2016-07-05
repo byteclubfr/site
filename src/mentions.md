@@ -11,8 +11,8 @@ banner: "Mentions légales"
 			<article class="half-col block content">
 				<h2 id="editeur" class="service-title"><i class="fa fa-pencil"></i>Éditeur</h2>
 				<p><strong>ByteClub</strong></p>
-				<p>5, Boulevard Vincent Gache<br>
-					44200 Nantes<br>
+				<p>13 Place Sophie Trébuchet<br>
+					44000 Nantes<br>
 					SARL au capital de 7500€<br>
 					RCS Nantes B 791 143 258<br>
 					TVA FR30791143258

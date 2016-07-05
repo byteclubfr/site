@@ -108,7 +108,7 @@ bc.map = function (selector) {
 	var popup = L.popup({
 			closeButton: false
 		})
-		.setLatLng([47.2061076, -1.5415779])
+		.setLatLng([47.220248, -1.545248])
 		.setContent(contact_details.html())
 		.openOn(map);
 }

@@ -56,8 +56,8 @@ scripts:
 			<div id="map-popup">
 				<p><img src="img/logo-byteclub-tiny.png" alt="ByteClub" />
 					<img src="img/mascot-byteclub-medaillon-tiny.png" alt="MascotByteClub" /><br/>
-				5, Boulevard Vincent Gache<br/>
-				44200 Nantes</p>
+				13 Place Sophie Trébuchet<br/>
+				44000 Nantes</p>
 				<p class="tel-mail"><a href="mailto:contact@byteclub.fr">contact@byteclub.fr</a><br/>
 				<span class="tel">06 14 66 76 41</span></p>
 			</div>
