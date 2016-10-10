@@ -7,7 +7,7 @@ banner: "Nos technologies"
 <div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h2 id="angularjs"><img src="img/logo-angularjs.svg" alt="AngularJS" /></h2>
+			<h2 id="angularjs"><img src="img/angularjs.jpeg" alt="AngularJS" /></h2>
 		</div>
 	</div>
 </div>
@@ -16,7 +16,7 @@ banner: "Nos technologies"
 	<div class="wrap cf">
 		<div class="inner half-cols">
 			<div class="half-col content">
-				<h3 class="title-second">AngularJS, c’est quoi ?</h3>
+				<h3 class="title-second">AngularJS,  c’est quoi ?</h3>
 				<p>AngularJS est un framework JavaScript destiné à développer des applications web front-end monopages, principalement des interfaces utilisateur et des composants logiciels.</p>
 				<p>Il est actuellement LA référence dans son domaine.</p>
 				<p><strong>Productivité et performances</strong></p>
@@ -182,6 +182,54 @@ banner: "Nos technologies"
 					<li><a href="formation-javascript.html">Formation</a></li>
 					<li><a href="services.html#developpement">Développement spécifique</a></li>
 					<li><a href="bootcamp.html">BootCamp : mettez vos projets AngularJS, Node.js ou React sur orbite.</a></li>
+				</ul>
+				<a href="contact.html" class="btn">Contactez-nous</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="section-title">
+	<div class="wrap cf">
+		<div class="inner">
+			<h2 id="angular"><img src="img/logo-angularjs.svg" alt="Angular" /></h2>
+		</div>
+	</div>
+</div>
+
+<section class="section">
+	<div class="wrap cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
+				<h3 class="title-second">Angular,  c’est quoi ?</h3>
+				<p>AngularJS est un framework JavaScript destiné à développer des applications web front-end monopages, principalement des interfaces utilisateur et des composants logiciels.</p>
+				<p>Il est actuellement LA référence dans son domaine.</p>
+				<p><strong>Productivité et performances</strong></p>
+				<ul>Les raisons de cet engouement sont simples :
+					<li>Productivité : On produit rapidement des modules, facilement testable et maintenable.</li>
+					<li>Performances : Les applications web sont beaucoup plus légères. Les serveurs sont moins sollicités.</li>
+					<li>Perennité : AngularJS est maintenu par Google.</li>
+					<li>Open source : La communauté est active et les mises à jour fréquentes.</li>
+				</ul>
+				<p><strong>Déclaratif, HTML dynamique, découplage</strong></p>
+				<p>Framework MVC, AngularJS est fondé sur une approche déclarative du développement. Il enrichit le langage HTML et interprète les extensions créées pour donner vie aux pages HTML, rendant dynamique et interactif leur contenu, traditionnellement statique.</p>
+				<p>AngularJS découple client et serveur. Le serveur est soulagé d'un grande nombre de tâches. Il est confiné au traitement des données envoyées aux clients.</p>
+			</div>
+			<div class="half-col content">
+				<p><strong>Dependency Injection, promises, data binding, unit testing</strong></p>
+				<ul>AngularJS tire sa singularité de la combinaison de plusieurs fonctionnalités essentielles :
+					<li>L'injection de dépendances : Les services traditionnellement apportés côté serveur sont gérés en live côté client.</li>
+					<li>Les promesses : Des prédictions permettent de traiter le résultat d'actions asynchrones.</li>
+					<li>Le data binding bidirectionnel : Une synchronisation automatique instantanée met à jour les modifications de la Vue dans le Modèle, et respectivement. (MVVM)</li>
+					<li>Les tests unitaires : Le code d'une fonction peut être aisément isolé pour faciliter le test et le rendre plus efficace.</li>
+				</ul>
+				<a href="https://angularjs.org/">Lien vers le site officiel d'AngularJS</a>
+				<h3 class="title-second">Nos services autour d'AngularJS :</h3>
+				<ul>ByteClub vous accompagne à chaque étape de vos projets:
+					<li><a href="services.html#conseil">Conseil,</a></li>
+					<li><a href="formation-angularjs.html">Formation,</a></li>
+					<li><a href="services.html#developpement">Développement spécifique,</a></li>
+					<li><a href="bootcamp.html">BootCamp : développez vos applications ET vos compétences.</a></li>
 				</ul>
 				<a href="contact.html" class="btn">Contactez-nous</a>
 			</div>

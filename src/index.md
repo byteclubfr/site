@@ -9,7 +9,7 @@ home: true
 		<div class="banner-home">
 			<div class="banner-home-wrap">
 				<h1 class="page-title">ByteClub met <em>vos idées</em> en applications !</h1>
-				<p>ByteClub conseille, forme et développe sous AngularJS, Node.js et React.</p>
+				<p>ByteClub conseille, forme et développe sous AngularJS, Angular, Node.js et React.</p>
 				<img src="img/mascot.png" alt="" class="mascot" />
 			</div>
 		</div>
@@ -24,10 +24,19 @@ home: true
 			<div class="home-technos-list">
 				<div class="home-techno">
 					<div class="home-techno-logo">
-						<a href="technologies.html#angular"><img src="img/logo-angularjs.svg" alt="AngularJS" /></a>
+						<a href="technologies.html#angularjs"><img src="img/angularjs.jpeg" alt="AngularJS" /></a>
 					</div>
 					<div class="home-techno-txt">
 						<p>AngularJS décuple les possibilités offertes par HTML5. Ce framework modulaire facilite la conception d'applications web riches.</p>
+					</div>
+				</div>
+
+				<div class="home-techno">
+					<div class="home-techno-logo">
+						<a href="technologies.html#angular"><img src="img/logo-angularjs.svg" alt="Angular" /></a>
+					</div>
+					<div class="home-techno-txt">
+						<p>Angular décuple les possibilités offertes par HTML5. Ce framework modulaire facilite la conception d'applications web riches.</p>
 					</div>
 				</div>
 
