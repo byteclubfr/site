@@ -53,7 +53,6 @@
     "s3-upload": "lmtm/s3-static-site-uploader#gzip",
     "stylus": "^0.53.0",
     "swig": "^1.4.2",
-    "uglify-js": "^2.4.24",
-    "watch-run": "^1.2.4"
+    "uglify-js": "^2.4.24"
   }
 }
