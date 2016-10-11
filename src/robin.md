@@ -10,7 +10,7 @@ description: "La page de Robin Mabit, stage de 3eme"
 	<section class="section">
 		<h2>Je suis en stage de 3eme au ByteClub</h2><img src="img/logo-byteclub-tiny.png">
 		<h1>Le logo de l'entreprise:</h1>
-		<img src="img/mascot-byteclub-medaillon.png">
+		<img src="img/mascot-byteclub-medaillon.png" alt="mascotte byteclub">
 		<h1>Le ByteClub, C'est quoi ?</h1>
 		<ul>
 			<li>C'est une entreprise de dévellopement</li>
