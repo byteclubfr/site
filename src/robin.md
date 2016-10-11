@@ -64,12 +64,15 @@ description: "La page de Robin Mabit, stage de 3eme"
 			<div id="lundi" class="robin-section">
 				<h2>Lundi</h2>
 
-				<p>Prise de contact, installation d'un environnement de travail. Ma mission pour la semaine est : . Pour cela je vais avoir besoin de ... . Cela constitue l'essentiel de mon activité de ce premier jour.</p>
+				<p>Je me suis familliarisée avec les outils principaux d'un developpeur, installation d'un environnement de travail. Ma mission pour la semaine est de modifier le site internet de l'entreprise (onglet techno,angular2) et de créer une page cachée parlant de mon stage . Pour cela je vais avoir besoin de  . Cela constitue l'essentiel de mon activité de ce premier jour.</p>
 
 				<h3>1. Inscription à GitHub</h3>
 
-				<h3>2. Lorem ipsum dolor sit amet.</h3>
+				<h3>2. Installation de GitGub</h3>
 
+				<h3>3. Installation de NodeJS et de npm</h3>
+
+				<h3>4. Installation de Sulime Text 3</h3>
 
 			</div>
 
