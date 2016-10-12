@@ -45,48 +45,48 @@ description: "La page de Robin Mabit, stage de 3eme"
 				<h2>Présentation de la société</h2>
 
 				<h3>Son histoire</h3>
-				<p>L'entreprise s'est formée le 13 février 2013. Au depart elle s'appelait LMTM (Lilian Martineau, Thomas Moyse) mais elle à décidé par la suite de se faire appeler ByteClub</p>
+				<p>L'entreprise s'est formée le 13 février 2013. Au depart elle s'appelait LMTM (Lilian Martineau, Thomas Moyse) mais elle à décidé par la suite de se faire appeler ByteClub.</p>
 
 				<h3>Ses activités</h3>
-				<p>L'entreprise:</p>
+				<p>L'entreprise :</p>
 				<ul>
-					<li> Développe des applications </li>
-					<li> Propose des formation JavaScript de remise à niveau ainsi qu'une formation ECMAScript </li>
-					<li> Edite des logiciels </li>
+					<li> Développe des applications. </li>
+					<li> Propose des formation JavaScript de remise à niveau ainsi qu'une formation ECMAScript. </li>
+					<li> Edite des logiciels. </li>
 				
 				<h3>Son organisation</h3>
 				<p>C'est une petite entreprise (4 personnes y travaillent).
-				Ils ont tous un poste différent</p>
+				Ils ont tous un poste différent.</p>
 
 				<h3>Les bureaux</h3>
 				<p>Le bureau se trouve à Nantes  (Place Sophie Trebuchet) ,
-				mais deux des personnes travaillent depuis chez eux , à Lyon</p>
-				<img src="img/photo stage.jpg" style="">
+				mais deux des quatres personnes travaillent depuis chez eux , à Lyon</p>
+				<img src="img/photostage.jpg" style="">
 
 				<h3>Les gens</h3>
-				<p>Thomas Moyse : Expert AngularJS, développeur, formateur</p>
-				<p>Lilian Martineau : Gestionnaire, commercial</p>
-				<p>Nicolas Chambrier : Expert Node.js, développeur, formateur</p>
-				<p>Bruno Heridet : Expert AngularJS et Node.js, développeur, formateur</p>
+				<p>Thomas Moyse : Expert AngularJS, développeur, formateur.</p>
+				<p>Lilian Martineau : Gestionnaire, commercial.</p>
+				<p>Nicolas Chambrier : Expert Node.js, développeur, formateur.</p>
+				<p>Bruno Heridet : Expert AngularJS et Node.js, développeur, formateur.</p>
 
 			</div>
 
 			<div id="lundi" class="robin-section">
 				<h2>Lundi</h2>
 
-				<p>Je me suis familliarisée avec les outils principaux d'un developpeur, installation d'un environnement de travail. Ma mission pour la semaine est de modifier le site internet de l'entreprise (onglet techno,angular2) et de créer une page cachée parlant de mon stage . Pour cela je vais avoir besoin de  . Cela constitue l'essentiel de mon activité de ce premier jour.</p>
+				<p>Je me suis familliarisé avec les outils principaux d'un developpeur. J'ai installé un environnement de travail. Ma mission pour la semaine est de modifier le site internet de l'entreprise (onglet techno angular2) et de créer une page cachée parlant de mon stage . Pour cela je vais avoir besoin d'utiliser des logiciels de développement. Cela constitue l'essentiel de mon activité de ce premier jour.</p>
 
 				<h3>1. Inscription à GitHub</h3>
-				<p>mon comte : https://github.com/robinmabit</p>
+				<p>Mon comte : https://github.com/robinmabit</p>
 
 				<h3>2. Installation de GitGub</h3>
-				<p>GitHub est un site où n'importe qui peut créer et proposer leurs travails </p>
+				<p>GitHub est un site où n'importe qui peut créer et présenter sont travail. </p>
 
 				<h3>3. Installation de NodeJS et de npm</h3>
 
 
 				<h3>4. Installation de Sulime Text 3</h3>
-				<p>Sublime Text est un éditeur de texte pour modifier les sources d'une application</p>
+				<p>Sublime Text est un éditeur de texte pour modifier les sources d'une application.</p>
 		
 			
 			</div>
@@ -94,7 +94,7 @@ description: "La page de Robin Mabit, stage de 3eme"
 			<div id="mardi" class="robin-section">
 				<h2>Mardi</h2>
 
-				<p>Commencement de la page cachée de mon stage sur le site de l'entreprise</p>
+				<p>Commencement de la page cachée de mon stage sur le site de l'entreprise.</p>
 
 			</div>
 
