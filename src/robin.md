@@ -45,19 +45,29 @@ description: "La page de Robin Mabit, stage de 3eme"
 				<h2>Présentation de la société</h2>
 
 				<h3>Son histoire</h3>
-				<p>Date de création. Changement de nom ...</p>
+				<p>L'entreprise s'est formée le 13 février 2013. Au depart elle s'appelait LMTM (Lilian Martineau, Thomas Moyse) mais elle à décidé par la suite de se faire appeler ByteClub</p>
 
 				<h3>Ses activités</h3>
-				<p>Secteurs d'activité</p>
-
+				<p>L'entreprise:</p>
+				<ul>
+					<li> Développe des applications </li>
+					<li> Propose des formation JavaScript de remise à niveau ainsi qu'une formation ECMAScript </li>
+					<li> Edite des logiciels </li>
+				
 				<h3>Son organisation</h3>
-				<p>Taille de la société. Fonctionnement.</p>
+				<p>C'est une petite entreprise (4 personnes y travaillent).
+				Ils ont tous un poste différent</p>
 
 				<h3>Les bureaux</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quam velit, sit dolore quibusdam aliquam similique. Unde error, ad, perspiciatis libero illum magnam reprehenderit in laudantium hic, dignissimos minus consectetur.</p>
+				<p>Le bureau se trouve à Nantes  (Place Sophie Trebuchet) ,
+				mais deux des personnes travaillent depuis chez eux , à Lyon</p>
+				<img src="img/photo stage.jpg" style="">
 
 				<h3>Les gens</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quam velit, sit dolore quibusdam aliquam similique. Unde error, ad, perspiciatis libero illum magnam reprehenderit in laudantium hic, dignissimos minus consectetur.</p>
+				<p>Thomas Moyse : Expert AngularJS, développeur, formateur</p>
+				<p>Lilian Martineau : Gestionnaire, commercial</p>
+				<p>Nicolas Chambrier : Expert Node.js, développeur, formateur</p>
+				<p>Bruno Heridet : Expert AngularJS et Node.js, développeur, formateur</p>
 
 			</div>
 
@@ -67,19 +77,24 @@ description: "La page de Robin Mabit, stage de 3eme"
 				<p>Je me suis familliarisée avec les outils principaux d'un developpeur, installation d'un environnement de travail. Ma mission pour la semaine est de modifier le site internet de l'entreprise (onglet techno,angular2) et de créer une page cachée parlant de mon stage . Pour cela je vais avoir besoin de  . Cela constitue l'essentiel de mon activité de ce premier jour.</p>
 
 				<h3>1. Inscription à GitHub</h3>
+				<p>mon comte : https://github.com/robinmabit</p>
 
 				<h3>2. Installation de GitGub</h3>
+				<p>GitHub est un site où n'importe qui peut créer et proposer leurs travails </p>
 
 				<h3>3. Installation de NodeJS et de npm</h3>
 
-				<h3>4. Installation de Sulime Text 3</h3>
 
+				<h3>4. Installation de Sulime Text 3</h3>
+				<p>Sublime Text est un éditeur de texte pour modifier les sources d'une application</p>
+		
+			
 			</div>
 
 			<div id="mardi" class="robin-section">
 				<h2>Mardi</h2>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dicta ut suscipit expedita ad adipisci consequatur ullam repudiandae facere laboriosam veritatis dolorem rerum repellendus eveniet eos, deleniti eaque odit unde!</p>
+				<p>Commencement de la page cachée de mon stage sur le site de l'entreprise</p>
 
 			</div>
 
@@ -100,7 +115,7 @@ description: "La page de Robin Mabit, stage de 3eme"
 			</ul>
 			<p>Le nom secodaire est LMTM</p>
 
-			<p>Ils créent des sites internet à la demande des clients</p>
+			<p>Ils créent des applications à la demande des clients</p>
 			<p>L'entreprise se situe à Nantes(13 place Sophie Trebuchet)</p>
 
 			<h2>Lundi:</h2>
