@@ -12,8 +12,21 @@ description: "La page de Robin Mabit, stage de 3eme"
 		background-color: #fefefe;
 		clear: both;
 	}
+	.robin-section:first-of-type {
+		min-height: 160px;
+	}
 	.robin-nav {
 		float: right;
+	}
+	table.robin-sound {
+		border-collapse: collapse;
+		margin: 50px;
+	}
+	table.robin-sound td {
+		padding: .5em;
+	}
+	table.robin-sound td button {
+		font-size: 1.4em;
 	}
 </style>
 
@@ -28,8 +41,11 @@ description: "La page de Robin Mabit, stage de 3eme"
 					<ul>
 						<li><a href="#presentation">Présentation</a></li>
 						<li><a href="#lundi">Lundi</a></li>
-						<li><a href="#preeentation">Présentation</a></li>
-						<li><a href="#preeentation">Présentation</a></li>
+						<li><a href="#mardi">Mardi</a></li>
+						<li><a href="#mercredi">Mercredi</a></li>
+						<li><a href="#jeudi">Jeudi</a></li>
+						<li><a href="#vendredi">Vendredi</a></li>
+						<li><a href="#soundbox">Soundbox</a></li>
 					</ul>
 				</nav>
 
@@ -37,7 +53,6 @@ description: "La page de Robin Mabit, stage de 3eme"
 
 				<p>Je suis en stage de 3eme au <img src="img/logo-byteclub-tiny.png" style="vertical-align: middle;height:1.5em;">.</p>
 				<p>Voici le compte rendu de ma semaine passée dans cette société.</p>
-
 
 			</div>
 
@@ -74,7 +89,7 @@ description: "La page de Robin Mabit, stage de 3eme"
 			<div id="lundi" class="robin-section">
 				<h2>Lundi</h2>
 
-				<p>Je me suis familliarisé avec les outils principaux d'un developpeur. J'ai installé un environnement de travail. Ma mission pour la semaine est de modifier le site internet de l'entreprise (onglet techno angular2) et de créer une page cachée parlant de mon stage . Pour cela je vais avoir besoin d'utiliser des logiciels de développement. Cela constitue l'essentiel de mon activité de ce premier jour.</p>
+				<p>Je me suis familliarisé avec les outils principaux d'un developpeur. J'ai installé un environnement de travail. Ma mission pour la semaine est de modifier le site internet de l'entreprise (onglet techno angular2) et de créer une page cachée parlant de mon stage . Pour cela je vais avoir besoin d'utiliser des logiciels de développement.</p>
 
 				<h3>1. Inscription à GitHub</h3>
 				<p>Mon comte : https://github.com/robinmabit</p>
@@ -83,7 +98,7 @@ description: "La page de Robin Mabit, stage de 3eme"
 				<p>GitHub est un site où n'importe qui peut créer et présenter sont travail. </p>
 
 				<h3>3. Installation de NodeJS et de npm</h3>
-
+				<p>NodeJS et npm sont des outils du développeur.
 
 				<h3>4. Installation de Sulime Text 3</h3>
 				<p>Sublime Text est un éditeur de texte pour modifier les sources d'une application.</p>
@@ -94,7 +109,7 @@ description: "La page de Robin Mabit, stage de 3eme"
 			<div id="mardi" class="robin-section">
 				<h2>Mardi</h2>
 
-				<p>J'ai commencé la page cachée de mon stage sur le site de l'entreprise. Ajout de la rubrique Angular dans la page "Nos Technologie". Inversion du logo Angular pour le logo AngularJS</p>
+				<p>J'ai commencé la page cachée de mon stage sur le site de l'entreprise. Ajout de la rubrique Angular dans la page "Nos Technologie". Inversion du logo Angular pour le logo AngularJS.</p>
 
 			</div>
 
@@ -102,41 +117,37 @@ description: "La page de Robin Mabit, stage de 3eme"
 				<h2>Mercredi</h2>
 
 				<p>Continuation de ma page cachée.</p>
-
 			</div>
 
 			<div id="jeudi" class="robin-section">
 				<h2>Jeudi</h2>
 
-				<p>Ajout de la rubrique Angular dans la page "Nos Services" du site de l'entreprise. Changement du logo angular sur la page formations-angularjs.</p>
+				<p>Ajout de la rubrique Angular dans la page "Nos Services" du site de l'entreprise. Changement du logo Angular sur la page formations-angularjs.</p>
 
 			</div>
 
 			<div id="vendredi" class="robin-section">
 				<h2>Vendredi</h2>
 
-				<p>Continuation de ma page cachée...</p>
+				<p>Finition de ma page cachée. Ajout du texte dans la rubrique Formation Angular sur le site de l'entreprise.</p>
 
 			</div>
-<!--
-			<h1>Le logo de l'entreprise:</h1>
-			<img src="img/mascot-byteclub-medaillon.png" alt="mascotte byteclub" style="width:20%">
-			<h1>Le ByteClub, C'est quoi ?</h1>
-			<ul>
-				<li>C'est une entreprise de dévellopement</li>
-			</ul>
-			<p>Le nom secodaire est LMTM</p>
 
-			<p>Ils créent des applications à la demande des clients</p>
-			<p>L'entreprise se situe à Nantes(13 place Sophie Trebuchet)</p>
-
-			<h2>Lundi:</h2>
-			<p>-installation des outils de base d'un développeur</p>
-			<p>-creation d'un compte GitHub</p>
-
-
-			<h2>GitHub, C'est quoi ?</h2>
-			<p>GitHub est un site où n'importe qui peut créer et proposer leurs travails dans un </p>-->
+			
+			<div id="soundbox" class="robin-section">
+				<h2>SoundBox</h2>
+				<table class="robin-sound">
+					<tr>
+						<td><button onclick="parle('sf_pet_13')">prout</button></td>			
+						<td><button onclick="parle('sf_laser_15')">laser</button></td>
+						<td><button onclick="parle('madgiggle')">ricanement</button></td>
+					</tr>
+					<tr>
+						<td><button onclick="parle('Rire du Diable')">Rire du Diable</button></td>	 <td><button onclick="parle('Monstre')">Monstre</button></td>
+						<td><button onclick="parle('Porte qui grince')">Porte qui grince</button></td>
+					</tr>
+				</table>
+			</div>
 
 		</div>
 
@@ -144,3 +155,11 @@ description: "La page de Robin Mabit, stage de 3eme"
 
 </section>
 
+<script>
+
+function parle(sound) {
+	var audio = new Audio("sounds/" + sound + ".mp3")
+	audio.play()
+}
+
+</script>
