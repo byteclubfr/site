@@ -1,15 +1,15 @@
 ---
-title: "Formation AngularJS"
-description: "Formation AngularJS"
+title: "Formation Angular"
+description: "Formation Angular"
 menu: services
 submenu: formation
-banner: "Formation AngularJS"
+banner: "Formation Angular"
 ---
 <div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
 			<h2>
-				<img src="img/angularjs.jpeg" alt="AngularJS" style="width:100px;float:right;">
+				<img src="img/logo-angularjs.svg" alt="AngularJS" style="width:100px;float:right;">
 				Présentation
 			</h2>
 		</div>
@@ -19,13 +19,13 @@ banner: "Formation AngularJS"
 <section class="section">
 	<div class="wrap cf">
 		<div class="inner half-cols">
-			<h3 class="title-second">3 jours pour découvrir et comprendre le framework AngularJS.<br>Stage pratique, magistral et didactique, pour devenir autonome.</h3>
+			<h3 class="title-second">3 jours pour découvrir et comprendre le framework Angular.<br>Stage pratique, magistral et didactique, pour devenir autonome.</h3>
 
 			<div class="half-col content">
 				<h3 class="title-second">Objectifs :</h3>
 				<ul>À l'issue de cette formation AngularJS, les participants seront en mesure de :
-					<li><strong>Appréhender la philosophie</strong> et le fonctionnement du framework AngularJS,</li>
-					<li><strong>Développer une application Web</strong> avec AngularJS,</li>
+					<li><strong>Appréhender la philosophie</strong> et le fonctionnement du framework Angular,</li>
+					<li><strong>Développer une application Web</strong> avec Angular,</li>
 					<li><strong>Maîtriser les impacts</strong> du choix d'une architecture incluant une application web riche.</li>
 				</ul>
 				<h3 class="title-second">Méthode pédagogique :</h3>
