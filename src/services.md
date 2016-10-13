@@ -52,6 +52,9 @@ banner: "Nos services"
 						<p class="align-center"><a href="formation-nodejs.html" class="btn">Voir notre formation <em>Node.js</em></a></p>
 						<p class="align-center"><a href="formation-react.html" class="btn">Voir notre formation <em>React</em></a></p>
 						<p class="align-center"><a href="formation-ecmascript-2015-es6.html" class="btn">Voir notre formation <em>ECMAScript 2015 (ES6)</em></a></p>
+						<p class="align-center"><a href="formation-angular.html" class="btn">Voir notre formation <em>Angular</em></a></p>
+
+
 					</div>
 				</article>
 
