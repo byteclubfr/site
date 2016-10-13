@@ -94,18 +94,30 @@ description: "La page de Robin Mabit, stage de 3eme"
 			<div id="mardi" class="robin-section">
 				<h2>Mardi</h2>
 
-				<p>Commencement de la page cachée de mon stage sur le site de l'entreprise.</p>
+				<p>J'ai commencé la page cachée de mon stage sur le site de l'entreprise. Ajout de la rubrique Angular dans la page "Nos Technologie". Inversion du logo Angular pour le logo AngularJS</p>
 
 			</div>
 
 			<div id="mercredi" class="robin-section">
 				<h2>Mercredi</h2>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum rerum, odio quisquam. Dolorem magnam aliquam dolorum quibusdam at nobis, omnis animi cumque cum nesciunt accusantium dicta maxime alias facilis veniam nemo ipsa eligendi obcaecati repudiandae tenetur! Eius perferendis similique laborum odit natus ipsa officia porro eum saepe repudiandae et non minus, veniam ab laudantium vitae vero provident, deserunt illum voluptatem magni esse molestias est! Mollitia dolorum architecto voluptatem, incidunt totam fugiat minima et vel assumenda modi suscipit possimus iste pariatur illo explicabo voluptas labore sequi ipsum nisi, officiis omnis repellendus quis laudantium. Omnis distinctio minus totam consequatur earum atque alias.</p>
+				<p>Continuation de ma page cachée.</p>
 
 			</div>
 
+			<div id="jeudi" class="robin-section">
+				<h2>Jeudi</h2>
 
+				<p>Ajout de la rubrique Angular dans la page "Nos Services" du site de l'entreprise. Changement du logo angular sur la page formations-angularjs.</p>
+
+			</div>
+
+			<div id="vendredi" class="robin-section">
+				<h2>Vendredi</h2>
+
+				<p>Continuation de ma page cachée...</p>
+
+			</div>
 <!--
 			<h1>Le logo de l'entreprise:</h1>
 			<img src="img/mascot-byteclub-medaillon.png" alt="mascotte byteclub" style="width:20%">
