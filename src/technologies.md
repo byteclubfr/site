@@ -223,8 +223,8 @@ banner: "Nos technologies"
 					<li>Le data binding bidirectionnel : Une synchronisation automatique instantanée met à jour les modifications de la Vue dans le Modèle, et respectivement. (MVVM)</li>
 					<li>Les tests unitaires : Le code d'une fonction peut être aisément isolé pour faciliter le test et le rendre plus efficace.</li>
 				</ul>
-				<a href="https://angularjs.org/">Lien vers le site officiel d'AngularJS</a>
-				<h3 class="title-second">Nos services autour d'AngularJS :</h3>
+				<a href="https://angular.io/">Lien vers le site officiel d'Angular</a>
+				<h3 class="title-second">Nos services autour d'Angular :</h3>
 				<ul>ByteClub vous accompagne à chaque étape de vos projets:
 					<li><a href="services.html#conseil">Conseil,</a></li>
 					<li><a href="formation-angularjs.html">Formation,</a></li>
