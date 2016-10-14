@@ -60,6 +60,20 @@ banner: "Formation Angular"
 
 			</div>
 		</div>
+		<div class="inner content">
+			<div class="custom-made custom-made-angular">
+				<h3 class="title-second">Besoin de <em>sur mesure</em> ?</h3>
+				<h4>Pour aller plus loin avec AngularJS :</h4>
+				<ul>
+					<li>Contenu <strong>niveau avancé, adapté aux besoins</strong> spécifiques rencontrés,</li>
+					<li><strong>2 jours</strong> de stage pratique (50%) et magistral (50%),</li>
+					<li>Bon niveau JavaScript requis et 1ères expériences réussies avec AngularJS,</li>
+					<li><strong>En inter</strong>, 1170 € HT / stagiaire,</li>
+					<li><strong>En intra</strong>, devis personnalisé sur demande.</li>
+				</ul>
+				<a href="contact.html" class="btn">Contactez-nous</a>
+			</div>
+		</div>
 	</div>
 </section>
 
