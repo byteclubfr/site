@@ -38,8 +38,10 @@ description: "La page de Robin Mabit, stage de 3eme"
 					<ul>
 						<li><a href="#presentation">Présentation</a></li>
 						<li><a href="#lundi">Lundi</a></li>
-						<li><a href="#preeentation">Présentation</a></li>
-						<li><a href="#preeentation">Présentation</a></li>
+						<li><a href="#mardi">Mardi</a></li>
+						<li><a href="#mercredi">Mercredi</a></li>
+						<li><a href="#jeudi">Jeudi</a></li>
+						<li><a href="#vendredi">Vendredi</a></li>
 					</ul>
 				</nav>
 
@@ -83,7 +85,7 @@ description: "La page de Robin Mabit, stage de 3eme"
 			<div id="lundi" class="robin-section">
 				<h2>Lundi</h2>
 
-				<p>Je me suis familliarisé avec les outils principaux d'un developpeur. J'ai installé un environnement de travail. Ma mission pour la semaine est de modifier le site internet de l'entreprise (onglet techno angular2) et de créer une page cachée parlant de mon stage . Pour cela je vais avoir besoin d'utiliser des logiciels de développement. Cela constitue l'essentiel de mon activité de ce premier jour.</p>
+				<p>Je me suis familliarisé avec les outils principaux d'un developpeur. J'ai installé un environnement de travail. Ma mission pour la semaine est de modifier le site internet de l'entreprise (onglet techno angular2) et de créer une page cachée parlant de mon stage . Pour cela je vais avoir besoin d'utiliser des logiciels de développement.</p>
 
 				<h3>1. Inscription à GitHub</h3>
 				<p>Mon comte : https://github.com/robinmabit</p>
@@ -92,7 +94,7 @@ description: "La page de Robin Mabit, stage de 3eme"
 				<p>GitHub est un site où n'importe qui peut créer et présenter sont travail. </p>
 
 				<h3>3. Installation de NodeJS et de npm</h3>
-
+				<p>NodeJS et npm sont les outils d'un développeur
 
 				<h3>4. Installation de Sulime Text 3</h3>
 				<p>Sublime Text est un éditeur de texte pour modifier les sources d'une application.</p>
@@ -123,11 +125,11 @@ description: "La page de Robin Mabit, stage de 3eme"
 			<div id="vendredi" class="robin-section">
 				<h2>Vendredi</h2>
 
-				<p>Continuation de ma page cachée...</p>
+				<p>Finition de ma page cachée. Ajout du texte dans la rubrique Formation Angular sur le site de l'entreprise.</p>
 
 			</div>
 
-			<div id="vendredi" class="robin-section">
+			
 
 				<table class="robin-sound">
 					<tr>
