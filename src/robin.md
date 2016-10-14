@@ -109,7 +109,7 @@ description: "La page de Robin Mabit, stage de 3eme"
 			<div id="mardi" class="robin-section">
 				<h2>Mardi</h2>
 
-				<p>J'ai commencé la page cachée de mon stage sur le site de l'entreprise. Ajout de la rubrique Angular dans la page "Nos Technologie". Inversion du logo Angular pour le logo AngularJS.</p>
+				<p>J'ai commencé la page cachée de mon stage sur le site de l'entreprise. Ajout de la rubrique Angular dans la page "Nos Technologie". Inversion du logo Angular pour le logo AngularJS</p>
 
 			</div>
 
