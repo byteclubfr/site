@@ -15,6 +15,16 @@ description: "La page de Robin Mabit, stage de 3eme"
 	.robin-nav {
 		float: right;
 	}
+	table.robin-sound {
+		border-collapse: collapse;
+		margin: 50px;
+	}
+	table.robin-sound td {
+		padding: 1em;
+	}
+	table.robin-sound td button {
+		font-size: 3em;
+	}
 </style>
 
 <section>
@@ -118,6 +128,24 @@ description: "La page de Robin Mabit, stage de 3eme"
 				<p>Continuation de ma page cachée...</p>
 
 			</div>
+
+	<table class="robin-sound">
+		<tr>
+			<td><button onclick="parle('sf_pet_13')">prout</button></td>			
+			<td><button onclick="parle('sf_laser_15')">laser</button></td>
+			<td><button onclick="parle('madgiggle')">ricanement</button></td>
+		</tr>
+		<tr>
+			<td><button onclick="parle('Rire du Diable')">Rire du Diable</button></td>	 <td><button onclick="parle('Monstre')">Monstre</button></td>
+			<td><button onclick="parle('Porte qui grince')">Porte qui grince</button></td>
+		</tr>
+		<tr>
+			<td><button>son n°7</button></td>			
+			<td><button>son n°8</button></td>
+			<td><button>son n°9</button></td>
+		</tr>
+	</table>
+
 <!--
 			<h1>Le logo de l'entreprise:</h1>
 			<img src="img/mascot-byteclub-medaillon.png" alt="mascotte byteclub" style="width:20%">
@@ -144,3 +172,11 @@ description: "La page de Robin Mabit, stage de 3eme"
 
 </section>
 
+<script>
+
+function parle(sound) {
+	var audio = new Audio("sounds/" + sound + ".mp3")
+	audio.play()
+}
+
+</script>
