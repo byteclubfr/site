@@ -36,7 +36,7 @@ home: true
 						<a href="technologies.html#angular"><img src="img/logo-angularjs.svg" alt="Angular" /></a>
 					</div>
 					<div class="home-techno-txt">
-						<p>Angular décuple les possibilités offertes par HTML5. Ce framework modulaire facilite la conception d'applications web riches.</p>
+						<p>Léger, modulaire et évolutif, Angular améliore la productivité et permet de développer des applications multiplateformes très performantes.</p>
 					</div>
 				</div>
 
