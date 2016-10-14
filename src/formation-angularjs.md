@@ -9,7 +9,7 @@ banner: "Formation AngularJS"
 	<div class="wrap cf">
 		<div class="inner">
 			<h2>
-				<img src="img/logo-angularjs.svg" alt="AngularJS" style="width:100px;float:right;">
+				<img src="img/angularjs.jpeg" alt="AngularJS" style="width:100px;float:right;">
 				Présentation
 			</h2>
 		</div>
