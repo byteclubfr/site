@@ -20,10 +20,10 @@ description: "La page de Robin Mabit, stage de 3eme"
 		margin: 50px;
 	}
 	table.robin-sound td {
-		padding: 1em;
+		padding: .5em;
 	}
 	table.robin-sound td button {
-		font-size: 3em;
+		font-size: 1.4em;
 	}
 </style>
 
@@ -47,7 +47,6 @@ description: "La page de Robin Mabit, stage de 3eme"
 
 				<p>Je suis en stage de 3eme au <img src="img/logo-byteclub-tiny.png" style="vertical-align: middle;height:1.5em;">.</p>
 				<p>Voici le compte rendu de ma semaine passée dans cette société.</p>
-
 
 			</div>
 
@@ -112,7 +111,6 @@ description: "La page de Robin Mabit, stage de 3eme"
 				<h2>Mercredi</h2>
 
 				<p>Continuation de ma page cachée.</p>
-
 			</div>
 
 			<div id="jeudi" class="robin-section">
@@ -129,43 +127,25 @@ description: "La page de Robin Mabit, stage de 3eme"
 
 			</div>
 
-	<table class="robin-sound">
-		<tr>
-			<td><button onclick="parle('sf_pet_13')">prout</button></td>			
-			<td><button onclick="parle('sf_laser_15')">laser</button></td>
-			<td><button onclick="parle('madgiggle')">ricanement</button></td>
-		</tr>
-		<tr>
-			<td><button onclick="parle('Rire du Diable')">Rire du Diable</button></td>	 <td><button onclick="parle('Monstre')">Monstre</button></td>
-			<td><button onclick="parle('Porte qui grince')">Porte qui grince</button></td>
-		</tr>
-		<tr>
-			<td><button>son n°7</button></td>			
-			<td><button>son n°8</button></td>
-			<td><button>son n°9</button></td>
-		</tr>
-	</table>
+			<div id="vendredi" class="robin-section">
 
-<!--
-			<h1>Le logo de l'entreprise:</h1>
-			<img src="img/mascot-byteclub-medaillon.png" alt="mascotte byteclub" style="width:20%">
-			<h1>Le ByteClub, C'est quoi ?</h1>
-			<ul>
-				<li>C'est une entreprise de dévellopement</li>
-			</ul>
-			<p>Le nom secodaire est LMTM</p>
-
-			<p>Ils créent des applications à la demande des clients</p>
-			<p>L'entreprise se situe à Nantes(13 place Sophie Trebuchet)</p>
-
-			<h2>Lundi:</h2>
-			<p>-installation des outils de base d'un développeur</p>
-			<p>-creation d'un compte GitHub</p>
-
-
-			<h2>GitHub, C'est quoi ?</h2>
-			<p>GitHub est un site où n'importe qui peut créer et proposer leurs travails dans un </p>-->
-
+				<table class="robin-sound">
+					<tr>
+						<td><button onclick="parle('sf_pet_13')">prout</button></td>			
+						<td><button onclick="parle('sf_laser_15')">laser</button></td>
+						<td><button onclick="parle('madgiggle')">ricanement</button></td>
+					</tr>
+					<tr>
+						<td><button onclick="parle('Rire du Diable')">Rire du Diable</button></td>	 <td><button onclick="parle('Monstre')">Monstre</button></td>
+						<td><button onclick="parle('Porte qui grince')">Porte qui grince</button></td>
+					</tr>
+					<tr>
+						<td><button>son n°7</button></td>			
+						<td><button>son n°8</button></td>
+						<td><button>son n°9</button></td>
+					</tr>
+				</table>
+			</div>
 		</div>
 
 	</div>
