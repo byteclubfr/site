@@ -12,6 +12,9 @@ description: "La page de Robin Mabit, stage de 3eme"
 		background-color: #fefefe;
 		clear: both;
 	}
+	.robin-section:first-of-type {
+		min-height: 160px;
+	}
 	.robin-nav {
 		float: right;
 	}
@@ -42,6 +45,7 @@ description: "La page de Robin Mabit, stage de 3eme"
 						<li><a href="#mercredi">Mercredi</a></li>
 						<li><a href="#jeudi">Jeudi</a></li>
 						<li><a href="#vendredi">Vendredi</a></li>
+						<li><a href="#soundbox">Soundbox</a></li>
 					</ul>
 				</nav>
 
@@ -94,7 +98,7 @@ description: "La page de Robin Mabit, stage de 3eme"
 				<p>GitHub est un site où n'importe qui peut créer et présenter sont travail. </p>
 
 				<h3>3. Installation de NodeJS et de npm</h3>
-				<p>NodeJS et npm sont les outils d'un développeur
+				<p>NodeJS et npm sont des outils du développeur.
 
 				<h3>4. Installation de Sulime Text 3</h3>
 				<p>Sublime Text est un éditeur de texte pour modifier les sources d'une application.</p>
@@ -118,7 +122,7 @@ description: "La page de Robin Mabit, stage de 3eme"
 			<div id="jeudi" class="robin-section">
 				<h2>Jeudi</h2>
 
-				<p>Ajout de la rubrique Angular dans la page "Nos Services" du site de l'entreprise. Changement du logo angular sur la page formations-angularjs.</p>
+				<p>Ajout de la rubrique Angular dans la page "Nos Services" du site de l'entreprise. Changement du logo Angular sur la page formations-angularjs.</p>
 
 			</div>
 
@@ -130,7 +134,8 @@ description: "La page de Robin Mabit, stage de 3eme"
 			</div>
 
 			
-
+			<div id="soundbox" class="robin-section">
+				<h2>SoundBox</h2>
 				<table class="robin-sound">
 					<tr>
 						<td><button onclick="parle('sf_pet_13')">prout</button></td>			
@@ -141,13 +146,9 @@ description: "La page de Robin Mabit, stage de 3eme"
 						<td><button onclick="parle('Rire du Diable')">Rire du Diable</button></td>	 <td><button onclick="parle('Monstre')">Monstre</button></td>
 						<td><button onclick="parle('Porte qui grince')">Porte qui grince</button></td>
 					</tr>
-					<tr>
-						<td><button>son n°7</button></td>			
-						<td><button>son n°8</button></td>
-						<td><button>son n°9</button></td>
-					</tr>
 				</table>
 			</div>
+
 		</div>
 
 	</div>
