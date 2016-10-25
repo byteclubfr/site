@@ -202,22 +202,22 @@ banner: "Nos technologies"
 		<div class="inner half-cols">
 			<div class="half-col content">
 				<h3 class="title-second">Angular,  c’est quoi ?</h3>
-				<p>Angular est la dernière version majeure du framework JavaScript de Google. Conçu pour créer des applications web complexes, Angular est une réécriture complète de la version 1. Cette version s'appuie sur des concepts et outils ultra modernes dont ES2015, TypeScript, Web Components et Reactive programming.</p>
+				<p>Angular, aussi connu sous le nom Angular 2, est la dernière version majeure du framework JavaScript de Google. Conçu pour créer des applications web complexes, Angular est une réécriture complète de la version 1. Cette version s'appuie sur des concepts et outils ultra modernes comme TypeScript, Web Components et RxJS.</p>
 				<p>Angular rend les applications hyper véloces et améliore la productivité de développement.</p>
 				<p><strong>Hautes performances</strong></p>
-				<ul>Angular introduit des nouvelles features qui repoussent les limites des apps.
+				<ul>Angular introduit des nouvelles fonctionnaliés qui repoussent les limites des applications.
 					<li>On peut contrôler la scalabilité et traiter d’énormes jeux de données en construisant des modèles de données sur RxJS, Immutable.js ou tout autre push-modèle.</li>
 					<li>Angular Universal gère un pré-rendu de l'application côté serveur pour un rendu HTML-CSS quasi instantané. Il ouvre également la voie pour l'optimisation SEO de la page.</li>
 					<li>Les Web Workers permettent d'exécuter le code en tâche de fond.</li>
-					<li>Les apps Angular se chargent rapidement avec le nouveau routeur Component. Celui-ci fournit automatiquement le fractionnement du code permettant aux utilisateurs de charger uniquement le code nécessaire pour rendre la vue attendue.</li>
-					<li>Avec la pré-compilation et le lazy-loading intégré, le déploiement est plus rapide et les plus applications plus légères dans les diférents environnements : navigateurs, desktops et mobiles.</li>
+					<li>Les applications Angular se chargent rapidement avec le nouveau routeur orienté Component. Celui-ci fournit automatiquement le fractionnement du code permettant aux utilisateurs de charger uniquement le code nécessaire pour rendre la vue attendue.</li>
+					<li>Avec la pré-compilation et le lazy-loading intégré, le déploiement est plus rapide et les applications plus légères dans les différents environnements : navigateurs, desktops et mobiles.</li>
 				</ul>
 				<p><strong>Productivité</strong></p>
 				<ul>Angular est optimisé pour la productivité des développeurs.
 					<li>Du prototype au déploiement global, Angular fournit une infrastructure de productivité modulaire et évolutive.</li>
 					<li>Grâce à Angular CLI, on peut commencer à construire rapidement, ajouter des components et des tests, puis déployer instantanément.</li>
 					<li>Angular fournit une aide et un feedback, spécifiques et immédiats, avec la plupart des IDEs et éditeurs.</li>
-					<li>La documentation est plutôt complète et à jour</li>
+					<li>La documentation est plutôt complète et à jour.</li>
 				</ul>
 			</div>
 			<div class="half-col content">
