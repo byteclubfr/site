@@ -20,7 +20,6 @@ home: true
 	<div class="wrap cf">
 		<div class="inner">
 			<h2 class="title-main">Nos technologies</h2>
-
 			<div class="home-technos-list">
 				<div class="home-techno">
 					<div class="home-techno-logo">
@@ -30,16 +29,14 @@ home: true
 						<p>AngularJS décuple les possibilités offertes par HTML5. Ce framework modulaire facilite la conception d'applications web riches.</p>
 					</div>
 				</div>
-
 				<div class="home-techno">
 					<div class="home-techno-logo">
-						<a href="technologies.html#angular"><img src="img/logo-angularjs.svg" alt="Angular" /></a>
+						<a href="technologies.html#angular"><img src="img/logo-angular.svg" alt="Angular" /></a>
 					</div>
 					<div class="home-techno-txt">
 						<p>Léger, modulaire et évolutif, Angular améliore la productivité et permet de développer des applications multiplateformes très performantes.</p>
 					</div>
 				</div>
-
 				<div class="home-techno">
 					<div class="home-techno-logo">
 						<a href="technologies.html#nodejs"><img src="img/logo-nodejs.svg" alt="Node.js" /></a>
@@ -48,7 +45,6 @@ home: true
 						<p>L'API non-bloquante de Node.js permet d'exécuter côté serveur, des services JavaScript avec d’excellents temps de réponse.</p>
 					</div>
 				</div>
-
 				<div class="home-techno">
 					<div class="home-techno-logo">
 						<a href="technologies.html#react"><img src="img/logo-react.png" alt="React" /></a>
@@ -57,7 +53,6 @@ home: true
 						<p>React se focalise sur la construction d'interfaces graphiques multi-supports (web et natif) référençables et aisément maintenables.</p>
 					</div>
 				</div>
-
 				<div class="home-techno">
 					<div class="home-techno-logo">
 						<a href="technologies.html#javascript"><img src="img/logo-javascript.svg" alt="JavaScript" style="width:60px"/></a>
@@ -67,7 +62,6 @@ home: true
 					</div>
 				</div>
 			</div>
-
 			<div class="lnk-more lnk-technos-more">
 				<a href="technologies.html" title="En savoir plus sur nos technologies"><span>En savoir plus sur nos technologies</span></a>
 			</div>
@@ -79,7 +73,6 @@ home: true
 	<div class="wrap">
 		<div class="inner">
 			<h2 class="title-main">Nos services</h2>
-
 			<div class="home-services-list">
 				<div class="home-service">
 					<div class="home-service-row">

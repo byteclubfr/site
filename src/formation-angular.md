@@ -9,7 +9,7 @@ banner: "Formation Angular"
 	<div class="wrap cf">
 		<div class="inner">
 			<h2>
-				<img src="img/logo-angularjs.svg" alt="AngularJS" style="width:100px;float:right;">
+				<img src="img/logo-angular.svg" alt="Angular" style="width:100px;float:right;">
 				Présentation
 			</h2>
 		</div>
@@ -19,14 +19,13 @@ banner: "Formation Angular"
 <section class="section">
 	<div class="wrap cf">
 		<div class="inner half-cols">
-			<h3 class="title-second">3 jours pour découvrir et comprendre le framework Angular 2.<br>Stage pratique, magistral et didactique, pour devenir autonome.</h3>
-
+			<h3 class="title-second">3 jours pour découvrir et comprendre le framework Angular.<br>Stage pratique, magistral et didactique, pour devenir autonome.</h3>
 			<div class="half-col content">
 				<h3 class="title-second">Objectifs :</h3>
-				<ul>À l'issue de cette formation Angular 2, les participants seront en mesure de :
-					<li><strong>Appréhender la philosophie</strong> et le fonctionnement du framework Angular 2,</li>
-					<li><strong>Concevoir une application Angular 2</strong> avec JavaScript et TypeScript,</li>
-					<li><strong>Créer leurs propres composants Angular 2,</strong></li>
+				<ul>À l'issue de cette formation Angular, les participants seront en mesure de :
+					<li><strong>Appréhender la philosophie</strong> et le fonctionnement du framework Angular,</li>
+					<li><strong>Concevoir une application Angular</strong> avec JavaScript et TypeScript,</li>
+					<li><strong>Créer leurs propres composants Angular,</strong></li>
 					<li><strong>Produire des applications</strong> robustes et efficaces.</li>
 				</ul>
 				<h3 class="title-second">Méthode pédagogique :</h3>
@@ -40,14 +39,13 @@ banner: "Formation Angular"
 				</ul>
 				<p><strong>Pré-requis</strong> : Connaissance de <strong>HTML</strong>, <strong>CSS</strong> et <strong>bon niveau JavaScript</strong>. Les notions fondamentales sont abordées en rappels.</p>
 			</div>
-
 			<div class="half-col content">
 				<h3 class="title-second"> Au sommaire :</h3>
 				<ul>
 					<li><strong>1<sup>er</sup> jour</strong> : Installation / introduction - TypeScript et ES2015 - Composants.</li>
 					<li><strong>2<sup>ème</sup> jour</strong> : Pipes - Formulaires - Reactive Programming - Services.</li>
 					<li><strong>3<sup>ème</sup> jour</strong> : Service HTTP - Routeur - Tests - Concepts avancés.</li>
-					</ul>
+				</ul>
 				<h3 class="title-second">Tarifs :</h3>
 				<ul>Formule <strong>Inter-entreprises :</strong>
 					<li>1665 € HT / stagiaire,</li>
@@ -57,21 +55,6 @@ banner: "Formation Angular"
 					<li>8 stagiaires maximum / session,</li>
 					<li>Accueil possible dans vos locaux.</li>
 				</ul>
-
-			</div>
-		</div>
-		<div class="inner content">
-			<div class="custom-made custom-made-angular">
-				<h3 class="title-second">Besoin de <em>sur mesure</em> ?</h3>
-				<h4>Pour aller plus loin avec AngularJS :</h4>
-				<ul>
-					<li>Contenu <strong>niveau avancé, adapté aux besoins</strong> spécifiques rencontrés,</li>
-					<li><strong>2 jours</strong> de stage pratique (50%) et magistral (50%),</li>
-					<li>Bon niveau JavaScript requis et 1ères expériences réussies avec AngularJS,</li>
-					<li><strong>En inter</strong>, 1170 € HT / stagiaire,</li>
-					<li><strong>En intra</strong>, devis personnalisé sur demande.</li>
-				</ul>
-				<a href="contact.html" class="btn">Contactez-nous</a>
 			</div>
 		</div>
 	</div>
@@ -81,7 +64,7 @@ banner: "Formation Angular"
 	<div class="wrap cf">
 		<div class="inner">
 			<h2>
-				<img src="img/logo-angularjs.svg" alt="AngularJS" style="width:100px;float:right;">
+				<img src="img/logo-angular.svg" alt="Angular" style="width:100px;float:right;">
 				Programme de la 1<sup>ère</sup> journée :
 			</h2>
 		</div>
@@ -124,7 +107,7 @@ banner: "Formation Angular"
 	<div class="wrap cf">
 		<div class="inner">
 			<h2>
-				<img src="img/logo-angularjs.svg" alt="AngulaJS" style="width:100px;float:right;">
+				<img src="img/logo-angular.svg" alt="AngulaJS" style="width:100px;float:right;">
 				Programme de la 2<sup>ème</sup> journée :
 			</h2>
 		</div>
@@ -163,7 +146,7 @@ banner: "Formation Angular"
 	<div class="wrap cf">
 		<div class="inner">
 			<h2>
-				<img src="img/logo-angularjs.svg" alt="AngularJS" style="width:100px;float:right;">
+				<img src="img/logo-angular.svg" alt="Angular" style="width:100px;float:right;">
 				Programme de la 3<sup>ème</sup> journée :
 			</h2>
 		</div>
