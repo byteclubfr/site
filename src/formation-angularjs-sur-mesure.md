@@ -20,7 +20,6 @@ banner: "Formation AngularJS sur mesure"
 	<div class="wrap cf">
 		<div class="inner half-cols">
 			<h3 class="title-second">2 jours pour maîtriser le framework AngularJS.<br>Stage pratique, magistral et didactique, pour aller plus loin.</h3>
-
 			<div class="half-col content">
 				<h3 class="title-second">Principe :</h3>
 					<p><strong>Nous adaptons le contenu et de cette formation à vos besoins spécifiques.</strong> La présentation suivante est une base de travail.</p>
@@ -39,7 +38,6 @@ banner: "Formation AngularJS sur mesure"
 				</ul>
 				<p><strong>Pré-requis</strong> : Bon niveau JavaScript et 1ères expériences réussies avec AngularJS ou avoir suivi la formation AngularJS initiale.</p>
 			</div>
-
 			<div class="half-col content">
 				<h3 class="title-second"> Au sommaire :</h3>
 				<ul>

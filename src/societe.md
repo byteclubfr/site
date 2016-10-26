@@ -60,7 +60,7 @@ banner: "Qui sommes nous ?"
 
 				<li class="member">
 					<div class="member-inside">
-						<img src="img/avatars/avatar-lilian.png" alt="Lilian Martineau" class="member-pic" />
+						<img src="img/avatars/avatar-lilian2.png" alt="Lilian Martineau" class="member-pic" />
 						<h3 class="member-name">Lilian Martineau</h3>
 						<p class="member-job">Gestionnaire, commercial</p>
 						<div class="member-bio content">

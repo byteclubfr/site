@@ -9,7 +9,7 @@ banner: "Formation AngularJS"
 	<div class="wrap cf">
 		<div class="inner">
 			<h2>
-				<img src="img/angularjs.jpeg" alt="AngularJS" style="width:100px;float:right;">
+				<img src="img/logo-angularjs.svg" alt="AngularJS" style="width:100px;float:right;">
 				Présentation
 			</h2>
 		</div>
@@ -20,7 +20,6 @@ banner: "Formation AngularJS"
 	<div class="wrap cf">
 		<div class="inner half-cols">
 			<h3 class="title-second">3 jours pour découvrir et comprendre le framework AngularJS.<br>Stage pratique, magistral et didactique, pour devenir autonome.</h3>
-
 			<div class="half-col content">
 				<h3 class="title-second">Objectifs :</h3>
 				<ul>À l'issue de cette formation AngularJS, les participants seront en mesure de :
@@ -39,7 +38,6 @@ banner: "Formation AngularJS"
 				</ul>
 				<p><strong>Pré-requis</strong> : Connaissance de <strong>HTML</strong>, <strong>CSS</strong> et <strong>bon niveau JavaScript</strong>. Les notions fondamentales seront abordées en rappels.</p>
 			</div>
-
 			<div class="half-col content">
 				<h3 class="title-second"> Au sommaire :</h3>
 				<ul>
@@ -56,7 +54,6 @@ banner: "Formation AngularJS"
 					<li>8 stagiaires maximum / session,</li>
 					<li>Accueil possible dans vos locaux.</li>
 				</ul>
-
 			</div>
 		</div>
 		<div class="inner content">

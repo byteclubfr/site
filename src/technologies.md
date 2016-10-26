@@ -7,7 +7,7 @@ banner: "Nos technologies"
 <div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h2 id="angularjs"><img src="img/angularjs.jpeg" alt="AngularJS" /></h2>
+			<h2 id="angularjs"><img src="img/logo-angularjs.svg" alt="AngularJS" /></h2>
 		</div>
 	</div>
 </div>
