@@ -34,7 +34,7 @@
   "homepage": "https://github.com/lmtm/site#readme",
   "devDependencies": {
     "http-server": "^0.9.0",
-    "lodash": "^3.10.1",
+    "lodash": "^4.16.4",
     "metalsmith": "^2.1.0",
     "metalsmith-collections": "^0.7.0",
     "metalsmith-excerpts": "^1.0.0",
