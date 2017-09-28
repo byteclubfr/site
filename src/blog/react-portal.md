@@ -61,7 +61,7 @@ React.render(<ColorPicker />, document.getElementById('color-picker'))
 React.render(<Calendar />, document.getElementById('calendar'))
 ```
 
-[Les lundis sont bleus][3]. Donc, partant du code si dessus, si l'utilisateur en choisit un dans le calendrier, comment s'assurer que la palette blémisse d'une teinte azure ?
+[Les lundis sont bleus][3]. Donc, partant du code ci-dessus, si l'utilisateur en choisit un dans le calendrier, comment s'assurer que la palette blémisse d'une teinte azure ?
 Chaque composant encapsule son état et la discussion classique via propagation des *props* est un cul de sac puisqu'ils n'ont pas d'ancêtre commun.
 
 Qu'à cela ne tienne, regroupons ces orphelins au sein d'un nouveau composant `<App />`, qui fera office de facilitateur !
