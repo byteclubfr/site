@@ -4,5 +4,5 @@ description: Blog
 blogIndex: true
 layout: blog.html
 menu: blog
-banner: Blog
+banner: ByteBlog
 ---

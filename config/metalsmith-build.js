@@ -52,13 +52,13 @@ module.exports = {
     "./lib/metalsmith-collections-metadata": {
       "tags": {
         "menu": "blog",
-        "banner": "Blog",
+        "banner": "ByteBlog",
         "title": "Tag"
       },
       "posts": {
         "layout": "blog.html",
         "menu": "blog",
-        "banner": "Blog"
+        "banner": "ByteBlog"
       },
       "planner": {
         "layout": "void.html"
