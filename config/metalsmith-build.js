@@ -89,6 +89,10 @@ module.exports = {
         "site_url": site.url
       },
       "collections": "posts"
+    },
+    "metalsmith-sitemap": {
+      "hostname": site.url,
+      "pattern": ['**/*.html', '!blog/tags/*.html', '!planner/*.html']
     }
   }
 }

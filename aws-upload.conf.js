@@ -8,6 +8,7 @@ module.exports = {
     "**/*.html",
     "planner/*.*",
     "rss.xml",
+    "sitemap.xml",
     "favicon.ico"
   ]
 }
