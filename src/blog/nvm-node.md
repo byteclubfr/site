@@ -3,6 +3,7 @@ title: Balade avec NVM
 description: Comment gérer ses versions de Node.js
 date: 2017-10-09
 author: Bruno
+tags: node
 ---
 Moult scénarios sont envisageables pour récupérer Node.js sur une machine:
 

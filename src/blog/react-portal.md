@@ -3,6 +3,7 @@ title: React Portals
 description: Entrez dans la 4ème DOMension 
 date: 2017-09-27
 author: Bruno
+tags: react
 ---
 
 [React 16][1] vient de pointer le bout de son nez.
