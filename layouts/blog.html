@@ -36,11 +36,11 @@
 			<div class="metadata">
 				Par <span class="post-author">{{ author }}</span>
 				le <span class="post-date">{{ date | date }}</span>
-				{% if tagsUrlSafe.length > 1 %}dans les catégories{% endif %}
-				{% if tagsUrlSafe.length == 1 %}dans la catégorie{% endif %}
-				{% if tagsUrlSafe.length > 0 -%}
-					{% for tag in tagsUrlSafe -%}
-					<a class="post-tag" href="/blog/tags/{{ tag }}.html">#{{ tag }}</a>{% if !loop.last %}, {% endif %}
+				{% if tags && tags.length > 1 %}dans les catégories{% endif %}
+				{% if tags && tags.length == 1 %}dans la catégorie{% endif %}
+				{% if tags && tags.length > 0 -%}
+					{% for tag in tags -%}
+					<a class="post-tag" href="/blog/tags/{{ tag.slug }}.html">#{{ tag.name }}</a>{% if !loop.last %}, {% endif %}
 					{% endfor -%}
 				{% endif -%}.
 			</div>
