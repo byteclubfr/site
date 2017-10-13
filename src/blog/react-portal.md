@@ -73,7 +73,7 @@ Hélas, des contraintes métiers exotiques vous impose de laisser l'élément `<
 
 Quelle stratégie mettre en place dès lors pour rétablir la communication ?
 
-Nous pourrions utilser un [EventEmitter][5] global.
+Nous pourrions utiliser un [EventEmitter][5] global.
 Chaque composant intéressé par une info pourrait souscrire aux canaux qui le motivent, en s'y branchant dans son `componentDidMount`,
 puis émettre à son bon vouloir dans ce bus commun. Si ce stratagème vous évoque quelque chose, ce n'est pas un hasard. Un portail ? Non pas encore.
 

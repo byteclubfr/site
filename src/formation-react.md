@@ -19,43 +19,54 @@ banner: "Formation React"
 <section class="section">
 	<div class="wrap cf">
 		<div class="inner half-cols">
-			<h3 class="title-second">2 jours pour découvrir et comprendre la librairie React.<br>Stage pratique, magistral et didactique, pour devenir autonome.</h3>
+			<h3 class="title-second">3 jours pour découvrir et comprendre la librairie React.<br>
+				Stage pratique, magistral et didactique, pour devenir autonome.
+			</h3>
 
 			<div class="half-col content">
-				<h3 class="title-second">Objectifs :</h3>
+
+				<h3 class="title-second">Objectifs</h3>
 				<ul>À l'issue de cette formation, les participants seront en mesure de :
-					<li>Appréhender la philosophie et le fonctionnement de la bibliothèque React,</li>
-					<li>Développer une application Web avec React,</li>
-					<li>Maîtriser les impacts du choix d'une architecture incluant React et Flux.</li>
+					<li>Appréhender la philosophie et le fonctionnement de la bibliothèque React</li>
+					<li>Développer une application Web avec React</li>
+					<li>Maîtriser les impacts du choix d'une architecture incluant React et Flux</li>
 				</ul>
-				<h3 class="title-second">Méthode pédagogique :</h3>
-				<p>Alternance de 30% de cours magistraux et de 70% de travaux pratiques (live coding) sur machine individuelle. Le stage se déroule autour de la réalisation d'une application simple et fonctionnelle, permettant la mise en application concrète des concepts abordés. Un support de cours est remis à chaque participant au format électronique.</p>
-				<h3 class="title-second">Public :</h3>
-				<ul>
-					<li>Chefs de projet Web,</li>
-					<li>Architectes techniques,</li>
-					<li>Développeurs front-end.</li>
-				</ul>
-				<p><strong>Pré-requis</strong> : Bonne connaissance de JavaScript, Connaissance HTML, pratique du développement web.</p>
+
+				<h3 class="title-second">Méthode pédagogique</h3>
+				<p>Alternance de 30% de cours magistraux et de 70% de travaux pratiques (live coding) sur machine individuelle.
+					Le stage se déroule autour de la réalisation d'une application simple et fonctionnelle.
+					Un support de cours est remis à chaque participant au format électronique.
+				</p>
+
+				<h3 class="title-second">Au delà de React</h3>
+				<p>Si React reste bien entendu le principal sujet de la formation, une multitude de notions annexes autour de JavaScript et du web en général sont abordées en complément:
+				les Promesses, le duo async/await, les nouveautés en préparation par le TC39, GraphQL, React Native, SASS, le vectoriel, elm…
+				</p>
+
 			</div>
 
 			<div class="half-col content">
-				<h3 class="title-second"> Au sommaire :</h3>
+
+				<h3 class="title-second">Public</h3>
 				<ul>
-					<li>1<sup>er</sup> jour : Introduction à React - Les choix de React - Virtual DOM - Créer un composant React (TP) - Syntaxe : JSX, ES6 (TP).</li>
-					<li>2<sup>ème</sup> jour : Propriétés d'un composant (TP) - Communication inter-composants (TP) - Vers une application complète (TP) - Bonus : Isomorphisme (TP).</li>
+					<li>Développeurs front-end</li>
+					<li>Développeurs back-end</li>
+					<li>Chefs de projet Web</li>
+					<li>Architectes techniques</li>
 				</ul>
-				<h3 class="title-second">Tarifs :</h3>
+				<p><strong>Pré-requis</strong> : Bonne connaissance de JavaScript, Connaissance HTML / CSS, pratique du développement web.</p>
+
+				<h3 class="title-second">Solutions</h3>
 				<ul>Formule <strong>Inter-entreprises :</strong>
-					<li>1250 € HT / stagiaire,</li>
-					<li>Prestation réalisée par nos soins en partenariat avec <a href="https://clever-institut.com/formation/formation-react">Clever Institut</a>.</li>
+					<li>Prestation réalisée par nos soins en partenariat avec <a href="https://clever-institut.com/formation/formation-react">Clever Institut</a></li>
 				</ul>
 				<ul>Formule <strong>Intra-entreprise :</strong>
-					<li>Devis personnalisé sur demande,</li>
-					<li>8 stagiaires maximum / session,</li>
-					<li>Accueil possible dans vos locaux.</li>
+					<li>Devis personnalisé sur demande</li>
+					<li>8 stagiaires maximum / session</li>
+					<li>Accueil possible dans vos locaux</li>
 				</ul>
 				<a href="contact.html" class="btn">Contactez-nous</a>
+
 			</div>
 		</div>
 	</div>
@@ -71,34 +82,35 @@ banner: "Formation React"
 		</div>
 	</div>
 </div>
+
 <section class="section">
 	<div class="wrap cf">
 		<div class="inner half-cols">
 			<div class="half-col content">
+
 				<ul><strong>Introduction à React :</strong>
-					<li>Retour sur l’environnement front end actuel et son futur proche.</li>
-					<li>Concepts de base (data-binding, immutabilité…)</li>
+					<li>Retour sur l’environnement front-end actuel et son futur proche (de jQuery au WebComponents)</li>
+					<li>Concepts de base chargement de ressources, modularité, asynchronisme, data-binding, immutabilité…</li>
 				</ul>
+
 				<ul><strong>Les choix de React :</strong>
 					<li>Le “V” de MVC ?</li>
-					<li>Composants à état.</li>
-					<li>Fonction de rendu simple.</li>
-					<li>Performance.</li>
+					<li>Composants à état, encapsulation</li>
+					<li>Fonctions de rendu simples</li>
 				</ul>
-				<ul><strong>Virtual DOM :</strong>
-					<li>La clé des performances de React.</li>
-					<li>Pourquoi et comment ?</li>
-					</ul>
+
 			</div>
 			<div class="half-col content">
-				<ul><strong>Travaux pratiques : Créer un composant React</strong>
-					<li>Installation de son environnement de travail.</li>
-					<li>Création d’un composant simple qu’on va dynamiser ensemble.</li>
+
+				<ul><strong>Virtual DOM & schedulers :</strong>
+					<li>La clé des performances</li>
+					<li>Priorités de rendu apportées par React 16 (Fiber)</li>
 				</ul>
-				<ul><strong>Travaux pratiques : Syntaxe JSX, ES6</strong>
-					<li>Un langage pour simplifier la description du Virtual DOM.</li>
-					<li>Aperçu des fonctionnalités d’ES6 utilisable dès aujourd’hui et qui vont nous simplifier tout le reste !</li>
+				<ul><strong>Travaux pratiques</strong>
+					<li>Installation de son environnement de travail</li>
+					<li>Création d’un premier arbre de composants, propagation des props, branchement des event-handlers, population de composants enfants, gestion de l’état interne…</li>
 				</ul>
+
 			</div>
 		</div>
 	</div>
@@ -114,28 +126,69 @@ banner: "Formation React"
 		</div>
 	</div>
 </div>
+
 <section class="section">
 	<div class="wrap cf">
 		<div class="inner half-cols">
 			<div class="half-col content">
-				<ul><strong>Travaux pratiques : Propriétés d'un composant</strong>
-					<li>State vs. Properties.</li>
-					<li>Cas d’utilisation.</li>
+
+				<ul><strong>Travaux pratiques : bâtir sur create-react-app</strong>
+					<li>Installation d’un environnement de production plus moderne: Node, ESLint, Webpack, Hot reloading, React DevTools…</li>
+					<li>Appropriation de JSX, validation des PropTypes, modules ES2015, structuration du projet, intégration de composants tiers via NPM</li>
+					<li>Manipulation plus ambitieuse du DOM, du CSS</li>
+					<li>Tirer partie du cycle de vie des composants</li>
 				</ul>
-				<ul><strong>Travaux pratiques : Communication inter-composants</strong>
-					<li>Présentation des méthodes de communication inter-composants.</li>
-					<li>Flux et Reflux.</li>
-				</ul>
+
 			</div>
 			<div class="half-col content">
-				<ul><strong>Travaux pratiques : Vers une application complète</strong>
-					<li>Routage.</li>
-					<li>Données.</li>
-					<li>Architecture complète.</li>
+
+				<ul><strong>Travaux pratiques : garanties et robustesses</strong>
+					<li>Types: annotations et couverture avec Flow</li>
+					<li>Tests unitaires, snapshots via Jest</li>
 				</ul>
-				<ul><strong>Travaux pratiques : Bonus Isomorphisme</strong>
-					<li>Faire fonctionner son application aussi bien côté client que serveur, presque sans modification.</li>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="section-title">
+	<div class="wrap cf">
+		<div class="inner">
+			<h2>
+				<img src="img/logo-react.png" alt="React" style="width:100px;float:right;">
+				Programme de la 3<sup>ème</sup> journée :
+			</h2>
+		</div>
+	</div>
+</div>
+
+<section class="section">
+	<div class="wrap cf">
+		<div class="inner half-cols">
+			<div class="half-col content">
+
+				<ul><strong>Travaux pratiques : meilleure gestion de l'état</strong>
+					<li>Revisiter la communication inter-composants</li>
+					<li>Externalisation de l’état avec un store Redux (les différences avec MobX seront évoquées)</li>
+					<li>Dispatch d’actions, composition des reducers associés</li>
+					<li>Manipulation du context</li>
+					<li>Redux DevTools, time-travel debugging</li>
+					<li>Intégration du Provider et des connexions React-redux</li>
+					<li>Ajouts de middlewares Redux (localStorage)</li>
+					<li>Préparation des action-creators synchrones, puis asynchrones (comparaison entre thunks, promises et sagas)</li>
+					<li>Appels d’API distante (REST)</li>
 				</ul>
+
+			</div>
+			<div class="half-col content">
+
+				<ul><strong>Travaux pratiques : vers une app plus complexe</strong>
+					<li>Rendu des composants côté serveur (isomorphisme)</li>
+					<li>Routage (v4)</li>
+					<li>i18n</li>
+				</ul>
+
 				<a href="contact.html" class="btn">Contactez-nous</a>
 			</div>
 		</div>

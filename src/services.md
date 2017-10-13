@@ -39,21 +39,20 @@ banner: "Nos services"
 
 						<p>Alternant <strong>approches 50% magistrales et 50% didactiques</strong> (live coding), nos formations sur les frameworks <strong>AngularJS</strong>, <strong>Node.js</strong>, et <strong>React</strong> ont pour objectifs d'amener les stagiaires à en maîtriser :</p>
 						<ul>
-							<li>la philosophie,</li>
-							<li>les enjeux,</li>
-							<li>l'environnement,</li>
-							<li>les fonctionnalités,</li>
-							<li>l'architecture,</li>
-							<li>les bons réflexes.</li>
+							<li>la philosophie</li>
+							<li>les enjeux</li>
+							<li>l'environnement</li>
+							<li>les fonctionnalités</li>
+							<li>l'architecture</li>
+							<li>les bons réflexes</li>
 						</ul>
-						<p>En complément, pour être à l'aise avec les notions abordées sur les frameworks, ByteClub vous propose une <strong>formation JavaScript de remise à niveau</strong> ainsi qu'une <strong>formation ECMAScript 2015 (ES6)</strong>.</p>
-						<p>Pour la satisfaction de tous, les formations JavaScript, AngularJS et Node.js sont proposées en mode <strong>"sur mesure"</strong>.</p>
-						<p class="align-center"><a href="formation-angularjs.html" class="btn">Voir notre formation <em>AngularJS</em></a></p>
+						<p>En complément, pour être à l'aise avec les notions abordées sur les frameworks, ByteClub vous propose une <strong>formation JavaScript de remise à niveau</strong> ainsi qu'une <strong>formation ECMAScript 2017 (ES8)</strong>.</p>
+						<p>Pour la satisfaction de tous, les formations JavaScript, AngularJS, Angular, React et Node.js sont proposées en mode <strong>"sur mesure"</strong>.</p>
 						<p class="align-center"><a href="formation-nodejs.html" class="btn">Voir notre formation <em>Node.js</em></a></p>
 						<p class="align-center"><a href="formation-react.html" class="btn">Voir notre formation <em>React</em></a></p>
-						<p class="align-center"><a href="formation-ecmascript-2015-es6.html" class="btn">Voir notre formation <em>ECMAScript 2015 (ES6)</em></a></p>
+						<p class="align-center"><a href="formation-ecmascript-2015-es6.html" class="btn">Voir notre formation <em>ECMAScript 2017 (ES8)</em></a></p>
 						<p class="align-center"><a href="formation-angular.html" class="btn">Voir notre formation <em>Angular</em></a></p>
-
+						<p class="align-center"><a href="formation-angularjs.html" class="btn">Voir notre formation <em>AngularJS</em></a></p>
 
 					</div>
 				</article>
