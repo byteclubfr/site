@@ -34,11 +34,14 @@
 			<h2>{{ postTitle || title }}</h2>
 			{% parent %}
 			<div class="metadata">
-				Par <span class="post-author">{{ author }}</span>
+				<span class="post-author">
+					<img src="/img/avatars/avatar-{{ author | lower }}.png" alt="{{ author }}" class="member-pic" />
+					{{ author }}
+				</span>
 				le <span class="post-date">{{ date | date }}</span>
-				{% if tags && tags.length > 1 %}dans les catégories{% endif %}
-				{% if tags && tags.length == 1 %}dans la catégorie{% endif %}
-				{% if tags && tags.length > 0 -%}
+				{% if Array.isArray(tags) && tags.length > 1 %}dans les catégories{% endif %}
+				{% if Array.isArray(tags) && tags.length == 1 %}dans la catégorie{% endif %}
+				{% if Array.isArray(tags) && tags.length > 0 -%}
 					{% for tag in tags -%}
 					<a class="post-tag" href="/blog/tags/{{ tag.slug }}.html">#{{ tag.name }}</a>{% if !loop.last %}, {% endif %}
 					{% endfor -%}

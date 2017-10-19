@@ -3,6 +3,7 @@ title: Hello world
 description: Hello world
 date: 2015-10-09
 author: Bruno
+tags: misc
 ---
 Bienvenue sur le **ByteBlog**, le journal collaboratif en français des [membres du ByteClub](/societe.html).
 
