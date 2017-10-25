@@ -1,0 +1,27 @@
+// dot graph2.dot -Tpng -O
+digraph G {
+  {
+    node [fontsize=18 width=1 shape=ellipse]
+    call [label="Appel d'une fonction"]
+    init [label="Initialisation du scope", shape=box]
+    isArrow [label="Est-ce une fonction fléchée ?"]
+    thisNone [label="Pas de variable magique", shape=box]
+    isBound [label="Est-ce que la fonction est liée ?"]
+    thisBound [label="this = valeur liée", shape=box]
+    isProperty [label="Expression 'object.property' ou 'object[property]' ?"]
+    thisObject [label="this = object", shape=box]
+    isStrict [label="La fonction est-elle en mode strict ?"]
+    thisUndefined [label="this = undefined", shape=box]
+    thisGlobal [label="this = global", shape=box]
+  }
+  call -> init
+  init -> isArrow
+  isArrow -> thisNone [label="Oui"]
+  isArrow -> isBound [label="Non"]
+  isBound -> thisBound [label="Oui"]
+  isBound -> isProperty [label="Non"]
+  isProperty -> thisObject [label="Oui"]
+  isProperty -> isStrict [label="Non"]
+  isStrict -> thisUndefined [label="Oui"]
+  isStrict -> thisGlobal [label="Non"]
+}

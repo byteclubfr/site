@@ -1,0 +1,17 @@
+// dot graph1.dot -Tpng -O
+digraph G {
+  {
+    node [fontsize=18 width=1 shape=ellipse]
+    a [label="Oh, des parenthèses avec\nune expression valide à gauche"]
+    b [label="Ah, l'expression est bien une fonction"]
+    c [label="Création d'un scope vide", shape=box]
+    d [label=< L'expression ressemble à<BR/><B>object.property</B> ou <B>object[property]</B> ? >]
+    e [label="this = object", shape=box]
+    f [label="this = valeur par défaut", shape=box]
+  }
+  a -> b []
+  b -> c []
+  c -> d
+  d -> e [label="Oui"]
+  d -> f [label="Non"]
+}
