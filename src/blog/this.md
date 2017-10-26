@@ -12,7 +12,7 @@ Faisons un tour <s>rapide</s> :)
 
 ## Qui est ``this`` ?
 
-Il s'agit d'une variable qui est toujours *définie*, mais dont la valeur peut varier en fonction du contexte d'exécution du bloc dans laquelle est elle utilisée.
+Il s'agit d'un mot-clé réservé, nom d'une variable qui est toujours *définie*, mais dont la valeur peut varier en fonction du contexte d'exécution du bloc dans laquelle est elle utilisée.
 
 Et là, j'en entends qui ronchonnent « Mais qu'est-ce qu'il raconte ? ``this`` c'est le truc qu'on met dans une méthode d'objet pour faire référence à l'instance, LOL noob ». Oui mais non. Il se trouve que lors de l'appel d'une méthode d'objet, la valeur de ``this`` sera l'objet dans le scope de la méthode, mais ce n'est qu'un cas particulier (sur 5 possibles en fait).
 
