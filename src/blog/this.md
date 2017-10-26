@@ -18,7 +18,7 @@ Et là, j'en entends qui ronchonnent « Mais qu'est-ce qu'il raconte ? ``thi
 
 ## Comment est définie sa valeur ?
 
-Lors de l'appel d'une fonction (c'est important, c'est à **L'APPEL** de la fonction, et non lors de sa déclaration que la valeur de ``this`` est décidée), l'interpréteur va créer un scope et coller quelques variables dedans (que j'appelles *magiques* parce que c'est fait implicitement) comme le bon vieux ``arguments`` et notre ``this``. Pour décider de la valeur à affecter, il va se poser plein de questions ! Le principe général est celui-là :
+Lors de l'appel d'une fonction (c'est important, c'est à **L'APPEL** de la fonction, et non lors de sa déclaration que la valeur de ``this`` est décidée), l'interpréteur va créer un scope et coller quelques variables dedans (que j'appelle *magiques* parce que c'est fait implicitement) comme le bon vieux ``arguments`` et notre ``this``. Pour décider de la valeur à affecter, il va se poser plein de questions ! Le principe général est celui-là :
 
 
 * « OK, tu as mis des parenthèses avec une expression à gauche, tu veux donc appeler une fonction » ;
@@ -103,7 +103,7 @@ foo.apply(object, ['Coucou ']) // 'Coucou Toto'
 object.sayHi.call({ name: 'Bob' }) // 'Hi Bob'
 ```
 
-Ah ah je vous vois commencer à frémir, « mais alors, n'importe qui peut mettre ce qu'il veut comme valeur pour mon ``this`` à moi ? ». Oui, bien entendu. Et on pouvait de toute façon déjà en créant un objet intermédiaire et en collant votre fonctione en propriété de cet objet. Y aurait-il un moyen de forcer une valeur fixe ?…
+Ah ah je vous vois commencer à frémir, « mais alors, n'importe qui peut mettre ce qu'il veut comme valeur pour mon ``this`` à moi ? ». Oui, bien entendu. Et on pouvait de toute façon déjà en créant un objet intermédiaire et en collant votre fonction en propriété de cet objet. Y aurait-il un moyen de forcer une valeur fixe ?…
 
 ![C'est pas fini !!](/img/blog/this/more2.png)
 
