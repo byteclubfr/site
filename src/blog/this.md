@@ -27,9 +27,9 @@ Lors de l'appel d'une fonction (c'est important, c'est à **L'APPEL** de la fonc
   * Oui : ``this = object``, c'est le cas classique qu'on recherche en général ;
   * Non : ``this = valeur par défaut``.
 
-[Mis en image](http://www.graphviz.org/) ça donnerait ça :
+[Mis en image](http://www.graphviz.org/) ça donnerait ça (image cliquable) :
 
-![Graphe de décision de la valeur de this, en bref](/img/blog/this/graph1.dot.png)
+[![Graphe de décision de la valeur de this, en bref](/img/blog/this/graph1.dot.png)](/img/blog/this/graph1.dot.png)
 
 Exemple :
 
@@ -202,9 +202,13 @@ Au final, pour connaître la valeur de ``this`` il faut savoir :
 * Comment elle est appelée (syntaxe, ``call/apply``, etc…) ;
 * Et enfin quel est son mode d'exécution (si rien n'est précisé, remonter de fonction en fonction jusqu'à la tête du fichier).
 
-Le véritable arbre de décision aurait alors plutôt cette tête là :
+Le véritable arbre de décision aurait alors plutôt cette tête là (image cliquable) :
 
-![Graphe de décision de la valeur de this, en vrai](/img/blog/this/graph2.dot.png)
+[![Graphe de décision de la valeur de this, en vrai](/img/blog/this/graph2.dot.png)](/img/blog/this/graph2.dot.png)
+
+Et en fait j'ai omis le cas des fonctions appelées avec ``new``, mais pour rigoler un peu tous ensemble (image cliquable) :
+
+[![Graphe de décision de la valeur de this, full disclosure](/img/blog/this/graph3.dot.png)](/img/blog/this/graph3.dot.png)
 
 ### Conclusion personnelle
 

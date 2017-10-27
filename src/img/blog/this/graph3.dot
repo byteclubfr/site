@@ -1,0 +1,41 @@
+// dot graph3.dot -Tpng -O
+digraph G {
+  {
+    node [fontsize=18 width=1 shape=ellipse]
+    call [label="Appel d'une fonction"]
+    init [label="Initialisation du scope", shape=box]
+    isNew [label="Invocation avec 'new' ?"]
+    isNewArrow [label="Est-ce une fonction fléchée ?"]
+    newArrowError [label="TypeError: not a constructor", shape=box]
+    newConstructor [label="this = instance du prototype\n(bind ignoré)", shape=box]
+    isArrow [label="Est-ce une fonction fléchée ?"]
+    thisNone [label="Pas de variable magique", shape=box]
+    isBound [label="Est-ce que la fonction est liée ?"]
+    thisBound [label="this = valeur liée", shape=box]
+    isProperty [label="Expression 'object.property' ou 'object[property]' ?"]
+    thisObject [label="this = object", shape=box]
+    isStrict [label="La fonction est-elle en mode strict ?"]
+    thisUndefined [label="this = undefined", shape=box]
+    thisGlobal [label="this = context global", shape=box]
+    thisGlobalNode [label="this = global", shape=box]
+    thisGlobalExports [label="this = exports", shape=box]
+    thisGlobalBrowser [label="this = window", shape=box]
+  }
+  call -> init
+  init -> isNew
+  isNew -> isNewArrow [label="Oui"]
+  isNewArrow -> newArrowError [label="Oui"]
+  isNewArrow -> newConstructor [label="Non"]
+  isNew -> isArrow [label="Non"]
+  isArrow -> thisNone [label="Oui"]
+  isArrow -> isBound [label="Non"]
+  isBound -> thisBound [label="Oui"]
+  isBound -> isProperty [label="Non"]
+  isProperty -> thisObject [label="Oui"]
+  isProperty -> isStrict [label="Non"]
+  isStrict -> thisUndefined [label="Oui"]
+  isStrict -> thisGlobal [label="Non"]
+  thisGlobal -> thisGlobalNode [label="Script Node.js"]
+  thisGlobal -> thisGlobalExports [label="Module CommonJS"]
+  thisGlobal -> thisGlobalBrowser [label="Navigateur"]
+}
