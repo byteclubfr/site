@@ -3,6 +3,7 @@ title: "ByteClub : conseil, formation et développement sous JavaScript, Angular
 description: "ByteClub : conseil, formation et développement sous JavaScript, AngularJS, Node.js, React"
 menu: home
 home: true
+nbArticles: 3
 ---
 <section class="banner">
 	<div class="wrap cf">
@@ -11,6 +12,27 @@ home: true
 				<h1 class="page-title">ByteClub met <em>vos idées</em> en applications !</h1>
 				<p>ByteClub conseille, forme et développe sous AngularJS, Angular, Node.js et React.</p>
 				<img src="img/mascot.png" alt="" class="mascot" />
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section home-blog">
+	<div class="wrap cf">
+		<div class="inner">
+			<h2 class="title-main">Nos derniers articles</h2>
+			<ul>
+				{% for index, post in collections.posts %}
+					{% if index < nbArticles %}
+						<li>
+							<a href="{{ post.url }}">{{ post.title }}</a>
+							<small>(par {{ post.author }} le {{ post.date | date }})</small>
+						</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+			<div class="lnk-more">
+				<a href="blog/index.html" title="Voir tous les articles"><span>Voir tous les articles sur le blog</span></a>
 			</div>
 		</div>
 	</div>

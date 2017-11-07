@@ -9,21 +9,15 @@
 		position: relative;
 		text-decoration: none;
 		color: $color-white;
-		&:before {
-			content: '+';
-			display: block;
-			font-size: 6em;
-			height: 70px;
-			position: relative;
-			text-align: center;
-			top: 25%;
-			width: 70px;
-		}
+		background: $color-orange;
 	}
 	@media (max-width: 70em) {
 		padding: 50px 0 0;
 		clear: both;
 		text-align: center;
+		a {
+			display: block;
+		}
 	}
 	@media (min-width: 70em) {
 		position: absolute;
@@ -36,6 +30,16 @@
 			height: 70px;
 			span {
 				display: none;
+			}
+			&:before {
+				content: '+';
+				display: block;
+				font-size: 6em;
+				height: 70px;
+				position: relative;
+				text-align: center;
+				top: 25%;
+				width: 70px;
 			}
 		}
 	}
@@ -57,28 +61,22 @@
 		width: 48%;
 	}
 }
-	.home-techno-logo {
-		@media (max-width: 50em) {
-			text-align: center;
-			img {
-				display: inline-block;
-				max-width: 180px;
-				margin-bottom: 20px;
-			}
-		}
-		@media (min-width: 50em) {
-			width: 30%;
+.home-techno-logo {
+	@media (max-width: 50em) {
+		text-align: center;
+		img {
+			display: inline-block;
+			max-width: 180px;
+			margin-bottom: 20px;
 		}
 	}
-	.home-techno-txt {
-		@media (min-width: 50em) {
-			width: 65%;
-		}
+	@media (min-width: 50em) {
+		width: 30%;
 	}
-
-.lnk-technos-more {
-	a {
-		background: $color-orange;
+}
+.home-techno-txt {
+	@media (min-width: 50em) {
+		width: 65%;
 	}
 }
 
@@ -144,11 +142,33 @@
 	}
 }
 
-.lnk-services-more {
-	a {
-		background: rgba(#000,0.2);
-		&:hover, &:focus {
-			background: rgba(#000,0.3);
+
+/* Blog preview */
+.home-blog {
+	background: $color-light-brown;
+	.title-main {
+		color: $color-white;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+	li {
+		padding: 10px;
+		margin: 0;
+		a {
+			display: inline-block;
+			color: $color-white;
+			font-weight: bold;
+			font-size: 22px;
+			text-decoration: none;
+			@media (max-width: 70em) {
+				display: block;
+			}
+		}
+		small {
+			color: #dbcac6;
 		}
 	}
 }
