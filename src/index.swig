@@ -122,14 +122,6 @@ nbArticles: 3
 			<div class="home-technos-list">
 				<div class="home-techno">
 					<div class="home-techno-logo">
-						<a href="technologies.html#angularjs"><img src="img/logo-angularjs.svg" alt="AngularJS" /></a>
-					</div>
-					<div class="home-techno-txt">
-						<p>AngularJS décuple les possibilités offertes par HTML5. Ce framework modulaire facilite la conception d'applications web riches.</p>
-					</div>
-				</div>
-				<div class="home-techno">
-					<div class="home-techno-logo">
 						<a href="technologies.html#angular"><img src="img/logo-angular.svg" alt="Angular" /></a>
 					</div>
 					<div class="home-techno-txt">
