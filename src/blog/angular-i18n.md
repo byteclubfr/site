@@ -1,6 +1,6 @@
 ---
 title: Angular i18n
-description: lkjlj
+description: Traduire vos applications Angular, ça marche comment ?
 date: 2017-11-06
 author: Thomas
 tags: angular
@@ -109,9 +109,9 @@ Le message à traduire lui-même est compatible ICU : http://userguide.icu-proje
 </strong>
 
 // Sélection d'une alternative
-<span i18n>User is { 
-  user.status, select, 
-  on {online} 
+<span i18n>User is {
+  user.status, select,
+  on {online}
   off {offline}
   }
 </span>
