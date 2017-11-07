@@ -21,7 +21,7 @@
     "prewatch": "npm run dirs",
     "watch": "npm-run-all -p watch:* serve",
     "watch:css": "stylus --watch src/css/site.styl -o build/css",
-    "watch:md": "onchange \"src/**/*.md\" -- npm run metalsmith"
+    "watch:pages": "onchange \"src/**/*.md\" \"src/**/*.swig\" -- npm run metalsmith"
   },
   "repository": {
     "type": "git",
@@ -55,5 +55,9 @@
     "stylus": "^0.54.5",
     "swig": "^1.4.2",
     "uglify-js": "^3.1.3"
+  },
+  "dependencies": {
+    "jstransformer-swig": "^0.2.1",
+    "metalsmith-in-place": "^3.0.1"
   }
 }

@@ -8,7 +8,7 @@ module.exports = {
   // if clean == true, it erases js and css on watch
   "clean": false,
   "metadata": {
-    "site": site,
+    "site":     site,
     "mailto":   "contact@byteclub.fr",
     "tel":      "06 14 66 76 41"
   },
@@ -20,7 +20,7 @@ module.exports = {
       }
     },
     "metalsmith-url": [
-      [/\.md$/, ".html"]
+      [/\.(md|swig)$/, ".html"],
     ],
     "metalsmith-tags": {
       "handle": "tags",
@@ -75,6 +75,7 @@ module.exports = {
       "js/**"
     ],
     "metalsmith-metallic": true,
+    "metalsmith-in-place": true,
     "metalsmith-markdown": {
     },
     "metalsmith-layouts": {
@@ -93,6 +94,6 @@ module.exports = {
     "metalsmith-sitemap": {
       "hostname": site.url,
       "pattern": ['**/*.html', '!blog/tags/*.html', '!planner/*.html']
-    }
-  }
+    },
+  },
 }
