@@ -1,6 +1,6 @@
 ---
-title: "ByteClub : conseil, formation et développement sous JavaScript, AngularJS, Node.js, React"
-description: "ByteClub : conseil, formation et développement sous JavaScript, AngularJS, Node.js, React"
+title: "Développeurs JS"
+description: "Développeurs JS"
 menu: home
 home: true
 nbArticles: 4
@@ -161,7 +161,6 @@ nbArticles: 4
 <footer class="footer footer-home" role="contentinfo">
 	<div class="wrap">
 		<div class="inner">
-			<h2 class="footer-title">À propos de <strong>ByteClub</strong></h2>
 			<div class="footer-cols">
 				<div class="footer-col footer-col-byteclub">
 					<div class="footer-logo">
