@@ -3,36 +3,79 @@ title: "ByteClub : conseil, formation et développement sous JavaScript, Angular
 description: "ByteClub : conseil, formation et développement sous JavaScript, AngularJS, Node.js, React"
 menu: home
 home: true
-nbArticles: 3
+nbArticles: 4
 ---
 <section class="banner">
-	<div class="wrap cf">
-		<div class="banner-home">
-			<div class="banner-home-wrap">
+	<div class="wrap">
+		<div class="inner banner-home">
+			<img src="img/mascot.png" alt="ByteClub mascot" class="mascot" />
+			<div>
 				<h1 class="page-title">ByteClub met <em>vos idées</em> en applications !</h1>
-				<p>ByteClub conseille, forme et développe sous AngularJS, Angular, Node.js et React.</p>
-				<img src="img/mascot.png" alt="" class="mascot" />
+
+				<div class="avatars">
+					<div class="avatar">
+						<img src="img/avatars/avatar-thomas.png" alt="Thomas Moyse" />
+						<span>T8G</span>
+					</div>
+					<div class="avatar">
+						<img src="img/avatars/avatar-lilian.png" alt="Lilian Martineau" />
+						<span>Bowlazed</span>
+					</div>
+					<div class="avatar">
+						<img src="img/avatars/avatar-nicolas.png" alt="Nicolas Chambrier" />
+						<span>Naholyr</span>
+					</div>
+					<div class="avatar">
+						<img src="img/avatars/avatar-bruno.png" alt="Bruno Heridet" />
+						<span>Delapouite</span>
+					</div>
+				</div>
+
+				<p>Notre équipe accompagne vos projets JavaScript</p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="section home-blog">
+<section class="section home-technos">
 	<div class="wrap cf">
 		<div class="inner">
-			<h2 class="title-main">Nos derniers articles</h2>
-			<ul>
-				{% for index, post in collections.posts %}
-					{% if index < nbArticles %}
-						<li>
-							<a href="{{ post.url }}">{{ post.title }}</a>
-							<small>(par {{ post.author }} le {{ post.date | date }})</small>
-						</li>
-					{% endif %}
-				{% endfor %}
-			</ul>
-			<div class="lnk-more">
-				<a href="blog/index.html" title="Voir tous les articles"><span>Voir tous les articles sur le blog</span></a>
+			<div class="home-technos-list">
+
+				<div class="home-techno">
+					<h2 class="title-main">Nos technos</h2>
+					<ul class="logos-techno">
+						<li><img class="logo-techno" src="img/logos/javascript.svg" alt="javascript" /> JavaScript</li>
+						<li><img class="logo-techno" src="img/logos/nodejs.svg" alt="nodejs" /> Node.js</li>
+						<li><img class="logo-techno" src="img/logos/reactjs.svg" alt="reactjs" /> React.js</li>
+						<li><img class="logo-techno" src="img/logos/angular.svg" alt="angular" /> Angular</li>
+					</ul>
+				</div>
+
+				<div class="home-techno">
+					<h2 class="title-main">Nos projets</h2>
+					<ul class="logos-techno">
+						<li><img class="logo-techno" src="img/logos/github.svg" alt="copycast" /> Copycast</li>
+						<li><img class="logo-techno" src="img/logos/hyphe.svg" alt="hybro" /> Hybro</li>
+						<li><img class="logo-techno" src="img/logos/gitlab.svg" alt="prez" /> Prez</li>
+						<li><img class="logo-techno" src="img/logos/tiger-head.svg" alt="isari" /> Isari</li>
+					</ul>
+				</div>
+
+				<div class="home-techno">
+					<h2 class="title-main">Nos derniers articles</h2>
+					<ul class="last-blog-articles">
+						{% for index, post in collections.posts %}
+							{% if index < nbArticles %}
+								<li>
+									<a href="{{ post.url }}">{{ post.title }}</a>
+									<small>{{ post.author }} le {{ post.date | date }}</small>
+								</li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -67,7 +110,7 @@ nbArticles: 3
 							</div>
 						</div>
 						<div class="home-service-cell">
-							<h3 class="home-service-title">Développement</h3>
+							<h3 class="home-service-title">Projets</h3>
 							<div class="home-service-desc">
 								<p>Mettez vos idées en applications.<br/>
 								<a href="services.html#developpement">En savoir plus</a> <span>›</span></p>
@@ -110,51 +153,6 @@ nbArticles: 3
 			</div>
 			<div class="lnk-more lnk-services-more">
 				<a href="services.html" title="En savoir plus sur nos services"><span>En savoir plus sur nos services</span></a>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="section home-technos">
-	<div class="wrap cf">
-		<div class="inner">
-			<h2 class="title-main">Nos technologies</h2>
-			<div class="home-technos-list">
-				<div class="home-techno">
-					<div class="home-techno-logo">
-						<a href="technologies.html#angular"><img src="img/logo-angular.svg" alt="Angular" /></a>
-					</div>
-					<div class="home-techno-txt">
-						<p>Léger, modulaire et évolutif, Angular améliore la productivité et permet de développer des applications multiplateformes très performantes.</p>
-					</div>
-				</div>
-				<div class="home-techno">
-					<div class="home-techno-logo">
-						<a href="technologies.html#nodejs"><img src="img/logo-nodejs.svg" alt="Node.js" /></a>
-					</div>
-					<div class="home-techno-txt">
-						<p>L'API non-bloquante de Node.js permet d'exécuter côté serveur, des services JavaScript avec d’excellents temps de réponse.</p>
-					</div>
-				</div>
-				<div class="home-techno">
-					<div class="home-techno-logo">
-						<a href="technologies.html#react"><img src="img/logo-react.png" alt="React" /></a>
-					</div>
-					<div class="home-techno-txt">
-						<p>React se focalise sur la construction d'interfaces graphiques multi-supports (web et natif) référençables et aisément maintenables.</p>
-					</div>
-				</div>
-				<div class="home-techno">
-					<div class="home-techno-logo">
-						<a href="technologies.html#javascript"><img src="img/logo-javascript.svg" alt="JavaScript" style="width:60px"/></a>
-					</div>
-					<div class="home-techno-txt">
-						<p>Si l'omniprésence de JavaScript l'a rendu incontournable, c'est avant tout la souplesse de son écosystème qui a conquis les éditeurs.</p>
-					</div>
-				</div>
-			</div>
-			<div class="lnk-more lnk-technos-more">
-				<a href="technologies.html" title="En savoir plus sur nos technologies"><span>En savoir plus sur nos technologies</span></a>
 			</div>
 		</div>
 	</div>
