@@ -157,34 +157,3 @@ nbArticles: 4
 		</div>
 	</div>
 </section>
-
-<footer class="footer footer-home" role="contentinfo">
-	<div class="wrap">
-		<div class="inner">
-			<div class="footer-cols">
-				<div class="footer-col footer-col-byteclub">
-					<div class="footer-logo">
-						<img src="img/logo-white.png" alt="ByteClub" />
-					</div>
-					<div class="footer-content" itemscope itemtype="http://schema.org/Corporation">
-						<p><span itemprop="name">ByteClub</span> est présent à Nantes et Lyon. Venez prendre un café, avec ou sans rendez-vous.</p>
-						<p><span class="byteclub-phone" itemprop="telephone"><i class="fa fa-phone"></i>06 14 66 76 41</span> <a href="mailto:contact@byteclub.fr" class="byteclub-email" itemprop="email"><i class="fa fa-envelope"></i>contact@byteclub.fr</a></p>
-						<ul class="byteclub-social">
-							<li><a href="https://twitter.com/byteclubfr"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></a></li>
-							<li><a href="https://github.com/byteclubfr"><i class="fa fa-github fa-2x"></i><span>GitHub</span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="footer-col footer-col-ooz">
-					<div class="footer-logo">
-						<img src="img/logo-ooz.png" alt="OOZ.io" />
-					</div>
-					<div class="footer-content">
-						<p>(Re)Communiquez avec vos clients. Application web pour une communication B2B dynamique.</p>
-						<p><strong>Vous souhaitez en savoir plus&nbsp;?<br/> <a href="contact.html">Contactez-nous&nbsp;!</a></strong></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>

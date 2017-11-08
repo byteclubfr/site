@@ -92,7 +92,6 @@
 	{%- endautoescape %}
 	{% endblock %}
 
-	{% if !home -%}
 	<footer class="footer" role="contentinfo">
 		<a href="#top" class="lnk-top js-backToTop"><span>Retour en haut de page</span></a>
 		<div class="wrap">
@@ -111,29 +110,18 @@
 						<li><a href="https://twitter.com/byteclubfr"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></a></li>
 						<li><a href="https://github.com/byteclubfr"><i class="fa fa-github fa-2x"></i><span>GitHub</span></a></li>
 					</ul>
-					<address class="byteclub-address" itemscope itemtype="http://schema.org/Corporation">
-						<span itemprop="name">ByteClub</span>
-						<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-							<span itemprop="postOfficeBoxNumber">13</span>
-							<span itemprop="streetAddress">Place Sophie Trébuchet -</span>
-							<span itemprop="postalCode">44000</span>
-							<span itemprop="addressLocality">Nantes</span>
-						</span>
-						<div class="byteclub-contact">
-							<span class="byteclub-phone" itemprop="telephone"><i class="fa fa-phone"></i>06 14 66 76 41</span> <a href="mailto:contact@byteclub.fr" class="byteclub-email" itemprop="email"><i class="fa fa-envelope"></i>contact@byteclub.fr</a>
-						</div>
-					</address>
+					ByteClub - Développeurs d'applications Web
 				</div>
 			</div>
 		</div>
 	</footer>
-	{%- endif %}
 
 	<div class="btm">
 		<div class="wrap">
 			<div class="inner">
 				<ul class="nav nav-btm">
 					<li><a href="/mentions.html">Mentions légales</a></li>
+					<li>© 2017 ByteClub - Tous droits réservés</li>
 				</ul>
 			</div>
 		</div>
