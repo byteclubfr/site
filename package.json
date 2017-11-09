@@ -21,7 +21,7 @@
     "prewatch": "npm run build",
     "watch": "npm-run-all -p watch:* serve",
     "watch:css": "stylus --watch src/css/site.styl -o build/css",
-    "watch:pages": "onchange \"src/**\" -- npm run metalsmith"
+    "watch:pages": "onchange \"src/**\" \"layouts/**\" \"lib/**\" \"config/**\" -- npm run metalsmith"
   },
   "repository": {
     "type": "git",
