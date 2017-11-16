@@ -5,21 +5,23 @@ menu: home
 home: true
 nbArticles: 4
 ---
+
 <section class="banner">
 	<div class="wrap">
-		<div class="inner banner-home">
+		<div class="inner home-banner">
+
 			<img src="img/mascot.png" alt="ByteClub mascot" class="mascot" />
 			<div>
 				<h1 class="page-title">ByteClub met <em>vos idées</em> en applications !</h1>
 
 				<div class="avatars">
 					<div class="avatar">
-						<img src="img/avatars/avatar-thomas.png" alt="Thomas Moyse" />
-						<span>T8G</span>
-					</div>
-					<div class="avatar">
 						<img src="img/avatars/avatar-lilian.png" alt="Lilian Martineau" />
 						<span>Bowlazed</span>
+					</div>
+					<div class="avatar">
+						<img src="img/avatars/avatar-thomas.png" alt="Thomas Moyse" />
+						<span>T8G</span>
 					</div>
 					<div class="avatar">
 						<img src="img/avatars/avatar-nicolas.png" alt="Nicolas Chambrier" />
@@ -33,127 +35,82 @@ nbArticles: 4
 
 				<p>Notre équipe accompagne vos projets JavaScript</p>
 			</div>
+
 		</div>
 	</div>
 </section>
 
-<section class="section home-technos">
-	<div class="wrap cf">
-		<div class="inner">
-			<div class="home-technos-list">
-
-				<div class="home-techno">
-					<h2 class="title-main">Nos technos</h2>
-					<ul class="logos-techno">
-						<li><img class="logo-techno" src="img/logos/javascript.svg" alt="javascript" /> JavaScript</li>
-						<li><img class="logo-techno" src="img/logos/nodejs.svg" alt="nodejs" /> Node.js</li>
-						<li><img class="logo-techno" src="img/logos/reactjs.svg" alt="reactjs" /> React.js</li>
-						<li><img class="logo-techno" src="img/logos/angular.svg" alt="angular" /> Angular</li>
-					</ul>
-				</div>
-
-				<div class="home-techno">
-					<h2 class="title-main">Nos projets</h2>
-					<ul class="logos-techno">
-						<li><img class="logo-techno" src="img/logos/github.svg" alt="copycast" /> Copycast</li>
-						<li><img class="logo-techno" src="img/logos/hyphe.svg" alt="hybro" /> Hybro</li>
-						<li><img class="logo-techno" src="img/logos/gitlab.svg" alt="prez" /> Prez</li>
-						<li><img class="logo-techno" src="img/logos/tiger-head.svg" alt="isari" /> Isari</li>
-					</ul>
-				</div>
-
-				<div class="home-techno">
-					<h2 class="title-main">Nos derniers articles</h2>
-					<ul class="last-blog-articles">
-						{% for index, post in collections.posts %}
-							{% if index < nbArticles %}
-								<li>
-									<a href="{{ post.url }}">{{ post.title }}</a>
-									<small>{{ post.author }} le {{ post.date | date }}</small>
-								</li>
-							{% endif %}
-						{% endfor %}
-					</ul>
-				</div>
-
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="section home-services">
+<section class="section">
 	<div class="wrap">
 		<div class="inner">
-			<h2 class="title-main">Nos services</h2>
-			<div class="home-services-list">
-				<div class="home-service">
-					<div class="home-service-row">
-						<div class="home-service-cell">
-							<div class="home-service-picto">
-								<i class="fa fa-comments fa-3x"></i>
-							</div>
-						</div>
-						<div class="home-service-cell">
-							<h3 class="home-service-title">Conseil</h3>
-							<div class="home-service-desc">
-								<p>Faites les bons choix grâce à nos experts.<br/>
-								<a href="services.html#conseil">En savoir plus</a> <span>›</span></p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="home-service">
-					<div class="home-service-row">
-						<div class="home-service-cell">
-							<div class="home-service-picto">
-								<i class="fa fa-code fa-3x"></i>
-							</div>
-						</div>
-						<div class="home-service-cell">
-							<h3 class="home-service-title">Projets</h3>
-							<div class="home-service-desc">
-								<p>Mettez vos idées en applications.<br/>
-								<a href="services.html#developpement">En savoir plus</a> <span>›</span></p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="home-service">
-					<div class="home-service-row">
-						<div class="home-service-cell">
-							<div class="home-service-picto">
-								<i class="fa fa-graduation-cap fa-3x"></i>
-							</div>
-						</div>
-						<div class="home-service-cell">
-							<h3 class="home-service-title">Formation</h3>
-							<div class="home-service-desc">
-								<p>Enrichissez vos compétences, devenez autonome.<br/>
-								<a href="services.html#formation">En savoir plus</a> <span>›</span></p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="home-service">
-					<div class="home-service-row">
-						<div class="home-service-cell">
-							<div class="home-service-picto">
-								<i class="fa fa-rocket fa-3x"></i>
-							</div>
-						</div>
-						<div class="home-service-cell">
-							<h3 class="home-service-title">Bootcamp</h3>
-							<div class="home-service-desc">
-								<p>Développez votre savoir-faire et votre application.<br/>
-								<a href="services.html#bootcamp">En savoir plus</a> <span>›</span></p>
-							</div>
-						</div>
-					</div>
-				</div>
+
+			<div class="home-technos">
+				<div class="js"><img src="img/logos/javascript.svg" alt="javascript" /> JavaScript</div>
+				<div class="angular"><img src="img/logos/angular.svg" alt="angular" /> Angular</div>
+				<div class="node"><img src="img/logos/nodejs.svg" alt="nodejs" /> Node.js</div>
+				<div class="react"><img src="img/logos/reactjs.svg" alt="reactjs" /> React.js</div>
 			</div>
-			<div class="lnk-more lnk-services-more">
-				<a href="services.html" title="En savoir plus sur nos services"><span>En savoir plus sur nos services</span></a>
+
+		</div>
+	</div>
+</div>
+
+<section class="section">
+	<div class="wrap">
+		<div class="inner home-cols">
+
+			<div class="home-col">
+				<h2 class="title-main">Nos services</h2>
+
+				<ul class="home-services">
+					<li>Conseil</li>
+					<li>Projets</li>
+					<li>Formation</li>
+					<li>Bootcamp</li>
+				</ul>
 			</div>
+
+			<div class="home-col">
+				<h2 class="title-main">Nos projets</h2>
+
+				<ul class="home-projects">
+					<li><img src="img/logos/github.svg" alt="copycast" /> Copycast</li>
+					<li><img src="img/logos/hyphe.svg" alt="hybro" /> Hybro</li>
+					<li><img src="img/logos/gitlab.svg" alt="prez" /> Prez</li>
+					<li><img src="img/logos/tiger-head.svg" alt="isari" /> Isari</li>
+				</ul>
+			</div>
+
+			<div class="home-col">
+				<h2 class="title-main">Nos derniers articles</h2>
+
+				<ul class="home-blog">
+					{% for index, post in collections.posts %}
+						{% if index < nbArticles %}
+							<li>
+								<a href="{{ post.url }}">{{ post.title }}</a>
+								<small>{{ post.author }} le {{ post.date | date }}</small>
+							</li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section class="section home-clients">
+	<div class="wrap">
+		<div class="inner">
+
+			<h2 class="title-main">Nos clients</h2>
+			<div class="home-clients-logos">
+				<div><img src="/img/logos-clients/logo-m6.jpg" alt="m6" /></div>
+				<div><img src="/img/logos-clients/logo-sciences-po.png" alt="sciences po" /></div>
+				<div><img src="/img/logos-clients/logo-human-coders.png" alt="human coders" /></div>
+			</div>
+
 		</div>
 	</div>
 </section>
