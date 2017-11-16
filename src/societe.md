@@ -1,6 +1,6 @@
 ---
-title: "Société  ByteClub"
-description: "Découvrez ByteClub."
+title: "Société"
+description: "Découvrez Le ByteClub."
 menu: societe
 banner: "Qui sommes nous ?"
 ---
@@ -9,7 +9,6 @@ banner: "Qui sommes nous ?"
 		<div class="inner">
 			<h2 id="equipe" class="title-main">L'équipe</h2>
 			<ul class="members">
-
 				<li class="member">
 					<div class="member-inside">
 						<img src="img/avatars/avatar-thomas.png" alt="Thomas Moyse" class="member-pic" />
@@ -25,7 +24,6 @@ banner: "Qui sommes nous ?"
 						</ul>
 					</div>
 				</li>
-
 				<li class="member">
 					<div class="member-inside">
 						<img src="img/avatars/avatar-nicolas.png" alt="Nicolas Chambrier" class="member-pic" />
@@ -41,7 +39,6 @@ banner: "Qui sommes nous ?"
 						</ul>
 					</div>
 				</li>
-
 				<li class="member">
 					<div class="member-inside">
 						<img src="img/avatars/avatar-bruno.png" alt="Bruno Heridet" class="member-pic" />
@@ -57,22 +54,21 @@ banner: "Qui sommes nous ?"
 						</ul>
 					</div>
 				</li>
-
 				<li class="member">
 					<div class="member-inside">
-						<img src="img/avatars/avatar-lilian2.png" alt="Lilian Martineau" class="member-pic" />
+						<img src="img/avatars/avatar-lilian.png" alt="Lilian Martineau" class="member-pic" />
 						<h3 class="member-name">Lilian Martineau</h3>
 						<p class="member-job">Gestionnaire, commercial</p>
 						<div class="member-bio content">
-							<q>Mon goût pour les relations humaines, ma curiosité intellectuelle, et mon expérience B2B, sont à l'écoute de vos besoins.</q>
+							<q>Je suis à votre écoute. Appelez-moi !    =|ȯ3=</q>
 						</div>
 						<ul class="nav member-social">
-							<li class="twitter"><a href="https://twitter.com/lilianmartineau"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></a></li>
+							<li class="twitter"><a href="https://twitter.com/bowlazed"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></a></li>
 							<li class="linkedin"><a href="http://www.linkedin.com/pub/lilian-martineau/35/170/638"><i class="fa fa-linkedin fa-2x"></i><span>LinkedIn</span></a></li>
+							<li class="github"><a href="https://github.com/bowlazed"><i class="fa fa-github fa-2x"></i><span>GitHub</span></a></li>
 						</ul>
 					</div>
 				</li>
-
 				<li class="member last">
 					<div class="member-inside">
 						<img src="img/avatars/pic.png" alt="" class="member-pic" />
@@ -97,45 +93,39 @@ banner: "Qui sommes nous ?"
 	<div class="wrap cf">
 		<div class="inner">
 			<h2 id="philosophie" class="title-main">Notre philosophie</h2>
-
 			<div class="ideas">
-
-			<div class="idea">
-				<div class="idea-card content">
-					<div class="idea-front">
-						<h3 class="idea-title"><q> Accompagner nos clients. </q></h3>
+				<div class="idea">
+					<div class="idea-card content">
+						<div class="idea-front">
+							<h3 class="idea-title"><q> Accompagner nos clients. </q></h3>
+						</div>
+						<p>Pragmatiques et méthodiques, nous sommes à votre écoute pour traduire et satisfaire vos besoins.</p>
+						<p>Nous sommes exigeants avec nos clients, la qualité des projets en dépend.</p>
+						<p>Chaque projet est balisé, sécurisé, contractualisé. Dite "Agile", notre méthode de gestion séquence le projet. C'est l'assurance d'obtenir le produit voulu, tout en maitrisant budget et planning.</p>
 					</div>
-					<p>Pragmatiques et méthodiques, nous sommes à votre écoute pour traduire et satisfaire vos besoins.</p>
-					<p>Nous sommes exigeants avec nos clients, la qualité des projets en dépend.</p>
-					<p>Chaque projet est balisé, sécurisé, contractualisé. Dite "Agile", notre méthode de gestion séquence le projet. C'est l'assurance d'obtenir le produit voulu, tout en maitrisant budget et planning.</p>
+				</div>
+				<div class="idea">
+					<div class="idea-card content">
+						<div class="idea-front">
+							<h3 class="idea-title"><q> Être à la pointe des technos innovantes. </q></h3>
+						</div>
+						<p>Nos applications Web exploitent les technologies actuelles les plus performantes en matière de traitement de données et temps réel.</p>
+						<p>Le Web évolue vite ; nous aussi !<br>Formations, <a href="http://nantesjs.org">tissu</a> <a href="http://lyonjs.org">associatif</a>, <a href="https://github.com/byteclubfr">Open Source</a> et colloques sont très fructueux pour notre R&D.</p>
+						<p>Mais c'est avant tout notre insatiable curiosité qui nous pousse sans cesse à explorer de nouvelles pistes et être meilleurs.</p>
+					</div>
+				</div>
+				<div class="idea last">
+					<div class="idea-card content">
+						<div class="idea-front">
+							<h3 class="idea-title"><q> Livrer des projets de qualité. </q></h3>
+						</div>
+						<p>Nous traitons chaque projet avec le plus grand soin.</p>
+						<p>Nous ne perdons jamais de vue l'importance primordiale de l'expérience client.</p>
+						<p>Nos technologies innovantes permettent de bâtir des applications riches et rapides, de maintenance et évolution aisées.</p>
+						<p>Vous hésitez encore ?<br>Passez prendre un café.</p>
+					</div>
 				</div>
 			</div>
-
-			<div class="idea">
-				<div class="idea-card content">
-					<div class="idea-front">
-						<h3 class="idea-title"><q> Être à la pointe des technos innovantes. </q></h3>
-					</div>
-					<p>Nos applications Web exploitent les technologies actuelles les plus performantes en matière de traitement de données et temps réel.</p>
-					<p>Le Web évolue vite ; nous aussi !<br>Formations, <a href="http://nantesjs.org">tissu</a> <a href="http://lyonjs.org">associatif</a>, <a href="https://github.com/lmtm">Open Source</a> et colloques sont très fructueux pour notre R&D.</p>
-					<p>Mais c'est avant tout notre insatiable curiosité qui nous pousse sans cesse à explorer de nouvelles pistes et être meilleurs.</p>
-				</div>
-			</div>
-
-			<div class="idea last">
-				<div class="idea-card content">
-					<div class="idea-front">
-						<h3 class="idea-title"><q> Livrer des projets de qualité. </q></h3>
-					</div>
-					<p>Nous traitons chaque projet avec le plus grand soin.</p>
-					<p>Nous ne perdons jamais de vue l'importance primordiale de l'expérience client.</p>
-					<p>Nos technologies innovantes permettent de bâtir des applications riches et rapides, de maintenance et évolution aisées.</p>
-					<p>Vous hésitez encore ?<br>Passez prendre un café.</p>
-				</div>
-			</div>
-
-			</div>
-
 		</div>
 	</div>
 </section>

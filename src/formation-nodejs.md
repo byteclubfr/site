@@ -8,10 +8,7 @@ banner: "Formation Node.js"
 <div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h2>
-				<img src="img/logo-nodejs.svg" alt="Node.js" style="width:100px;float:right;">
-				Présentation
-			</h2>
+			<h2><img src="img/logo-nodejs.svg" alt="Node.js" style="width:100px;float:right;">Présentation</h2>
 		</div>
 	</div>
 </div>
@@ -20,53 +17,52 @@ banner: "Formation Node.js"
 	<div class="wrap cf">
 		<div class="inner half-cols">
 			<h3 class="title-second">3 jours pour découvrir et comprendre le framework Node.js.<br>Stage pratique, magistral et didactique, pour devenir autonome.</h3>
-
-			<div class="half-col">
-				<h3 class="title-second">Objectifs :</h3>
-				<ul>À l'issue de cette formation Node.js, les participants seront en mesure de :
-					<li><strong>Savoir dans quel cas choisir Node.js</strong>,</li>
-					<li><strong>Ecrire des applications</strong> pour Node.js,</li>
-					<li><strong>Appréhender l'écosystème</strong> Node.js,</li>
-					<li><strong>Mettre en oeuvre les bonnes pratiques</strong> de développement avec Node.js.</li>
+			<div class="half-col content">
+				<h3 class="title-second">Objectifs</h3>
+				<ul>À l'issue de cette formation, les participants seront en mesure de :
+					<li>Savoir dans quel cas choisir Node.js</li>
+					<li>Ecrire des applications pour Node.js</li>
+					<li>Appréhender l'écosystème Node.js</li>
+					<li>Mettre en oeuvre les bonnes pratiques de développement avec Node.js</li>
 				</ul>
-				<h3 class="title-second">Méthode pédagogique :</h3>
-				<p>Alternance (50-50%) de <strong>cours magistraux et de travaux pratiques</strong> (live coding) sur machine individuelle. Le stage se déroule autour de la réalisation d'une application simple et fonctionnelle, permettant la mise en application concrète des concepts abordés. Un support de cours est remis à chaque participant au format électronique.</p>
-				<h3 class="title-second">Public :</h3>
-				<ul><strong>
-					<li>Chefs de projet Web,</li>
-					<li>Architectes techniques,</li>
-					<li>Développeurs.</li>
-					</strong>
-				</ul>
+				<h3 class="title-second">Méthode pédagogique</h3>
+				<p>Alternance (50-50%) de cours magistraux et de travaux pratiques (live coding) sur machine individuelle. Le stage se déroule autour de la réalisation d'une application simple et fonctionnelle, permettant la mise en application concrète des concepts abordés. Un support de cours est remis à chaque participant au format électronique.</p>
+				<h3 class="title-second">Public</h3>
+				<ul>
+					<li>Chefs de projet Web</li>
+					<li>Architectes techniques</li>
+					<li>Développeurs</li>
+				</ul><br>
 				<p><strong>Pré-requis</strong> : Maîtrise de JavaScript et connaissance du terminal de développement web backend (type PHP ou Java web).</p>
 			</div>
-
 			<div class="half-col content">
-				<h3 class="title-second"> Au sommaire :</h3>
+				<h3 class="title-second">Au sommaire</h3>
 				<ul>
-					<li><strong>1<sup>er</sup> jour</strong> : Présentation du framework - Premiers pas avec Node.js.</li>
-					<li><strong>2<sup>ème</sup> jour</strong> : Bases de données - Tests - Communication temps réel.</li>
-					<li><strong>3<sup>ème</sup> jour</strong> : Socket - Event Loop - Hautes performances - Conclusion.</li>
+					<li>1<sup>er</sup> jour : Présentation du framework - Premiers pas avec Node.js</li>
+					<li>2<sup>ème</sup> jour : Bases de données - Tests - Communication temps réel</li>
+					<li>3<sup>ème</sup> jour : Socket - Event Loop - Hautes performances - Conclusion</li>
 				</ul>
-				<h3 class="title-second">Tarifs :</h3>
+				<h3 class="title-second">Formules</h3>
 				<ul>
-					<li>1575 € HT / stagiaire,</li>
+					<li><strong>Inter-entreprises</strong> ou <strong>Intra-entreprise</strong></li>
+					<li>8 stagiaires maximum / session</li>
+					<li>Accueil possible dans vos locaux</li>
+					<li>Devis sur mesure à la demande</li>
 				</ul>
-				<ul>Formule <strong>Intra-entreprise :</strong>
-					<li>Devis personnalisé sur demande,</li>
-					<li>8 stagiaires maximum / session,</li>
-					<li>Accueil possible dans vos locaux.</li>
-				</ul>
-				<h3 class="title-second">Formation Node.js <em>sur mesure</em> :</h3>
-				<ul><strong>Pour aller plus loin :</strong>
-					<li>Contenu <strong>niveau avancé, adapté aux besoins</strong> spécifiques rencontrés,</li>
-					<li><strong>3 jours</strong> de stage pratique (50%) et magistral (50%),</li>
-					<li>Bon niveau JavaScript requis et 1ères expériences réussies avec Node.js,</li>
-					<li><strong>En inter</strong>, 1675 € HT / stagiaire,</li>
-					<li><strong>En intra</strong>, devis personnalisé sur demande.</li>
-				</ul>
-
 				<a href="contact.html" class="btn">Contactez-nous</a>
+			</div>
+		</div>
+		<div class="inner content">
+			<div class="custom-made custom-made-angular">
+				<h3 class="title-second">Besoin d'aller plus loin ?</h3>
+				<h3>Formation Node.js <em>sur mesure</em></h3>
+				<ul>
+					<li>Contenu niveau avancé, adapté aux besoins spécifiques présentés</li>
+					<li>Durée adaptée, 2 ou 3 jours répartis en cours magistraux et TP</li>
+					<li>Pré-requis : Bon niveau JavaScript et 1ères expériences réussies avec Node.js</li>
+					<li>Accueil possible dans vos locaux</li>
+					<li>Devis sur mesure à la demande</li>
+				</ul>
 			</div>
 		</div>
 	</div>

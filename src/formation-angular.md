@@ -8,10 +8,7 @@ banner: "Formation Angular"
 <div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h2>
-				<img src="img/logo-angular.svg" alt="Angular" style="width:100px;float:right;">
-				Présentation
-			</h2>
+			<h2><img src="img/logo-angular.svg" alt="Angular" style="width:100px;float:right;">Présentation</h2>
 		</div>
 	</div>
 </div>
@@ -21,39 +18,50 @@ banner: "Formation Angular"
 		<div class="inner half-cols">
 			<h3 class="title-second">3 jours pour découvrir et comprendre le framework Angular.<br>Stage pratique, magistral et didactique, pour devenir autonome.</h3>
 			<div class="half-col content">
-				<h3 class="title-second">Objectifs :</h3>
+				<h3 class="title-second">Objectifs</h3>
 				<ul>À l'issue de cette formation Angular, les participants seront en mesure de :
-					<li><strong>Appréhender la philosophie</strong> et le fonctionnement du framework Angular,</li>
-					<li><strong>Concevoir une application Angular</strong> avec JavaScript et TypeScript,</li>
-					<li><strong>Créer leurs propres composants Angular,</strong></li>
-					<li><strong>Produire des applications</strong> robustes et efficaces.</li>
+					<li>Appréhender la philosophie et le fonctionnement du framework Angular</li>
+					<li>Concevoir une application Angular avec JavaScript et TypeScript</li>
+					<li>Créer leurs propres composants Angular</li>
+					<li>Produire des applications robustes et efficaces</li>
 				</ul>
-				<h3 class="title-second">Méthode pédagogique :</h3>
-				<p>Alternance (50-50%) de <strong>cours magistraux et de travaux pratiques</strong> (live coding) sur machine individuelle. Le stage se déroule autour de la réalisation d'une application simple et fonctionnelle, permettant la mise en application concrète des concepts abordés. Un support de cours est remis à chaque participant au format électronique.</p>
-				<h3 class="title-second">Public :</h3>
-				<ul><strong>
-					<li>Chefs de projet Web,</li>
-					<li>Architectes techniques,</li>
-					<li>Développeurs front-end.</li>
-					</strong>
+				<h3 class="title-second">Méthode pédagogique</h3>
+				<p>Alternance (50-50%) de cours magistraux et de travaux pratiques (live coding) sur machine individuelle. Le stage se déroule autour de la réalisation d'une application simple et fonctionnelle, permettant la mise en application concrète des concepts abordés. Un support de cours est remis à chaque participant au format électronique.</p>
+				<h3 class="title-second">Public</h3>
+				<ul>
+					<li>Chefs de projet Web</li>
+					<li>Architectes techniques</li>
+					<li>Développeurs front-end</li>
 				</ul>
-				<p><strong>Pré-requis</strong> : Connaissance de <strong>HTML</strong>, <strong>CSS</strong> et <strong>bon niveau JavaScript</strong>. Les notions fondamentales sont abordées en rappels.</p>
+				<p><strong>Pré-requis</strong> : Connaissance de HTML, CSS et bon niveau JavaScript. Les notions fondamentales sont abordées en rappels.</p>
 			</div>
 			<div class="half-col content">
 				<h3 class="title-second"> Au sommaire :</h3>
 				<ul>
-					<li><strong>1<sup>er</sup> jour</strong> : Installation / introduction - TypeScript et ES2015 - Composants.</li>
-					<li><strong>2<sup>ème</sup> jour</strong> : Pipes - Formulaires - Reactive Programming - Services.</li>
-					<li><strong>3<sup>ème</sup> jour</strong> : Service HTTP - Routeur - Tests - Concepts avancés.</li>
+					<li>1<sup>er</sup> jour : Installation / introduction - TypeScript et ES2015 - Composants</li>
+					<li>2<sup>ème</sup> jour : Pipes - Formulaires - Reactive Programming - Services</li>
+					<li>3<sup>ème</sup> jour : Service HTTP - Routeur - Tests - Concepts avancés</li>
 				</ul>
-				<h3 class="title-second">Tarifs :</h3>
-				<ul>Formule <strong>Inter-entreprises :</strong>
-					<li>1665 € HT / stagiaire,</li>
+				<h3 class="title-second">Formules</h3>
+				<ul>
+					<li><strong>Inter-entreprises</strong> ou <strong>Intra-entreprise</strong></li>
+					<li>8 stagiaires maximum / session</li>
+					<li>Accueil possible dans vos locaux</li>
+					<li>Devis sur mesure à la demande</li>
 				</ul>
-				<ul>Formule <strong>Intra-entreprise :</strong>
-					<li>Devis personnalisé sur demande,</li>
-					<li>8 stagiaires maximum / session,</li>
-					<li>Accueil possible dans vos locaux.</li>
+				<a href="contact.html" class="btn">Contactez-nous</a>
+			</div>
+		</div>
+		<div class="inner content">
+			<div class="custom-made custom-made-angular">
+				<h3 class="title-second">Besoin d'aller plus loin ?</h3>
+				<h3>Formation Angular <em>sur mesure</em></h3>
+				<ul>
+					<li>Contenu niveau avancé, adapté aux besoins spécifiques présentés</li>
+					<li>Durée adaptée, 2 ou 3 jours répartis en cours magistraux et TP</li>
+					<li>Pré-requis : Bon niveau JavaScript et 1ères expériences réussies avec Angular</li>
+					<li>Accueil possible dans vos locaux</li>
+					<li>Devis sur mesure à la demande</li>
 				</ul>
 			</div>
 		</div>

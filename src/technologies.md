@@ -1,6 +1,6 @@
 ---
-title: "Technologies : JavaScript, Angular, Node.js, React."
-description: "Technologies : JavaScript, Angular, Node.js, React."
+title: "Technos"
+description: "Technos : JavaScript, Angular, Node.js, React."
 menu: technologies
 banner: "Nos technologies"
 ---
@@ -31,21 +31,21 @@ banner: "Nos technologies"
 			</div>
 			<div class="half-col content">
 				<ul>JavaScript est très versatile. Voici quelques exemples d'emplois actuels de JS :
-					<li>dynamiser les pages web statiques pour améliorer l'expérience utilisateur,</li>
-					<li>collecter des informations statistiques sur le comportement des utilisateurs,</li>
-					<li>produire de grosses applications clientes connectées telles que Gmail, Twitter,  ou Facebook,</li>
-					<li>piloter des serveurs,</li>
-					<li>écrire des extensions pour les navigateurs,</li>
-					<li>créer des services web.</li>
+					<li>dynamiser les pages web statiques pour améliorer l'expérience utilisateur</li>
+					<li>collecter des informations statistiques sur le comportement des utilisateurs</li>
+					<li>produire de grosses applications clientes connectées telles que Gmail, Twitter, ou Facebook</li>
+					<li>piloter des serveurs</li>
+					<li>écrire des extensions pour les navigateurs</li>
+					<li>créer des services web</li>
 					<li>et bien d'autres choses encore...</li>
 				</ul>
 				<p>Au delà de gadgétiser les sites web, JavaScript a su gagner ses lettres de noblesse. JS, comme l'appellent les initiés, est devenu un outil extrêmement puissant au point qu'il est omniprésent sur les pages web, et qu'il a su convaincre les plus grands éditeurs d'applications.</p>
 				<h3 class="title-second">Nos services autour de JavaScript</h3>
 				<ul>ByteClub vous accompagne à chaque étape de vos projets:
 					<li><a href="services.html#conseil">Conseil</a></li>
-					<li><a href="formation-javascript.html">Formation</a></li>
-					<li><a href="services.html#developpement">Développement spécifique</a></li>
-					<li><a href="bootcamp.html">BootCamp : mettez vos projets AngularJS, Node.js ou React sur orbite.</a></li>
+					<li><a href="formation-ecmascript-2015-es6.html">Formation</a></li>
+					<li><a href="services.html#developpement">Développement d'applications</a></li>
+					<li><a href="bootcamp.html">BootCamp : mettez vos projets Angular, Node.js ou React sur orbite.</a></li>
 				</ul>
 				<a href="contact.html" class="btn">Contactez-nous</a>
 			</div>
@@ -81,12 +81,12 @@ banner: "Nos technologies"
 			<div class="half-col content">
 				<p><strong>Node.js rend les services web en temps réel redoutables d'efficacité.</strong></p>
 				<p>Ce framework est tout à fait adapté aux applications où l’expérience utilisateur exige une forte réactivité de réponse et une forte volumétrie à traiter.</p>
-				<a href="https://nodejs.org/">Lien vers le site officiel de Node.js</a>
+				<a href="https://nodejs.org/fr">Lien vers le site officiel de Node.js</a>
 				<h3 class="title-second">Nos services autour de Node.js :</h3>
 				<ul>ByteClub vous accompagne à chaque étape de vos projets:
-					<li><a href="services.html#conseil">Conseil,</a></li>
-					<li><a href="formation-nodejs.html">Formation,</a></li>
-					<li><a href="services.html#developpement">Développement spécifique,</a></li>
+					<li><a href="services.html#conseil">Conseil</a></li>
+					<li><a href="formation-nodejs.html">Formation</a></li>
+					<li><a href="services.html#developpement">Développement d'applications</a></li>
 					<li><a href="bootcamp.html">BootCamp : développez vos applications ET vos compétences.</a></li>
 				</ul>
 				<a href="contact.html" class="btn">Contactez-nous</a>
@@ -98,7 +98,7 @@ banner: "Nos technologies"
 <div class="section-title">
 	<div class="wrap cf">
 		<div class="inner">
-			<h2 id="react"><img src="img/logo-react.png" alt="React" /></h2>
+			<h2 id="react"><img src="img/logo-react.svg" alt="React" /></h2>
 		</div>
 	</div>
 </div>
@@ -127,12 +127,12 @@ banner: "Nos technologies"
 					<li>React est Open source et maintenu par les équipes Facebook et Instagram. La communauté est très "React"ive.</li>
 				</ul>
 				<p><strong>Facebook a atteint son objectif en proposant React. Associé à Flux, cette librairie permet de construire des interfaces graphiques monopages complexes aux performance d'affichage en temps réel inégalées, référençables, et aisément maintenables.</strong></p>
-				<a href="http://facebook.github.io/react/">Lien vers le site officiel de React</a>
+				<a href="https://reactjs.org/">Lien vers le site officiel de React</a>
 				<h3 class="title-second">Nos services autour de React :</h3>
 				<ul>ByteClub vous accompagne à chaque étape de vos projets:
-					<li><a href="services.html#conseil">Conseil,</a></li>
-					<li><a href="formation-react.html">Formation,</a></li>
-					<li><a href="services.html#developpement">Développement spécifique,</a></li>
+					<li><a href="services.html#conseil">Conseil</a></li>
+					<li><a href="formation-react.html">Formation</a></li>
+					<li><a href="services.html#developpement">Développement d'applications</a></li>
 					<li><a href="bootcamp.html">BootCamp : développez vos applications ET vos compétences.</a></li>
 				</ul>
 				<a href="contact.html" class="btn">Contactez-nous</a>

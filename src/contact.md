@@ -15,15 +15,12 @@ scripts:
 				<p>N'hésitez pas à venir nous rencontrer si vous êtes sur Nantes ou Lyon !</p>
 				<p class="fields-required">Les champs marqués d’un astérisque (<span>&#42;</span>) sont obligatoires.</p>
 				<form id="contact" data-validate="parsley" data-show-errors="false">
-
 					<p class="form-notice form-notice-error">
 						Désolé, le formulaire comporte des erreurs.<br/> Veuillez corriger votre message et l'envoyer à nouveau.
 					</p>
-
 					<p class="form-notice form-notice-success">
 						Votre message a bien été envoyé.<br/> Nous vous contacterons dans les plus brefs délais.
 					</p>
-
 					<div class="field-fullname">
 						<div class="field form-half">
 							<label for="lastname">Nom</label>
@@ -51,13 +48,13 @@ scripts:
 					</div>
 				</form>
 			</div>
-
 			<div id="contact-map"></div>
 			<div id="map-popup">
-				<p><img src="img/logo-byteclub-tiny.png" alt="ByteClub" />
+				<p>
+					<img src="img/logo-byteclub-tiny.png" alt="ByteClub" />
 					<img src="img/mascot-byteclub-medaillon-tiny.png" alt="MascotByteClub" /><br/>
-				13 Place Sophie Trébuchet<br/>
-				44000 Nantes</p>
+					<p>13 Place Sophie Trébuchet<br/>44000 Nantes</p>
+				</p>
 				<p class="tel-mail"><a href="mailto:contact@byteclub.fr">contact@byteclub.fr</a><br/>
 				<span class="tel">06 14 66 76 41</span></p>
 			</div>
