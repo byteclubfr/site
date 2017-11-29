@@ -5,7 +5,7 @@ menu: societe
 banner: "Qui sommes nous ?"
 ---
 <section class="section">
-	<div class="wrap cf">
+	<div class="wrap">
 		<div class="inner">
 			<h2 id="equipe" class="title-main">L'équipe</h2>
 			<ul class="members">
@@ -13,7 +13,7 @@ banner: "Qui sommes nous ?"
 					<div class="member-inside">
 						<img src="img/avatars/avatar-thomas.png" alt="Thomas Moyse" class="member-pic" />
 						<h3 class="member-name">Thomas Moyse</h3>
-						<p class="member-job">Expert AngularJS, développeur, formateur</p>
+						<p class="member-job">Expert Angular, développeur, formateur</p>
 						<div class="member-bio content">
 							<q>Développeur web dans l'âme, j'aime amener ma passion pour les technologies web dans les équipes et projets que je manage.</q>
 						</div>
@@ -43,7 +43,7 @@ banner: "Qui sommes nous ?"
 					<div class="member-inside">
 						<img src="img/avatars/avatar-bruno.png" alt="Bruno Heridet" class="member-pic" />
 						<h3 class="member-name">Bruno Heridet</h3>
-						<p class="member-job">Expert AngularJS et Node.js, développeur, formateur</p>
+						<p class="member-job">Expert React et Node.js, développeur, formateur</p>
 						<div class="member-bio content">
 							<q>Je ne suis pas Chabal !</q>
 						</div>
@@ -66,21 +66,6 @@ banner: "Qui sommes nous ?"
 							<li class="twitter"><a href="https://twitter.com/bowlazed"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></a></li>
 							<li class="linkedin"><a href="http://www.linkedin.com/pub/lilian-martineau/35/170/638"><i class="fa fa-linkedin fa-2x"></i><span>LinkedIn</span></a></li>
 							<li class="github"><a href="https://github.com/bowlazed"><i class="fa fa-github fa-2x"></i><span>GitHub</span></a></li>
-						</ul>
-					</div>
-				</li>
-				<li class="member last">
-					<div class="member-inside">
-						<img src="img/avatars/pic.png" alt="" class="member-pic" />
-						<h3 class="member-name">Votre nom.</h3>
-						<p class="member-job">Poste à pourvoir</p>
-						<div class="member-bio content">
-							<p>Vous pensez avoir le profil que nous cherchons ? <br><a href="contact.html">Tentez votre chance !</a></p>
-						</div>
-						<ul class="nav member-social">
-							<li class="twitter"><a href="#"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></a></li>
-							<li class="linkedin"><a href="#"><i class="fa fa-linkedin fa-2x"></i><span>LinkedIn</span></a></li>
-							<li class="github"><a href="#"><i class="fa fa-github fa-2x"></i><span>GitHub</span></a></li>
 						</ul>
 					</div>
 				</li>

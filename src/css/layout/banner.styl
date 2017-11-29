@@ -71,8 +71,10 @@
 
 		.avatar {
 			color: white;
+			display: block;
 			font-weight: bold;
 			text-align: center;
+			text-decoration: none;
 
 			img {
 				background: white;
@@ -82,7 +84,12 @@
 				display: block;
 				height: 110px;
 				margin-bottom: 5px;
+				transition: all 0.2s ease;
 				width: 110px;
+			}
+
+			img:hover {
+				transform: scale(1.1, 1.1);
 			}
 		}
 	}

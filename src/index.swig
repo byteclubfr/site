@@ -15,22 +15,22 @@ nbArticles: 4
 				<h1 class="page-title">ByteClub met <em>vos idées</em> en applications !</h1>
 
 				<div class="avatars">
-					<div class="avatar">
+					<a class="avatar" href="societe.html">
 						<img src="img/avatars/avatar-lilian.png" alt="Lilian Martineau" />
 						<span>Bowlazed</span>
-					</div>
-					<div class="avatar">
+					</a>
+					<a class="avatar" href="societe.html">
 						<img src="img/avatars/avatar-thomas.png" alt="Thomas Moyse" />
 						<span>T8G</span>
-					</div>
-					<div class="avatar">
+					</a>
+					<a class="avatar" href="societe.html">
 						<img src="img/avatars/avatar-nicolas.png" alt="Nicolas Chambrier" />
 						<span>Naholyr</span>
-					</div>
-					<div class="avatar">
+					</a>
+					<a class="avatar" href="societe.html">
 						<img src="img/avatars/avatar-bruno.png" alt="Bruno Heridet" />
 						<span>Delapouite</span>
-					</div>
+					</a>
 				</div>
 
 				<p>Notre équipe accompagne vos projets JavaScript</p>
@@ -40,49 +40,49 @@ nbArticles: 4
 	</div>
 </section>
 
-<section class="section">
+<section class="section-alt">
 	<div class="wrap">
 		<div class="inner">
 
 			<div class="home-technos">
-				<div class="js"><img src="img/logos/javascript.svg" alt="javascript" /> JavaScript</div>
-				<div class="angular"><img src="img/logos/angular.svg" alt="angular" /> Angular</div>
-				<div class="node"><img src="img/logos/nodejs.svg" alt="nodejs" /> Node.js</div>
-				<div class="react"><img src="img/logos/reactjs.svg" alt="reactjs" /> React.js</div>
+				<a class="js" href="technologies.html#javascript"><img src="img/logos/javascript.svg" alt="javascript" />JavaScript</a>
+				<a class="angular" href="technologies.html#angular"><img src="img/logos/angular.svg" alt="angular" />Angular</a>
+				<a class="node" href="technologies.html#nodejs"><img src="img/logos/nodejs.svg" alt="nodejs" />Node.js</a>
+				<a class="react" href="technologies.html#react"><img src="img/logos/reactjs.svg" alt="reactjs" />React.js</a>
 			</div>
 
 		</div>
 	</div>
-</div>
+</section>
 
 <section class="section">
 	<div class="wrap">
 		<div class="inner home-cols">
 
 			<div class="home-col">
-				<h2 class="title-main">Nos services</h2>
+				<h2 class="title-main">Services</h2>
 
 				<ul class="home-services">
-					<li>Conseil</li>
-					<li>Projets</li>
-					<li>Formation</li>
-					<li>Bootcamp</li>
+					<li><a href="services.html#conseil">Conseil</a></li>
+					<li><a href="services.html">Projet</a></li>
+					<li><a href="services.html#formation">Formation</a></li>
+					<li><a href="bootcamp.html">Bootcamp</a></li>
 				</ul>
 			</div>
 
 			<div class="home-col">
-				<h2 class="title-main">Nos projets</h2>
+				<h2 class="title-main">Projets</h2>
 
 				<ul class="home-projects">
-					<li><img src="img/logos/github.svg" alt="copycast" /> Copycast</li>
-					<li><img src="img/logos/hyphe.svg" alt="hybro" /> Hybro</li>
-					<li><img src="img/logos/gitlab.svg" alt="prez" /> Prez</li>
-					<li><img src="img/logos/tiger-head.svg" alt="isari" /> Isari</li>
+					<li><a href="blog/projet-copycast.html">Copycast</li>
+					<li><a href="https://github.com/medialab/hyphe-browser">Hybro</a></li>
+					<li><a href="https://github.com/byteclubfr/prez">Prez</li>
+					<li><a href="http://www.sciencespo.fr/recherche/fr/content/les-outils-en-ligne">Isari</a></li>
 				</ul>
 			</div>
 
 			<div class="home-col">
-				<h2 class="title-main">Nos derniers articles</h2>
+				<h2 class="title-main">Derniers articles</h2>
 
 				<ul class="home-blog">
 					{% for index, post in collections.posts %}
@@ -104,11 +104,12 @@ nbArticles: 4
 	<div class="wrap">
 		<div class="inner">
 
-			<h2 class="title-main">Nos clients</h2>
+			<h2 class="title-main">Clients</h2>
 			<div class="home-clients-logos">
 				<div><img src="/img/logos-clients/logo-m6.jpg" alt="m6" /></div>
 				<div><img src="/img/logos-clients/logo-sciences-po.png" alt="sciences po" /></div>
 				<div><img src="/img/logos-clients/logo-human-coders.png" alt="human coders" /></div>
+				<div><img src="/img/logos-clients/logo-figaro-classifieds.jpeg" alt="figaro" /></div>
 			</div>
 
 		</div>

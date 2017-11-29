@@ -66,28 +66,55 @@
 
 .home-technos {
 	display: flex;
+	padding: 32px 0;
+	justify-content: space-between;
 
-	div {
+	a {
+		background: white;
 		border: 2px solid #ccc;
-		flex-grow: 1;
+		border-radius: 5px;
+		display: block;
 		color: #333;
 		font-weight: bold;
+		text-decoration: none;
+		transition: all .2s ease;
+		width: 20%;
 	}
 
 	.js {
 		border-color: $color-js;
 	}
 
+	.js:hover {
+		background: $color-js;
+		color: white;
+	}
+
 	.node {
 		border-color: $color-node;
+	}
+
+	.node:hover {
+		background: $color-node;
+		color: white;
 	}
 
 	.react {
 		border-color: $color-react;
 	}
 
+	.react:hover {
+		background: $color-react;
+		color: white;
+	}
+
 	.angular {
 		border-color: $color-angular;
+	}
+
+	.angular:hover {
+		background: $color-angular;
+		color: white;
 	}
 
 	img {
@@ -137,11 +164,13 @@
 
 .home-clients-logos {
 	display: flex;
+	justify-content: space-between;
+
 	img {
 		background: white;
-		height: 100px;
+		flex-shrink: 0;
+		height: 60px;
 		padding: 10px;
-		margin: 0 42px;
 	}
 
 }

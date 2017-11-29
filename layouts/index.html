@@ -59,14 +59,7 @@
 							{% endif %}
 						</li>
 						<li class="{% if menu == 'references' %}current{% endif%}"><a href="/references.html">Références</a></li>
-						<li class="{% if menu == 'societe' %}current{% endif%}"><a href="/societe.html">Société</a>
-							{% if menu == 'societe' %}
-							<ul class="nav nav-sub">
-								<li><a href="#equipe">Équipe</a></li>
-								<li><a href="#philosophie">Philosophie</a></li>
-							</ul>
-							{% endif %}
-						</li>
+						<li class="{% if menu == 'societe' %}current{% endif%}"><a href="/societe.html">Société</a></li>
 						<li class="{% if menu == 'contact' %}current{% endif%}"><a href="/contact.html">Contact</a></li>
 						<li class="{% if menu == 'blog' %}current{% endif%}"><a href="/blog/index.html">Blog</a></li>
 					</ul>
@@ -93,7 +86,6 @@
 	{% endblock %}
 
 	<footer class="footer" role="contentinfo">
-		<a href="#top" class="lnk-top js-backToTop"><span>Retour en haut de page</span></a>
 		<div class="wrap">
 			<div class="inner">
 				<ul class="nav nav-footer">
