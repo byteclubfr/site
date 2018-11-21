@@ -29,7 +29,7 @@ Lors de l'appel d'une fonction (c'est important, c'est à **L'APPEL** de la fonc
 
 [Mis en image](http://www.graphviz.org/) ça donnerait ça (image cliquable) :
 
-[![Graphe de décision de la valeur de this, en bref](/img/blog/this/graph1.dot.png)](/img/blog/this/graph1.dot.png)
+[![Graphe de décision de la valeur de this, en bref](/src/img/blog/this/graph1.dot.png)](/src/img/blog/this/graph1.dot.png)
 
 Exemple :
 
@@ -74,7 +74,7 @@ foo() // valeur de la globale name : dans votre console navigateur ce sera pro
 
 « Roh ça va, ça fait pas si peur ``this`` quand-même ! » dites-vous alors, naïfs que vous êtes.
 
-![C'est pas fini !](/img/blog/this/more1.jpg)
+![C'est pas fini !](/src/img/blog/this/more1.jpg)
 
 ### ``foo.call()`` et ``foo.apply()``
 
@@ -105,7 +105,7 @@ object.sayHi.call({ name: 'Bob' }) // 'Hi Bob'
 
 Ah ah je vous vois commencer à frémir, « mais alors, n'importe qui peut mettre ce qu'il veut comme valeur pour mon ``this`` à moi ? ». Oui, bien entendu. Et on pouvait de toute façon déjà en créant un objet intermédiaire et en collant votre fonction en propriété de cet objet. Y aurait-il un moyen de forcer une valeur fixe ?…
 
-![C'est pas fini !!](/img/blog/this/more2.png)
+![C'est pas fini !!](/src/img/blog/this/more2.png)
 
 ### Les fonctions *liées*
 
@@ -128,7 +128,7 @@ bar2() // Hé ouais, toujours 'Hi Toto'
 
 On a déjà sacrément agrandi la liste des questions que l'interpréteur se pose en réalité pour savoir quoi mettre comme valeur de ``this``. Mais… quoi ? Oui…
 
-![C'est pas fini !!!](/img/blog/this/more3.gif)
+![C'est pas fini !!!](/src/img/blog/this/more3.gif)
 
 ### Les fonctions fléchées
 
@@ -204,17 +204,17 @@ Au final, pour connaître la valeur de ``this`` il faut savoir :
 
 Le véritable arbre de décision aurait alors plutôt cette tête là (image cliquable) :
 
-[![Graphe de décision de la valeur de this, en vrai](/img/blog/this/graph2.dot.png)](/img/blog/this/graph2.dot.png)
+[![Graphe de décision de la valeur de this, en vrai](/src/img/blog/this/graph2.dot.png)](/src/img/blog/this/graph2.dot.png)
 
 Et en fait j'ai omis le cas des fonctions appelées avec ``new``, mais pour rigoler un peu tous ensemble (image cliquable) :
 
-[![Graphe de décision de la valeur de this, full disclosure](/img/blog/this/graph3.dot.png)](/img/blog/this/graph3.dot.png)
+[![Graphe de décision de la valeur de this, full disclosure](/src/img/blog/this/graph3.dot.png)](/src/img/blog/this/graph3.dot.png)
 
 ### Conclusion personnelle
 
 C'est ainsi qu'après avoir enfin compris en détail le fonctionnement de this, après avoir acquis cette compétence ultime, certains jugeront comme moi que décidément **ce vicieux this nous les brise**.
 
-![Fuck that shit](/img/blog/this/fuck.jpg)
+![Fuck that shit](/src/img/blog/this/fuck.jpg)
 
 Quite à avoir une variable dont la valeur provient de toute façon de l'extérieur, je me dis que je préfère l'avoir en argument explicite de ma fonction.
 
