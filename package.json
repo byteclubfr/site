@@ -60,6 +60,6 @@
   "dependencies": {
     "growl": "^1.10.2",
     "jstransformer-swig": "^0.2.1",
-    "metalsmith-in-place": "^3.0.1"
+    "metalsmith-in-place": "^4.4.2"
   }
 }
